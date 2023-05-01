@@ -1,4 +1,4 @@
-_id,manufacturer,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,forChild,generic
+_id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,forChild,generic
 0,"other","Pistol","","","ハンドガン","","",1,0,false,true
 
 1,"other","Other Pistol","","","その他のハンドガン","","",1,1,false,true
@@ -1196,6 +1196,7 @@ _id,manufacturer,shortName,fullName,description,shortNameJa,fullNameJa,descripti
 11025,"marui","G36C CUSTOM","","Next generation series","G36Cカスタム","","次世代電動ガン",2,2,false
 11026,"marui","URG-I 11.5inch","","Next generation series","URG-I 11.5inch","","次世代電動ガン",2,2,false
 11027,"marui","P-90+","","Plus series","P-90","","電動ガンプラスシリーズ",2,2,false
+11028,"marui","MP5 SD6","","Next generation series","MP5 SD6","","次世代電動ガン",8,2,false
 
 11100,"marui","SGR-12","","","SGR-12","","",4,2,false
 11101,"marui","AA-12","","","AA-12","","",4,2,false
