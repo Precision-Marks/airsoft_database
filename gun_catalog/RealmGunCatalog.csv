@@ -1,55 +1,33 @@
 _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,forChild,generic
-0,"other","Pistol","","","ハンドガン","","",1,0,false,true
+0,"unknown","Pistol","","","ハンドガン","","",1,0,false,false
+1,"unknown","Rifle","","","ライフル","","",2,0,false,false
+2,"unknown","Shotgun","","","ショットガン","","",4,0,false,true
+3,"unknown","SMG","","","SMG","","",1,0,false,true
 
-1,"other","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-2,"other","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-3,"other","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
-4,"other","Other Rifle","","","その他のライフル","","",2,1,false,true
-5,"other","Other Rifle","","","その他のライフル","","",2,2,false,true
-6,"other","Other Rifle","","","その他のライフル","","",2,4,false,true
-7,"other","Other Shotgun","","","その他のショットガン","","",4,1,false,true
-8,"other","Other Shotgun","","","その他のショットガン","","",4,2,false,true
-9,"other","Other Shotgun","","","その他のショットガン","","",4,4,false,true
-10,"other","Other SMG","","","その他のSMG","","",8,1,false,true
-11,"other","Other SMG","","","その他のSMG","","",8,2,false,true
-12,"other","Other SMG","","","その他のSMG","","",8,4,false,true
-13,"other","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-14,"other","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-15,"other","Other Pistol","","","その他のハンドガン","","",1,4,true,true
-16,"other","Other Rifle","","","その他のライフル","","",2,1,true,true
-17,"other","Other Rifle","","","その他のライフル","","",2,2,true,true
-18,"other","Other Rifle","","","その他のライフル","","",2,4,true,true
-19,"other","Other Shotgun","","","その他のショットガン","","",4,1,true,true
-20,"other","Other Shotgun","","","その他のショットガン","","",4,2,true,true
-21,"other","Other Shotgun","","","その他のショットガン","","",4,4,true,true
-22,"other","Other SMG","","","その他のSMG","","",8,1,true,true
-23,"other","Other SMG","","","その他のSMG","","",8,2,true,true
-24,"other","Other SMG","","","その他のSMG","","",8,4,true,true
-
-25,"marui","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-26,"marui","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-27,"marui","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
-28,"marui","Other Rifle","","","その他のライフル","","",2,1,false,true
-29,"marui","Other Rifle","","","その他のライフル","","",2,2,false,true
-30,"marui","Other Rifle","","","その他のライフル","","",2,4,false,true
-31,"marui","Other Shotgun","","","その他のショットガン","","",4,1,false,true
-32,"marui","Other Shotgun","","","その他のショットガン","","",4,2,false,true
-33,"marui","Other Shotgun","","","その他のショットガン","","",4,4,false,true
-34,"marui","Other SMG","","","その他のSMG","","",8,1,false,true
-35,"marui","Other SMG","","","その他のSMG","","",8,2,false,true
-36,"marui","Other SMG","","","その他のSMG","","",8,4,false,true
-37,"marui","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-38,"marui","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-39,"marui","Other Pistol","","","その他のハンドガン","","",1,4,true,true
-40,"marui","Other Rifle","","","その他のライフル","","",2,1,true,true
-41,"marui","Other Rifle","","","その他のライフル","","",2,2,true,true
-42,"marui","Other Rifle","","","その他のライフル","","",2,4,true,true
-43,"marui","Other Shotgun","","","その他のショットガン","","",4,1,true,true
-44,"marui","Other Shotgun","","","その他のショットガン","","",4,2,true,true
-45,"marui","Other Shotgun","","","その他のショットガン","","",4,4,true,true
-46,"marui","Other SMG","","","その他のSMG","","",8,1,true,true
-47,"marui","Other SMG","","","その他のSMG","","",8,2,true,true
-48,"marui","Other SMG","","","その他のSMG","","",8,4,true,true
+25,"other","Other Pistol","","","その他のハンドガン","","",1,1,false,true
+26,"other","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
+27,"other","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+28,"other","Other Rifle","","","その他のライフル","","",2,1,false,true
+29,"other","Other Rifle","","","その他のライフル","","",2,2,false,true
+30,"other","Other Rifle","","","その他のライフル","","",2,4,false,true
+31,"other","Other Shotgun","","","その他のショットガン","","",4,1,false,true
+32,"other","Other Shotgun","","","その他のショットガン","","",4,2,false,true
+33,"other","Other Shotgun","","","その他のショットガン","","",4,4,false,true
+34,"other","Other SMG","","","その他のSMG","","",8,1,false,true
+35,"other","Other SMG","","","その他のSMG","","",8,2,false,true
+36,"other","Other SMG","","","その他のSMG","","",8,4,false,true
+37,"other","Other Pistol","","","その他のハンドガン","","",1,1,true,true
+38,"other","Other Pistol","","","その他のハンドガン","","",1,2,true,true
+39,"other","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+40,"other","Other Rifle","","","その他のライフル","","",2,1,true,true
+41,"other","Other Rifle","","","その他のライフル","","",2,2,true,true
+42,"other","Other Rifle","","","その他のライフル","","",2,4,true,true
+43,"other","Other Shotgun","","","その他のショットガン","","",4,1,true,true
+44,"other","Other Shotgun","","","その他のショットガン","","",4,2,true,true
+45,"other","Other Shotgun","","","その他のショットガン","","",4,4,true,true
+46,"other","Other SMG","","","その他のSMG","","",8,1,true,true
+47,"other","Other SMG","","","その他のSMG","","",8,2,true,true
+48,"other","Other SMG","","","その他のSMG","","",8,4,true,true
 
 50,"wa","Other Pistol","","","その他のハンドガン","","",1,1,false,true
 51,"wa","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
@@ -1102,6 +1080,31 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1096,"sig","Other SMG","","","その他のSMG","","",8,1,true,true
 1097,"sig","Other SMG","","","その他のSMG","","",8,2,true,true
 1098,"sig","Other SMG","","","その他のSMG","","",8,4,true,true
+
+1100,"marui","Other Pistol","","","その他のハンドガン","","",1,1,false,true
+1101,"marui","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
+1102,"marui","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+1103,"marui","Other Rifle","","","その他のライフル","","",2,1,false,true
+1104,"marui","Other Rifle","","","その他のライフル","","",2,2,false,true
+1105,"marui","Other Rifle","","","その他のライフル","","",2,4,false,true
+1106,"marui","Other Shotgun","","","その他のショットガン","","",4,1,false,true
+1107,"marui","Other Shotgun","","","その他のショットガン","","",4,2,false,true
+1108,"marui","Other Shotgun","","","その他のショットガン","","",4,4,false,true
+1109,"marui","Other SMG","","","その他のSMG","","",8,1,false,true
+1110,"marui","Other SMG","","","その他のSMG","","",8,2,false,true
+1111,"marui","Other SMG","","","その他のSMG","","",8,4,false,true
+1112,"marui","Other Pistol","","","その他のハンドガン","","",1,1,true,true
+1113,"marui","Other Pistol","","","その他のハンドガン","","",1,2,true,true
+1114,"marui","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+1115,"marui","Other Rifle","","","その他のライフル","","",2,1,true,true
+1116,"marui","Other Rifle","","","その他のライフル","","",2,2,true,true
+1117,"marui","Other Rifle","","","その他のライフル","","",2,4,true,true
+1118,"marui","Other Shotgun","","","その他のショットガン","","",4,1,true,true
+1119,"marui","Other Shotgun","","","その他のショットガン","","",4,2,true,true
+1120,"marui","Other Shotgun","","","その他のショットガン","","",4,4,true,true
+1121,"marui","Other SMG","","","その他のSMG","","",8,1,true,true
+1122,"marui","Other SMG","","","その他のSMG","","",8,2,true,true
+1123,"marui","Other SMG","","","その他のSMG","","",8,4,true,true
 
 10000,"marui","H&K SOCOM Mk23","","","H&K ソーコム Mk23","","",1,1,false
 10001,"marui","COLT M1911A1 GOVERNMENT","","","コルト M1911A1ガバメント","","",1,1,false
