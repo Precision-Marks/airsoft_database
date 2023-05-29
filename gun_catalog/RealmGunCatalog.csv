@@ -1,4 +1,4 @@
-_id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,forChild,generic
+_id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,lowFps,generic,deleted
 0,"unknown","Pistol","","","ハンドガン","","",1,0,false,false
 1,"unknown","Rifle","","","ライフル","","",2,0,false,false
 2,"unknown","Shotgun","","","ショットガン","","",4,0,false,true
@@ -1139,7 +1139,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10030,"marui","S&W M645","","","S&W モデル645","","",1,1,true
 10031,"marui","COLT M1911A1 GOVERNMENT","","","コルト M1911A1ガバメント","","",1,1,true
 10032,"marui","COLT DOUBLE EAGLE","","","コルト ダブルイーグル","","",1,1,true
-10033,"marui","SAA.45 Artillery 5 1/2inch","","","SAA.45 アーティラリー 5 1/2インチ","","",1,1,true
+10033,"marui","SAA.45 Artillery 5-1/2 inch","","","SAA.45 アーティラリー 5-1/2インチ","","",1,1,true
 10034,"marui","PYTHON.357mag. PPC CUSTOM 6inch","","","パイソンPPCカスタム 6インチ","","",1,1,true
 10035,"marui","PYTHON.357mag. PPC CUSTOM 4inch","","","パイソンPPCカスタム 4インチ","","",1,1,true
 10036,"marui","COLT PYTHON.357mag. 6inch","","","コルトパイソン.357マグナム 6インチ","","",1,1,true
@@ -1258,7 +1258,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 11501,"marui","Hi-CAPA E GOVERNMENT MODEL","","","ハイキャパE ガバメントモデル","","",1,2,false
 11502,"marui","M93R","","","M93R","","",1,2,false
 11503,"marui","H&K USP","","","H&K USP","","",1,2,false
-11504,"marui","GLOCK 18C","","","グロック18C","","",1,2,false
+11504,"marui","GLOCK18C","","","グロック18C","","",1,2,false
 11505,"marui","M9A1","","","M9A1","","",1,2,false
 
 11600,"marui","M4 CQB","","Light pro series","M4 CQB","","電動ガンLIGHT PRO",2,2,true
@@ -1288,7 +1288,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 11811,"marui","Mac 11","","Automatic electric blowback fullauto","マック11","","電動ブローバック フルオート",8,2,true
 11812,"marui","S&W PC356","","Automatic electric blowback fullauto","S&W PC356","","電動ブローバック フルオート",1,2,true
 11813,"marui","P99 DAO","","Automatic electric blowback fullauto","P99 DAO","","電動ブローバック フルオート",1,2,true
-11814,"marui","GLOCK 18C","","Automatic electric blowback fullauto","グロック18C","","電動ブローバック フルオート",1,2,true
+11814,"marui","GLOCK18C","","Automatic electric blowback fullauto","グロック18C","","電動ブローバック フルオート",1,2,true
 
 11900,"marui","UZI SMG Mini","","","ウージーSMG ミニ","","ミニ電動ガン",8,2,true
 11901,"marui","SIG550 Mini","","","シグ550 ミニ","","ミニ電動ガン",1,2,true
@@ -1299,4 +1299,951 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 11906,"marui","MP5A5 Mini","","","MP5A5 ミニ","","ミニ電動ガン",8,2,true
 11907,"marui","M16 Mini","","","M16 ミニ","","ミニ電動ガン",1,2,true
 
-20300,"crown","CM870","","","CM870","","",4,1,true
+11910,"marui","KSG","","","KSG","","",4,4,false
+11911,"marui","M870 WOOD STOCK TYPE","","","M870ウッドストックタイプ","","",4,4,false
+11912,"marui","M870","","","M870","","",4,4,false
+11913,"marui","M320A1","","","M320A1","","",16,4,false
+11914,"marui","SAIGA-12K","","","サイガ-12K","","",4,4,false
+
+11920,"marui","AKX","","","AKX","","",2,4,false
+11921,"marui","AKM","","","AKM","","",2,4,false
+11922,"marui","MARK18 MOD1","","","マーク18 モッド1","","",2,4,false
+11923,"marui","MTR16","","","MTR16","","",2,4,false
+11924,"marui","Type 89","","","9式5.56mm小銃","","",2,4,false
+11925,"marui","M4A1 CARBINE","","","M4A1 カービン","","",2,4,false
+11926,"marui","CQBR BLOCK1","","","CQBR ブロック1","","",2,4,false
+11927,"marui","M4A1 MWS","","","M4A1 MWS","","",2,4,false
+11928,"marui","MP7A1","","","MP7A1","","",8,4,false
+
+12000,"marui","SG-09 R","","","SG-09 R","","",1,4,false
+12001,"marui","GLOCK19 Gen.4","","","グロック19 Gen.4","","",1,4,false
+12002,"marui","V10 ULTRA COMPACT","","","V10 ウルトラコンパクト","","",1,4,false
+12003,"marui","AM .45","","","AM .45","","",1,4,false
+12004,"marui","FNX-45 TACTICAL","","","FNX-45タクティカル","","",1,4,false
+12005,"marui","GLOCK17 Gen.4","","","グロック17 Gen.4","","",1,4,false
+12006,"marui","M45A1","","","M45A1","","",1,4,false
+12007,"marui","SG-09 R","","","SG-09 R","","",1,4,false
+12008,"marui","HK45 TACTICAL","","","HK45タクティカル","","",1,4,false
+12009,"marui","D.O.R CAL .45","","","ハイキャパD.O.R","","",1,4,false
+12010,"marui","GLOCK19 Gen.3","","","グロック19 Gen.3","","",1,4,false
+12011,"marui","ALBERT.W.MODEL 01P","","","アルバート.W.モデル 01P","","",1,4,false
+12012,"marui","M&P 9L PC PORTED","","","M&P 9L PCポーテッド","","",1,4,false
+12013,"marui","M45A1 CQB PISTOL","","","M45A1 CQBピストル","","",1,4,false
+12014,"marui","USP","","","USP","","",1,4,false
+12015,"marui","SIG SAUER P226","","","シグ ザウエル P226","","",1,4,false
+12016,"marui","DETONICS.45 COMBAT MASTER","","","デトニクス.45 コンバットマスター","","",1,4,false
+12017,"marui","HK45 TACTICAL","","","HK45 タクティカル","","",1,4,false
+12018,"marui","SAMURAI EDGE","","","サムライエッジ","","",1,4,false
+12019,"marui","GLOCK22","","","グロック22","","",1,4,false
+12020,"marui","GLOCK34","","","グロック34","","",1,4,false
+12021,"marui","U.S.M9 PISTOL","","","U.S.M9ピストル","","",1,4,false
+12022,"marui","Hi-CAPA5.1 GOLD MATCH","","","Sハイキャパ5.1 ゴールドマッチ","","",1,4,false
+12023,"marui","USP COMPACT","","","USPコンパクト","","",1,4,false
+12024,"marui","M&P 9 V CUSTOM","","","M&P 9 Vカスタムs","","",1,4,false
+12025,"marui","M&P 9","","","M&P 9","","",1,4,false
+12026,"marui","HK45","","","HK45","","",1,4,false
+12027,"marui","COLT GOVERMENT Series'70","","","コルト ガバメント シリーズ'70","","",1,4,false
+12028,"marui","M9A1","","","M9A1","","",1,4,false
+12029,"marui","XDM-40","","","XDM-40","","",1,4,false
+12030,"marui","STRIKE WARRIOR","","","ストライクウォーリア","","",1,4,false
+12031,"marui","Px4","","","Px4","","",1,4,false
+12032,"marui","FOLIAGE WARRIOR","","","フォリッジウォーリア","","",1,4,false
+12033,"marui","NIGHT WARRIOR","","","ナイトウォーリア","","",1,4,false
+12034,"marui","DESERT WARRIOR 4.3","","","デザートウォーリア 4.3","","",1,4,false
+12035,"marui","Hi-CAPA5.1","","","ハイキャパ5.1","","",1,4,false
+12036,"marui","FN 5-7","","","FNファイブセブン","","",1,4,false
+12037,"marui","DESERT EAGLE .50AE 10-inch","","","デザートイーグル.50AE 10インチバレル","","",1,4,false
+12038,"marui","M92F","","","M92F","","",1,4,false
+12039,"marui","M.E.U. PISTOL","","","MEUピストル","","",1,4,false
+12040,"marui","DETONICS.45 COMBAT MASTER","","","デトニクス.45 コンバットマスター","","",1,4,false
+12041,"marui","GLOCK17 Gen.3","","","GLOCK17 Gen.3","","",1,4,false
+12042,"marui","M1911A1 COLT GOVERMENT","","","M1911A1コルトガバメント","","",1,4,false
+12043,"marui","Hi-CAPA 4.3 TACTICAL CUSTOM","","","ハイキャパ4.3 タクティカルカスタム","","",1,4,false
+12044,"marui","Hi-CAPA 5.1 GOVERMENT MODEL","","","ハイキャパ5.1 ガバメントモデル","","",1,4,false
+12045,"marui","DESERT EAGLE .50AE","","","デザートイーグル.50AE","","",1,4,false
+12046,"marui","GLOCK26 ADVANCE","","","グロック26 アドバンス","","",1,4,false
+12047,"marui","GLOCK26","","","グロック26","","",1,4,false
+12048,"marui","TACTICAL MASTER","","","タクティカルマスター","","",1,4,false
+12050,"marui","G17 CUSTOM","","","G17 カスタム","","",1,4,false
+
+12060,"marui","GLOCK18C","","","グロック 18C","","",1,4,false
+12061,"marui","Hi-CAPA EXTREME","","","ハイキャパエクストリーム","","",1,4,false
+
+12070,"marui","Hi-CAPA5.1R","","","ハイキャパ5.1R","","",1,4,true
+
+12080,"marui","CURVE","","Fixed Slide Gas Airsoft Gun","カーヴ","","固定スライドガスガン",1,4,false
+12081,"marui","LCP II","","Fixed Slide Gas Airsoft Gun","LCP II","","固定スライドガスガン",1,4,false
+12082,"marui","BODYGUARD 380","","Fixed Slide Gas Airsoft Gun","BODYGUARD 380","","固定スライドガスガン",1,4,false
+12083,"marui","LCP","","Fixed Slide Gas Airsoft Gun","LCP","","固定スライドガスガン",1,4,false
+12084,"marui","SOCOM Mk23","","Fixed Slide Gas Airsoft Gun","ソーコム Mk23","","固定スライドガスガン",1,4,false
+12085,"marui","CENTIMETER MASTER","","Fixed Slide Gas Airsoft Gun","センチメーターマスター","","固定スライドガスガン",1,4,false
+12086,"marui","WILSON SUPER GRADE","","Fixed Slide Gas Airsoft Gun","ウィルソン スーパーグレード","","固定スライドガスガン",1,4,false
+12087,"marui","AMT HARD BALLER","","Fixed Slide Gas Airsoft Gun","AMT ハードボーラー","","固定スライドガスガン",1,4,false
+12088,"marui","STEYR MODEL GB","","Fixed Slide Gas Airsoft Gun","ステアー モデルGB","","固定スライドガスガン",1,4,false
+12089,"marui","DESERT EAGLE","","Fixed Slide Gas Airsoft Gun","デザートイーグル","","固定スライドガスガン",1,4,false
+
+12090,"marui","S&W M66 6-inch","","\","スミス＆ウェッソン M66 6インチ","","",1,4,false
+12091,"marui","S&W M66 4-inch","","\","スミス＆ウェッソン M66 4インチ","","",1,4,false
+12092,"marui","S&W M66 2.5-inch","","\","スミス＆ウェッソン M66 2.5インチ","","",1,4,false
+12093,"marui","S&W M19 6-inch","","\","スミス＆ウェッソン M19 6インチ","","",1,4,false
+12094,"marui","S&W M19 4-inch","","\","スミス＆ウェッソン M19 4インチ","","",1,4,false
+12095,"marui","S&W M19 2.5-inch","","\","スミス＆ウェッソン M19 2.5インチ","","",1,4,false
+12096,"marui","COLT PYTHON .357mag. 6-inch","","\","コルトパイソン.357マグナム 6インチ","","",1,4,false
+12097,"marui","COLT PYTHON .357mag. 4-inch","","\","コルトパイソン.357マグナム 4インチ","","",1,4,false
+12098,"marui","COLT PYTHON .357mag. 2.5-inch","","\","コルトパイソン.357マグナム 2.5インチ","","",1,4,false
+
+13000,"crown","M29 MAGNUM 4-inch","","","M29マグナム 4インチ","","",1,1,true
+13001,"crown","M29 MAGNUM 6-inch","","","M29マグナム 6インチ","","",1,1,true
+13002,"crown","M586 MAGNUM 4-inch","","","M586マグナム 4インチ","","",1,1,true
+13003,"crown","M586 MAGNUM 6-inch","","","M586マグナム 6インチ","","",1,1,true
+13004,"crown","M629 MAGNUM 4-inch","","","M629マグナム 4インチ","","",1,1,true
+13005,"crown","M19 COMBAT MAGNUM 4-inch","","","M19コンバットマグナム 4インチ","","",1,1,true
+13006,"crown","M19 COMBAT MAGNUM 6-inch","","","M19コンバットマグナム 6インチ","","",1,1,true
+13007,"crown","M629 MAGNUM 6-inch","","","M629マグナム 6インチ","","",1,1,true
+13008,"crown","M686 MAGNUM 4-inch","","","M686マグナム 4インチ","","",1,1,true
+13009,"crown","M686 MAGNUM 6-inch","","","M686マグナム 6インチ","","",1,1,true
+13010,"crown","PYTHON 4-inch","","","パイソン 4インチ","","",1,1,true
+13011,"crown","PYTHON 6-inch","","","パイソン 6インチ","","",1,1,true
+13012,"crown","PYTHON 2.5-inch","","","パイソン 2.5インチ","","",1,1,true
+13013,"crown","PYTHON HUNTER 8-inch","","","パイソンハンター 8インチ","","",1,1,true
+13014,"crown","M29 MAGNUM 8-inch","","","M29マグナム 8インチ","","",1,1,true
+13015,"crown","M629 MAGNUM 8-inch","","","M629マグナム 8インチ","","",1,1,true
+
+13020,"crown","M586 MAGNUM 4-inch","","","M586マグナム 4インチ","","",1,1,false
+13021,"crown","M586 MAGNUM 6-inch","","","M586マグナム 6インチ","","",1,1,false
+13022,"crown","M29 MAGNUM 4-inch","","","M29マグナム 4インチ","","",1,1,false
+13023,"crown","M29 MAGNUM 6-inch","","","M29マグナム 6インチ","","",1,1,false
+13024,"crown","M19 COMBAT MAGNUM 4-inch","","","M19コンバットマグナム 4インチ","","",1,1,false
+13025,"crown","M19 COMBAT MAGNUM 6-inch","","","M19コンバットマグナム 6インチ","","",1,1,false
+13031,"crown","M686 MAGNUM 6-inch","","","M686マグナム 6インチ","","",1,1,false
+13026,"crown","M629 MAGNUM 4-inch","","","M629マグナム 4インチ","","",1,1,false
+13030,"crown","M686 MAGNUM 4-inch","","","M686マグナム 4インチ","","",1,1,false
+13029,"crown","M629 MAGNUM 6-inch","","","M629マグナム 6インチ","","",1,1,false
+13032,"crown","PYTHON 4-inch","","","パイソン 4インチ","","",1,1,false
+13033,"crown","PYTHON 6-inch","","","パイソン 6インチ","","",1,1,false
+13034,"crown","PYTHON 2.5-inch","","","パイソン 2.5インチ","","",1,1,false
+13035,"crown","PYTHON HUNTER 8-inch","","","パイソンハンター 8インチ","","",1,1,false
+13036,"crown","M629 MAGNUM 8-inch","","","M629マグナム 8インチ","","",1,1,false
+13037,"crown","M29 MAGNUM 8-inch","","","M29マグナム 8インチ","","",1,1,false
+
+13040,"crown","M29 MAGNUM 4-inch","","","M29マグナム 4インチ","","",1,4,false
+13041,"crown","M29 MAGNUM 6-inch","","","M29マグナム 6インチ","","",1,4,false
+13042,"crown","M29 MAGNUM 8-inch","","","M29マグナム 8インチ","","",1,4,false
+13043,"crown","M629 MAGNUM 4-inch","","","M629マグナム 4インチ","","",1,4,false
+13044,"crown","M629 MAGNUM 6-inch","","","M629マグナム 6インチ","","",1,4,false
+13045,"crown","M629 MAGNUM 8-inch","","","M629マグナム 8インチ","","",1,4,false
+13046,"crown","M586 MAGNUM 4-inch","","","M586マグナム 4インチ","","",1,4,false
+13047,"crown","M586 MAGNUM 6-inch","","","M586マグナム 6インチ","","",1,4,false
+13048,"crown","M686 MAGNUM 4-inch","","","M686マグナム 4インチ","","",1,4,false
+13049,"crown","M686 MAGNUM 6-inch","","","M686マグナム 6インチ","","",1,4,false
+13050,"crown","M19 COMBAT MAGNUM 4-inch","","","M19コンバットマグナム 4インチ","","",1,4,false
+13051,"crown","M19 COMBAT MAGNUM 6-inch","","","M19コンバットマグナム 6インチ","","",1,4,false
+13052,"crown","PYTHON 4-inch","","","パイソン 4インチ","","",1,4,false
+13053,"crown","PYTHON 6-inch","","","パイソン 6インチ","","",1,4,false
+13054,"crown","PYTHON HUNTER 8-inch","","","パイソンハンター 8インチ","","",1,4,false
+
+13060,"crown","GLOCK29C","","","GLOCK29C","","",1,1,true
+13061,"crown","P2000","","","P2000","","",1,1,true
+13062,"crown","BODY GUARD 380","","","ボディーガード380","","",1,1,true
+13063,"crown","DERINGER","","","デリンジャー","","",1,1,true
+13064,"crown","25AUTO","","","25AUTO","","",1,1,true
+13065,"crown","BABY BROWNING","","","ベビーブローニング","","",1,1,true
+13066,"crown","MPSW-SLC","","","MPSW-SLC","","",1,1,true
+13067,"crown","CFS45","","","CFS45","","",1,1,true
+
+13070,"crown","GLK33","","Slide Stop","GLK33","","スライドストップ",1,1,true
+13071,"crown","UPS MATCH","","Slide Stop","UPS MATCH","","スライドストップ",1,1,true
+13072,"crown","1911A1","","Slide Stop","1911A1","","スライドストップ",1,1,true
+13073,"crown","P228","","Slide Stop","P228","","スライドストップ",1,1,true
+
+13080,"crown","SUPER SS II","","","スーパーSS II","","",4,1,true
+13081,"crown","TSG-1","","","TSG-1","","",4,1,true
+13082,"crown","TSG-2","","","TSG-2","","",4,1,true
+13083,"crown","CM870","","","CM870","","",4,1,true
+
+13090,"crown","SUPER SS II SENIOR","","","スーパーSS IIシニア","","",2,1,false
+13091,"crown","TYPE96 JUNIOR","","","タイプ96 ジュニア","","",2,1,false
+13092,"crown","XM4 R.I.S","","","XM4 R.I.S","","",2,1,true
+13093,"crown","M416D CARBINE","","","M416D CARBINE","","",2,1,true
+13094,"crown","SCAL FNL","","","SCAL FNL","","",2,1,true
+13095,"crown","MM-7P","","","MM-7P","","",8,1,true
+13096,"crown","XMP-K","","","XMP-K","","",8,1,true
+
+13100,"crown","SUPER RFILE U10 JUNIOR","","","スーパーライフルU10ジュニア","","",2,1,true
+13110,"crown","SUPER RFILE U10 SENIOR","","","スーパーライフルU10シニア","","",2,1,false
+13111,"crown","SUPER RFILE DRAGUNOV SVD","","","スーパーライフルドラグノフSVD","","",2,1,false
+13112,"crown","TYPE96 SENIOR","","","タイプ96 シニア","","",2,1,true
+
+13120,"crown","ELEX9","","","エレックス9","","",8,2,true
+13121,"crown","CP7","","","CP7","","",8,2,true
+
+13130,"crown","CM4","","","CM4","","",2,2,false
+13131,"crown","AK74 REAL WOOD","","","AK74リアルウッド","","",2,2,false
+
+14000,"tanaka","Colt' SAA 1st 3-inch","","","","","",1,4,false
+14001,"tanaka","Colt' SAA 1st 4-3/4 inch","","","","","",1,4,false
+14002,"tanaka","Colt' SAA 1st 5-1/2 inch","","","","","",1,4,false
+14003,"tanaka","Colt' SAA 2nd 4-inch","","","","","",1,4,false
+14004,"tanaka","Colt' SAA 2nd 4-3/4 inch","","PEGASAS II Gas Gun Series","","","",1,4,false
+14005,"tanaka","Colt' SAA 2nd 5-1/2 inch","","PEGASAS II Gas Gun Series","","","",1,4,false
+14006,"tanaka","Colt' SAA 2nd 7-1/2 inch","","","","","",1,4,false
+14007,"tanaka","Colt' SAA 2nd 5-1/2 inch","","","","","",1,4,false
+14008,"tanaka","Colt Python .357 Magnum 2-1/2 inch","","","","","",1,4,false
+14009,"tanaka","Colt Python .357 Magnum 3-inch","","","","","",1,4,false
+14010,"tanaka","Colt Python .357 Magnum 4-inch","","","","","",1,4,false
+14011,"tanaka","Colt Python .357 Magnum 6-inch","","","","","",1,4,false
+14012,"tanaka","COLT .380 AUTO","","","コルト.380AUTO","","",2,4,false
+14013,"tanaka","Luger P08 4-inch","","","","","",1,4,false
+14014,"tanaka","Luger P08 8-inch","","","","","",1,4,false
+
+14020,"tanaka","S&W .38 2-inch","","","","","",1,4,false
+14021,"tanaka","S&W M10 4-inch","","","","","",1,4,false
+14022,"tanaka","S&W M13 3-inch","","","","","",1,4,false
+14023,"tanaka","S&W M15 4-inch","","","","","",1,4,false
+14024,"tanaka","S&W M19 2-1/2 inch","","","","","",1,4,false
+14025,"tanaka","S&W M19 3-inch","","","","","",1,4,false
+14026,"tanaka","S&W M19 4-inch","","","","","",1,4,false
+14027,"tanaka","S&W M19 6-inch Combat Magnum","","","","","",1,4,false
+14028,"tanaka","S&W M29 3-inch","","","","","",1,4,false
+14029,"tanaka","S&W M29 4-inch","","","","","",1,4,false
+14030,"tanaka","S&W M29 6-1/2 inch","","","","","",1,4,false
+14031,"tanaka","S&W M29 8-inch","","","","","",1,4,false
+14032,"tanaka","S&W M29 8-3/8 inch","","","","","",1,4,false
+14033,"tanaka","S&W M36 2-inch","","","","","",1,4,false
+14034,"tanaka","S&W M36 3-inch","","","","","",1,4,false
+14035,"tanaka","S&W M37 2-inch","","","","","",1,4,false
+14036,"tanaka","S&W M38 2-inch","","","","","",1,4,false
+14037,"tanaka","S&W M49 2-inch","","","","","",1,4,false
+14038,"tanaka","S&W M60 2-inch","","","","","",1,4,false
+14039,"tanaka","S&W M60 3-inch","","","","","",1,4,false
+14040,"tanaka","S&W M65 .357 Magnum 3-inch","","","","","",1,4,false
+14041,"tanaka","S&W M66 2-1/2 inch","","","","","",1,4,false
+14042,"tanaka","S&W M66 4-inch","","","","","",1,4,false
+14043,"tanaka","S&W M67 4-inch","","","","","",1,4,false
+14044,"tanaka","S&W M68 6-inch","","","","","",1,4,false
+14045,"tanaka","S&W M327 2-inch","","","","","",1,4,false
+14046,"tanaka","S&W M327 5-inch","","","","","",1,4,false
+14047,"tanaka","S&W M360 .357 Magnum 2-inch","","","","","",1,4,false
+14048,"tanaka","S&W M442 2-inch","","","","","",1,4,false
+14049,"tanaka","S&W M500 3+1-inch","","","","","",1,4,false
+14050,"tanaka","S&W M500 6-1/2 inch","","","","","",1,4,false
+14051,"tanaka","S&W M500 8-3/8 inch","","","","","",1,4,false
+14052,"tanaka","S&W M500 10-1/2 inch","","","","","",1,4,false
+14053,"tanaka","S&W M627 5-inch","","","","","",1,4,false
+14054,"tanaka","S&W M629 3-inch","","","","","",1,4,false
+14055,"tanaka","S&W M629 5-inch","","","","","",1,4,false
+14056,"tanaka","S&W M1917 .455 4-inch","","","","","",1,4,false
+14057,"tanaka","S&W P66 3-inch","","","","","",1,4,false
+14058,"tanaka","SMOLT Revolver 6-inch","","","","","",1,4,false
+14059,"tanaka","SMOLT Revolver 4-inch","","","","","",1,4,false
+
+14070,"tanaka","GLOCK34 Gen.3","","","","","",1,4,false
+14071,"tanaka","GLOCK17 Gen.2","","","","","",1,4,false
+14072,"tanaka","GLOCK17 Gen.3","","","","","",1,4,false
+14073,"tanaka","H&K USP","","","","","",1,4,false
+14074,"tanaka","H&K P8","","","","","",1,4,false
+14075,"tanaka","SIG P226","","","","","",1,4,false
+14076,"tanaka","SIG P220","","","","","",1,4,false
+14077,"tanaka","SIG P220 IC","","","","","",1,4,false
+14078,"tanaka","BROWNING HIGH-POWER M1935","","","ブローニング・ハイパワーM1935 ","","",1,4,false
+14079,"tanaka","BROWNING HIGH-POWER MK III","","","ブローニング・ハイパワーMK III ","","",1,4,false
+
+14100,"tanaka","Type 38 Carbine","","","三八式騎獣","","",2,4,false
+14101,"tanaka","Type 38 Rifle","","","三八式歩兵銃","","",2,4,false
+14102,"tanaka","Type 44 Carbine","","","四四式騎獣","","",2,4,false
+14103,"tanaka","Type 97 Sniper Rifle","","","九七式狙撃銃","","",2,4,false
+14104,"tanaka","Type 99 Short Rifle","","","九九式短小銃","","",2,4,false
+14105,"tanaka","Type 99 Rifle","","","九九式長小銃","","",2,4,false
+14106,"tanaka","M40 Rifle","","","","","",2,1,false
+14107,"tanaka","M40 Rifle","","","","","",2,4,false
+14108,"tanaka","M40A1 Rifle","","","","","",2,4,false
+14109,"tanaka","M700 Rifle","","","","","",2,1,false
+14110,"tanaka","M700 AIR 26-inch","","","","","",2,1,false
+14111,"tanaka","M24 SWS","","","","","",2,4,false
+14112,"tanaka","Kar98k AIR","","","","","",2,1,false
+14113,"tanaka","Kar98k AIR","","","","","",2,4,false
+14114,"tanaka","M24 SWS","","","","","",2,1,false
+14115,"tanaka","Gewehr33/40","","","","","",2,1,false
+14116,"tanaka","L96 Sniper Rifle","","","","","",2,4,false
+14117,"tanaka","SIG P229","","","","","",1,4,false
+14118,"tanaka","SIG P228","","","","","",1,4,false
+
+15000,"marushin","FN Five-seveN","","","FN・ファイブセブン","","",1,4,false
+15001,"marushin","44Automag","","","44オートマグ","","",1,4,false
+15002,"marushin","Mauser M712","","","モーゼルM712","","",1,4,false
+15003,"marushin","Nambu type14","","","南部14年式","","",1,4,false
+15004,"marushin","SIG P210-6","","","シグ P210-6","","",1,4,false
+15005,"marushin","M84","","","","","",1,4,false
+15006,"marushin","Mk1","","","","","",1,4,false
+
+15010,"marushin","Mateba Revolver","","","マテバリボルバー","","",1,4,false
+15011,"marushin","Unlimited Revolver","","","アンリミテッドリボルバー","","",1,4,false
+15012,"marushin","Constrictor","","","コンストリクター","","",1,4,false
+15013,"marushin","Colt Anaconda 8-inch","","","コルト・アナコンダ 8インチ","","",1,4,false
+15014,"marushin","Colt Anaconda 6-inch","","","コルト・アナコンダ 6インチ","","",1,4,false
+15015,"marushin","Colt Anaconda 4-inch","","","コルト・アナコンダ 4インチ","","",1,4,false
+15016,"marushin","S&W M686","","","","","",1,4,false
+15017,"marushin","S&W M586","","","","","",1,4,false
+15018,"marushin","S&W M29 8-3/8 inch","","","","","",1,4,false
+15019,"marushin","S&W M629","","","","","",1,4,false
+15020,"marushin","Police Revolver 3-inch","","","ポリスリボルバー 3インチ","","",1,4,false
+15021,"marushin","Police Revolver 2-inch","","","ポリスリボルバー 2インチ","","",1,4,false
+15022,"marushin","S&W M60 Chiefs Special 3-inch","","","S&W M60 チーフスペシャル 3インチ","","",1,4,false
+15023,"marushin","S&W M60 Chiefs Special 2-inch","","","S&W M60 チーフスペシャル 2インチ","","",1,4,false
+15024,"marushin","S&W M36 Chiefs Special 3-inch","","","S&W M36 チーフスペシャル 3インチ","","",1,4,false
+15025,"marushin","S&W M36 Chiefs Special 2-inch","","","S&W M36 チーフスペシャル 2インチ","","",1,4,false
+15026,"marushin","COLT SAA.45 Peacemaker","","","コルトSAA.45ピースメーカー","","",1,4,false
+15027,"marushin","COP357","","","","","",1,4,false
+15028,"marushin","COP357 LongBarrel","","","COP357 ロングバレル","","",1,4,false
+
+15040,"marushin","Winchester M1892","","","ウィンチェスター M1892","","",2,4,false
+15041,"marushin","M1887 Guard`s Gun","","","M1887 ガーズガン","","",2,4,false
+15042,"marushin","M1887 Short","","","M1887 ショート","","",2,4,false
+15043,"marushin","MP40","","","","","",8,4,false
+15044,"marushin","Mauser Kar98k HW","","","モーゼル Kar98k","","",2,4,false
+15045,"marushin","M1Garand T26 TANKER","","","M-1 ガーランドT26 タンカー","","",2,4,false
+15046,"marushin","M1Garand","","","M-1 ガーランド","","",2,4,false
+
+16000,"maruzen","APS-1 Grand Master Mk.II","","","APS-1 グランドマスター・マークⅡ","","",2,1,false
+16001,"maruzen","APS-3 (OR)","APS-3 Original","","APS-3 オリジナル","","",2,1,false
+16002,"maruzen","APS-3 LE","APS-3 Limited Edition","","APS-3 リミテッドエディション","","",2,1,false
+16003,"maruzen","APS-2 (OR)","APS-2 Original","","","APS-2 オリジナル","",2,1,false
+16004,"maruzen","APS-2 (LRV)","APS-2 Long Range Version","","APS-2 ロングレンジバージョン","","",2,1,false
+16005,"maruzen","APS SR96","","","","","",2,1,false
+
+16006,"maruzen","Walther PPK/S","","","ワルサーPPK/S","","",1,4,false
+16007,"maruzen","Walther P38","","","ワルサーP38","","",1,4,false
+16008,"maruzen","Walther P99","","","ワルサーP99","","",1,4,false
+16009,"maruzen","M93R-FS","","","M93R-FS","","",1,4,false
+
+16010,"maruzen","Ingram M11","","","イングラム M11","","",8,4,false
+16011,"maruzen","Vz61 Scorpion","","","Vz61 スコーピオン","","",8,4,false
+
+16012,"maruzen","CA870 SAWED OFF","","","CA870 ソードオフ","","",4,1,false
+16013,"maruzen","CA870 BULLDOG","","","CA870 ブルドック","","",4,1,false
+16014,"maruzen","CA870 STOCK","","","CA870 ストック","","",4,1,false
+16015,"maruzen","CA870 CHARGER","","","CA870 チャージャー","","",4,1,false
+
+16016,"maruzen","M870","","","M870","","",4,4,false
+16017,"maruzen","M870 EX","M870 EXTENSION CUSTOM","","M870 エクステンションカスタム","","",4,4,false
+16018,"maruzen","M870 GV+1","M870 GRIP VERSION PLUS ONE","","M870 グリップバージョン/プラスワン","","",4,4,false
+16019,"maruzen","M1100","","","M1100","","",4,4,false
+
+17000,"taniokoba","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,false
+17001,"taniokoba","M1911","","","","","",1,4,false
+17002,"taniokoba","M1911A1","","","","","",1,4,false
+17003,"taniokoba","SILENT HAWK","","","サイレントホーク","","",1,4,false
+17004,"taniokoba","COMBAT MASTER","","","コンバットマスター","","",1,4,false
+17005,"taniokoba","GM-7","","","","","",1,4,false
+17006,"taniokoba","BM-45","","","","","",1,4,false
+17007,"taniokoba","BM-9","","","","","",1,4,false
+
+17008,"taniokoba","M4 10-1/2 inch","","","","","",2,4,false
+17009,"taniokoba","M4 14-1/2 inch","","","","","",2,4,false
+
+18000,"hartford","COLT SAA FDC","COLT SAA FAST DRAW CUSTOM","","コルトSAA FDC","コルトSAA ファスト・ドロウ・カスタム","",1,4,false
+18001,"hartford","COLT SAA SHERIFF'S CUSTOM","","","コルトSAA シェリフス カスタム","","",1,4,false
+18002,"hartford","NEW MODEL ARMY STANDARD","","","ニューモデルアーミー スタンダード","","",1,4,false
+18003,"hartford","NEW MODEL ARMY LONG BARREL","","","ニューモデルアーミー ロングバレル","","",1,4,false
+18004,"hartford","NEW MODEL ARMY SHORT VERSION","","","ニューモデルアーミー ショートバージョン","","",1,4,false
+18005,"hartford","NEW MODEL ARMY CARBINE","","","ニューモデルアーミー カービン","","",2,4,false
+18006,"hartford","M1873","","","","","",2,4,false
+18007,"hartford","M1866","","","","","",1,4,false
+18008,"hartford","","","","","","",1,4,false
+18009,"hartford","","","","","","",1,4,false
+
+19000,"umarex","BERETTA MOD. 92 FS","","Energy < 0.5J","","","",1,2,true
+19001,"umarex","BERETTA MOD. 92 A1","","Energy < 0.5J","","","",1,2,true
+19002,"umarex","H&K USP","","Energy < 0.5J","","","",1,2,true
+19003,"umarex","H&K P30","","Energy < 0.5J","","","",1,2,true
+19004,"umarex","Walther P99 DAO","","Energy < 0.5J","","","",1,2,true
+19005,"umarex","H&K MP5","","Energy < 0.5J","","","",8,2,true
+19006,"umarex","H&K MP7 A1 SWAT","","Energy < 0.5J","","","",8,2,true
+19007,"umarex","H&K G36 C","","Energy < 0.5J","","","",8,2,true
+19008,"umarex","H&K G36C IDZ","","Energy < 0.5J","","","",8,2,true
+19009,"umarex","H&K HK416 D","","Energy < 0.5J","","","",2,2,true
+19010,"umarex","H&K HK416 CQB","","Energy < 0.5J","","","",2,2,true
+
+19020,"umarex","H&K UMP Sportsline","","","","","",8,2,false
+19021,"umarex","H&K MP7 A1","","","","","",8,2,false
+19022,"umarex","H&K G36C Sportsline","","","","","",8,2,false
+
+19030,"umarex","H&K MG4","","","","","",2,2,false
+19031,"umarex","H&K HK416 D V2","","","","","",2,2,false
+19032,"umarex","H&K HK416 A5","","","","","",2,2,false
+19033,"umarex","H&K HK416 CQB V2","","","","","",2,2,false
+
+19040,"umarex","BERETTA M9","","","","","",1,4,false
+19041,"umarex","BERETTA MOD. M9A3","","","","","",1,4,false
+19042,"umarex","BERETTA MOD. 92","","","","","",1,4,false
+19043,"umarex","BERETTA Elite IA","","","","","",1,4,false
+19044,"umarex","ELITE FORCE 1911 Tac Two","","","","","",1,4,false
+19045,"umarex","GLOCK17","","","","","",1,4,false
+19046,"umarex","GLOCK18","","","","","",1,4,false
+19047,"umarex","GLOCK19","","","","","",1,4,false
+19048,"umarex","GLOCK22","","","","","",1,4,false
+19049,"umarex","GLOCK34","","","","","",1,4,false
+19050,"umarex","GLOCK42","","","","","",1,4,false
+19051,"umarex","GLOCK45","","","","","",1,4,false
+19052,"umarex","H&K P8","","","","","",1,4,false
+19053,"umarex","H&K VP9","","","","","",1,4,false
+19054,"umarex","H&K HK45","","","","","",1,4,false
+19055,"umarex","H&K USP","","","","","",1,4,false
+19056,"umarex","H&K USP .45","","","","","",1,4,false
+19057,"umarex","S&W M&P9","","","","","",1,4,false
+19058,"umarex","S&W M&P9c","","","","","",1,4,false
+19059,"umarex","WALTHER PPQ M2","","","","","",1,4,false
+
+19070,"umarex","BERETTA PMX","","","","","",8,4,false
+19071,"umarex","H&K G36","","","","","",8,4,false
+19072,"umarex","H&K MP7","","","","","",8,4,false
+
+19080,"umarex","H&K HK416 D","","","","","",2,4,false
+19081,"umarex","H&K HK416 A5","","","","","",2,4,false
+19082,"umarex","H&K HK417 A5","","","","","",2,4,false
+19083,"umarex","H&K G3","","","","","",2,4,false
+19084,"umarex","H&K PSG1","","","","","",2,4,false
+
+19090,"umarex","BERETTA APX","","","","","",1,4,false
+19091,"umarex","BERETTA 90two","","","","","",1,4,false
+19092,"umarex","COMBAT ZONE P11 Para","","","","","",1,4,false
+19093,"umarex","COMBAT ZONE COP SK","","","","","",1,4,false
+19094,"umarex","ELITE FORCE 1911 Tac","","","","","",1,4,false
+19095,"umarex","ELITE FORCE RaceGun Set","","","","","",1,4,false
+19096,"umarex","LEGENDS P08","","","","","",1,4,false
+19097,"umarex","RUGER P345","","","","","",1,4,false
+19098,"umarex","S&W M&P40","","","","","",1,4,false
+19099,"umarex","RUGER P345","","","","","",1,4,false
+19100,"umarex","WALTHER P99 DAO","","","","","",1,4,false
+
+19110,"umarex","ELITE FORCE H8R Gen2","","","","","",1,4,false
+19111,"umarex","RUGER SuperHawk 6-inch","","","","","",1,4,false
+19112,"umarex","RUGER SuperHawk 8-inch","","","","","",1,4,false
+19113,"umarex","S&W M29 3-inch","","","","","",1,4,false
+19114,"umarex","S&W M29 6-1/2 inch","","","","","",1,4,false
+19115,"umarex","S&W M29 8-3/8 inch","","","","","",1,4,false
+19116,"umarex","S&W 629 Classic 5-inch","","","","","",1,4,false
+19117,"umarex","S&W 629 Classic 6-1/2 inch","","","","","",1,4,false
+19118,"umarex","S&W M&P R8","","","","","",1,4,false
+
+19120,"umarex","H&K MP5 K","","","","","",8,4,false
+19121,"umarex","LEGENDS Cowboy Rifle","","","","","",2,4,false
+
+19130,"umarex","WALTHER P99","","","","","",1,1,true
+19131,"umarex","BERETTA Px4 Storm","","","","","",1,1,true
+19132,"umarex","BERETTA 90two","","","","","",1,1,true
+19133,"umarex","BERETTA MOD.92","","","","","",1,1,true
+19134,"umarex","BERETTA M9","","","","","",1,1,true
+19135,"umarex","BROWNING 1911","","","","","",1,1,true
+19136,"umarex","COMBAT ZONE 19Eleven","","","","","",1,1,true
+19137,"umarex","H&K VP9","","","","","",1,1,true
+19138,"umarex","H&K USP Compact","","","","","",1,1,true
+19139,"umarex","H&K USP","","","","","",1,1,true
+19140,"umarex","H&K P30","","","","","",1,1,true
+19141,"umarex","S&W M&P9c","","","","","",1,1,true
+19142,"umarex","S&W M&P40","","","","","",1,1,true
+19143,"umarex","WALTHER PPK/S","","","","","",1,1,true
+19144,"umarex","WALTHER P22","","","","","",1,1,true
+19145,"umarex","WALTHER P99","","","","","",1,1,true
+19146,"umarex","WALTHER PPQ","","","","","",1,1,true
+
+19150,"umarex","H&K MP7","","","","","",8,1,true
+19151,"umarex","H&K G36 C","","","","","",8,1,true
+19152,"umarex","H&K HK416 D","","","","","",2,1,true
+
+20001,"a&k","M4 RIS","","","","","",2,2,false
+20002,"a&k","M4A1","","","","","",2,2,false
+20003,"a&k","M4A1 Carbine","","","","","",2,2,false
+20004,"a&k","M4 CQB","","","","","",2,2,false
+20005,"a&k","M16A3","","","","","",2,2,false
+20006,"a&k","M16A4","","","","","",2,2,false
+20007,"a&k","SR16","","","","","",2,2,false
+20008,"a&k","M933","","","","","",2,2,false
+20009,"a&k","SR25","","","","","",2,2,false
+20010,"a&k","SR25K","","","","","",2,2,false
+20011,"a&k","M7799","","","","","",2,2,false
+20012,"a&k","LR300 Long Version","","","","","",2,2,false
+20013,"a&k","LR300 Short Version","","","","","",2,2,false
+20014,"a&k","M933","","","","","",2,2,false
+20015,"a&k","SRP MOD1","","","","","",2,2,false
+20016,"a&k","SRP MOD2","","","","","",2,2,false
+20017,"a&k","CQB","","CQB Series 01-06","","","",2,2,false
+
+20020,"a&k","PKM","","","","","",2,2,false
+20021,"a&k","MK43","","","","","",2,2,false
+20022,"a&k","M60","","","","","",2,2,false
+20023,"a&k","MK46","","","","","",2,2,false
+20024,"a&k","M249","","","","","",2,2,false
+20025,"a&k","SVD","","","","","",2,2,false
+
+20030,"a&k","SVD","","","","","",2,1,false
+20031,"a&k","M24","","","","","",2,1,false
+20032,"a&k","7870","","","","","",4,1,false
+20033,"a&k","9870A","","","","","",4,1,false
+20034,"a&k","9870","","","","","",4,1,false
+20035,"a&k","8870A","","","","","",4,1,false
+20036,"a&k","8870","","","","","",4,1,false
+
+20040,"a&k","1892A","","","","","",4,4,false
+20041,"a&k","1892","","","","","",4,4,false
+
+21000,"agm","M1 Carbine","","","M1カービン","","",2,1,false
+21001,"agm","M14 Long","","","","","",2,1,false
+21002,"agm","M14 Short","","","","","",2,1,false
+21003,"agm","Dragunov SVD","","","","","",2,1,false
+
+21010,"agm","MP44","","","","","",2,2,false
+21011,"agm","MP40","","","","","",8,2,false
+21012,"agm","STEN Mk.2","","","","","",8,2,false
+
+21020,"agm","Mossberg M500","","","モスバーグ M500","","",4,1,false
+21021,"agm","Mossberg M500 Cruiser","","","モスバーグ M500 クルーザー","","",4,1,false
+21022,"agm","M186B Benelli M4 Long","","","M186B ベネリ M4 ロング","","",4,1,false
+21023,"agm","M180C2 Tactical Stock","","","M180C2 タクティカルストック","","",4,1,false
+21024,"agm","M180B2 Pistol Grip","","","M180B2 ピストルグリップ","","",4,1,false
+21025,"agm","M180A1 Shorty Type","","","M180A1 ショーティータイプ","","",4,1,false
+
+22000,"aps","NOVESKE 10.5-inch GEN 4 SHORTY GBB","","","","","",2,4,false
+22001,"aps","XTREME GBB PISTOL","","","","","",1,4,false
+22002,"aps","XTREME GBB RIFLE","","","","","",2,4,false
+
+22010,"aps","M4A1","","ASR SERIES","","","",2,2,false
+22011,"aps","M4 CQB","","ASR SERIES","","","",2,2,false
+22012,"aps","CQB /R","","ASR SERIES","","","",2,2,false
+22013,"aps","M4 RIS","","ASR SERIES","","","",2,2,false
+22014,"aps","M933","","ASR SERIES","","","",2,2,false
+22015,"aps","MINI PATRIOT","","ASR SERIES","","","",2,2,false
+22016,"aps","GUARDIAN MATCH","","ASR SERIES","","","",2,2,false
+22017,"aps","GUARDIAN TACTICAL","","ASR SERIES","","","",2,2,false
+22018,"aps","GUARDIAN COMBAT","","ASR SERIES","","","",2,2,false
+22019,"aps","RAPTOR","","ASR SERIES","","","",2,2,false
+22020,"aps","DEMOLITION RIFLE","","ASR SERIES","","","",2,2,false
+22021,"aps","BOAR COMPETITION/TACTICAL","","ASR SERIES","","","",2,2,false
+22022,"aps","GHOST PATROL","","ASR SERIES","","","",2,2,false
+
+22030,"aps","F1 FIREARMS UDR","","","","","",2,2,false
+22031,"aps","F1 FIREARMS BDR","","","","","",2,2,false
+22032,"aps","F1 FIREARMS SBR","","","","","",2,2,false
+22033,"aps","FALKOR DEFENSE","","","","","",2,2,false
+22034,"aps","FALKOR PHANTOM","","","","","",2,2,false
+22035,"aps","NOVESKE 9 9MM","","","","","",8,2,false
+22036,"aps","NOVESKE SPACE INVADER 9MM","","","","","",8,2,false
+22037,"aps","NOVESKE 7.94-inch GEN 4","","","","","",2,2,false
+22038,"aps","NOVESKE 10.5-inch GEN 4","","","","","",2,2,false
+22039,"aps","NOVESKE 13.7-inch GEN 4","","","","","",2,2,false
+22040,"aps","PHANTOM EXTREMIS RIFLES MK3","","","","","",2,2,false
+22041,"aps","PHANTOM EXTREMIS RIFLES MK4","","","","","",2,2,false
+22042,"aps","PHANTOM EXTREMIS RIFLES MK5","","","","","",2,2,false
+22043,"aps","PHANTOM EXTREMIS RIFLES MK6","","","","","",2,2,false
+22044,"aps","PHANTOM EXTREMIS RIFLES MK7","","","","","",2,2,false
+22045,"aps","PHANTOM EXTREMIS RIFLES MK10","","","","","",2,2,false
+
+22100,"aps","AK74","","","","","",2,2,false
+22101,"aps","AK74U","","","","","",2,2,false
+22102,"aps","TACTICAL PMC AK74","","","","","",2,2,false
+22103,"aps","GHOST PATROL ASK210","","","","","",2,2,false
+22104,"aps","GHOST PATROL COMPACT ASK211","","","","","",2,2,false
+22105,"aps","GHOST PATROL RUS ASK212","","","","","",2,2,false
+22106,"aps","URBAN ASSAULT RIFLE","","","","","",2,2,false
+
+22050,"aps","APS BUMBLEBEE","","","","","",1,4,false
+22051,"aps","DRAGONFLY","","","","","",1,4,false
+22052,"aps","SHARK","","","","","",1,4,false
+22053,"aps","A CAP COMBAT ADAPTIVE","","","","","",1,4,false
+22054,"aps","APS CUSTOM COMBAT MASTER","","","","","",1,4,false
+22055,"aps","BLACK HORNET","","","","","",1,4,false
+22056,"aps","PMT MANTIS","","","","","",1,4,false
+22057,"aps","X1-CAP SPYDER","","","","","",1,4,false
+22058,"aps","MANTIS X","","","","","",1,4,false
+22059,"aps","MATCH VERSION ACP","","","","","",1,4,false
+22060,"aps","ACTION COMBAT PISTOL SMG","","","","","",8,4,false
+22061,"aps","BSF19","EMG / F1 FIREARMS BSF19 PISTOL","","","","",1,4,false
+22062,"aps","XTREME TRAINING","","","","","",1,4,false
+22063,"aps","M1911 CRIXUS","AG PISTOL M1911 CRIXUS","","","","",1,4,false
+
+22070,"aps","CAM 870 MKIII BULLDOG","","","","","",4,4,false
+22071,"aps","CAM 870 MKIII BATTLEWORN/DOUCHBAG","","","","","",4,4,false
+22072,"aps","CAM 870 MKIII","","","","","",4,4,false
+22073,"aps","TACTICAL STYLE CAM KMII","","","","","",4,4,false
+22074,"aps","TACTICAL STYLE CAM KMIII","","","","","",4,4,false
+22075,"aps","CAM MKII","","","","","",4,4,false
+22076,"aps","CAM 870 MKII BULLDOG","","","","","",4,4,false
+22077,"aps","CAM MKII AOW","CAM MKII ANY OTHER WEAPON","","","","",4,4,false
+22078,"aps","CAM MKIII AOW","CAM MKIII ANY OTHER WEAPON","","","","",4,4,false
+22079,"aps","CAM MKII BATTLEWORN/DOUCHBAG","","","","","",4,4,false
+22080,"aps","CAM MKII-SF","","","","","",4,4,false
+22081,"aps","CAM MKIII-SF","","","","","",4,4,false
+22082,"aps","SALIENT ARMS MKII","","","","","",4,4,false
+22083,"aps","SALIENT ARMS MKIII","","","","","",4,4,false
+22084,"aps","SNIPER RIFLE","","","","","",2,4,false
+
+22090,"aps","BARRETT FIELDCRAFT SNIPER RIFLE","","","","","",2,4,false
+22091,"aps","BARRETT FIELDCRAFT SNIPER RIFLE","","","","","",2,1,false
+22092,"aps","SPRING ACTION SNIPER RIFLE","","","","","",2,1,false
+
+23000,"arcturus","AK74","","","","","",2,2,false
+23001,"arcturus","AK74U","","","","","",2,2,false
+23002,"arcturus","AK12","","","","","",2,2,false
+23003,"arcturus","AK12K","","","","","",2,2,false
+23004,"arcturus","Centaur B AK","","","","","",2,2,false
+23005,"arcturus","AR15 RIFLE","","","","","",2,2,false
+23006,"arcturus","AR15 CARBINE","","","","","",2,2,false
+23007,"arcturus","AR15 CQB","","","","","",2,2,false
+23008,"arcturus","SR16 RIFLE","","","","","",2,2,false
+23009,"arcturus","SR16 CQB","","","","","",2,2,false
+23010,"arcturus","MUR MOD B CARBINE","","","","","",2,2,false
+23011,"arcturus","MUR MOD B CQB","","","","","",2,2,false
+
+23020,"arcturus","PP19-01 VITYAZ","","","","","",8,2,false
+23021,"arcturus","PP19-01 VITYAZ ZTAC SP1 CQB","","","","","",8,2,false
+23022,"arcturus","PP19-01 VITYAZ ZTAC SP1 CARBINE","","","","","",8,2,false
+23023,"arcturus","PPK 20","","","","","",8,2,false
+
+23030,"arcturus","Karambit PDW 5.5-inch","","","","","",2,2,false
+23031,"arcturus","Karambit PDW 8-inch","","","","","",2,2,false
+23032,"arcturus","Sword MOD1 SBR 8-inch","","","","","",2,2,false
+23033,"arcturus","Sword MOD1 CQB 9.55-inch","","","","","",2,2,false
+23034,"arcturus","Sword MOD1 CARBINE 13.5-inch","","","","","",2,2,false
+23035,"arcturus","LWT MK-I CQB 10-inch","","","","","",2,2,false
+23036,"arcturus","X C.A.T.AR-15 10-inch","","","","","",2,2,false
+23037,"arcturus","X C.A.T.AR-15 8.5-inch","","","","","",2,2,false
+23038,"arcturus","Saber URGI Mk.16 9.5-inch","","","","","",2,2,false
+23039,"arcturus","Saber URGI Mk.16 13.5-inch","","","","","",2,2,false
+
+24000,"ares","AS36","","","","","",2,2,false
+24001,"ares","AS36K","","","","","",2,2,false
+24002,"ares","AS36C","","","","","",2,2,false
+24003,"ares","FNC LONG","","","","","",2,2,false
+24004,"ares","FNC SHORT","","","","","",2,2,false
+24005,"ares","L85","","","","","",2,2,false
+24006,"ares","L85 CARBINE","","","","","",2,2,false
+24007,"ares","L85 AFV","","","","","",2,2,false
+24008,"ares","L85 LSW","","","","","",2,2,false
+24009,"ares","M14 SOPMOD","","","","","",2,2,false
+24010,"ares","M14 EBR SS","","","","","",2,2,false
+24011,"ares","M14 EBR STD","","","","","",2,2,false
+24012,"ares","M14 EBR FS","","","","","",2,2,false
+24013,"ares","M14 EBR RS","","","","","",2,2,false
+24014,"ares","SR25","","","","","",2,2,false
+24015,"ares","M4A1","","","","","",2,2,false
+24016,"ares","M4 RIS","","","","","",2,2,false
+24017,"ares","M16 A3","","","","","",2,2,false
+24018,"ares","M16 RIS","","","","","",2,2,false
+24019,"ares","M4 KEYMOD","","","","","",2,2,false
+24020,"ares","M4 CQB","","","","","",2,2,false
+24021,"ares","M4 LONG","","","","","",2,2,false
+24022,"ares","M4 MIDDLE","","","","","",2,2,false
+24023,"ares","M4 SHORT","","","","","",2,2,false
+24024,"ares","RDB","","","","","",2,2,false
+24025,"ares","SCAR-H","","","","","",2,2,false
+24026,"ares","SCAR-L","","","","","",2,2,false
+24027,"ares","SCAR-TPR","","","","","",2,2,false
+24028,"ares","T21 SHORT","","","","","",2,2,false
+24029,"ares","T21 LONG","","","","","",2,2,false
+24030,"ares","VZ58 LONG","","","","","",2,2,false
+24031,"ares","VZ58 MIDDLE","","","","","",2,2,false
+24032,"ares","VZ58 SHORT","","","","","",2,2,false
+24033,"ares","AR-SOC","","","","","",2,2,false
+24034,"ares","M4 SHARPS BROS. (Short)","","","","","",2,2,false
+24035,"ares","M4 SHARPS BROS. (Middle)","","","","","",2,2,false
+24036,"ares","M4 SHARPS BROS. (Long)","","","","","",2,2,false
+24037,"ares","M4-SR-S","","","","","",2,2,false
+24038,"ares","M4-SR-L","","","","","",2,2,false
+24039,"ares","MR X CLASS - MODEL 6","","","","","",2,2,false
+24040,"ares","MR X CLASS - MODEL 9","","","","","",2,2,false
+24041,"ares","MR X CLASS - MODEL 12","","","","","",2,2,false
+24042,"ares","MR X CLASS - MODEL 15","","","","","",2,2,false
+24043,"ares","AR308S","ARES x AMOEBA AR308S","","","","",2,2,false
+24044,"ares","AR308M","ARES x AMOEBA AR308M","","","","",2,2,false
+24045,"ares","AR308L","ARES x AMOEBA AR308L","","","","",2,2,false
+
+24060,"ares","AW338","","","","","",2,4,false
+24061,"ares","AW338","","","","","",2,1,false
+24062,"ares","DSR-1","","","","","",2,4,false
+24063,"ares",M200/EDM200","","","","","",2,1,false
+24064,"ares","MCM700X","","","","","",2,1,false
+24065,"ares","MSR/MSR TACTICAL","","","","","",2,4,false
+24066,"ares","MSR338/700","","","","","",2,1,false
+24067,"ares","PGM","","","","","",2,4,false
+24068,"ares","SL8/9/10","","","","","",2,2,false
+24069,"ares","SVD-S","","","","","",2,1,false
+24070,"ares","WA2000","","","","","",2,1,false
+24071,"ares","SOC","","","","","",2,2,false
+24072,"ares","MSR-WR","","","","","",2,1,false
+24073,"ares","M40 A6","","","","","",2,1,false
+24074,"ares","M40 A3","","","","","",2,1,false
+24075,"ares","MSR303","","","","","",2,1,false
+24076,"ares","PTS01","","","","","",2,1,false
+24077,"ares","EV01","","","","","",2,2,false
+24078,"ares","Karabiner 98K","","","","","",2,1,false
+24079,"ares","SMLE BRITISH NO.4 MK1","","","","","",2,1,false
+24080,"ares","L42A1","","","","","",2,1,false
+24081,"ares","L1A1","","","","","",2,2,false
+
+24090,"ares","M4 45 PISTOL","","","","","",8,2,false
+24091,"ares","M3A1","","","","","",8,2,false
+24092,"ares","PPSH","","","","","",8,2,false
+24093,"ares","UMP","","","","","",8,2,false
+24094,"ares","M1A1","","","","","",8,2,false
+
+24100,"ares","LMG","","","","","",2,2,false
+24101,"ares","M249","","","","","",2,2,false
+24102,"ares","M249 PARA","","","","","",2,2,false
+24103,"ares","MK46","","","","","",2,2,false
+24104,"ares","MK43","","","","","",2,2,false
+24105,"ares","M60","","","","","",2,2,false
+
+24110,"ares","AMOEBA AM-001/002","","","","","",2,2,false
+24111,"ares","AMOEBA AM-003/004","","","","","",2,2,false
+24112,"ares","AMOEBA AM-005/006","","","","","",2,2,false
+24113,"ares","AMOEBA AM-007/010","","","","","",2,2,false
+24114,"ares","AMOEBA AM-008/011","","","","","",2,2,false
+24115,"ares","AMOEBA AM-009/012","","","","","",2,2,false
+24116,"ares","AMOEBA AM-013 Honey Badger","","","","","",2,2,false
+24117,"ares","AMOEBA AM-014 Honey Badger","","","","","",2,2,false
+24118,"ares","AMOEBA AM-015","","","","","",2,2,false
+24119,"ares","AMOEBA AM-016 Shield Crusher","","","","","",2,2,false
+24120,"ares","AMOEBA Striker AS-01","","","","","",2,1,false
+24121,"ares","AMOEBA Striker AS-02","","","","","",2,1,false
+24122,"ares","AMOEBA Striker AS-03","","","","","",2,1,false
+24123,"ares","AMOEBA Striker AST-01","","","","","",2,1,false
+24124,"ares","AMOEBA AM-M-001","","","","","",2,2,false
+24125,"ares","AMOEBA AM-M-002","","","","","",2,2,false
+24126,"ares","AMOEBA AM-M-003","","","","","",2,2,false
+24127,"ares","AMOEBA AM-M-004","","","","","",2,2,false
+
+
+25000,"asg","Schofield 6-inch","","","","","",1,4,false
+25001,"asg","Dan Wesson 715, 2.5-inch","","","","","",1,4,false
+25002,"asg","Dan Wesson 715, 4-inch","","","","","",1,4,false
+25003,"asg","Dan Wesson 715, 6-inch","","","","","",1,4,false
+25004,"asg","Dan Wesson 715, 8-inch","","","","","",1,4,false
+25005,"asg","R-357","","","","","",1,4,false
+
+25010,"asg","B&T USW A1","","","","","",1,4,false
+25011,"asg","Steyr M9","","","","","",1,4,false
+25012,"asg","CZ Shadow 2","","","","","",1,4,false
+25013,"asg","CZ P-09","","","","","",1,4,false
+25014,"asg","STI Combat Master","","","","","",1,4,false
+25015,"asg","Dan Wesson A2","","","","","",1,4,false
+25016,"asg","Challenger XP17","","","","","",1,4,false
+25017,"asg","CZ SP-01","","","","","",1,4,false
+25018,"asg","Commander XP18","","","","","",1,4,false
+25019,"asg","Sport 106","","","","","",1,4,false
+25020,"asg","CZ 75D Compact","","","","","",1,4,false
+25021,"asg","MK II","","","","","",1,4,false
+25022,"asg","CZ 75","","","","","",1,4,false
+25023,"asg","BERSA Thunder 9 Pro","","","","","",1,4,false
+25024,"asg","BERSA BP9CC","","","","","",1,4,false
+25025,"asg","STI","","","","","",1,4,false
+25026,"asg","CZ75 P-07","","","","","",1,4,false
+25027,"asg","DL 60 SOCOM","","","","","",1,4,false
+25028,"asg","M9 A1","","","","","",1,4,false
+25029,"asg","MK23","","","","","",1,4,false
+25030,"asg","M92 F","","","","","",1,1,false
+25031,"asg","MK1","","","","","",1,4,false
+25032,"asg","M92 FS","","","","","",1,4,false
+25033,"asg","M9","","","","","",1,4,false
+25034,"asg","M92F","","","","","",1,4,false
+
+25050,"asg","CZ Scorpion EVO 3","","","","","",8,2,false
+25051,"asg","CZ Scorpion EVO 3 Carbine","","","","","",8,2,false
+25052,"asg","COBRAY INGRAM M11","","","","","",8,2,false
+25053,"asg","B&T5 A5","","","","","",8,2,false
+25054,"asg","CZ Scorpion Vz61","","","","","",8,2,false
+
+25060,"asg","Steyr AUG A1","","","","","",2,2,false
+25061,"asg","Steyr AUG A2","","","","","",2,2,false
+25062,"asg","Steyr AUG A3","","","","","",2,2,false
+25063,"asg","ARMALITE M15 ASSAULT","","","","","",2,2,false
+25064,"asg","ARMALITE M15 OPERATOR","","","","","",2,2,false
+25065,"asg","ARMALITE M15 Light Tactical Carbine","","","","","",2,2,false
+25066,"asg","ARMALITE M15 URX-SBR","","","","","",2,2,false
+25067,"asg","ARMALITE M15 Defense M-Rain 10-inch","","","","","",2,2,false
+25068,"asg","HERA ARMS CQR","","","","","",2,2,false
+25069,"asg","AR-M7T","","","","","",2,2,false
+25070,"asg","Assault MXR18","","","","","",2,2,false
+25071,"asg","Combat MXR18","","","","","",2,2,false
+25072,"asg","Carbine MXR18","","","","","",2,2,false
+25073,"asg","Carbine MT18","","","","","",2,2,false
+25074,"asg","Carbine MX18","","","","","",2,2,false
+25075,"asg","CZ 805 BREN A1","","","","","",2,2,false
+25076,"asg","CZ 805 BREN A2","","","","","",2,2,false
+25077,"asg","SPR 14.5-inch","","","","","",2,2,false
+25078,"asg","Carbine 9.5-inch M15","","M15 DEIL Series","","","",2,2,false
+25079,"asg","CQB 7-inch M15","","M15 DEIL Series","","","",2,2,false
+25080,"asg","Carbine 10-inch M15","","M15 DEIL Series","","","",2,2,false
+25081,"asg","Close Combat 7-inch M15","","M15 DEIL Series","","","",2,2,false
+25082,"asg","Compact 5-inch M15","","M15 DEIL Series","","","",2,2,false
+25083,"asg","CZ 805 BREN A1","","","","","",2,2,false
+25084,"asg","CZ 805 BREN A2","","","","","",2,2,false
+25085,"asg","Armalite M15A4 Carbine","","","","","",2,2,false
+25086,"asg","Armalite M15A1 Carbine","","","","","",2,2,false
+25087,"asg","Special Teams Carbine","","","","","",2,2,false
+25088,"asg","Arsenal SA M7","","","","","",2,2,false
+25089,"asg","Arsenal SLR105","","","","","",2,2,false
+25090,"asg","SLV36/DLV36","","","","","",2,2,false
+25091,"asg","DS4 Carbine","","","","","",2,2,false
+
+25100,"asg","AI MK13 MOD7 Sniper Rifle","","","","","",2,1,false
+25101,"asg","AI MK13 Compact Sniper Rifle","","","","","",2,1,false
+25102,"asg","Steyr Scount Sniper Rifle","","","","","",2,1,false
+25103,"asg","McMillian M40A3 Sniper Rifle","","","","","",2,1,false
+25104,"asg","McMillian M40A3 Sniper Rifle","","","","","",2,4,false
+25105,"asg","TAC 6 Rifle","","","","","",2,4,false
+25106,"asg","Urban Sniper Rifle","","","","","",2,1,false
+25107,"asg","SL, AW 308 Sniper","","","","","",2,1,false
+25108,"asg","Steyr SSG 69 S2 Sniper Rifle","","","","","",2,1,false
+25109,"asg","Tactical Sniper Rifle","","","","","",2,4,false
+
+25120,"asg","Franchi SPAS-12","","","","","",4,1,false
+25121,"asg","Franchi SAS 12 Short","","","","","",4,1,false
+25122,"asg","Franchi SAS 12, Flex-Stock","","","","","",4,1,false
+25123,"asg","Franchi SAS 12 ","","","","","",4,1,false
+25124,"asg","Franchi Tactical Pumpgun","","","","","",4,1,false
+25125,"asg","Microgun M132","","","","","",2,4,false
+
+26000,"bolt","B4A1 ELITE DX","","M4 Series","","","",2,2,false
+26001,"bolt","B4A1 ELITE SD","","M4 Series","","","",2,2,false
+26002,"bolt","B4 SOPMOD","","M4 Series","","","",2,2,false
+26003,"bolt","B4 CQB-R","","M4 Series","","","",2,2,false
+26004,"bolt","B4 SHORTY","","M4 Series","","","",2,2,false
+26005,"bolt","M16A4","","M4 Series","","","",2,2,false
+26006,"bolt","B4 PMC","","RAS Series","","","",2,2,false
+26007,"bolt","PMC Q","","RAS Series","","","",2,2,false
+26008,"bolt","PMC BABY","","RAS Series","","","",2,2,false
+26009,"bolt","B4 PMC QDS","","RAS Series","","","",2,2,false
+26010,"bolt","B4TSD","","RAS Series","","","",2,2,false
+26011,"bolt","B4FS","","RAS Series","","","",2,2,false
+26012,"bolt","B4LRP","","RAS Series","","","",2,2,false
+26013,"bolt","MK-12 MOD FIX","","MK-12 Series","","","",2,2,false
+26014,"bolt","MK-12 MOD RET","","MK-12 Series","","","",2,2,false
+26015,"bolt","PDW","","PDW Series","","","",2,2,false
+26016,"bolt","PDW-L","","PDW Series","","","",2,2,false
+26017,"bolt","AKS74U","","AK Series","","","",2,2,false
+26018,"bolt","AKS74U-TACTICAL","","AK Series","","","",2,2,false
+26019,"bolt","AKM","","AK Series","","","",2,2,false
+26020,"bolt","SWAT","","SWAT Series","","","",8,2,false
+26021,"bolt","SWAT A4","","SWAT Series","","","",8,2,false
+26022,"bolt","SWAT A4 TACTICAL","","SWAT Series","","","",8,2,false
+26023,"bolt","SWAT TACTICAL RAIL","","SWAT Series","","","",8,2,false
+26024,"bolt","SWAT SD5","","SWAT Series","","","",8,2,false
+26025,"bolt","SWAT SD5 SHORTY","","SWAT Series","","","",8,2,false
+26026,"bolt","SWAT SD6","","SWAT Series","","","",8,2,false
+26027,"bolt","SWAT SD6 SHORTY","","SWAT Series","","","",8,2,false
+26028,"bolt","SWAT K","","SWAT Series","","","",8,2,false
+26029,"bolt","SWAT SD TACTICAL","","SWAT Series","","","",8,2,false
+26030,"bolt","SWAT SD LONG TACTICAL","","SWAT Series","","","",8,2,false
+26031,"bolt","SWAT KP","","SWAT Series","","","",8,2,false
+26032,"bolt","SWAT MPD","","SWAT Series","","","",8,2,false
+26033,"bolt","SWAT MPD A1","","SWAT Series","","","",8,2,false
+26034,"bolt","B4 KEYMOD","","KEYMOD Series","","","",2,2,false
+26035,"bolt","B4 KEYMOD COBRA","","KEYMOD Series","","","",2,2,false
+26036,"bolt","B4 KEYMOD REBEL","","KEYMOD Series","","","",2,2,false
+26037,"bolt","BR47 KEYMOD QDC","","KEYMOD Series","","","",2,2,false
+26038,"bolt","BR47 KEYMOD","","KEYMOD Series","","","",2,2,false
+26039,"bolt","BR MK18 MOD1 9-inch","","BR Series","","","",2,2,false
+26040,"bolt","BR RAS 9-inch","","BR Series","","","",2,2,false
+26041,"bolt","BR PMC","","BR Series","","","",2,2,false
+26042,"bolt","BR FS URX2","","BR Series","","","",2,2,false
+26043,"bolt","BR47 ELITE SD","","BR Series","","","",2,2,false
+26044,"bolt","BR47 ELITE DX","","BR Series","","","",2,2,false
+26045,"bolt","DEVGRU","","DEVGRU Series","","","",2,2,false
+26046,"bolt","DEVGRU-EXT","","DEVGRU Series","","","",2,2,false
+26047,"bolt","KEYMOD-K12","","DEVGRU Series","","","",2,2,false
+26048,"bolt","MK18 MOD-1","","","","","",2,2,false
+26049,"bolt","SOPMODBLOCK II","","","","","",2,2,false
+26050,"bolt","MK18 LITE","","","","","",2,2,false
+26051,"bolt","MK18 SHORT","","","","","",2,2,false
+26052,"bolt","FN SCAR-SC","","","","","",2,2,false
+26053,"bolt","SR47","","","","","",2,2,false
+26054,"bolt","SR47 URX3.1","","","","","",2,2,false
+26055,"bolt","SR16 URX3.1","","","","","",2,2,false
+
+27000,"classicarmy","M4A1 RIS Carbine","","","","","",2,2,false
+27001,"classicarmy","CA4A1 EC1","","","","","",2,2,false
+27002,"classicarmy","CA4A1 EC2","","","","","",2,2,false
+27003,"classicarmy","ARS4-13","","","","","",2,2,false
+27004,"classicarmy","CAPSD","","","","","",2,2,false
+27005,"classicarmy","M6A2","","","","","",2,2,false
+27006,"classicarmy","M14 Scout","","","","","",2,2,false
+27007,"classicarmy","M14 Match","","","","","",2,2,false
+27008,"classicarmy","CA249 MKII","","","","","",2,2,false
+27009,"classicarmy","CA249","","","","","",2,2,false
+27010,"classicarmy","CA249P","","","","","",2,2,false
+27011,"classicarmy","MK46 S.P.W","MK46 Special Purpose Weapon","","","","",2,2,false
+27012,"classicarmy","CA25","","","","","",2,2,false
+27013,"classicarmy","M110-ARS2","","","","","",2,2,false
+27014,"classicarmy","CA25 ARS","","","","","",2,2,false
+27015,"classicarmy","M110 Special","","","","","",2,2,false
+27016,"classicarmy","M110-13","","","","","",2,2,false
+27017,"classicarmy","M4 Carbine","","","","","",2,2,false
+27018,"classicarmy","CA BMP","","","","","",2,2,false
+27019,"classicarmy","CAK 47 Special","","","","","",2,2,false
+27020,"classicarmy","CAK 47","","","","","",2,2,false
+27021,"classicarmy","CAK1 Tactical","","","","","",2,2,false
+27022,"classicarmy","CA5A2 - Tactical","","","","","",8,2,false
+27023,"classicarmy","CA5A3 - Tactical","","","","","",8,2,false
+27024,"classicarmy","CA5 SD3","","","","","",8,2,false
+27025,"classicarmy","CA5 A4","","","","","",8,2,false
+27026,"classicarmy","CA5 SD5","","","","","",8,2,false
+27027,"classicarmy","M24 Socom Sniper","","","","","",2,1,false
+27028,"classicarmy","Light Machine Gun","","","","","",2,2,false
+27029,"classicarmy","CAUG-A2","","","","","",2,2,false
+27030,"classicarmy","CAUG-A1","","","","","",2,2,false
+27031,"classicarmy","CA33","","","","","",2,2,false
+27032,"classicarmy","CA53","","","","","",2,2,false
+27033,"classicarmy","CA36C","","","","","",2,2,false
+27034,"classicarmy","CA36K","","","","","",2,2,false
+27035,"classicarmy","CA36","","","","","",2,2,false
+27036,"classicarmy","CA8-2","","","","","",2,2,false
+27037,"classicarmy","UMC","","","","","",8,2,false
+27038,"classicarmy","CA90","","","","","",2,2,false
+27039,"classicarmy",CA90 (TACTICS)","","","","","",2,2,false
+27040,"classicarmy","CA416","","","","","",2,2,false
+27041,"classicarmy","CA416 Short Version","","","","","",2,2,false
+27042,"classicarmy","Russia CVD","","","","","",2,2,false
+27043,"classicarmy","CAK A1","","","","","",2,2,false
+27044,"classicarmy","CAK U","","","","","",2,2,false
+27045,"classicarmy","CAKA1 Compact","","","","","",2,2,false
+27046,"classicarmy","CA18M","","","","","",2,2,false
+27047,"classicarmy","CAK A1","","","","","",2,2,false
+27048,"classicarmy","CA1911A1","","","","","",1,4,false
+27049,"classicarmy","BABA YAGA","","","","","",1,4,false
+27050,"classicarmy","CA-SG1","","","","","",2,2,false
+27051,"classicarmy","CA-51S","","","","","",2,2,false
+27052,"classicarmy","CA-51","","","","","",2,2,false
+27053,"classicarmy","CA-A4","","","","","",2,2,false
+27054,"classicarmy","CA-A3","","","","","",2,2,false
+27055,"classicarmy","CA-552","","","","","",2,2,false
+27056,"classicarmy","CAECR-4","CAECR-4 Enhanced Combat Rifle 4","","","","",2,2,false
+27057,"classicarmy","CAECR-5","CAECR-5 Enhanced Combat Rifle 5","","","","",2,2,false
+27058,"classicarmy","ISSC CQC","","","","","",2,2,false
+27059,"classicarmy","CA MK16","","","","","",2,2,false
+27060,"classicarmy","CA MK17-LONG","","","","","",2,2,false
+27061,"classicarmy","M16A2 Carbine","","","","","",2,2,false
+27062,"classicarmy","Nemesis with 10-inch M lock Rail","","","","","",2,2,false
+27063,"classicarmy","Nemesis Delte Elite 12-inch","","","","","",2,2,false
+27064,"classicarmy",Nemesis X9","","","","","",8,2,false
+27065,"classicarmy","Nemesis LX-13","Nemesis LX-13 (Logo Xtreme, M-Lok 13-inch)","","","","",2,2,false
+27066,"classicarmy","Nemesis ME-14","Nemesis ME-14 (M-Lok 14-inch)","","","","",2,2,false
+27067,"classicarmy","Nemesis Delte Elite 12-inch","","","","","",2,2,false
+27068,"classicarmy","SCARAB Special Applications Rifle (SAR)","","","","","",2,2,false
+27069,"classicarmy","SCARAB Advanced Battle Rifle (ABR)","","","","","",2,2,false
+27070,"classicarmy","SCARAB Rapid Assault Carbine (RAC)","","","","","",2,2,false
+27071,"classicarmy","DT4-Double Barrel AR","","","","","",2,2,false
+27072,"classicarmy","M870 Tactical Long Shotgun","","","","","",4,4,false
+27073,"classicarmy","M870 Police Version","","","","","",4,4,false
+
+
+28001,"e&l","QBZ 191","","","","","",2,4,false
+28002,"e&l","AKM","","","","","",2,4,false
+28003,"e&l","Type 56","","","","","",2,4,false
+28004,"e&l","AKS74","","","","","",2,2,false
+28005,"e&l","AK104","","","","","",2,2,false
+28006,"e&l","AK105","","","","","",2,2,false
+28007,"e&l","AK12","","","","","",2,2,false
+28008,"e&l","AK74","","","","","",2,2,false
+28009,"e&l","AKS74","","","","","",2,2,false
+28010,"e&l","AKM","","","","","",2,2,false
+28011,"e&l","AKMS","","","","","",2,2,false
