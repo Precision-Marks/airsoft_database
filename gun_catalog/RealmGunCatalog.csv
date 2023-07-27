@@ -1,12 +1,12 @@
 _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,lowFps,generic,deleted
-0,"unknown","Pistol","","","ハンドガン","","",1,0,false,false
+0,"unknown","Handgun","","","ハンドガン","","",1,0,false,false
 1,"unknown","Rifle","","","ライフル","","",2,0,false,false
 2,"unknown","Shotgun","","","ショットガン","","",4,0,false,true
 3,"unknown","SMG","","","SMG","","",1,0,false,true
 
-25,"other","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-26,"other","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-27,"other","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+25,"other","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+26,"other","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+27,"other","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 28,"other","Other Rifle","","","その他のライフル","","",2,1,false,true
 29,"other","Other Rifle","","","その他のライフル","","",2,2,false,true
 30,"other","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -16,9 +16,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 34,"other","Other SMG","","","その他のSMG","","",8,1,false,true
 35,"other","Other SMG","","","その他のSMG","","",8,2,false,true
 36,"other","Other SMG","","","その他のSMG","","",8,4,false,true
-37,"other","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-38,"other","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-39,"other","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+37,"other","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+38,"other","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+39,"other","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 40,"other","Other Rifle","","","その他のライフル","","",2,1,true,true
 41,"other","Other Rifle","","","その他のライフル","","",2,2,true,true
 42,"other","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -29,9 +29,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 47,"other","Other SMG","","","その他のSMG","","",8,2,true,true
 48,"other","Other SMG","","","その他のSMG","","",8,4,true,true
 
-50,"wa","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-51,"wa","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-52,"wa","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+50,"wa","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+51,"wa","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+52,"wa","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 53,"wa","Other Rifle","","","その他のライフル","","",2,1,false,true
 54,"wa","Other Rifle","","","その他のライフル","","",2,2,false,true
 55,"wa","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -41,9 +41,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 59,"wa","Other SMG","","","その他のSMG","","",8,1,false,true
 60,"wa","Other SMG","","","その他のSMG","","",8,2,false,true
 61,"wa","Other SMG","","","その他のSMG","","",8,4,false,true
-62,"wa","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-63,"wa","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-64,"wa","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+62,"wa","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+63,"wa","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+64,"wa","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 65,"wa","Other Rifle","","","その他のライフル","","",2,1,true,true
 66,"wa","Other Rifle","","","その他のライフル","","",2,2,true,true
 67,"wa","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -54,9 +54,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 72,"wa","Other SMG","","","その他のSMG","","",8,2,true,true
 73,"wa","Other SMG","","","その他のSMG","","",8,4,true,true
 
-75,"marushin","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-76,"marushin","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-77,"marushin","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+75,"marushin","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+76,"marushin","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+77,"marushin","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 78,"marushin","Other Rifle","","","その他のライフル","","",2,1,false,true
 79,"marushin","Other Rifle","","","その他のライフル","","",2,2,false,true
 80,"marushin","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -66,9 +66,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 84,"marushin","Other SMG","","","その他のSMG","","",8,1,false,true
 85,"marushin","Other SMG","","","その他のSMG","","",8,2,false,true
 86,"marushin","Other SMG","","","その他のSMG","","",8,4,false,true
-87,"marushin","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-88,"marushin","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-89,"marushin","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+87,"marushin","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+88,"marushin","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+89,"marushin","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 90,"marushin","Other Rifle","","","その他のライフル","","",2,1,true,true
 91,"marushin","Other Rifle","","","その他のライフル","","",2,2,true,true
 92,"marushin","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -79,9 +79,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 97,"marushin","Other SMG","","","その他のSMG","","",8,2,true,true
 98,"marushin","Other SMG","","","その他のSMG","","",8,4,true,true
 
-100,"ksc","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-101,"ksc","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-102,"ksc","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+100,"ksc","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+101,"ksc","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+102,"ksc","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 103,"ksc","Other Rifle","","","その他のライフル","","",2,1,false,true
 104,"ksc","Other Rifle","","","その他のライフル","","",2,2,false,true
 105,"ksc","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -91,9 +91,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 109,"ksc","Other SMG","","","その他のSMG","","",8,1,false,true
 110,"ksc","Other SMG","","","その他のSMG","","",8,2,false,true
 111,"ksc","Other SMG","","","その他のSMG","","",8,4,false,true
-112,"ksc","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-113,"ksc","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-114,"ksc","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+112,"ksc","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+113,"ksc","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+114,"ksc","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 115,"ksc","Other Rifle","","","その他のライフル","","",2,1,true,true
 116,"ksc","Other Rifle","","","その他のライフル","","",2,2,true,true
 117,"ksc","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -104,9 +104,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 122,"ksc","Other SMG","","","その他のSMG","","",8,2,true,true
 123,"ksc","Other SMG","","","その他のSMG","","",8,4,true,true
 
-125,"tanaka","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-126,"tanaka","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-127,"tanaka","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+125,"tanaka","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+126,"tanaka","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+127,"tanaka","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 128,"tanaka","Other Rifle","","","その他のライフル","","",2,1,false,true
 129,"tanaka","Other Rifle","","","その他のライフル","","",2,2,false,true
 130,"tanaka","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -116,9 +116,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 134,"tanaka","Other SMG","","","その他のSMG","","",8,1,false,true
 135,"tanaka","Other SMG","","","その他のSMG","","",8,2,false,true
 136,"tanaka","Other SMG","","","その他のSMG","","",8,4,false,true
-137,"tanaka","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-138,"tanaka","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-139,"tanaka","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+137,"tanaka","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+138,"tanaka","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+139,"tanaka","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 140,"tanaka","Other Rifle","","","その他のライフル","","",2,1,true,true
 141,"tanaka","Other Rifle","","","その他のライフル","","",2,2,true,true
 142,"tanaka","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -129,9 +129,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 147,"tanaka","Other SMG","","","その他のSMG","","",8,2,true,true
 148,"tanaka","Other SMG","","","その他のSMG","","",8,4,true,true
 
-150,"vfc","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-151,"vfc","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-152,"vfc","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+150,"vfc","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+151,"vfc","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+152,"vfc","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 153,"vfc","Other Rifle","","","その他のライフル","","",2,1,false,true
 154,"vfc","Other Rifle","","","その他のライフル","","",2,2,false,true
 155,"vfc","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -141,9 +141,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 159,"vfc","Other SMG","","","その他のSMG","","",8,1,false,true
 160,"vfc","Other SMG","","","その他のSMG","","",8,2,false,true
 161,"vfc","Other SMG","","","その他のSMG","","",8,4,false,true
-162,"vfc","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-163,"vfc","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-164,"vfc","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+162,"vfc","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+163,"vfc","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+164,"vfc","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 165,"vfc","Other Rifle","","","その他のライフル","","",2,1,true,true
 166,"vfc","Other Rifle","","","その他のライフル","","",2,2,true,true
 167,"vfc","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -154,9 +154,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 172,"vfc","Other SMG","","","その他のSMG","","",8,2,true,true
 173,"vfc","Other SMG","","","その他のSMG","","",8,4,true,true
 
-175,"g&g","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-176,"g&g","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-177,"g&g","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+175,"g&g","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+176,"g&g","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+177,"g&g","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 178,"g&g","Other Rifle","","","その他のライフル","","",2,1,false,true
 179,"g&g","Other Rifle","","","その他のライフル","","",2,2,false,true
 180,"g&g","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -166,9 +166,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 184,"g&g","Other SMG","","","その他のSMG","","",8,1,false,true
 185,"g&g","Other SMG","","","その他のSMG","","",8,2,false,true
 186,"g&g","Other SMG","","","その他のSMG","","",8,4,false,true
-187,"g&g","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-188,"g&g","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-189,"g&g","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+187,"g&g","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+188,"g&g","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+189,"g&g","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 190,"g&g","Other Rifle","","","その他のライフル","","",2,1,true,true
 191,"g&g","Other Rifle","","","その他のライフル","","",2,2,true,true
 192,"g&g","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -179,9 +179,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 197,"g&g","Other SMG","","","その他のSMG","","",8,2,true,true
 198,"g&g","Other SMG","","","その他のSMG","","",8,4,true,true
 
-200,"hartford","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-201,"hartford","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-202,"hartford","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+200,"hartford","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+201,"hartford","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+202,"hartford","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 203,"hartford","Other Rifle","","","その他のライフル","","",2,1,false,true
 204,"hartford","Other Rifle","","","その他のライフル","","",2,2,false,true
 205,"hartford","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -191,9 +191,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 209,"hartford","Other SMG","","","その他のSMG","","",8,1,false,true
 210,"hartford","Other SMG","","","その他のSMG","","",8,2,false,true
 211,"hartford","Other SMG","","","その他のSMG","","",8,4,false,true
-212,"hartford","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-213,"hartford","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-214,"hartford","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+212,"hartford","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+213,"hartford","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+214,"hartford","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 215,"hartford","Other Rifle","","","その他のライフル","","",2,1,true,true
 216,"hartford","Other Rifle","","","その他のライフル","","",2,2,true,true
 217,"hartford","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -204,9 +204,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 222,"hartford","Other SMG","","","その他のSMG","","",8,2,true,true
 223,"hartford","Other SMG","","","その他のSMG","","",8,4,true,true
 
-225,"maruzen","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-226,"maruzen","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-227,"maruzen","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+225,"maruzen","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+226,"maruzen","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+227,"maruzen","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 228,"maruzen","Other Rifle","","","その他のライフル","","",2,1,false,true
 229,"maruzen","Other Rifle","","","その他のライフル","","",2,2,false,true
 230,"maruzen","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -216,9 +216,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 234,"maruzen","Other SMG","","","その他のSMG","","",8,1,false,true
 235,"maruzen","Other SMG","","","その他のSMG","","",8,2,false,true
 236,"maruzen","Other SMG","","","その他のSMG","","",8,4,false,true
-237,"maruzen","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-238,"maruzen","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-239,"maruzen","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+237,"maruzen","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+238,"maruzen","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+239,"maruzen","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 240,"maruzen","Other Rifle","","","その他のライフル","","",2,1,true,true
 241,"maruzen","Other Rifle","","","その他のライフル","","",2,2,true,true
 242,"maruzen","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -229,9 +229,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 247,"maruzen","Other SMG","","","その他のSMG","","",8,2,true,true
 248,"maruzen","Other SMG","","","その他のSMG","","",8,4,true,true
 
-250,"krytac","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-251,"krytac","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-252,"krytac","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+250,"krytac","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+251,"krytac","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+252,"krytac","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 253,"krytac","Other Rifle","","","その他のライフル","","",2,1,false,true
 254,"krytac","Other Rifle","","","その他のライフル","","",2,2,false,true
 255,"krytac","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -241,9 +241,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 259,"krytac","Other SMG","","","その他のSMG","","",8,1,false,true
 260,"krytac","Other SMG","","","その他のSMG","","",8,2,false,true
 261,"krytac","Other SMG","","","その他のSMG","","",8,4,false,true
-262,"krytac","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-263,"krytac","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-264,"krytac","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+262,"krytac","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+263,"krytac","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+264,"krytac","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 265,"krytac","Other Rifle","","","その他のライフル","","",2,1,true,true
 266,"krytac","Other Rifle","","","その他のライフル","","",2,2,true,true
 267,"krytac","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -254,9 +254,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 272,"krytac","Other SMG","","","その他のSMG","","",8,2,true,true
 273,"krytac","Other SMG","","","その他のSMG","","",8,4,true,true
 
-275,"crown","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-276,"crown","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-277,"crown","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+275,"crown","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+276,"crown","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+277,"crown","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 278,"crown","Other Rifle","","","その他のライフル","","",2,1,false,true
 279,"crown","Other Rifle","","","その他のライフル","","",2,2,false,true
 280,"crown","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -266,9 +266,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 284,"crown","Other SMG","","","その他のSMG","","",8,1,false,true
 285,"crown","Other SMG","","","その他のSMG","","",8,2,false,true
 286,"crown","Other SMG","","","その他のSMG","","",8,4,false,true
-287,"crown","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-288,"crown","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-289,"crown","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+287,"crown","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+288,"crown","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+289,"crown","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 290,"crown","Other Rifle","","","その他のライフル","","",2,1,true,true
 291,"crown","Other Rifle","","","その他のライフル","","",2,2,true,true
 292,"crown","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -279,9 +279,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 297,"crown","Other SMG","","","その他のSMG","","",8,2,true,true
 298,"crown","Other SMG","","","その他のSMG","","",8,4,true,true
 
-300,"ktw","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-301,"ktw","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-302,"ktw","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+300,"ktw","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+301,"ktw","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+302,"ktw","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 303,"ktw","Other Rifle","","","その他のライフル","","",2,1,false,true
 304,"ktw","Other Rifle","","","その他のライフル","","",2,2,false,true
 305,"ktw","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -291,9 +291,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 309,"ktw","Other SMG","","","その他のSMG","","",8,1,false,true
 310,"ktw","Other SMG","","","その他のSMG","","",8,2,false,true
 311,"ktw","Other SMG","","","その他のSMG","","",8,4,false,true
-312,"ktw","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-313,"ktw","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-314,"ktw","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+312,"ktw","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+313,"ktw","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+314,"ktw","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 315,"ktw","Other Rifle","","","その他のライフル","","",2,1,true,true
 316,"ktw","Other Rifle","","","その他のライフル","","",2,2,true,true
 317,"ktw","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -304,9 +304,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 322,"ktw","Other SMG","","","その他のSMG","","",8,2,true,true
 323,"ktw","Other SMG","","","その他のSMG","","",8,4,true,true
 
-325,"cyma","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-326,"cyma","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-327,"cyma","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+325,"cyma","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+326,"cyma","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+327,"cyma","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 328,"cyma","Other Rifle","","","その他のライフル","","",2,1,false,true
 329,"cyma","Other Rifle","","","その他のライフル","","",2,2,false,true
 330,"cyma","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -316,9 +316,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 334,"cyma","Other SMG","","","その他のSMG","","",8,1,false,true
 335,"cyma","Other SMG","","","その他のSMG","","",8,2,false,true
 336,"cyma","Other SMG","","","その他のSMG","","",8,4,false,true
-337,"cyma","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-338,"cyma","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-339,"cyma","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+337,"cyma","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+338,"cyma","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+339,"cyma","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 340,"cyma","Other Rifle","","","その他のライフル","","",2,1,true,true
 341,"cyma","Other Rifle","","","その他のライフル","","",2,2,true,true
 342,"cyma","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -329,9 +329,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 347,"cyma","Other SMG","","","その他のSMG","","",8,2,true,true
 348,"cyma","Other SMG","","","その他のSMG","","",8,4,true,true
 
-350,"taniokoba","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-351,"taniokoba","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-352,"taniokoba","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+350,"taniokoba","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+351,"taniokoba","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+352,"taniokoba","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 353,"taniokoba","Other Rifle","","","その他のライフル","","",2,1,false,true
 354,"taniokoba","Other Rifle","","","その他のライフル","","",2,2,false,true
 355,"taniokoba","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -341,9 +341,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 359,"taniokoba","Other SMG","","","その他のSMG","","",8,1,false,true
 360,"taniokoba","Other SMG","","","その他のSMG","","",8,2,false,true
 361,"taniokoba","Other SMG","","","その他のSMG","","",8,4,false,true
-362,"taniokoba","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-363,"taniokoba","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-364,"taniokoba","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+362,"taniokoba","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+363,"taniokoba","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+364,"taniokoba","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 365,"taniokoba","Other Rifle","","","その他のライフル","","",2,1,true,true
 366,"taniokoba","Other Rifle","","","その他のライフル","","",2,2,true,true
 367,"taniokoba","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -355,9 +355,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 373,"taniokoba","Other SMG","","","その他のSMG","","",8,4,true,true
 
 
-375,"kokusai","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-376,"kokusai","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-377,"kokusai","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+375,"kokusai","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+376,"kokusai","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+377,"kokusai","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 378,"kokusai","Other Rifle","","","その他のライフル","","",2,1,false,true
 379,"kokusai","Other Rifle","","","その他のライフル","","",2,2,false,true
 380,"kokusai","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -367,9 +367,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 384,"kokusai","Other SMG","","","その他のSMG","","",8,1,false,true
 385,"kokusai","Other SMG","","","その他のSMG","","",8,2,false,true
 386,"kokusai","Other SMG","","","その他のSMG","","",8,4,false,true
-387,"kokusai","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-388,"kokusai","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-389,"kokusai","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+387,"kokusai","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+388,"kokusai","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+389,"kokusai","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 390,"kokusai","Other Rifle","","","その他のライフル","","",2,1,true,true
 391,"kokusai","Other Rifle","","","その他のライフル","","",2,2,true,true
 392,"kokusai","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -380,9 +380,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 397,"kokusai","Other SMG","","","その他のSMG","","",8,2,true,true
 398,"kokusai","Other SMG","","","その他のSMG","","",8,4,true,true
 
-400,"sunproject","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-401,"sunproject","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-402,"sunproject","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+400,"sunproject","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+401,"sunproject","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+402,"sunproject","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 403,"sunproject","Other Rifle","","","その他のライフル","","",2,1,false,true
 404,"sunproject","Other Rifle","","","その他のライフル","","",2,2,false,true
 405,"sunproject","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -392,9 +392,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 409,"sunproject","Other SMG","","","その他のSMG","","",8,1,false,true
 410,"sunproject","Other SMG","","","その他のSMG","","",8,2,false,true
 411,"sunproject","Other SMG","","","その他のSMG","","",8,4,false,true
-412,"sunproject","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-413,"sunproject","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-414,"sunproject","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+412,"sunproject","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+413,"sunproject","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+414,"sunproject","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 415,"sunproject","Other Rifle","","","その他のライフル","","",2,1,true,true
 416,"sunproject","Other Rifle","","","その他のライフル","","",2,2,true,true
 417,"sunproject","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -405,9 +405,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 422,"sunproject","Other SMG","","","その他のSMG","","",8,2,true,true
 423,"sunproject","Other SMG","","","その他のSMG","","",8,4,true,true
 
-425,"ares","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-426,"ares","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-427,"ares","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+425,"ares","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+426,"ares","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+427,"ares","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 428,"ares","Other Rifle","","","その他のライフル","","",2,1,false,true
 429,"ares","Other Rifle","","","その他のライフル","","",2,2,false,true
 430,"ares","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -417,9 +417,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 434,"ares","Other SMG","","","その他のSMG","","",8,1,false,true
 435,"ares","Other SMG","","","その他のSMG","","",8,2,false,true
 436,"ares","Other SMG","","","その他のSMG","","",8,4,false,true
-437,"ares","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-438,"ares","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-439,"ares","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+437,"ares","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+438,"ares","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+439,"ares","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 440,"ares","Other Rifle","","","その他のライフル","","",2,1,true,true
 441,"ares","Other Rifle","","","その他のライフル","","",2,2,true,true
 442,"ares","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -430,9 +430,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 447,"ares","Other SMG","","","その他のSMG","","",8,2,true,true
 448,"ares","Other SMG","","","その他のSMG","","",8,4,true,true
 
-450,"s&t","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-451,"s&t","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-452,"s&t","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+450,"s&t","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+451,"s&t","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+452,"s&t","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 453,"s&t","Other Rifle","","","その他のライフル","","",2,1,false,true
 454,"s&t","Other Rifle","","","その他のライフル","","",2,2,false,true
 455,"s&t","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -442,9 +442,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 459,"s&t","Other SMG","","","その他のSMG","","",8,1,false,true
 460,"s&t","Other SMG","","","その他のSMG","","",8,2,false,true
 461,"s&t","Other SMG","","","その他のSMG","","",8,4,false,true
-462,"s&t","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-463,"s&t","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-464,"s&t","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+462,"s&t","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+463,"s&t","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+464,"s&t","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 465,"s&t","Other Rifle","","","その他のライフル","","",2,1,true,true
 466,"s&t","Other Rifle","","","その他のライフル","","",2,2,true,true
 467,"s&t","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -455,9 +455,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 472,"s&t","Other SMG","","","その他のSMG","","",8,2,true,true
 473,"s&t","Other SMG","","","その他のSMG","","",8,4,true,true
 
-475,"bolt","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-476,"bolt","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-477,"bolt","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+475,"bolt","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+476,"bolt","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+477,"bolt","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 478,"bolt","Other Rifle","","","その他のライフル","","",2,1,false,true
 479,"bolt","Other Rifle","","","その他のライフル","","",2,2,false,true
 480,"bolt","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -467,9 +467,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 484,"bolt","Other SMG","","","その他のSMG","","",8,1,false,true
 485,"bolt","Other SMG","","","その他のSMG","","",8,2,false,true
 486,"bolt","Other SMG","","","その他のSMG","","",8,4,false,true
-487,"bolt","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-488,"bolt","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-489,"bolt","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+487,"bolt","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+488,"bolt","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+489,"bolt","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 490,"bolt","Other Rifle","","","その他のライフル","","",2,1,true,true
 491,"bolt","Other Rifle","","","その他のライフル","","",2,2,true,true
 492,"bolt","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -480,9 +480,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 497,"bolt","Other SMG","","","その他のSMG","","",8,2,true,true
 498,"bolt","Other SMG","","","その他のSMG","","",8,4,true,true
 
-500,"classicarmy","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-501,"classicarmy","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-502,"classicarmy","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+500,"classicarmy","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+501,"classicarmy","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+502,"classicarmy","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 503,"classicarmy","Other Rifle","","","その他のライフル","","",2,1,false,true
 504,"classicarmy","Other Rifle","","","その他のライフル","","",2,2,false,true
 505,"classicarmy","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -492,9 +492,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 509,"classicarmy","Other SMG","","","その他のSMG","","",8,1,false,true
 510,"classicarmy","Other SMG","","","その他のSMG","","",8,2,false,true
 511,"classicarmy","Other SMG","","","その他のSMG","","",8,4,false,true
-512,"classicarmy","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-513,"classicarmy","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-514,"classicarmy","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+512,"classicarmy","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+513,"classicarmy","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+514,"classicarmy","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 515,"classicarmy","Other Rifle","","","その他のライフル","","",2,1,true,true
 516,"classicarmy","Other Rifle","","","その他のライフル","","",2,2,true,true
 517,"classicarmy","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -505,9 +505,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 522,"classicarmy","Other SMG","","","その他のSMG","","",8,2,true,true
 523,"classicarmy","Other SMG","","","その他のSMG","","",8,4,true,true
 
-525,"g&p","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-526,"g&p","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-527,"g&p","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+525,"g&p","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+526,"g&p","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+527,"g&p","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 528,"g&p","Other Rifle","","","その他のライフル","","",2,1,false,true
 529,"g&p","Other Rifle","","","その他のライフル","","",2,2,false,true
 530,"g&p","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -517,9 +517,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 534,"g&p","Other SMG","","","その他のSMG","","",8,1,false,true
 535,"g&p","Other SMG","","","その他のSMG","","",8,2,false,true
 536,"g&p","Other SMG","","","その他のSMG","","",8,4,false,true
-537,"g&p","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-538,"g&p","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-539,"g&p","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+537,"g&p","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+538,"g&p","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+539,"g&p","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 540,"g&p","Other Rifle","","","その他のライフル","","",2,1,true,true
 541,"g&p","Other Rifle","","","その他のライフル","","",2,2,true,true
 542,"g&p","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -530,9 +530,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 547,"g&p","Other SMG","","","その他のSMG","","",8,2,true,true
 548,"g&p","Other SMG","","","その他のSMG","","",8,4,true,true
 
-550,"aps","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-551,"aps","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-552,"aps","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+550,"aps","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+551,"aps","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+552,"aps","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 553,"aps","Other Rifle","","","その他のライフル","","",2,1,false,true
 554,"aps","Other Rifle","","","その他のライフル","","",2,2,false,true
 555,"aps","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -542,9 +542,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 559,"aps","Other SMG","","","その他のSMG","","",8,1,false,true
 560,"aps","Other SMG","","","その他のSMG","","",8,2,false,true
 561,"aps","Other SMG","","","その他のSMG","","",8,4,false,true
-562,"aps","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-563,"aps","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-564,"aps","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+562,"aps","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+563,"aps","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+564,"aps","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 565,"aps","Other Rifle","","","その他のライフル","","",2,1,true,true
 566,"aps","Other Rifle","","","その他のライフル","","",2,2,true,true
 567,"aps","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -555,9 +555,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 572,"aps","Other SMG","","","その他のSMG","","",8,2,true,true
 573,"aps","Other SMG","","","その他のSMG","","",8,4,true,true
 
-575,"realsword","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-576,"realsword","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-577,"realsword","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+575,"realsword","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+576,"realsword","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+577,"realsword","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 578,"realsword","Other Rifle","","","その他のライフル","","",2,1,false,true
 579,"realsword","Other Rifle","","","その他のライフル","","",2,2,false,true
 580,"realsword","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -567,9 +567,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 584,"realsword","Other SMG","","","その他のSMG","","",8,1,false,true
 585,"realsword","Other SMG","","","その他のSMG","","",8,2,false,true
 586,"realsword","Other SMG","","","その他のSMG","","",8,4,false,true
-587,"realsword","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-588,"realsword","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-589,"realsword","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+587,"realsword","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+588,"realsword","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+589,"realsword","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 590,"realsword","Other Rifle","","","その他のライフル","","",2,1,true,true
 591,"realsword","Other Rifle","","","その他のライフル","","",2,2,true,true
 592,"realsword","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -580,9 +580,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 597,"realsword","Other SMG","","","その他のSMG","","",8,2,true,true
 598,"realsword","Other SMG","","","その他のSMG","","",8,4,true,true
 
-600,"src","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-601,"src","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-602,"src","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+600,"src","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+601,"src","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+602,"src","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 603,"src","Other Rifle","","","その他のライフル","","",2,1,false,true
 604,"src","Other Rifle","","","その他のライフル","","",2,2,false,true
 605,"src","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -592,9 +592,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 609,"src","Other SMG","","","その他のSMG","","",8,1,false,true
 610,"src","Other SMG","","","その他のSMG","","",8,2,false,true
 611,"src","Other SMG","","","その他のSMG","","",8,4,false,true
-612,"src","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-613,"src","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-614,"src","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+612,"src","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+613,"src","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+614,"src","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 615,"src","Other Rifle","","","その他のライフル","","",2,1,true,true
 616,"src","Other Rifle","","","その他のライフル","","",2,2,true,true
 617,"src","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -605,9 +605,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 622,"src","Other SMG","","","その他のSMG","","",8,2,true,true
 623,"src","Other SMG","","","その他のSMG","","",8,4,true,true
 
-625,"lct","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-626,"lct","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-627,"lct","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+625,"lct","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+626,"lct","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+627,"lct","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 628,"lct","Other Rifle","","","その他のライフル","","",2,1,false,true
 629,"lct","Other Rifle","","","その他のライフル","","",2,2,false,true
 630,"lct","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -617,9 +617,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 634,"lct","Other SMG","","","その他のSMG","","",8,1,false,true
 635,"lct","Other SMG","","","その他のSMG","","",8,2,false,true
 636,"lct","Other SMG","","","その他のSMG","","",8,4,false,true
-637,"lct","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-638,"lct","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-639,"lct","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+637,"lct","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+638,"lct","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+639,"lct","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 640,"lct","Other Rifle","","","その他のライフル","","",2,1,true,true
 641,"lct","Other Rifle","","","その他のライフル","","",2,2,true,true
 642,"lct","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -630,9 +630,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 647,"lct","Other SMG","","","その他のSMG","","",8,2,true,true
 648,"lct","Other SMG","","","その他のSMG","","",8,4,true,true
 
-650,"ics","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-651,"ics","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-652,"ics","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+650,"ics","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+651,"ics","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+652,"ics","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 653,"ics","Other Rifle","","","その他のライフル","","",2,1,false,true
 654,"ics","Other Rifle","","","その他のライフル","","",2,2,false,true
 655,"ics","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -642,9 +642,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 659,"ics","Other SMG","","","その他のSMG","","",8,1,false,true
 660,"ics","Other SMG","","","その他のSMG","","",8,2,false,true
 661,"ics","Other SMG","","","その他のSMG","","",8,4,false,true
-662,"ics","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-663,"ics","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-664,"ics","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+662,"ics","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+663,"ics","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+664,"ics","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 665,"ics","Other Rifle","","","その他のライフル","","",2,1,true,true
 666,"ics","Other Rifle","","","その他のライフル","","",2,2,true,true
 667,"ics","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -655,9 +655,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 672,"ics","Other SMG","","","その他のSMG","","",8,2,true,true
 673,"ics","Other SMG","","","その他のSMG","","",8,4,true,true
 
-675,"doubleeagle","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-676,"doubleeagle","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-677,"doubleeagle","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+675,"doubleeagle","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+676,"doubleeagle","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+677,"doubleeagle","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 678,"doubleeagle","Other Rifle","","","その他のライフル","","",2,1,false,true
 679,"doubleeagle","Other Rifle","","","その他のライフル","","",2,2,false,true
 680,"doubleeagle","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -667,9 +667,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 684,"doubleeagle","Other SMG","","","その他のSMG","","",8,1,false,true
 685,"doubleeagle","Other SMG","","","その他のSMG","","",8,2,false,true
 686,"doubleeagle","Other SMG","","","その他のSMG","","",8,4,false,true
-687,"doubleeagle","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-688,"doubleeagle","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-689,"doubleeagle","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+687,"doubleeagle","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+688,"doubleeagle","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+689,"doubleeagle","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 690,"doubleeagle","Other Rifle","","","その他のライフル","","",2,1,true,true
 691,"doubleeagle","Other Rifle","","","その他のライフル","","",2,2,true,true
 692,"doubleeagle","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -680,9 +680,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 697,"doubleeagle","Other SMG","","","その他のSMG","","",8,2,true,true
 698,"doubleeagle","Other SMG","","","その他のSMG","","",8,4,true,true
 
-700,"a&k","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-701,"a&k","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-702,"a&k","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+700,"a&k","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+701,"a&k","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+702,"a&k","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 703,"a&k","Other Rifle","","","その他のライフル","","",2,1,false,true
 704,"a&k","Other Rifle","","","その他のライフル","","",2,2,false,true
 705,"a&k","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -692,9 +692,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 709,"a&k","Other SMG","","","その他のSMG","","",8,1,false,true
 710,"a&k","Other SMG","","","その他のSMG","","",8,2,false,true
 711,"a&k","Other SMG","","","その他のSMG","","",8,4,false,true
-712,"a&k","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-713,"a&k","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-714,"a&k","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+712,"a&k","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+713,"a&k","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+714,"a&k","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 715,"a&k","Other Rifle","","","その他のライフル","","",2,1,true,true
 716,"a&k","Other Rifle","","","その他のライフル","","",2,2,true,true
 717,"a&k","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -705,9 +705,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 722,"a&k","Other SMG","","","その他のSMG","","",8,2,true,true
 723,"a&k","Other SMG","","","その他のSMG","","",8,4,true,true
 
-725,"agm","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-726,"agm","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-727,"agm","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+725,"agm","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+726,"agm","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+727,"agm","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 728,"agm","Other Rifle","","","その他のライフル","","",2,1,false,true
 729,"agm","Other Rifle","","","その他のライフル","","",2,2,false,true
 730,"agm","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -717,9 +717,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 734,"agm","Other SMG","","","その他のSMG","","",8,1,false,true
 735,"agm","Other SMG","","","その他のSMG","","",8,2,false,true
 736,"agm","Other SMG","","","その他のSMG","","",8,4,false,true
-737,"agm","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-738,"agm","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-739,"agm","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+737,"agm","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+738,"agm","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+739,"agm","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 740,"agm","Other Rifle","","","その他のライフル","","",2,1,true,true
 741,"agm","Other Rifle","","","その他のライフル","","",2,2,true,true
 742,"agm","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -730,9 +730,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 747,"agm","Other SMG","","","その他のSMG","","",8,2,true,true
 748,"agm","Other SMG","","","その他のSMG","","",8,4,true,true
 
-750,"kingarms","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-751,"kingarms","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-752,"kingarms","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+750,"kingarms","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+751,"kingarms","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+752,"kingarms","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 753,"kingarms","Other Rifle","","","その他のライフル","","",2,1,false,true
 754,"kingarms","Other Rifle","","","その他のライフル","","",2,2,false,true
 755,"kingarms","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -742,9 +742,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 759,"kingarms","Other SMG","","","その他のSMG","","",8,1,false,true
 760,"kingarms","Other SMG","","","その他のSMG","","",8,2,false,true
 761,"kingarms","Other SMG","","","その他のSMG","","",8,4,false,true
-762,"kingarms","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-763,"kingarms","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-764,"kingarms","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+762,"kingarms","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+763,"kingarms","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+764,"kingarms","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 765,"kingarms","Other Rifle","","","その他のライフル","","",2,1,true,true
 766,"kingarms","Other Rifle","","","その他のライフル","","",2,2,true,true
 767,"kingarms","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -756,9 +756,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 773,"kingarms","Other SMG","","","その他のSMG","","",8,4,true,true
 
 
-775,"amoeba","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-776,"amoeba","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-777,"amoeba","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+775,"amoeba","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+776,"amoeba","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+777,"amoeba","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 778,"amoeba","Other Rifle","","","その他のライフル","","",2,1,false,true
 779,"amoeba","Other Rifle","","","その他のライフル","","",2,2,false,true
 780,"amoeba","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -768,9 +768,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 784,"amoeba","Other SMG","","","その他のSMG","","",8,1,false,true
 785,"amoeba","Other SMG","","","その他のSMG","","",8,2,false,true
 786,"amoeba","Other SMG","","","その他のSMG","","",8,4,false,true
-787,"amoeba","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-788,"amoeba","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-789,"amoeba","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+787,"amoeba","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+788,"amoeba","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+789,"amoeba","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 790,"amoeba","Other Rifle","","","その他のライフル","","",2,1,true,true
 791,"amoeba","Other Rifle","","","その他のライフル","","",2,2,true,true
 792,"amoeba","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -781,9 +781,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 797,"amoeba","Other SMG","","","その他のSMG","","",8,2,true,true
 798,"amoeba","Other SMG","","","その他のSMG","","",8,4,true,true
 
-800,"kjworks","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-801,"kjworks","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-802,"kjworks","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+800,"kjworks","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+801,"kjworks","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+802,"kjworks","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 803,"kjworks","Other Rifle","","","その他のライフル","","",2,1,false,true
 804,"kjworks","Other Rifle","","","その他のライフル","","",2,2,false,true
 805,"kjworks","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -793,9 +793,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 809,"kjworks","Other SMG","","","その他のSMG","","",8,1,false,true
 810,"kjworks","Other SMG","","","その他のSMG","","",8,2,false,true
 811,"kjworks","Other SMG","","","その他のSMG","","",8,4,false,true
-812,"kjworks","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-813,"kjworks","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-814,"kjworks","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+812,"kjworks","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+813,"kjworks","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+814,"kjworks","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 815,"kjworks","Other Rifle","","","その他のライフル","","",2,1,true,true
 816,"kjworks","Other Rifle","","","その他のライフル","","",2,2,true,true
 817,"kjworks","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -806,9 +806,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 822,"kjworks","Other SMG","","","その他のSMG","","",8,2,true,true
 823,"kjworks","Other SMG","","","その他のSMG","","",8,4,true,true
 
-825,"wetech","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-826,"wetech","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-827,"wetech","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+825,"wetech","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+826,"wetech","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+827,"wetech","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 828,"wetech","Other Rifle","","","その他のライフル","","",2,1,false,true
 829,"wetech","Other Rifle","","","その他のライフル","","",2,2,false,true
 830,"wetech","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -818,9 +818,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 834,"wetech","Other SMG","","","その他のSMG","","",8,1,false,true
 835,"wetech","Other SMG","","","その他のSMG","","",8,2,false,true
 836,"wetech","Other SMG","","","その他のSMG","","",8,4,false,true
-837,"wetech","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-838,"wetech","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-839,"wetech","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+837,"wetech","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+838,"wetech","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+839,"wetech","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 840,"wetech","Other Rifle","","","その他のライフル","","",2,1,true,true
 841,"wetech","Other Rifle","","","その他のライフル","","",2,2,true,true
 842,"wetech","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -831,9 +831,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 847,"wetech","Other SMG","","","その他のSMG","","",8,2,true,true
 848,"wetech","Other SMG","","","その他のSMG","","",8,4,true,true
 
-850,"asg","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-851,"asg","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-852,"asg","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+850,"asg","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+851,"asg","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+852,"asg","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 853,"asg","Other Rifle","","","その他のライフル","","",2,1,false,true
 854,"asg","Other Rifle","","","その他のライフル","","",2,2,false,true
 855,"asg","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -843,9 +843,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 859,"asg","Other SMG","","","その他のSMG","","",8,1,false,true
 860,"asg","Other SMG","","","その他のSMG","","",8,2,false,true
 861,"asg","Other SMG","","","その他のSMG","","",8,4,false,true
-862,"asg","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-863,"asg","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-864,"asg","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+862,"asg","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+863,"asg","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+864,"asg","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 865,"asg","Other Rifle","","","その他のライフル","","",2,1,true,true
 866,"asg","Other Rifle","","","その他のライフル","","",2,2,true,true
 867,"asg","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -856,9 +856,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 872,"asg","Other SMG","","","その他のSMG","","",8,2,true,true
 873,"asg","Other SMG","","","その他のSMG","","",8,4,true,true
 
-875,"cybergun","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-876,"cybergun","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-877,"cybergun","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+875,"cybergun","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+876,"cybergun","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+877,"cybergun","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 878,"cybergun","Other Rifle","","","その他のライフル","","",2,1,false,true
 879,"cybergun","Other Rifle","","","その他のライフル","","",2,2,false,true
 880,"cybergun","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -868,9 +868,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 884,"cybergun","Other SMG","","","その他のSMG","","",8,1,false,true
 885,"cybergun","Other SMG","","","その他のSMG","","",8,2,false,true
 886,"cybergun","Other SMG","","","その他のSMG","","",8,4,false,true
-887,"cybergun","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-888,"cybergun","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-889,"cybergun","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+887,"cybergun","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+888,"cybergun","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+889,"cybergun","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 890,"cybergun","Other Rifle","","","その他のライフル","","",2,1,true,true
 891,"cybergun","Other Rifle","","","その他のライフル","","",2,2,true,true
 892,"cybergun","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -881,9 +881,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 897,"cybergun","Other SMG","","","その他のSMG","","",8,2,true,true
 898,"cybergun","Other SMG","","","その他のSMG","","",8,4,true,true
 
-900,"rwa","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-901,"rwa","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-902,"rwa","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+900,"rwa","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+901,"rwa","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+902,"rwa","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 903,"rwa","Other Rifle","","","その他のライフル","","",2,1,false,true
 904,"rwa","Other Rifle","","","その他のライフル","","",2,2,false,true
 905,"rwa","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -893,9 +893,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 909,"rwa","Other SMG","","","その他のSMG","","",8,1,false,true
 910,"rwa","Other SMG","","","その他のSMG","","",8,2,false,true
 911,"rwa","Other SMG","","","その他のSMG","","",8,4,false,true
-912,"rwa","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-913,"rwa","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-914,"rwa","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+912,"rwa","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+913,"rwa","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+914,"rwa","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 915,"rwa","Other Rifle","","","その他のライフル","","",2,1,true,true
 916,"rwa","Other Rifle","","","その他のライフル","","",2,2,true,true
 917,"rwa","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -906,9 +906,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 922,"rwa","Other SMG","","","その他のSMG","","",8,2,true,true
 923,"rwa","Other SMG","","","その他のSMG","","",8,4,true,true
 
-925,"umarex","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-926,"umarex","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-927,"umarex","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+925,"umarex","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+926,"umarex","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+927,"umarex","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 928,"umarex","Other Rifle","","","その他のライフル","","",2,1,false,true
 929,"umarex","Other Rifle","","","その他のライフル","","",2,2,false,true
 930,"umarex","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -918,9 +918,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 934,"umarex","Other SMG","","","その他のSMG","","",8,1,false,true
 935,"umarex","Other SMG","","","その他のSMG","","",8,2,false,true
 936,"umarex","Other SMG","","","その他のSMG","","",8,4,false,true
-937,"umarex","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-938,"umarex","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-939,"umarex","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+937,"umarex","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+938,"umarex","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+939,"umarex","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 940,"umarex","Other Rifle","","","その他のライフル","","",2,1,true,true
 941,"umarex","Other Rifle","","","その他のライフル","","",2,2,true,true
 942,"umarex","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -931,9 +931,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 947,"umarex","Other SMG","","","その他のSMG","","",8,2,true,true
 948,"umarex","Other SMG","","","その他のSMG","","",8,4,true,true
 
-950,"ghk","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-951,"ghk","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-952,"ghk","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+950,"ghk","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+951,"ghk","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+952,"ghk","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 953,"ghk","Other Rifle","","","その他のライフル","","",2,1,false,true
 954,"ghk","Other Rifle","","","その他のライフル","","",2,2,false,true
 955,"ghk","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -943,9 +943,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 959,"ghk","Other SMG","","","その他のSMG","","",8,1,false,true
 960,"ghk","Other SMG","","","その他のSMG","","",8,2,false,true
 961,"ghk","Other SMG","","","その他のSMG","","",8,4,false,true
-962,"ghk","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-963,"ghk","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-964,"ghk","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+962,"ghk","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+963,"ghk","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+964,"ghk","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 965,"ghk","Other Rifle","","","その他のライフル","","",2,1,true,true
 966,"ghk","Other Rifle","","","その他のライフル","","",2,2,true,true
 967,"ghk","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -956,9 +956,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 972,"ghk","Other SMG","","","その他のSMG","","",8,2,true,true
 973,"ghk","Other SMG","","","その他のSMG","","",8,4,true,true
 
-975,"s2s","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-976,"s2s","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-977,"s2s","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+975,"s2s","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+976,"s2s","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+977,"s2s","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 978,"s2s","Other Rifle","","","その他のライフル","","",2,1,false,true
 979,"s2s","Other Rifle","","","その他のライフル","","",2,2,false,true
 980,"s2s","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -968,9 +968,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 984,"s2s","Other SMG","","","その他のSMG","","",8,1,false,true
 985,"s2s","Other SMG","","","その他のSMG","","",8,2,false,true
 986,"s2s","Other SMG","","","その他のSMG","","",8,4,false,true
-987,"s2s","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-988,"s2s","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-989,"s2s","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+987,"s2s","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+988,"s2s","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+989,"s2s","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 990,"s2s","Other Rifle","","","その他のライフル","","",2,1,true,true
 991,"s2s","Other Rifle","","","その他のライフル","","",2,2,true,true
 992,"s2s","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -981,9 +981,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 997,"s2s","Other SMG","","","その他のSMG","","",8,2,true,true
 998,"s2s","Other SMG","","","その他のSMG","","",8,4,true,true
 
-1000,"arcturus","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-1001,"arcturus","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-1002,"arcturus","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+1000,"arcturus","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1001,"arcturus","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1002,"arcturus","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 1003,"arcturus","Other Rifle","","","その他のライフル","","",2,1,false,true
 1004,"arcturus","Other Rifle","","","その他のライフル","","",2,2,false,true
 1005,"arcturus","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -993,9 +993,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1009,"arcturus","Other SMG","","","その他のSMG","","",8,1,false,true
 1010,"arcturus","Other SMG","","","その他のSMG","","",8,2,false,true
 1011,"arcturus","Other SMG","","","その他のSMG","","",8,4,false,true
-1012,"arcturus","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-1013,"arcturus","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-1014,"arcturus","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+1012,"arcturus","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1013,"arcturus","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1014,"arcturus","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 1015,"arcturus","Other Rifle","","","その他のライフル","","",2,1,true,true
 1016,"arcturus","Other Rifle","","","その他のライフル","","",2,2,true,true
 1017,"arcturus","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -1006,9 +1006,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1022,"arcturus","Other SMG","","","その他のSMG","","",8,2,true,true
 1023,"arcturus","Other SMG","","","その他のSMG","","",8,4,true,true
 
-1025,"e&l","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-1026,"e&l","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-1027,"e&l","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+1025,"e&l","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1026,"e&l","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1027,"e&l","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 1028,"e&l","Other Rifle","","","その他のライフル","","",2,1,false,true
 1029,"e&l","Other Rifle","","","その他のライフル","","",2,2,false,true
 1030,"e&l","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -1018,9 +1018,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1034,"e&l","Other SMG","","","その他のSMG","","",8,1,false,true
 1035,"e&l","Other SMG","","","その他のSMG","","",8,2,false,true
 1036,"e&l","Other SMG","","","その他のSMG","","",8,4,false,true
-1037,"e&l","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-1038,"e&l","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-1039,"e&l","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+1037,"e&l","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1038,"e&l","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1039,"e&l","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 1040,"e&l","Other Rifle","","","その他のライフル","","",2,1,true,true
 1041,"e&l","Other Rifle","","","その他のライフル","","",2,2,true,true
 1042,"e&l","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -1031,9 +1031,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1047,"e&l","Other SMG","","","その他のSMG","","",8,2,true,true
 1048,"e&l","Other SMG","","","その他のSMG","","",8,4,true,true
 
-1050,"emg","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-1051,"emg","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-1052,"emg","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+1050,"emg","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1051,"emg","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1052,"emg","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 1053,"emg","Other Rifle","","","その他のライフル","","",2,1,false,true
 1054,"emg","Other Rifle","","","その他のライフル","","",2,2,false,true
 1055,"emg","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -1043,9 +1043,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1059,"emg","Other SMG","","","その他のSMG","","",8,1,false,true
 1060,"emg","Other SMG","","","その他のSMG","","",8,2,false,true
 1061,"emg","Other SMG","","","その他のSMG","","",8,4,false,true
-1062,"emg","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-1063,"emg","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-1064,"emg","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+1062,"emg","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1063,"emg","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1064,"emg","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 1065,"emg","Other Rifle","","","その他のライフル","","",2,1,true,true
 1066,"emg","Other Rifle","","","その他のライフル","","",2,2,true,true
 1067,"emg","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -1056,9 +1056,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1072,"emg","Other SMG","","","その他のSMG","","",8,2,true,true
 1073,"emg","Other SMG","","","その他のSMG","","",8,4,true,true
 
-1075,"sig","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-1076,"sig","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-1077,"sig","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+1075,"sig","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1076,"sig","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1077,"sig","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 1078,"sig","Other Rifle","","","その他のライフル","","",2,1,false,true
 1079,"sig","Other Rifle","","","その他のライフル","","",2,2,false,true
 1080,"sig","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -1068,9 +1068,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1084,"sig","Other SMG","","","その他のSMG","","",8,1,false,true
 1085,"sig","Other SMG","","","その他のSMG","","",8,2,false,true
 1086,"sig","Other SMG","","","その他のSMG","","",8,4,false,true
-1087,"sig","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-1088,"sig","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-1089,"sig","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+1087,"sig","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1088,"sig","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1089,"sig","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 1090,"sig","Other Rifle","","","その他のライフル","","",2,1,true,true
 1091,"sig","Other Rifle","","","その他のライフル","","",2,2,true,true
 1092,"sig","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -1081,9 +1081,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1097,"sig","Other SMG","","","その他のSMG","","",8,2,true,true
 1098,"sig","Other SMG","","","その他のSMG","","",8,4,true,true
 
-1100,"marui","Other Pistol","","","その他のハンドガン","","",1,1,false,true
-1101,"marui","Other Pistol ","","","その他のハンドガン","","",1,2,false,true
-1102,"marui","Other Pistol ","","","その他のハンドガン","","",1,4,false,true
+1100,"marui","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1101,"marui","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1102,"marui","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
 1103,"marui","Other Rifle","","","その他のライフル","","",2,1,false,true
 1104,"marui","Other Rifle","","","その他のライフル","","",2,2,false,true
 1105,"marui","Other Rifle","","","その他のライフル","","",2,4,false,true
@@ -1093,9 +1093,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1109,"marui","Other SMG","","","その他のSMG","","",8,1,false,true
 1110,"marui","Other SMG","","","その他のSMG","","",8,2,false,true
 1111,"marui","Other SMG","","","その他のSMG","","",8,4,false,true
-1112,"marui","Other Pistol","","","その他のハンドガン","","",1,1,true,true
-1113,"marui","Other Pistol","","","その他のハンドガン","","",1,2,true,true
-1114,"marui","Other Pistol","","","その他のハンドガン","","",1,4,true,true
+1112,"marui","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1113,"marui","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1114,"marui","Other Handgun","","","その他のハンドガン","","",1,4,true,true
 1115,"marui","Other Rifle","","","その他のライフル","","",2,1,true,true
 1116,"marui","Other Rifle","","","その他のライフル","","",2,2,true,true
 1117,"marui","Other Rifle","","","その他のライフル","","",2,4,true,true
@@ -1171,35 +1171,35 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10120,"marui","Vz61 SCORPION","","","Vz61 スコーピオン","","",8,1,true
 10121,"marui","COLT XM177 E2","","","コルト XM177 E2","","",2,1,true
 
-11000,"marui","MK46 MOD.0","","Next generation series","マーク46 モッド0","","次世代電動ガン",2,2,false
-11001,"marui","HK417","","Next generation series","HK417 アーリーバリアント","","次世代電動ガン",2,2,false
-11002,"marui","DEVGRU HK416D","","Next generation series","DEVGRUカスタム HK416D","","次世代電動ガン",2,2,false
-11003,"marui","DELTA HK416","","Next generation series","HK416 デルタカスタム","","次世代電動ガン",2,2,false
-11004,"marui","Mk18 MOD.1","","Next generation series","マーク18 モッド1","","次世代電動ガン",2,2,false
-11005,"marui","URG-I SOPMOD BLOCK 3","","Next generation series","URG-I ソップモッド ブロック3","","次世代電動ガン",2,2,false
-11006,"marui","URG-I 11.5inch SOPMOD BLOCK 3","","Next generation series","URG-I 11.5inch ソップモッド ブロック3","","次世代電動ガン",2,2,false
-11007,"marui","HK416D","","Next generation series","HK416D","","次世代電動ガン",2,2,false
-11008,"marui","RECCE RIFLE","","Next generation series","レシーライフル","","次世代電動ガン",2,2,false
-11009,"marui","HK416C CUSTOM","","Next generation series","HK416C カスタム","","次世代電動ガン",2,2,false
-11010,"marui","SCAR-H","","Next generation series","スカーH","","次世代電動ガン",2,2,false
-11011,"marui","MP5 A5","","Next generation series","MP5 A5","","次世代電動ガン",8,2,false
-11012,"marui","SCAR-L","","Next generation series","スカーL","","次世代電動ガン",2,2,false
-11013,"marui","SCAR-L CQC","","Next generation series","スカーL CQC","","次世代電動ガン",2,2,false
-11014,"marui","SOPMOD M4","","Next generation series","ソップモッドM4","","次世代電動ガン",2,2,false
-11015,"marui","AK74MN","","Next generation series","AK74MN","","次世代電動ガン",2,2,false
-11016,"marui","CQB-R","","Next generation series","CQB-R","","次世代電動ガン",2,2,false
-11017,"marui","AK STORM","","Next generation series","AKストーム","","次世代電動ガン",2,2,false
-11018,"marui","AKS74U","","Next generation series","AKS74U","","次世代電動ガン",2,2,false
-11019,"marui","AK47","","Next generation series","AK47","","次世代電動ガン",2,2,false
-11020,"marui","M4A1 SOCOM CARBINE","","Next generation series","M4A1 カービン","","次世代電動ガン",2,2,false
-11021,"marui","AK102","","Next generation series","AK102","","次世代電動ガン",2,2,false
-11022,"marui","AKS74N","","Next generation series","AKS74N","","次世代電動ガン",2,2,false
-11023,"marui","AKS47","","Next generation series","AKS47","","次世代電動ガン",2,2,false
-11024,"marui","G36K","","Next generation series","G36K","","次世代電動ガン",2,2,false
-11025,"marui","G36C CUSTOM","","Next generation series","G36Cカスタム","","次世代電動ガン",2,2,false
-11026,"marui","URG-I 11.5inch","","Next generation series","URG-I 11.5inch","","次世代電動ガン",2,2,false
-11027,"marui","P-90+","","Plus series","P-90","","電動ガンプラスシリーズ",2,2,false
-11028,"marui","MP5 SD6","","Next generation series","MP5 SD6","","次世代電動ガン",8,2,false
+11000,"marui","MK46 MOD.0 (Next generation series)","","","マーク46 モッド0 (次世代電動ガン)","","",2,2,false
+11001,"marui","HK417 (Next generation series)","","","HK417 アーリーバリアント (次世代電動ガン)","","",2,2,false
+11002,"marui","DEVGRU HK416D (Next generation series)","","","DEVGRUカスタム HK416D (次世代電動ガン)","","",2,2,false
+11003,"marui","DELTA HK416 (Next generation series)","","","HK416 デルタカスタム (次世代電動ガン)","","",2,2,false
+11004,"marui","Mk18 MOD.1 (Next generation series)","","","マーク18 モッド1 (次世代電動ガン)","","",2,2,false
+11005,"marui","URG-I SOPMOD BLOCK 3 (Next generation series)","","","URG-I ソップモッド ブロック3 (次世代電動ガン)","","",2,2,false
+11006,"marui","URG-I 11.5inch SOPMOD BLOCK 3 (Next generation series)","","","URG-I 11.5inch ソップモッド ブロック3 (次世代電動ガン)","","",2,2,false
+11007,"marui","HK416D (Next generation series)","","","HK416D (次世代電動ガン)","","",2,2,false
+11008,"marui","RECCE RIFLE (Next generation series)","","","レシーライフル (次世代電動ガン)","","",2,2,false
+11009,"marui","HK416C CUSTOM (Next generation series)","","","HK416C カスタム (次世代電動ガン)","","",2,2,false
+11010,"marui","SCAR-H (Next generation series)","","","スカーH (次世代電動ガン)","","",2,2,false
+11011,"marui","MP5 A5 (Next generation series)","","","MP5 A5 (次世代電動ガン)","","",8,2,false
+11012,"marui","SCAR-L (Next generation series)","","","スカーL (次世代電動ガン)","","",2,2,false
+11013,"marui","SCAR-L CQC (Next generation series)","","","スカーL CQC (次世代電動ガン)","","",2,2,false
+11014,"marui","SOPMOD M4 (Next generation series)","","","ソップモッドM4 (次世代電動ガン)","","",2,2,false
+11015,"marui","AK74MN (Next generation series)","","","AK74MN (次世代電動ガン)","","",2,2,false
+11016,"marui","CQB-R (Next generation series)","","","CQB-R (次世代電動ガン)","","",2,2,false
+11017,"marui","AK STORM (Next generation series)","","","AKストーム (次世代電動ガン)","","",2,2,false
+11018,"marui","AKS74U (Next generation series)","","","AKS74U (次世代電動ガン)","","",2,2,false
+11019,"marui","AK47 (Next generation series)","","","AK47 (次世代電動ガン)","","",2,2,false
+11020,"marui","M4A1 SOCOM CARBINE (Next generation series)","","","M4A1 カービン (次世代電動ガン)","","",2,2,false
+11021,"marui","AK102 (Next generation series)","","","AK102 (次世代電動ガン)","","",2,2,false
+11022,"marui","AKS74N (Next generation series)","","","AKS74N (次世代電動ガン)","","",2,2,false
+11023,"marui","AKS47 (Next generation series)","","","AKS47 (次世代電動ガン)","","",2,2,false
+11024,"marui","G36K (Next generation series)","","","G36K (次世代電動ガン)","","",2,2,false
+11025,"marui","G36C CUSTOM (Next generation series)","","","G36Cカスタム (次世代電動ガン)","","",2,2,false
+11026,"marui","URG-I 11.5inch (Next generation series)","","","URG-I 11.5inch (次世代電動ガン)","","",2,2,false
+11027,"marui","P-90+ (Plus series)","","","P-90+ (電動ガンプラスシリーズ)","","",2,2,false
+11028,"marui","MP5 SD6 (Next generation series)","","","MP5 SD6 (次世代電動ガン)","","",8,2,false
 
 11100,"marui","SGR-12","","","SGR-12","","",4,2,false
 11101,"marui","AA-12","","","AA-12","","",4,2,false
@@ -1241,14 +1241,14 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 11233,"marui","FA-MAS SV","","Standard-Type series","ファマス スーパーバージョン","","電動ガンスタンダードタイプ",2,2,false
 11234,"marui","M4 S-SYSTEM","","Standard-Type series","M4 S-システム","","電動ガンスタンダードタイプ",2,2,false
 
-11300,"marui","M4 PATRIOT HC","","Hicycle custom series","M4パトリオットHC","","電動ガンハイサイクルカスタム",2,2,false
-11301,"marui","H&K MP5K HC","","Hicycle custom series","H&K MP5K HC","","電動ガンハイサイクルカスタム",8,2,false
-11302,"marui","PS90 HC","","Hicycle custom series","PS90 HC","","電動ガンハイサイクルカスタム",2,2,false
-11303,"marui","STEYR HC","","Hicycle custom series","ステアーHC","","電動ガンハイサイクルカスタム",2,2,false
-11304,"marui","AK47 HC","","Hicycle custom series","AK47 HC","","電動ガンハイサイクルカスタム",2,2,false
-11305,"marui","M4 CRW","","Hicycle custom series","M4 CRW","","電動ガンハイサイクルカスタム",2,2,false
-11306,"marui","H&K MP5A5 HC","","Hicycle custom series","H&K MP5A5 HC","","電動ガンハイサイクルカスタム",8,2,false
-11307,"marui","H&K G3 SAS HC","","Hicycle custom series","H&K G3 SAS HC","","電動ガンハイサイクルカスタム",2,2,false
+11300,"marui","M4 PATRIOT HC (Hicycle custom series)","","","M4パトリオットHC (電動ガンハイサイクルカスタム)","","",2,2,false
+11301,"marui","H&K MP5K HC (Hicycle custom series)","","","H&K MP5K HC (電動ガンハイサイクルカスタム)","","",8,2,false
+11302,"marui","PS90 HC (Hicycle custom series)","","","PS90 HC (電動ガンハイサイクルカスタム)","","",2,2,false
+11303,"marui","STEYR HC (Hicycle custom series)","","","ステアーHC (電動ガンハイサイクルカスタム)","","",2,2,false
+11304,"marui","AK47 HC (Hicycle custom series)","","","AK47 HC (電動ガンハイサイクルカスタム)","","",2,2,false
+11305,"marui","M4 CRW (Hicycle custom series)","","","M4 CRW (電動ガンハイサイクルカスタム)","","",2,2,false
+11306,"marui","H&K MP5A5 HC (Hicycle custom series)","","","H&K MP5A5 HC (電動ガンハイサイクルカスタム)","","",8,2,false
+11307,"marui","H&K G3 SAS HC (Hicycle custom series)","","","H&K G3 SAS HC (電動ガンハイサイクルカスタム)","","",2,2,false
 
 11400,"marui","SCORPION mod.D/M","","","スコーピオン モッドD/M","","",8,2,false
 11401,"marui","MP7A1","","","MP7A1","","",8,2,false
@@ -1261,18 +1261,18 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 11504,"marui","GLOCK18C","","","グロック18C","","",1,2,false
 11505,"marui","M9A1","","","M9A1","","",1,2,false
 
-11600,"marui","M4 CQB","","Light pro series","M4 CQB","","電動ガンLIGHT PRO",2,2,true
-11601,"marui","AK74U","","Light pro series","AK74U","","電動ガンLIGHT PRO",2,2,true
-11602,"marui","G36C","","Light pro series","G36C","","電動ガンLIGHT PRO",2,2,true
-11603,"marui","MP5A5 R.A.S.","","Light pro series","MP5A5 R.A.S.","","電動ガンLIGHT PRO",8,2,true
+11600,"marui","M4 CQB (Light pro series)","","","M4 CQB (電動ガンLIGHT PRO)","","",2,2,true
+11601,"marui","AK74U (Light pro series)","","","AK74U (電動ガンLIGHT PRO)","","",2,2,true
+11602,"marui","G36C (Light pro series)","","","G36C (電動ガンLIGHT PRO)","","",2,2,true
+11603,"marui","MP5A5 R.A.S. (Light pro series)","","","MP5A5 R.A.S. (電動ガンLIGHT PRO)","","",8,2,true
 
-11700,"marui","M933 SHORTY CUSTOM","","BOYs series","M933 ショーティ・カスタム","","電動ガンBOYs",2,2,true
-11701,"marui","TAVOR-21 COMPACT","","BOYs series","タボール21・コンパクト","","電動ガンBOYs",2,2,true
-11702,"marui","SCAR-L CQC","","BOYs series","スカーL CQC","","電動ガンBOYs",2,2,true
-11703,"marui","SOPMOD M4","","BOYs series","ソップモッドM4","","電動ガンBOYs",2,2,true
-11704,"marui","H&K G36C","","BOYs series","H&K G36C","","電動ガンBOYs",2,2,true
-11705,"marui","H&K MP5A5","","BOYs series","H&K MP5A5","","電動ガンBOYs",8,2,true
-11706,"marui","COLT M4A1 CARBINE","","BOYs series","コルト M4A1カービン","","電動ガンBOYs",2,2,true
+11700,"marui","M933 SHORTY CUSTOM (BOYs series)","","","M933 ショーティ・カスタム (電動ガンBOYs)","","",2,2,true
+11701,"marui","TAVOR-21 COMPACT (BOYs series)","","","タボール21・コンパクト (電動ガンBOYs)","","",2,2,true
+11702,"marui","SCAR-L CQC (BOYs series)","","","スカーL CQC (電動ガンBOYs)","","",2,2,true
+11703,"marui","SOPMOD M4 (BOYs series)","","","ソップモッドM4 (電動ガンBOYs)","","",2,2,true
+11704,"marui","H&K G36C (BOYs series)","","","H&K G36C (電動ガンBOYs)","","",2,2,true
+11705,"marui","H&K MP5A5 (BOYs series)","","","H&K MP5A5 (電動ガンBOYs)","","",8,2,true
+11706,"marui","COLT M4A1 CARBINE (BOYs series)","","","コルト M4A1カービン (電動ガンBOYs)","","",2,2,true
 
 11800,"marui","SIG PRO SP2340","","Automatic electric blowback","シグプロ SP2340","","電動ブローバック",1,2,true
 11801,"marui","COMBAT DELTA","","Automatic electric blowback","コンバットデルタ","","電動ブローバック",1,2,true
@@ -1309,7 +1309,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 11921,"marui","AKM","","","AKM","","",2,4,false
 11922,"marui","MARK18 MOD1","","","マーク18 モッド1","","",2,4,false
 11923,"marui","MTR16","","","MTR16","","",2,4,false
-11924,"marui","Type 89","","","9式5.56mm小銃","","",2,4,false
+11924,"marui","Type 89","","","89式5.56mm小銃","","",2,4,false
 11925,"marui","M4A1 CARBINE","","","M4A1 カービン","","",2,4,false
 11926,"marui","CQBR BLOCK1","","","CQBR ブロック1","","",2,4,false
 11927,"marui","M4A1 MWS","","","M4A1 MWS","","",2,4,false
@@ -1371,16 +1371,16 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 12070,"marui","Hi-CAPA5.1R","","","ハイキャパ5.1R","","",1,4,true
 
-12080,"marui","CURVE","","Fixed Slide Gas Airsoft Gun","カーヴ","","固定スライドガスガン",1,4,false
-12081,"marui","LCP II","","Fixed Slide Gas Airsoft Gun","LCP II","","固定スライドガスガン",1,4,false
-12082,"marui","BODYGUARD 380","","Fixed Slide Gas Airsoft Gun","BODYGUARD 380","","固定スライドガスガン",1,4,false
-12083,"marui","LCP","","Fixed Slide Gas Airsoft Gun","LCP","","固定スライドガスガン",1,4,false
-12084,"marui","SOCOM Mk23","","Fixed Slide Gas Airsoft Gun","ソーコム Mk23","","固定スライドガスガン",1,4,false
-12085,"marui","CENTIMETER MASTER","","Fixed Slide Gas Airsoft Gun","センチメーターマスター","","固定スライドガスガン",1,4,false
-12086,"marui","WILSON SUPER GRADE","","Fixed Slide Gas Airsoft Gun","ウィルソン スーパーグレード","","固定スライドガスガン",1,4,false
-12087,"marui","AMT HARD BALLER","","Fixed Slide Gas Airsoft Gun","AMT ハードボーラー","","固定スライドガスガン",1,4,false
-12088,"marui","STEYR MODEL GB","","Fixed Slide Gas Airsoft Gun","ステアー モデルGB","","固定スライドガスガン",1,4,false
-12089,"marui","DESERT EAGLE","","Fixed Slide Gas Airsoft Gun","デザートイーグル","","固定スライドガスガン",1,4,false
+12080,"marui","CURVE (Fixed Slide)","","","カーヴ (固定スライド)","","",1,4,false
+12081,"marui","LCP II (Fixed Slide)","","","LCP II (固定スライド)","","",1,4,false
+12082,"marui","BODYGUARD 380 (Fixed Slide)","","","BODYGUARD 380 (固定スライド)","","",1,4,false
+12083,"marui","LCP (Fixed Slide)","","","LCP (固定スライド)","","",1,4,false
+12084,"marui","SOCOM Mk23 (Fixed Slide)","","","ソーコム Mk23 (固定スライド)","","",1,4,false
+12085,"marui","CENTIMETER MASTER (Fixed Slide)","","","センチメーターマスター (固定スライド)","","",1,4,false
+12086,"marui","WILSON SUPER GRADE (Fixed Slide)","","","ウィルソン スーパーグレード (固定スライド)","","",1,4,false
+12087,"marui","AMT HARD BALLER (Fixed Slide)","","","AMT ハードボーラー (固定スライド)","","",1,4,false
+12088,"marui","STEYR MODEL GB (Fixed Slide)","","","ステアー モデルGB (固定スライド)","","",1,4,false
+12089,"marui","DESERT EAGLE (Fixed Slide)","","","デザートイーグル (固定スライド)","","",1,4,false
 
 12090,"marui","S&W M66 6-inch","","\","スミス＆ウェッソン M66 6インチ","","",1,4,false
 12091,"marui","S&W M66 4-inch","","\","スミス＆ウェッソン M66 4インチ","","",1,4,false
@@ -1568,46 +1568,10 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 14117,"tanaka","SIG P229","","","","","",1,4,false
 14118,"tanaka","SIG P228","","","","","",1,4,false
 
-15000,"marushin","FN Five-seveN","","","FN・ファイブセブン","","",1,4,false
-15001,"marushin","44Automag","","","44オートマグ","","",1,4,false
-15002,"marushin","Mauser M712","","","モーゼルM712","","",1,4,false
-15003,"marushin","Nambu type14","","","南部14年式","","",1,4,false
-15004,"marushin","SIG P210-6","","","シグ P210-6","","",1,4,false
-15005,"marushin","M84","","","","","",1,4,false
-15006,"marushin","Mk1","","","","","",1,4,false
-
-15010,"marushin","Mateba Revolver","","","マテバリボルバー","","",1,4,false
-15011,"marushin","Unlimited Revolver","","","アンリミテッドリボルバー","","",1,4,false
-15012,"marushin","Constrictor","","","コンストリクター","","",1,4,false
-15013,"marushin","Colt Anaconda 8-inch","","","コルト・アナコンダ 8インチ","","",1,4,false
-15014,"marushin","Colt Anaconda 6-inch","","","コルト・アナコンダ 6インチ","","",1,4,false
-15015,"marushin","Colt Anaconda 4-inch","","","コルト・アナコンダ 4インチ","","",1,4,false
-15016,"marushin","S&W M686","","","","","",1,4,false
-15017,"marushin","S&W M586","","","","","",1,4,false
-15018,"marushin","S&W M29 8-3/8 inch","","","","","",1,4,false
-15019,"marushin","S&W M629","","","","","",1,4,false
-15020,"marushin","Police Revolver 3-inch","","","ポリスリボルバー 3インチ","","",1,4,false
-15021,"marushin","Police Revolver 2-inch","","","ポリスリボルバー 2インチ","","",1,4,false
-15022,"marushin","S&W M60 Chiefs Special 3-inch","","","S&W M60 チーフスペシャル 3インチ","","",1,4,false
-15023,"marushin","S&W M60 Chiefs Special 2-inch","","","S&W M60 チーフスペシャル 2インチ","","",1,4,false
-15024,"marushin","S&W M36 Chiefs Special 3-inch","","","S&W M36 チーフスペシャル 3インチ","","",1,4,false
-15025,"marushin","S&W M36 Chiefs Special 2-inch","","","S&W M36 チーフスペシャル 2インチ","","",1,4,false
-15026,"marushin","COLT SAA.45 Peacemaker","","","コルトSAA.45ピースメーカー","","",1,4,false
-15027,"marushin","COP357","","","","","",1,4,false
-15028,"marushin","COP357 LongBarrel","","","COP357 ロングバレル","","",1,4,false
-
-15040,"marushin","Winchester M1892","","","ウィンチェスター M1892","","",2,4,false
-15041,"marushin","M1887 Guard`s Gun","","","M1887 ガーズガン","","",2,4,false
-15042,"marushin","M1887 Short","","","M1887 ショート","","",2,4,false
-15043,"marushin","MP40","","","","","",8,4,false
-15044,"marushin","Mauser Kar98k HW","","","モーゼル Kar98k","","",2,4,false
-15045,"marushin","M1Garand T26 TANKER","","","M-1 ガーランドT26 タンカー","","",2,4,false
-15046,"marushin","M1Garand","","","M-1 ガーランド","","",2,4,false
-
-16000,"maruzen","APS-1 Grand Master Mk.II","","","APS-1 グランドマスター・マークⅡ","","",2,1,false
-16001,"maruzen","APS-3 (OR)","APS-3 Original","","APS-3 オリジナル","","",2,1,false
-16002,"maruzen","APS-3 LE","APS-3 Limited Edition","","APS-3 リミテッドエディション","","",2,1,false
-16003,"maruzen","APS-2 (OR)","APS-2 Original","","","APS-2 オリジナル","",2,1,false
+16000,"maruzen","APS-1 Grand Master Mk.II","","","APS-1 グランドマスター・マークⅡ","","",1,1,false
+16001,"maruzen","APS-3 (OR)","APS-3 Original","","APS-3 オリジナル","","",1,1,false
+16002,"maruzen","APS-3 LE","APS-3 Limited Edition","","APS-3 リミテッドエディション","","",1,1,false
+16003,"maruzen","APS-2 (OR)","APS-2 Original","","APS-2 オリジナル","","",2,1,false
 16004,"maruzen","APS-2 (LRV)","APS-2 Long Range Version","","APS-2 ロングレンジバージョン","","",2,1,false
 16005,"maruzen","APS SR96","","","","","",2,1,false
 
@@ -1640,17 +1604,6 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 17008,"taniokoba","M4 10-1/2 inch","","","","","",2,4,false
 17009,"taniokoba","M4 14-1/2 inch","","","","","",2,4,false
-
-18000,"hartford","COLT SAA FDC","COLT SAA FAST DRAW CUSTOM","","コルトSAA FDC","コルトSAA ファスト・ドロウ・カスタム","",1,4,false
-18001,"hartford","COLT SAA SHERIFF'S CUSTOM","","","コルトSAA シェリフス カスタム","","",1,4,false
-18002,"hartford","NEW MODEL ARMY STANDARD","","","ニューモデルアーミー スタンダード","","",1,4,false
-18003,"hartford","NEW MODEL ARMY LONG BARREL","","","ニューモデルアーミー ロングバレル","","",1,4,false
-18004,"hartford","NEW MODEL ARMY SHORT VERSION","","","ニューモデルアーミー ショートバージョン","","",1,4,false
-18005,"hartford","NEW MODEL ARMY CARBINE","","","ニューモデルアーミー カービン","","",2,4,false
-18006,"hartford","M1873","","","","","",2,4,false
-18007,"hartford","M1866","","","","","",1,4,false
-18008,"hartford","","","","","","",1,4,false
-18009,"hartford","","","","","","",1,4,false
 
 19000,"umarex","BERETTA MOD. 92 FS","","Energy < 0.5J","","","",1,2,true
 19001,"umarex","BERETTA MOD. 92 A1","","Energy < 0.5J","","","",1,2,true
@@ -1861,49 +1814,49 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 22062,"aps","XTREME TRAINING","","","","","",1,4,false
 22063,"aps","M1911 CRIXUS","AG PISTOL M1911 CRIXUS","","","","",1,4,false
 
-22070,"aps","CAM 870 MKIII BULLDOG","","","","","",4,4,false
-22071,"aps","CAM 870 MKIII BATTLEWORN/DOUCHBAG","","","","","",4,4,false
+22070,"aps","CAM 870 MKIII Bulldog","","","","","",4,4,false
+22071,"aps","CAM 870 MKIII Battleworn/Douchbag","","","","","",4,4,false
 22072,"aps","CAM 870 MKIII","","","","","",4,4,false
 22073,"aps","TACTICAL STYLE CAM KMII","","","","","",4,4,false
 22074,"aps","TACTICAL STYLE CAM KMIII","","","","","",4,4,false
 22075,"aps","CAM MKII","","","","","",4,4,false
-22076,"aps","CAM 870 MKII BULLDOG","","","","","",4,4,false
+22076,"aps","CAM 870 MKII Bulldog","","","","","",4,4,false
 22077,"aps","CAM MKII AOW","CAM MKII ANY OTHER WEAPON","","","","",4,4,false
 22078,"aps","CAM MKIII AOW","CAM MKIII ANY OTHER WEAPON","","","","",4,4,false
-22079,"aps","CAM MKII BATTLEWORN/DOUCHBAG","","","","","",4,4,false
+22079,"aps","CAM MKII Battleworn/Douchbag","","","","","",4,4,false
 22080,"aps","CAM MKII-SF","","","","","",4,4,false
 22081,"aps","CAM MKIII-SF","","","","","",4,4,false
 22082,"aps","SALIENT ARMS MKII","","","","","",4,4,false
 22083,"aps","SALIENT ARMS MKIII","","","","","",4,4,false
-22084,"aps","SNIPER RIFLE","","","","","",2,4,false
+22084,"aps","Sniper Rifle","","","","","",2,4,false
 
-22090,"aps","BARRETT FIELDCRAFT SNIPER RIFLE","","","","","",2,4,false
-22091,"aps","BARRETT FIELDCRAFT SNIPER RIFLE","","","","","",2,1,false
-22092,"aps","SPRING ACTION SNIPER RIFLE","","","","","",2,1,false
+22090,"aps","BARRETT FIELDCRAFT Sniper Rifle","","","","","",2,4,false
+22091,"aps","BARRETT FIELDCRAFT Sniper Rifle","","","","","",2,1,false
+22092,"aps","SPRING ACTION Sniper Rifle","","","","","",2,1,false
 
 23000,"arcturus","AK74","","","","","",2,2,false
 23001,"arcturus","AK74U","","","","","",2,2,false
 23002,"arcturus","AK12","","","","","",2,2,false
 23003,"arcturus","AK12K","","","","","",2,2,false
 23004,"arcturus","Centaur B AK","","","","","",2,2,false
-23005,"arcturus","AR15 RIFLE","","","","","",2,2,false
-23006,"arcturus","AR15 CARBINE","","","","","",2,2,false
+23005,"arcturus","AR15 Rifle","","","","","",2,2,false
+23006,"arcturus","AR15 Carbine","","","","","",2,2,false
 23007,"arcturus","AR15 CQB","","","","","",2,2,false
 23008,"arcturus","SR16 RIFLE","","","","","",2,2,false
 23009,"arcturus","SR16 CQB","","","","","",2,2,false
-23010,"arcturus","MUR MOD B CARBINE","","","","","",2,2,false
+23010,"arcturus","MUR MOD B Carbine","","","","","",2,2,false
 23011,"arcturus","MUR MOD B CQB","","","","","",2,2,false
 
 23020,"arcturus","PP19-01 VITYAZ","","","","","",8,2,false
 23021,"arcturus","PP19-01 VITYAZ ZTAC SP1 CQB","","","","","",8,2,false
-23022,"arcturus","PP19-01 VITYAZ ZTAC SP1 CARBINE","","","","","",8,2,false
+23022,"arcturus","PP19-01 VITYAZ ZTAC SP1 Carbine","","","","","",8,2,false
 23023,"arcturus","PPK 20","","","","","",8,2,false
 
 23030,"arcturus","Karambit PDW 5.5-inch","","","","","",2,2,false
 23031,"arcturus","Karambit PDW 8-inch","","","","","",2,2,false
 23032,"arcturus","Sword MOD1 SBR 8-inch","","","","","",2,2,false
 23033,"arcturus","Sword MOD1 CQB 9.55-inch","","","","","",2,2,false
-23034,"arcturus","Sword MOD1 CARBINE 13.5-inch","","","","","",2,2,false
+23034,"arcturus","Sword MOD1 Carbine 13.5-inch","","","","","",2,2,false
 23035,"arcturus","LWT MK-I CQB 10-inch","","","","","",2,2,false
 23036,"arcturus","X C.A.T.AR-15 10-inch","","","","","",2,2,false
 23037,"arcturus","X C.A.T.AR-15 8.5-inch","","","","","",2,2,false
@@ -2247,3 +2200,1237 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 28009,"e&l","AKS74","","","","","",2,2,false
 28010,"e&l","AKM","","","","","",2,2,false
 28011,"e&l","AKMS","","","","","",2,2,false
+
+29000,"emg","ARCHON FIREARMS TYPE B","","","","","",1,4,false
+29001,"emg","GLOCK 17 GEN.4","ELITE FORCE FULLY LICENSED GLOCK 17 GEN.4","","","","",1,4,false
+29002,"emg","HUDSON H9","","","","","",1,4,false
+29003,"emg","RA-TECK SALIENT ARMS INTERNATIONAL BLU","","","","","",1,4,false
+29004,"emg","M&P 9","SMITH & WESSON LICENSED M&P 9","","","","",1,4,false
+29005,"emg","SALIENT ARMS INTERNATIONAL 2011 DS 4.3","","","","","",1,4,false
+29006,"emg","SALIENT ARMS INTERNATIONAL 2011 DS 5.1","","","","","",1,4,false
+29007,"emg","SALIENT ARMS INTERNATIONAL BLU","","","","","",1,4,false
+29008,"emg","SALIENT ARMS INTERNATIONAL RED 1911","","","","","",1,4,false
+29009,"emg","SALIENT ARMS INTERNATIONAL RED HI-CAPA","","","","","",1,4,false
+29010,"emg","STI INTERNATIONAL DVC 3-GUN 2011","","","","","",1,4,false
+29011,"emg","CUSTOM TTI JW2 Combat Master Slide","","","","","",1,4,false
+29012,"emg","F-1 FIREARMS","F-1 FIREARMS LICENSED BSF-19","","","","",1,4,false
+29013,"emg","SAI BLU COMPACT","","","","","",1,4,false
+29014,"emg","SAI BLU","","","","","",1,4,false
+29015,"emg","RA-TECK SALIENT ARMS INTERNATIONAL BLU COMPACT","","","","","",1,4,false
+29016,"emg","SPECNA ARMS SPECIAL EDITION SAI BLU","","","","","",1,4,false
+29017,"emg","C2 COMPACT 2011","STACCATO LICENSED C2 COMPACT 2011","","","","",1,4,false
+29018,"emg","P 2011","STACCATO LICENSED P 2011","","","","",1,4,false
+29019,"emg","XC 2011","STACCATO LICENSED XC 2011","","","","",1,4,false
+29020,"emg","XL 2011","STACCATO LICENSED XL 2011","","","","",1,4,false
+29021,"emg","JW3 2011 Combat Master","STI / TTI LICENSED JW3 2011 Combat Master","","","","",1,4,false
+29022,"emg","STRIKE INDUSTRIES ARK","","","","","",1,4,false
+29023,"emg","ARK-17","STRIKE INDUSTRIES LICENSED ARK-17","","","","",1,4,false
+29024,"emg","PROTOTYPE 2K ALPHA 2011","STRIKE INDUSTRIES LICENSED PROTOTYPE 2K ALPHA 2011","","","","",1,4,false
+29025,"emg","JW4 2011 PIT VIPER","TTI LICENSED JW4 2011 PIT VIPER","","","","",1,4,false
+
+29030,"emg","DEMOLITION RANCH 2.0","","","","","",2,2,false
+29031,"emg","DEMOLITION RANCH UDR-15 AR15","","","","","",2,2,false
+29032,"emg","DDMK18","DANIEL DEFENSE LICENSED DDMK18","","","","",2,2,false
+29033,"emg","SOPMOD BLOCK II","DANIEL DEFENSE LICENSED SOPMOD BLOCK II","","","","",2,2,false
+29034,"emg","RDB17","KEL-TEC LICENSED RDB17","","","","",2,2,false
+29035,"emg","REC7 DI AR15","","","","","",2,2,false
+29036,"emg","FN HERSTAL P90","","","","","",2,2,false
+29037,"emg","AR-15","","","","","",2,2,false
+29038,"emg","M4 15-inch","","","","","",2,2,false
+29039,"emg","M4 10-inch","","","","","",2,2,false
+29040,"emg","M4 16-inch","","","","","",2,2,false
+29041,"emg","EFCS Pistol Caliber Carbine","","","","","",8,2,false
+29042,"emg","MK47 VER2","","","","","",2,2,false
+29043,"emg","M16A1","","","","","",2,2,false
+29044,"emg","XM177E1","","","","","",2,2,false
+29045,"emg","M16A3","","","","","",2,2,false
+29046,"emg","MK18","","","","","",2,2,false
+29047,"emg","DDM4","","","","","",2,2,false
+29048,"emg","F-1 FIREARMS PDW","","","","","",2,2,false
+29049,"emg","F-1 FIREARMS SBR","","","","","",2,2,false
+29050,"emg","F-1 FIREARMS UDR-15","","","","","",2,2,false
+29051,"emg","JACK9 Pistol Caliber Carbine","","","","","",8,2,false
+29052,"emg","SCW-9 Pistol Caliber Carbine","","","","","",8,2,false
+29053,"emg","UDP-9 Pistol Caliber Carbine","","","","","",8,2,false
+29054,"emg","DDRM4A1 CARBINE","","","","","",2,2,false
+29055,"emg","SR-16E","","","","","",2,2,false
+29056,"emg","PDW M2","","","","","",2,2,false
+29057,"emg","MB47","","","","","",2,2,false
+29058,"emg","B15","","","","","",2,2,false
+29059,"emg","L15","","","","","",2,2,false
+29060,"emg","M1919 GEN 2","M1919 GEN 2 AUTOMATIC SQUAD SUPPORT","","","","",2,2,false
+29061,"emg","NOVESKE GEN 4","","","","","",2,2,false
+29062,"emg","NOVESKE N4 GEN 3","","","","","",2,2,false
+29063,"emg","NOVESKE SPACE INVADER GEN4 Pistol Caliber Carbine","","","","","",8,2,false
+29064,"emg","AK74","","","","","",2,2,false
+29065,"emg","","","","","","",2,2,false
+29066,"emg","","","","","","",2,2,false
+29067,"emg","","","","","","",2,2,false
+29068,"emg","","","","","","",2,2,false
+29069,"emg","SGR-12","","","","","",4,2,false
+29070,"emg","N4 GEN 3","NOVESKE Licensed N4 GEN 3","","","","",2,4,false
+29071,"emg","L119A2","COLT CANADA L119A2","","","","",2,4,false
+29072,"emg","F-1 FIREARMS SRB","","","","","",2,4,false
+29073,"emg","F-1 FIREARMS UDR-15 AR15","","","","","",2,4,false
+29074,"emg","PDW M2 COMPACT","","","","","",2,4,false
+29075,"emg","Tactical Competition MWS System","STRIKE INDUSTRIES Tactical Competition MWS System","","","","",2,4,false
+29076,"emg","M870 MKII","","","","","",4,4,false
+29077,"emg","Precision Bolt Action Sniper Rifle","BARRETT FIELDCRAFT Precision Bolt Action Sniper Rifle","","","","",2,1,false
+29078,"emg","EV01 Bolt Action Sniper Rifle","HELIOS EV01 Bolt Action Sniper Rifle BY ARES","","","","",2,1,false
+29079,"emg","EV02 Compact Bolt Action Sniper Rifle","HELIOS EV02 Compact Bolt Action Sniper Rifle BY ARES","","","","",2,1,false
+29080,"emg","EV03 Tactical Bolt Action Sniper Rifle","HELIOS EV03 Tactical Bolt Action Sniper Rifle BY ARES","","","","",2,1,false
+29081,"emg","CXP-TOMAHAWK Bolt Action Sniper Rifle","X ICS CXP-TOMAHAWK Bolt Action Sniper Rifle","","","","",2,1,false
+
+30000,"g&g","SGR556","","","","","",2,2,false
+30001,"g&g","BAMF","","","","","",2,2,false
+30002,"g&g","TR16 SBR","","","","","",2,2,false
+30003,"g&g","TR16 MBR","","","","","",2,2,false
+30004,"g&g","TR16 Ranger","","","","","",2,2,false
+30005,"g&g","TR16 R5","","","","","",2,2,false
+30006,"g&g","TR16 R4","","","","","",2,2,false
+30007,"g&g","TR16 CRW Viper","","","","","",2,2,false
+30008,"g&g","TR16 CRW Cannon","","","","","",2,2,false
+30009,"g&g","TR16 CRW","","","","","",2,2,false
+30010,"g&g","TR16 CQW","","","","","",2,2,false
+30011,"g&g","TR16 Carbine Light","","","","","",2,2,false
+30012,"g&g","TR16 Carbine","","","","","",2,2,false
+30013,"g&g","TR16 A3 Carbine","","","","","",2,2,false
+30014,"g&g","TR16 A3","","","","","",2,2,false
+30015,"g&g","SR15 MOD2 Carbine","","","","","",2,2,false
+30016,"g&g","SR30 CQB","","","","","",2,2,false
+30017,"g&g","SR25 E2","","","","","",2,2,false
+30018,"g&g","TR15 Raider XL","","","","","",2,2,false
+30019,"g&g","TR15 Raider L","","","","","",2,2,false
+30020,"g&g","TR15 Raider","","","","","",2,2,false
+30021,"g&g","GK12","","","","","",2,2,false
+30022,"g&g","PRK9L","","","","","",8,2,false
+30023,"g&g","PRK9 RTS","","","","","",8,2,false
+30024,"g&g","PRK9","","","","","",8,2,false
+30025,"g&g","RK74-T","","","","","",2,2,false
+30026,"g&g","RK74-E","","","","","",2,2,false
+30027,"g&g","RK74-CQB","","","","","",2,2,false
+30028,"g&g","RK Beta","","","","","",2,2,false
+30029,"g&g","RK104 ETU CRANE","","","","","",2,2,false
+30030,"g&g","RK104 EVO","","","","","",2,2,false
+30031,"g&g","RK104","","","","","",2,2,false
+30032,"g&g","RK103 EVO","","","","","",2,2,false
+30033,"g&g","RK103","","","","","",2,2,false
+30034,"g&g","RK47","","","","","",2,2,false
+30035,"g&g","GKM","","","","","",2,2,false
+30036,"g&g","GKS74U","","","","","",2,2,false
+30037,"g&g","GKS74","","","","","",2,2,false
+30038,"g&g","GKMS","","","","","",2,2,false
+30039,"g&g","GKMS Carbine","","","","","",2,2,false
+30040,"g&g","GK99","","","","","",2,2,false
+30041,"g&g","GK74N","","","","","",2,2,false
+30042,"g&g","GK74M","","","","","",2,2,false
+30043,"g&g","GK74 Carbine","","","","","",2,2,false
+30044,"g&g","GK74","","","","","",2,2,false
+30045,"g&g","GIMS","","","","","",2,2,false
+30046,"g&g","TR4-18 Light","","","","","",2,2,false
+30047,"g&g","TR4-18","","","","","",2,2,false
+30048,"g&g","TR4 MOD 0","","","","","",2,2,false
+30049,"g&g","TR4 CQB","","","","","",2,2,false
+30050,"g&g","GR25","","","","","",2,2,false
+30051,"g&g","GK5D","","","","","",2,2,false
+30052,"g&g","GK5C","","","","","",2,2,false
+30053,"g&g","GF85 S/GS","","","","","",2,2,false
+30054,"g&g","GF85 L/GL","","","","","",2,2,false
+30055,"g&g","L85 Carbine/A2/A1","","","","","",2,2,false
+30056,"g&g","L85 AFV","","","","","",2,2,false
+30057,"g&g","Type 57","","","","","",2,2,false
+30058,"g&g","GR14","","","","","",2,2,false
+30059,"g&g","GR14 EBR Long","","","","","",2,2,false
+30060,"g&g","GR14 EBR Short","","","","","",2,2,false
+30061,"g&g","FS51 Folding Stock","","","","","",2,2,false
+30062,"g&g","FS41 Fixed Stock","","","","","",2,2,false
+30063,"g&g","G3 SAS","","","","","",2,2,false
+30064,"g&g","G960 SV","","","","","",2,1,false
+30065,"g&g","SG553","","","","","",2,2,false
+30066,"g&g","SG552","","","","","",2,2,false
+30067,"g&g","SG550","","","","","",2,2,false
+30068,"g&g","GSS","","","","","",2,2,false
+30069,"g&g","LE4 Mk I","","","","","",2,4,false
+30070,"g&g","M1 Garand","","","","","",2,2,false
+30071,"g&g","GM1903","","","","","",2,4,false
+30072,"g&g","GMG42","","","","","",2,2,false
+30073,"g&g","G980","","","","","",2,4,false
+30074,"g&g","F2000","","","","","",2,2,false
+30075,"g&g","TGM R5","","","","","",8,2,false
+30076,"g&g","TGM A3","","","","","",8,2,false
+30077,"g&g","TGM A2","","","","","",8,2,false
+30078,"g&g","SMC 9","","","","","",8,4,false
+30079,"g&g","Type 64","","","","","",2,2,false
+30080,"g&g","SBR8 7-inch","","","","","",2,2,false
+30081,"g&g","SBR8 9-inch","","","","","",2,2,false
+30082,"g&g","SBR8 12-inch","","","","","",2,2,false
+30083,"g&g","AR-15 SBR8","","","","","",2,2,false
+30084,"g&g","T91 Training Rifle","","","","","",2,2,false
+30085,"g&g","MGCR 556 GBB 7-inch","","","","","",2,2,false
+30086,"g&g","MGCR 556 GBB 10-inch","","","","","",2,2,false
+30087,"g&g","MGCR 556 GBB 12-inch","","","","","",2,2,false
+30100,"g&g","FAR 556","","","","","",2,2,false
+30101,"g&g","FAR 9","","","","","",8,2,false
+30102,"g&g","ARP9 3.0","","","","","",8,2,false
+30103,"g&g","ARP9 2.0","","","","","",8,2,false
+30104,"g&g","PCC45","","","","","",8,2,false
+30105,"g&g","MXC9","","","","","",8,2,false
+30106,"g&g","BAMF Recon","","","","","",2,2,false
+30107,"g&g","BAMF Stealth","","","","","",2,2,false
+30108,"g&g","GTW91","","","","","",2,2,false
+30109,"g&g","ARP556 2.0","","","","","",2,2,false
+30110,"g&g","CM16 Predeator","","","","","",2,2,false
+30111,"g&g","CM16 Wild Hog 9-inch","","","","","",2,2,false
+30112,"g&g","CM16 Wild Hog 12-inch","","","","","",2,2,false
+30113,"g&g","CM16 Wild Hog 13.5-inch","","","","","",2,2,false
+30114,"g&g","CM16 Wild Hog 7-inch","","","","","",2,2,false
+30115,"g&g","CM16 SRF 9-inch","","","","","",2,2,false
+30116,"g&g","CM16 SRF 16-inch","","","","","",2,2,false
+30117,"g&g","CM16 SRS","","","","","",2,2,false
+30118,"g&g","CM16 SRL","","","","","",2,2,false
+30119,"g&g","CM16 SRXL","","","","","",2,2,false
+30120,"g&g","CM16 Raider","","","","","",2,2,false
+30121,"g&g","CM16 Raider-L","","","","","",2,2,false
+30122,"g&g","CM16 Raider 2.0","","","","","",2,2,false
+30123,"g&g","CM16 Raider L 2.0E","","","","","",2,2,false
+30124,"g&g","CM16 R8-L","","","","","",2,2,false
+30125,"g&g","CM16 MOD 0","","","","","",2,2,false
+30126,"g&g","CM16 FFR A2","","","","","",2,2,false
+30127,"g&g","CM16 Carbine","","","","","",2,2,false
+30128,"g&g","CM16 Carbine Light","","","","","",2,2,false
+30129,"g&g","CM16 300BOT","","","","","",2,2,false
+30130,"g&g","SSG-1","","","","","",2,2,false
+30131,"g&g","CMF-16","","","","","",2,2,false
+30132,"g&g","ARP556 V2S","","","","","",2,2,false
+30133,"g&g","CM16 LMG","","","","","",2,2,false
+30134,"g&g","Death Machine Mark 2","","","","","",2,2,false
+30135,"g&g","CM15 KR-Carbine","","","","","",2,2,false
+30136,"g&g","CM15 KR-LPR 13-inch","","","","","",2,2,false
+30137,"g&g","CM15 KR-CQB 8.5-inch","","","","","",2,2,false
+30138,"g&g","CM15 KR-APR 14.5-inch","","","","","",2,2,false
+30139,"g&g","FireHawk","","","","","",2,2,false
+30140,"g&g","CM18 MOD1","","","","","",2,2,false
+
+30200,"g&g","CM47","","","","","",2,2,false
+30201,"g&g","RK47","","","","","",2,2,false
+30202,"g&g","GR16 CQW","","","","","",2,2,false
+30203,"g&g","GR16 Carbine","","","","","",2,2,false
+30204,"g&g","GR15 Raider-XL","","","","","",2,2,false
+30205,"g&g","GR15 Raider-L","","","","","",2,2,false
+30206,"g&g","GR15 Raider","","","","","",2,2,false
+30207,"g&g","GR4 G26","","","","","",2,2,false
+30208,"g&g","GR4 CQB-s","","","","","",2,2,false
+30209,"g&g","GR4 100Y","","","","","",2,2,false
+30210,"g&g","EGM A4","","","","","",8,2,false
+30211,"g&g","GEC36","","","","","",2,2,false
+30212,"g&g","GC16 Predator","","","","","",2,2,false
+30213,"g&g","APR556","","","","","",2,2,false
+30214,"g&g","HB16 MOD 0","","","","","",2,2,false
+30215,"g&g","GC4-16","","","","","",2,2,false
+30216,"g&g","GC16 7-inch","","","","","",2,2,false
+30217,"g&g","GC16 9-inch","","","","","",2,2,false
+30218,"g&g","GC16 12-inch","","","","","",2,2,false
+30219,"g&g","GC16 13.5-inch","","","","","",2,2,false
+30220,"g&g","GC16 SRL","","","","","",2,2,false
+30221,"g&g","GC16 SR CQB","","","","","",2,2,false
+30222,"g&g","GC16 Raider-L","","","","","",2,2,false
+30223,"g&g","GC16 Raider-S","","","","","",2,2,false
+30224,"g&g","GC16 Carbine","","","","","",2,2,false
+30225,"g&g","GC16 300BOT","","","","","",2,2,false
+30226,"g&g","GC12 S.P.R","","","","","",2,2,false
+30227,"g&g","GC7A1","","","","","",2,2,false
+30228,"g&g","GC1-46","","","","","",2,2,false
+30229,"g&g","GC18 MOD1","","","","","",2,2,false
+30230,"g&g","GC4 G26 A1","","","","","",2,2,false
+30231,"g&g","SOC 16","","","","","",2,2,false
+30232,"g&g","GR14","","","","","",2,2,false
+30233,"g&g","GC300 S","","","","","",2,2,false
+30234,"g&g","GC300 L","","","","","",2,2,false
+30235,"g&g","PDW15-CQB","","","","","",2,2,false
+30236,"g&g","PDW15-AR","","","","","",2,2,false
+30300,"g&g","Piranha","","","","","",1,4,false
+30301,"g&g","GTP9","","","","","",1,4,false
+30302,"g&g","GPM1911","","","","","",1,4,false
+30303,"g&g","GPM1911 CP","","","","","",1,4,false
+30304,"g&g","GPM92","","","","","",1,4,false
+30305,"g&g","GX45","","","","","",1,4,false
+
+31000,"g&p","MK46","","","","","",2,2,false
+31001,"g&p","M4A1","","","","","",2,2,false
+31002,"g&p","MK18","","","","","",2,2,false
+31003,"g&p","AR16 CQB","","","","","",2,2,false
+31004,"g&p","AR16 SBR","","","","","",2,2,false
+31005,"g&p","AR16 Carbine","","","","","",2,2,false
+31006,"g&p","14.5-inch Recce Rifle","","","","","",2,2,false
+31007,"g&p","16-inch Recce Rifle","","","","","",2,2,false
+31008,"g&p","AR15 CQB","","","","","",2,2,false
+31009,"g&p","AR15 SBR","","","","","",2,2,false
+31010,"g&p","AR15 Carbine","","","","","",2,2,false
+31011,"g&p","Gun-002A","","","","","",2,2,false
+31012,"g&p","Gun-002B","","","","","",2,2,false
+31013,"g&p","Gun-008A","","","","","",2,2,false
+31014,"g&p","Gun-008B","","","","","",2,2,false
+31015,"g&p","Gun-005","","","","","",2,2,false
+31016,"g&p","Gun-023","","","","","",2,2,false
+31017,"g&p","Gun-020","","","","","",2,2,false
+31018,"g&p","Gun-007","","","","","",2,2,false
+31019,"g&p","Gun-002","","","","","",2,2,false
+31020,"g&p","Gun-001","","","","","",2,2,false
+31021,"g&p","Gun-004","","","","","",2,2,false
+31050,"g&p","Tactical Rifle 10-inch","","","","","",2,2,false
+31051,"g&p","Tactical Rifle 13.5-inch","","","","","",2,2,false
+31052,"g&p","Tactical Rifle 15.5-inch","","","","","",2,2,false
+31053,"g&p","Gun-073","","","","","",2,2,false
+31054,"g&p","Gun-069","","","","","",2,2,false
+31055,"g&p","Gun-067","","","","","",2,2,false
+31056,"g&p","Ball Rifle","","","","","",2,2,false
+31057,"g&p","M14 DMR","","","","","",2,2,false
+31058,"g&p","Baby Pig","","","","","",2,2,false
+31059,"g&p","Paratrooper","","","","","",2,2,false
+31060,"g&p","SR15 URX","","","","","",2,2,false
+31061,"g&p","M63A1","","","","","",2,2,false
+31062,"g&p","MK23 MG","","","","","",2,2,false
+31063,"g&p","MK14 Crane Proto","","","","","",2,2,false
+31064,"g&p","Beast","","","","","",2,2,false
+31065,"g&p","Tank","","","","","",2,2,false
+31066,"g&p","M4 EOD","","","","","",2,2,false
+31067,"g&p","M4 Navy Seal","","","","","",2,2,false
+31068,"g&p","SR16 URX","","","","","",2,2,false
+31069,"g&p","QRF","","","","","",2,2,false
+31070,"g&p","MRE","","","","","",2,2,false
+31071,"g&p","M4 RAS","","","","","",2,2,false
+31072,"g&p","M5 RAS","","","","","",2,2,false
+31073,"g&p","M4 CQB","","","","","",2,2,false
+31074,"g&p","M5 RAS","","","","","",2,2,false
+31075,"g&p","M16A3","","","","","",2,2,false
+31076,"g&p","M4 Commando","","","","","",2,2,false
+31077,"g&p","M4A1","","","","","",2,2,false
+31078,"g&p","AR15 PTW Project Short","","","","","",2,2,false
+31079,"g&p","AR15 PTW Project Long","","","","","",2,2,false
+31100,"g&p","Shotgun-024/026/032/033/034","","","","","",4,1,false
+31101,"g&p","Shotgun-031","","","","","",4,1,false
+31102,"g&p","Shotgun-020/021/029/030","","","","","",4,1,false
+31103,"g&p","Shotgun-025/027","","","","","",4,1,false
+31104,"g&p","Medium Long Entry RAS Shotgun","","","","","",4,1,false
+31105,"g&p","Medium Entry RAS Shotgun","","","","","",4,1,false
+31106,"g&p","Long Breacher Shotgun","","","","","",4,1,false
+31107,"g&p","Medium Breacher Shotgun","","","","","",4,1,false
+31108,"g&p","Short Breacher Shotgun","","","","","",4,1,false
+31109,"g&p","Medium Entry Shotgun","","","","","",4,1,false
+31110,"g&p","M870 Sheriff Medium","","","","","",4,1,false
+31111,"g&p","M870 Sheriff Long","","","","","",4,1,false
+31112,"g&p","M870 RAS","","","","","",4,1,false
+31113,"g&p","M870 Tactical Shotgun Medium","","","","","",4,1,false
+31114,"g&p","M870 Mad Dog Type Shotgun","","","","","",4,1,false
+31115,"g&p","M870 Original Type Shotgun Shorty","","","","","",4,1,false
+31116,"g&p","M870 Original Type Shotgun Medium","","","","","",4,1,false
+31150,"g&p","Gas Blowback-43","","","","","",2,4,false
+31151,"g&p","Gas Blowback-46","","","","","",2,4,false
+31152,"g&p","Gas Blowback-47","","","","","",2,4,false
+31153,"g&p","Gas Blowback-49","","","","","",2,4,false
+31154,"g&p","Gas Blowback-50","","","","","",2,4,false
+31155,"g&p","WOC M4 OR Burst","","","","","",2,4,false
+31156,"g&p","WOC Fighting Cat","","","","","",2,4,false
+31157,"g&p","WOC Tank","","","","","",2,4,false
+31158,"g&p","WOC CQB","","","","","",2,4,false
+31159,"g&p","WOC SR16 URX","","","","","",2,4,false
+31160,"g&p","WOC Defender","","","","","",2,4,false
+31161,"g&p","WOC M4A1","","","","","",2,4,false
+31162,"g&p","AK47","","","","","",2,2,false
+31163,"g&p","AK Tactical","","","","","",2,2,false
+31164,"g&p","Lonewolf G18","","","","","",1,4,false
+31165,"g&p","Lonewolf G17","","","","","",1,4,false
+31166,"g&p","EMG Custom CNC","","","","","",1,4,false
+
+32000,"ghk","COLT MK12 MOD1","","","","","",2,4,false
+32001,"ghk","URG-I 10.3","","","","","",2,4,false
+32002,"ghk","URG-I 14.5","","","","","",2,4,false
+32003,"ghk","DD M4A1 RISII","","","","","",2,4,false
+32004,"ghk","DD MK18 MOD1","","","","","",2,4,false
+32005,"ghk","COLT M4 10.5","","","","","",2,4,false
+32006,"ghk","COLT M4 12.5","","","","","",2,4,false
+32007,"ghk","COLT M4 14.5","","","","","",2,4,false
+32008,"ghk","AKM","","","","","",2,4,false
+32009,"ghk","AIMS","","","","","",2,4,false
+32010,"ghk","AKMS","","","","","",2,4,false
+32011,"ghk","AK74","","","","","",2,4,false
+32012,"ghk","AKS74U","","","","","",2,4,false
+32013,"ghk","AK105","","","","","",2,4,false
+32014,"ghk","551(BK) Tactical Rail","","","","","",2,4,false
+32015,"ghk","553(BK) Tactical Rail","","","","","",2,4,false
+32016,"ghk","553 GBB(Cerakote)","","","","","",2,4,false
+32017,"ghk","AUG A2","","","","","",2,4,false
+32018,"ghk","AUG A3","","","","","",2,4,false
+32019,"ghk","G5","","","","","",2,4,false
+32020,"ghk","GLOCK 17 GEN 3","","","","","",1,4,false
+
+33001,"hartford","SAA.45 Cowboy Action Gear","","","SAA.45 カウボーイ・アクション。ギア","","",1,4,false
+33002,"hartford","SAA.45 FDC","SAA.45 Fast Draw Custom","","SAA.45 FDC","SAA.45 ファスト・ドロウ・カスタム","",1,4,false
+33003,"hartford","SAA.45 Sheriff's Custom","","","SAA.45 シェリフス カスタム","","",1,4,false
+33004,"hartford","NEW MODEL ARMY Percussion Standard","","","ニューモデルアーミー パーカッション・スタンダード","","",1,4,false
+33005,"hartford","NEW MODEL ARMY Revolver Carbine","","","ニューモデルアーミー リボルバー・カービン","","",2,4,false
+33006,"hartford","NEW MODEL ARMY Long barrel Model","","","ニューモデルアーミー ロングバレル・モデル","","",1,4,false
+33007,"hartford","NEW MODEL ARMY Percussion Short Version","","","ニューモデルアーミー パーカッション・ショート・バージョン","","",1,4,false
+33008,"hartford","M1866 Yellowboy","","","M1866 イエローボーイ","","",2,4,false
+33009,"hartford","M2019C.S.B. SNUB NOSE","","","M2019C.S.B スナブ・ノーズ","","",1,4,false
+33010,"hartford","M1873","","","","","",2,4,false
+
+34001,"ics","BLE-ICP","","","","","",1,4,false
+34002,"ics","BLE-VULTURE (Tactical Version)","","","","","",1,4,false
+34003,"ics","BLE-VULTURE","","","","","",1,4,false
+34004,"ics","Hi-Capa Challenger","","","","","",1,4,false
+34005,"ics","SARSILMAZ SAR 9.II","","","","","",1,4,false
+34006,"ics","BLE-XMK Compact","","","","","",1,4,false
+34007,"ics","BLE-XMK","","","","","",1,4,false
+34008,"ics","BLE-BM9","","","","","",1,4,false
+34009,"ics","KORTH PRS","","","","","",1,4,false
+34010,"ics","BLE-XFG","","","","","",1,4,false
+34011,"ics","BLE-XAE","","","","","",1,4,false
+34012,"ics","BLE-ALPHA","","","","","",1,4,false
+34013,"ics","BLE-PM2","","","","","",1,4,false
+
+34014,"ics","CXP-TOMAHAWK","","","","","",2,1,false
+
+34015,"ics","MK18 S3","","","","","",2,2,false
+34016,"ics","CXP ARK","","","","","",2,2,false
+34017,"ics","CXP-MARS Kodomo","","","","","",2,2,false
+34018,"ics","CXP-MARS SBR MTR Stock","","","","","",2,2,false
+34019,"ics","CXP-MARS Carbine MTR Stock","","","","","",2,2,false
+34020,"ics","CXP-MARS UKSR Stock","","","","","",2,2,false
+34021,"ics","CXP-MARS SBR MTR Stock","","","","","",2,2,false
+34022,"ics","CXP-MARS.II Kodomo JUNIOR","","","","","",2,2,false
+34023,"ics","CXP-MARS.II Carbine","","","","","",2,2,false
+34024,"ics","CXP-MARS.II DMR","","","","","",2,2,false
+34025,"ics","CXP-MARS PDW9","","","","","",2,2,false
+34026,"ics","CXP-MMR Carbine","","","","","",2,2,false
+34027,"ics","CXP-MMR SBR","","","","","",2,2,false
+34028,"ics","CXP-MMR DMR","","","","","",2,2,false
+34029,"ics","CXP-YAK SBR","","","","","",2,2,false
+34030,"ics","CXP-YAK Carbine","","","","","",2,2,false
+34031,"ics","CXP-YAK DMR","","","","","",2,2,false
+34032,"ics","CXP-YAK CQB","","","","","",2,2,false
+34033,"ics","CXP-08","","","","","",2,2,false
+34034,"ics","CXP QD4","","","","","",2,2,false
+34035,"ics","CXP-15 K Stock","","","","","",2,2,false
+34036,"ics","CXP-15 K PSL","","","","","",2,2,false
+34037,"ics","CXP-16 S","","","","","",2,2,false
+34038,"ics","CXP-16 L","","","","","",2,2,false
+34039,"ics","CXP-APE SF1 Stock","","","","","",2,2,false
+34040,"ics","CXP-APE Rifle SF1 Stock","","","","","",2,2,false
+34041,"ics","CXP-HOG MTR Stock","","","","","",2,2,false
+34042,"ics","CXP-HOG QRS","","","","","",2,2,false
+34043,"ics","CXP-HOG Tubular UKSR Stock","","","","","",2,2,false
+34044,"ics","CXP-HOG Tubular L UKSR Stock","","","","","",2,2,false
+34045,"ics","CXP-HOG Tubular SD","","","","","",2,2,false
+34046,"ics","CXP-HOG Tubular S SD","","","","","",2,2,false
+34047,"ics","CXP-UK1 S1","","","","","",2,2,false
+34048,"ics","CXP-UK1 Captain","","","","","",2,2,false
+34049,"ics","CXP-UK1 MTR Stock","","","","","",2,2,false
+34050,"ics","CXP-UK1 Rifle","","","","","",2,2,false
+34051,"ics","Lightway-Dagger","","","","","",2,2,false
+34052,"ics","Lightway-Peleador","","","","","",2,2,false
+34053,"ics","Lightway-Peleador C S3","","","","","",2,2,false
+34054,"ics","Lightway-Peleador S3","","","","","",2,2,false
+34055,"ics","Lightway-Peleador III","","","","","",2,2,false
+34056,"ics","HERA ARMS CQR","","","","","",2,2,false
+34057,"ics","CS4 CQB Short Fixed Stock","","","","","",2,2,false
+34058,"ics","CS4 SIR Crane Stock","","","","","",2,2,false
+34059,"ics","CS4A1 Tubular RAS S","","","","","",2,2,false
+34060,"ics","CS4A1 Tubular RAS L","","","","","",2,2,false
+34061,"ics","CS16A3 Fixed Stock","","","","","",2,2,false
+34062,"ics","CS4 RIS Short Fixed Stock","","","","","",2,2,false
+34063,"ics","CS4 CQB Short Fixed Stock","","","","","",2,2,false
+34064,"ics","CS4A1 Retractable Stock","","","","","",2,2,false
+34065,"ics","CS4 Commando Crane Stock","","","","","",2,2,false
+34066,"ics","CS4 RIS Crane Stock","","","","","",2,2,false
+34067,"ics","CS4A1 Fixed Stock","","","","","",2,2,false
+34068,"ics","CS4 C-15 Fixed Stock","","","","","",2,2,false
+34069,"ics","CS4 RAS Folding Stock","","","","","",2,2,false
+34070,"ics","CS4 CQB PSL","","","","","",2,2,false
+34071,"ics","CS4 RIS","","","","","",2,2,false
+34072,"ics","AARF","","","","","",2,2,false
+34073,"ics","TOD MRS","","","","","",2,2,false
+34074,"ics","TOD ARM","","","","","",2,2,false
+34075,"ics","TOD AR","","","","","",2,2,false
+34076,"ics","L85 A2 Assault Rifle","","","","","",2,2,false
+34077,"ics","L85 A2 Carbine","","","","","",2,2,false
+34078,"ics","L85 A2 LSW","","","","","",2,2,false
+34079,"ics","MAR Fixed Stock","","","","","",2,2,false
+34080,"ics","MAR SU Folding Stock","","","","","",2,2,false
+34081,"ics","CES-P MS1 S3","","","","","",8,2,false
+34082,"ics","CES-P A5 S3","","","","","",8,2,false
+34083,"ics","CES A4","","","","","",8,2,false
+34084,"ics","CES A5","","","","","",8,2,false
+34085,"ics","CES SD6","","","","","",8,2,false
+34086,"ics","M3 Submachine Gun","","","","","",8,2,false
+34087,"ics","M1 Garand","","","","","",2,2,false
+34088,"ics","H51 LB MRS","","","","","",2,2,false
+34089,"ics","H52 Commando","","","","","",2,2,false
+
+
+35000,"kingarms","PDW 9mm SBR Shorty","","","","","",8,2,false
+35001,"kingarms","PDW 9mm SBR Long/M-LOK/SD","","","","","",8,2,false
+35002,"kingarms","PDW 5.56 SBR Shorty","","","","","",2,2,false
+35003,"kingarms","PDW 5.56 SBR Long/M-LOK/SD","","","","","",2,2,false
+35004,"kingarms","24-inch Free Float Sniper Rifle","","","","","",2,2,false
+35005,"kingarms","20-inch Free Float Sniper Rifle","","","","","",2,2,false
+35006,"kingarms","16-inch Free Float Sniper Rifle","","","","","",2,2,false
+35007,"kingarms","M4 CQB","","","","","",2,2,false
+35008,"kingarms","M4A1","","","","","",2,2,false
+35009,"kingarms","M16A3/A4","","","","","",2,2,false
+35010,"kingarms","Knight's SR-16 E3","","","","","",2,2,false
+35011,"kingarms","Knight's SR-16 E3 Carbine","","","","","",2,2,false
+35012,"kingarms","Knight's SR-16 E3 CQB Carbine","","","","","",2,2,false
+35013,"kingarms","LaRue 7.0","","","","","",2,2,false
+35014,"kingarms","LaRue 9.0","","","","","",2,2,false
+35015,"kingarms","LaRue 12.0","","","","","",2,2,false
+35016,"kingarms","M&P15 MOE","","","","","",2,2,false
+35017,"kingarms","M&P15 Carbine","","","","","",2,2,false
+35018,"kingarms","M&P15 PSX/Rifle","","","","","",2,2,false
+35019,"kingarms","BW15 Sniper","","","","","",2,2,false
+35020,"kingarms","BW15 Carbine","","","","","",2,2,false
+35021,"kingarms","BW15 CQB","","","","","",2,2,false
+35022,"kingarms","M4 RIS","","","","","",2,2,false
+35023,"kingarms","M4 VIS CQB","","","","","",2,2,false
+35024,"kingarms","CASV-M CQB","","","","","",2,2,false
+35025,"kingarms","M4 VIS Carbine","","","","","",2,2,false
+35026,"kingarms","M4 Tanker Rifle","","","","","",2,2,false
+35027,"kingarms","CASV M4 CQB","","","","","",2,2,false
+35028,"kingarms","M4 Pistol","","","","","",2,2,false
+35029,"kingarms","CASV M4A1","","","","","",2,2,false
+35030,"kingarms","TWS 7-inch M4 Alpha CQB","","","","","",2,2,false
+35031,"kingarms","TWS 9-inch M4 Alpha CQB","","","","","",2,2,false
+35032,"kingarms","Black Rain Ordnance Rifle","","","","","",2,2,false
+35033,"kingarms","Black Rain Ordnance Carbine","","","","","",2,2,false
+35034,"kingarms","Black Rain Ordnance CQB","","","","","",2,2,false
+35035,"kingarms","Black Rain Ordnance (Shorty)","","","","","",2,2,false
+35036,"kingarms","TWS M4 CIS Carbine","","","","","",2,2,false
+35037,"kingarms","TWS M4 CIS CQB","","","","","",2,2,false
+35038,"kingarms","M4 TWS CQB","","","","","",2,2,false
+35039,"kingarms","M4 TWS Carbine","","","","","",2,2,false
+35040,"kingarms","M4 TWS Dinosaur","","","","","",2,2,false
+35041,"kingarms","M933","","","","","",2,2,false
+35042,"kingarms","M4 Striker Carbine","","","","","",2,2,false
+35043,"kingarms","M4 Striker CQB","","","","","",2,2,false
+35044,"kingarms","AK47","","","","","",2,2,false
+35045,"kingarms","AK47S","","","","","",2,2,false
+35046,"kingarms","X47","","","","","",2,2,false
+35047,"kingarms","AK47S Shorty","","","","","",2,2,false
+35048,"kingarms","AK74","","","","","",2,2,false
+35049,"kingarms","FAL Tactical Carbine (Short type FAL)","","","","","",2,2,false
+35050,"kingarms","FAL (Full length FAL)","","","","","",2,2,false
+35051,"kingarms","FAL Carbine (Mid Length FAL)","","","","","",2,2,false
+35052,"kingarms","KA M3 Tactical","","","","","",2,2,false
+35053,"kingarms","SVD Sniper Rifle","","","","","",2,2,false
+35054,"kingarms","556 Shorty","","","","","",2,2,false
+35055,"kingarms","556 HOLO","","","","","",2,2,false
+35056,"kingarms","556 DMR","","","","","",2,2,false
+35057,"kingarms","556 Tactical Patrol","","","","","",2,2,false
+35058,"kingarms","556 PDW","","","","","",2,2,false
+35059,"kingarms","556 CQB","","","","","",2,2,false
+35060,"kingarms","M1A1 Military","","","","","",8,2,false
+35061,"kingarms","M1928 Chicago","","","","","",8,2,false
+35062,"kingarms","Galil SAR","","","","","",2,2,false
+35063,"kingarms","Galil AR","","","","","",2,2,false
+35064,"kingarms","L1A1","","","","","",2,2,false
+35065,"kingarms","VSS Vintorez","","","","","",2,2,false
+35066,"kingarms","AS VAL","","","","","",2,2,false
+
+35100,"kingarms","BlackRain Ordnance 9mm SBR","","","","","",8,4,false
+35101,"kingarms","BlackRain Ordnance 9mm Carbine","","","","","",8,4,false
+35102,"kingarms","TWS 9mm Carbine","","","","","",8,4,false
+35103,"kingarms","TWS 9mm SBR","","","","","",8,4,false
+35104,"kingarms","M1 Carbine","","","","","",2,4,false
+35105,"kingarms","M1A1 Paratrooper","","","","","",2,4,false
+35106,"kingarms","Black Mamba Limited Edition","","","","","",2,4,false
+35107,"kingarms","M2 Carbine","","","","","",2,4,false
+35108,"kingarms","M2 Paratrooper","","","","","",2,4,false
+35109,"kingarms","M4A1","","","","","",2,4,false
+35110,"kingarms","M4 RIS","","","","","",2,4,false
+35111,"kingarms","M4 CQB-R","","","","","",2,4,false
+35112,"kingarms","K93 mark2","","","","","",2,4,false
+35113,"kingarms","K93 LRS1","","","","","",2,1,false
+35114,"kingarms","TAC21 Tactical Rifle","","","","","",2,4,false
+35115,"kingarms","LSS Tactical Rifle","","","","","",2,4,false
+35116,"kingarms","M700 Police Rifle","","","","","",2,4,false
+35117,"kingarms","TWS M-LOC CNC Sniper Rifle","","","","","",2,4,false
+35118,"kingarms","SVD Sniper Rifle","","","","","",2,1,false
+35119,"kingarms","Mosin-Nagant 1891/30 Rifle","","","","","",2,4,false
+35120,"kingarms","M11 PDW","","","","","",8,4,false
+
+35150,"kingarms","Preadator Tactical Iron Shrike","","","","","",1,4,false
+35151,"kingarms","Preadator Tactical Shrike 1911 Rail Top","","","","","",1,4,false
+35152,"kingarms","1911-A1 CAL.45","","","","","",1,4,false
+35153,"kingarms","Preadator Tactical Night Shrike .45 ACP","","","","","",1,4,false
+35154,"kingarms","Preadator Tactical Iron Shrike II Hi-Capa Top","","","","","",1,4,false
+35155,"kingarms","SAA.45 Peacemaker Revolver S","","","","","",1,4,false
+35156,"kingarms","SAA.45 Peacemaker Revolver M","","","","","",1,4,false
+35157,"kingarms","SAA.45 Peacemaker Revolver L","","","","","",1,4,false
+35158,"kingarms","6-inch Python 357","","","","","",1,4,false
+35159,"kingarms","4-inch Python 357","","","","","",1,4,false
+35160,"kingarms","2.5-inch Python 357","","","","","",1,4,false
+35161,"kingarms","Python 357 Evil","","","","","",1,4,false
+35162,"kingarms","SAA.45 Devil Revolver","","","","","",1,4,false
+
+36000,"kjworks","L9A2","","","","","",1,4,false
+36001,"kjworks","Shadow 2","","","","","",1,4,false
+36002,"kjworks","P-09","","","","","",1,4,false
+36003,"kjworks","KP-16 CNC Milling Grips & Compensator","","","","","",1,4,false
+36004,"kjworks","KP-13F Full auto","","","","","",1,4,false
+36005,"kjworks","SP-01 ACCU","","","","","",1,4,false
+36006,"kjworks","KP-13","","","","","",1,4,false
+36007,"kjworks","SP-01","","","","","",1,4,false
+36008,"kjworks","KP-09","","","","","",1,4,false
+36009,"kjworks","KP-05","","","","","",1,4,false
+36010,"kjworks","KP-06","","","","","",1,4,false
+36011,"kjworks","KP-07","","","","","",1,4,false
+36012,"kjworks","KP-08","","","","","",1,4,false
+36013,"kjworks","KP-11","","","","","",1,4,false
+36014,"kjworks","M9","","","","","",1,4,false
+36015,"kjworks","M9A1","","","","","",1,4,false
+36016,"kjworks","IA-FM","","","","","",1,4,false
+36017,"kjworks","VE-FM","","","","","",1,4,false
+36018,"kjworks","MK2","","","","","",1,4,false
+36019,"kjworks","MK1","","","","","",1,4,false
+36020,"kjworks","KP-02","","","","","",1,4,false
+36021,"kjworks","KP-01","","","","","",1,4,false
+36022,"kjworks","1911","","","","","",1,4,false
+36023,"kjworks","M4-RIS-3 CNC","","","","","",2,4,false
+36024,"kjworks","M4 V3 CQB","","","","","",2,4,false
+36025,"kjworks","M4 V3","","","","","",2,4,false
+36026,"kjworks","KC-01","","","","","",2,4,false
+36027,"kjworks","MK1-Carbine","","","","","",2,4,false
+36028,"kjworks","M700","","","","","",2,4,false
+
+37000,"kokusai","S&W M19 .357 Combat Magnum 6-inch","","","","","",1,4,false
+37001,"kokusai","S&W M19 .357 Combat Magnum 4-inch","","","","","",1,4,false
+37002,"kokusai","S&W M19 .357 Combat Magnum 2.5-inch","","","","","",1,4,false
+
+38000,"krytac","Trident MK2 PDW-M","","","","","",2,2,false
+38001,"krytac","Trident MK2 CRB-M","","","","","",2,2,false
+38002,"krytac","Trident MK2 SPR-M","","","","","",2,2,false
+38003,"krytac","Trident TR47","","","","","",2,2,false
+38004,"krytac","Trident MK2 PDW","","","","","",2,2,false
+38005,"krytac","Trident MK2 CRB","","","","","",2,2,false
+38006,"krytac","Trident MK2 SPR","","","","","",2,2,false
+38007,"krytac","Trident SPR MK2","","","","","",2,2,false
+38008,"krytac","Barrett REC7 SBR","","","","","",2,2,false
+38009,"krytac","Barrett REC7 Carbine","","","","","",2,2,false
+38010,"krytac","Warsport LVOA-S","","","","","",2,2,false
+38011,"krytac","Warsport LVOA-C","","","","","",2,2,false
+38012,"krytac","Warsport GPRCC","","","","","",2,2,false
+38013,"krytac","Alpha CRB","","","","","",2,2,false
+38014,"krytac","Alpha SDP","","","","","",2,2,false
+
+38030,"krytac","Kriss Vector SMG","","","","","",8,2,false
+38031,"krytac","Kriss Vector SMG Limited","","","","","",8,2,false
+38032,"krytac","FN P90 SMG","","","","","",8,2,false
+38033,"krytac","FN P09 SMG - Custom Edition","","","","","",8,2,false
+38034,"krytac","Trident LMG Enhanced","","","","","",2,2,false
+38035,"krytac","SilencerCo Maxim 9","","","","","",1,8,false
+
+39000,"ksc","QRF mod.1 TEG","","","","","",8,2,false
+39001,"ksc","T6 TEG Compact","","","T6 TEG コンパクト","","",2,2,false
+39002,"ksc","Struck ERG Rifle","","","ストラックERGライフル","","",2,2,false
+39003,"ksc","Struck ERG Compact","","","ストラックERGコンパクト","","",2,2,false
+39004,"ksc","AK74M","","","","","",2,2,false
+39005,"ksc","M4A1","","","","","",2,2,false
+39006,"ksc","Centurion CM4","","","センチュリオンCM4","","",2,2,false
+39007,"ksc","M4 CQB-R","","","","","",2,2,false
+39008,"ksc","M4 RAS","","","","","",2,2,false
+39009,"ksc","HK53A2","","","","","",2,2,false
+39010,"ksc","HK53","","","","","",2,2,false
+39011,"ksc","HK33A3","","","","","",2,2,false
+39012,"ksc","HK33A2","","","","","",2,2,false
+39013,"ksc","HK33K","","","","","",2,2,false
+
+39030,"ksc","MK23 SOCOM","","","MK23ソーコム","","",1,4,false
+39031,"ksc","Mega MKM Marksman","","","Mega MKMマークスマン","","",2,4,false
+39032,"ksc","Mega AR15 Enhanced","","","Mega AR15エンハンスド","","",2,4,false
+39033,"ksc","Mega MKM CQB","","","","","",2,4,false
+39034,"ksc","M4A1","","","","","",2,4,false
+39035,"ksc","Mega MKM AR15","","","","","",2,4,false
+39036,"ksc","M4A1 RAS","","","","","",2,4,false
+39037,"ksc","M4 CQB-R","","","","","",2,4,false
+39038,"ksc","Mega MATEN Standard","","","Mega MATENスタンダード","","",2,4,false
+39039,"ksc","Mega MML MATEN","","","","","",2,4,false
+39040,"ksc","Mega MATEN .308","","","","","",1,4,false
+39041,"ksc","MASADA Shorty","","","MASADAショーティ","","",2,4,false
+39042,"ksc","MASADA","","","","","",2,4,false
+39043,"ksc","TAVOR21","","","タボール21","","",2,4,false
+39044,"ksc","KTR Sawed-off","","","KTRソードオフ","","",2,4,false
+39045,"ksc","KTR-03","","","","","",2,4,false
+39046,"ksc","AKS74U","","","","","",2,4,false
+39047,"ksc","AK74M","","","","","",2,4,false
+39048,"ksc","HK417A2","","","","","",2,4,false
+39049,"ksc","Vz61","","","","","",8,4,false
+39050,"ksc","MP7A1","","","","","",8,4,false
+39051,"ksc","TP9","","","","","",8,4,false
+39052,"ksc","MP9","","","","","",8,4,false
+39053,"ksc","M11A1","","","","","",8,4,false
+
+39070,"ksc","Makarov PM","","","マカロフPM","","",1,4,false
+39071,"ksc","TT33","","","","","",1,4,false
+39072,"ksc","HK45","","","","","",1,4,false
+39073,"ksc","STI Tactical 4.15","","","STIタクティカル4.15","","",1,4,false
+39074,"ksc","STI Tactical 5.0","","","STIタクティカル5.0","","",1,4,false
+39075,"ksc","STI Edge 5.1","","","STIエッジ5.1","","",1,4,false
+39076,"ksc","STI VIP3.9","","","","","",1,4,false
+39077,"ksc","STI Entry A1","","","STIエントリーA1","","",1,4,false
+39078,"ksc","SP2022","","","","","",1,4,false
+39079,"ksc","P226R","","","","","",1,4,false
+39080,"ksc","USP Compact","","","USPコンパクト","","",1,4,false
+39081,"ksc","USP45","","","","","",1,4,false
+39082,"ksc","M945","","","","","",1,4,false
+39083,"ksc","M93RII","","","","","",1,4,false
+39084,"ksc","AT84","","","","","",1,4,false
+39085,"ksc","Cz75","","","","","",1,4,false
+39086,"ksc","G26(C)","","","","","",1,4,false
+39087,"ksc","G23F","","","","","",1,4,false
+39088,"ksc","G18C","","","","","",1,4,false
+39089,"ksc","G19","","","","","",1,4,false
+39090,"ksc","G17","","","","","",1,4,false
+39091,"ksc","M92","","","","","",1,4,false
+39092,"ksc","M9","","","","","",1,4,false
+39093,"ksc","M8000 Couger F","","","M8000クーガーF","","",1,4,false
+39094,"ksc","P230","","","","","",1,4,false
+39095,"ksc","P232","","","","","",1,4,false
+39096,"ksc","M93R Auto 9C","","","M93Rオート9C","","",1,4,false
+39097,"ksc","M93R","","","","","",1,4,false
+
+39110,"ksc","GP100","","","","","",1,4,false
+39111,"ksc","GP100S","","","","","",1,4,false
+39112,"ksc","GP110","","","","","",1,4,false
+39113,"ksc","GP110S","","","","","",1,4,false
+39114,"ksc","GP100SB","","","","","",1,4,false
+39115,"ksc","GP100SC","","","","","",1,4,false
+39116,"ksc","AP200","","","","","",1,1,false
+39117,"ksc","AP200S","","","","","",1,1,false
+39118,"ksc","AP210","","","","","",1,1,false
+39119,"ksc","AP210S","","","","","",1,1,false
+39120,"ksc","AP200SB","","","","","",1,1,false
+39121,"ksc","AP200SC","","","","","",1,1,false
+39122,"ksc","GR1000","","","","","",2,4,false
+39123,"ksc","GR1000N","","","","","",2,4,false
+39124,"ksc","AR2000","","","","","",2,1,false
+39125,"ksc","AR2000N","","","","","",2,1,false
+
+40000,"ktw","Winchester M1873 Carbine","","","ウィンチェスターM1873カービン","","",2,1,false
+40001,"ktw","Winchester M1873 Randall","","","ウィンチェスターM1873ランダル","","",2,1,false
+40002,"ktw","Winchester M1873 Rifle","","","ウィンチェスターM1873ライフル","","",2,1,false
+40003,"ktw","Ithaca M37 Feather Light Model","","","イサカM37 フェザーライト","","",4,1,false
+40004,"ktw","Ithaca M37 Feather Light Model","","","イサカM37 フェザーライト","","",4,1,false
+40005,"ktw","Ithaca M37 POLICE","","","イサカM37 ポリス","","",4,1,false
+40006,"ktw","Flintlock Pistol","","","フリントロック・ピストル","","",1,1,false
+40007,"ktw","Flintlock Carbine","","","フリントロック・カービン","","",2,1,false
+40008,"ktw","Tanegashima","","","タネガシマ","","",2,1,false
+40009,"ktw","Bajoezutsu","","","馬上筒","","",2,1,false
+40010,"ktw","Mosin-Nagant M1891/30 Rifle","","","モシン・ナガンM1891/30 (歩兵銃)","","",2,1,false
+40011,"ktw","Mosin-Nagant Carbine (M1891/44)","","","モシン・ナガン騎銃 (カービン)","","",2,1,false
+40012,"ktw","Arisaka M1905 Rifle","","","三八式歩兵銃","","",2,1,false
+40013,"ktw","Type 38 Carbine","","","三八式騎兵銃","","",2,1,false
+40014,"ktw","Winchester M70","","","ウィンチェスターM70","","",2,1,false
+40015,"ktw","M70 SPR A4","","","M70・SPR・A4","","",2,1,false
+40016,"ktw","Type 97 Sniper Rifle","","","九七式狙撃銃改","","",2,1,false
+40017,"ktw","Lee-Enfield No.4 Rifle","","","リー・エンフィールド No.4 ライフル","","",2,1,false
+40018,"ktw","New SPAS 12 Custom","","","Newスパス・カスタム","","",4,1,false
+40019,"ktw","","","","","","",2,1,false
+
+41000,"lct","LPPK-20","","","","","",2,2,false
+41001,"lct","LCK-19","","","","","",2,2,false
+41002,"lct","LGM VAL","","","","","",2,2,false
+41003,"lct","MRK-105","","","","","",2,2,false
+41004,"lct","MRK-74","","","","","",2,2,false
+41005,"lct","TW-PDW-9MM","","","","","",8,2,false
+41006,"lct","LCKM","","","","","",2,2,false
+41007,"lct","LCK-16","","","","","",2,2,false
+41008,"lct","LCK-15","","","","","",2,2,false
+41009,"lct","LCK-12","","","","","",2,2,false
+41010,"lct","VZ-MSU","","","","","",2,2,false
+41011,"lct","LTS-Keymod 9.5","","","","","",2,2,false
+41012,"lct","LTS-Keymod 13.5","","","","","",2,2,false
+41013,"lct","STK-74","","","","","",2,2,false
+41014,"lct","PP-19-01","","","","","",8,2,false
+41015,"lct","SR-3","","","","","",2,2,false
+41016,"lct","VSS Vintorez","","","","","",2,2,false
+41017,"lct","AS VAL","","","","","",2,2,false
+41018,"lct","TKMS","","","","","",2,2,false
+41019,"lct","LCK-106","","","","","",2,2,false
+41020,"lct","TX-5","","","","","",2,2,false
+41021,"lct","MG-MS","","","","","",2,2,false
+41022,"lct","LCKS-74","","","","","",2,2,false
+41023,"lct","M70AB2","","","","","",2,2,false
+41024,"lct","LCK74","","","","","",2,2,false
+41025,"lct","LCKMS","","","","","",2,2,false
+41026,"lct","RPKS74","","","","","",2,2,false
+41027,"lct","TX-M","","","","","",2,2,false
+41028,"lct","AIMS","","","","","",2,2,false
+41029,"lct","LCKMSU","","","","","",2,2,false
+41030,"lct","G-03","","","","","",2,2,false
+41031,"lct","G-04","","","","","",2,2,false
+41032,"lct","TX-63","","","","","",2,2,false
+41033,"lct","LCKM-63","","","","","",2,2,false
+41034,"lct","RPK","","","","","",2,2,false
+41035,"lct","TIMS","","","","","",2,2,false
+41036,"lct","AIM Carbine","","","","","",2,2,false
+41037,"lct","TK-102","","","","","",2,2,false
+41038,"lct","TK-105","","","","","",2,2,false
+41039,"lct","TK-104","","","","","",2,2,false
+41040,"lct","LCK-104","","","","","",2,2,false
+41041,"lct","LCK-105","","","","","",2,2,false
+41042,"lct","LCK-74","","","","","",2,2,false
+41043,"lct","TX-Baby","","","","","",2,2,false
+41044,"lct","AK-Baby","","","","","",2,2,false
+41045,"lct","TX-64","","","","","",2,2,false
+41046,"lct","LCKMMS","","","","","",2,2,false
+41047,"lct","AMD64","","","","","",2,2,false
+41048,"lct","TX-MIG","","","","","",2,2,false
+41049,"lct","TX-74UN","","","","","",2,2,false
+41050,"lct","TX-S74UN","","","","","",2,2,false
+41051,"lct","LCKS-74UN","","","","","",2,2,false
+41052,"lct","LCKS-74","","","","","",2,2,false
+41053,"lct","PP-19","","","","","",2,2,false
+41054,"lct","LCK-47","","","","","",2,2,false
+41055,"lct","LCK-47S","","","","","",2,2,false
+
+41070,"lct","ZK-12","","","","","",2,2,false
+41071,"lct","ZK-PDW-9MM","","","","","",8,2,false
+41072,"lct","ZP-19-01","","","","","",8,2,false
+41073,"lct","ZKS-74UN","","","","","",2,2,false
+41074,"lct","ZK-104","","","","","",2,2,false
+41075,"lct","ZKS-74M","","","","","",2,2,false
+41076,"lct","PRD","","","","","",2,2,false
+41077,"lct","PKP","","","","","",2,2,false
+41078,"lct","SVD","","","","","",2,2,false
+41079,"lct","LC-3K","","","","","",2,2,false
+41080,"lct","LK-33AR","","","","","",2,2,false
+41081,"lct","LR-223","","","","","",2,2,false
+41082,"lct","LK-53","","","","","",2,2,false
+41083,"lct","LK-33","","","","","",2,2,false
+41084,"lct","LC-3A4","","","","","",2,2,false
+41085,"lct","LC-3A$","","","","","",2,2,false
+41086,"lct","LC3 SG1","","","","","",2,2,false
+41087,"lct","LC-3A3","","","","","",2,2,false
+41088,"lct","L4-CQB","","","","","",2,2,false
+41089,"lct","L4-RAS","","","","","",2,2,false
+41090,"lct","L4-A1","","","","","",2,2,false
+41091,"lct","LR16-Fixed Stock-CQB","","","","","",2,2,false
+41092,"lct","LR16-Fixed Stock-RS","","","","","",2,2,false
+41093,"lct","LR16-Fixed Stock","","","","","",2,2,false
+41094,"lct","LR4-RIS 7-inch","","","","","",2,2,false
+41095,"lct","LR4-RIS 10-inch","","","","","",2,2,false
+41096,"lct","LR16","","","","","",2,2,false
+41097,"lct","M60VN","","","","","",2,2,false
+
+42000,"marushin","FN Five-seveN","","","44オートマグ・クリントワン1","","",1,4,false
+42001,"marushin","44Automag Clint1","","","44オートマグ・クリントワン1","","",1,4,false
+42002,"marushin","Mauser M712","","","モーゼルM712","","",1,4,false
+42003,"marushin","Mauser M712 Short Barrel","","","モーゼルM712・ショートバレル","","",1,4,false
+42004,"marushin","Nambu type14 Early model","","","南部14年式・前期モデル","","",1,4,false
+42005,"marushin","Nambu type14 Late model","","","南部14年式・後期モデル","","",1,4,false
+42006,"marushin","SIG P210-6","","","シグP210-6","","",1,4,false
+42007,"marushin","M84","","","","","",1,4,false
+42008,"marushin","Mk1 ASSASSINS Silencer model","","","マーク1・アサシンズ・サイレンサーモデル","","",1,4,false
+42009,"marushin","Mk1 bull barrel","","","マーク1 ブルバレル","","",1,4,false
+42010,"marushin","Mk1 Normal barrel","","","マーク1 ノーマルバレル","","",1,4,false
+42011,"marushin","Mateba Revolver","","","マテバリボルバー","","",1,4,false
+42012,"marushin","Unlimited Revolver","","","アンリミテッドリボルバー","","",1,4,false
+42013,"marushin","Constrictor","","","コンストリクター","","",1,4,false
+42014,"marushin","Colt Anaconda 8-inch","","","コルト・アナコンダ 8インチ","","",1,4,false
+42015,"marushin","Colt Anaconda 6-inch","","","コルト・アナコンダ 6インチ","","",1,4,false
+42016,"marushin","Colt Anaconda 4-inch","","","コルト・アナコンダ 4インチ","","",1,4,false
+42017,"marushin","S&W M686","","","","","",1,4,false
+42018,"marushin","S&W M586","","","","","",1,4,false
+42019,"marushin","S&W M29 Classic 8-3/8 inch","","","S&W M29 クラシック 8・3/8インチ","","",1,4,false
+42020,"marushin","S&W M629 Classic","","","S&W M629クラシック","","",1,4,false
+42021,"marushin","Police Revolver 3-inch","","","ポリスリボルバー 3インチ","","",1,4,false
+42022,"marushin","Police Revolver 2-inch","","","ポリスリボルバー 2インチ","","",1,4,false
+42023,"marushin","S&W M60 Chiefs Special 3-inch","","","S&W M60 チーフスペシャル 3インチ","","",1,4,false
+42024,"marushin","S&W M60 Chiefs Special 2-inch","","","S&W M60 チーフスペシャル 2インチ","","",1,4,false
+42025,"marushin","S&W M36 Chiefs Special 3-inch","","","S&W M36 チーフスペシャル 3インチ","","",1,4,false
+42026,"marushin","S&W M36 Chiefs Special 2-inch","","","S&W M36 チーフスペシャル 2インチ","","",1,4,false
+42027,"marushin","COLT SAA.45 Peacemaker","","","コルトSAA.45ピースメーカー","","",1,4,false
+42028,"marushin","COP357","","","COP357 ノーマルバレル","","",1,4,false
+42029,"marushin","COP357 LongBarrel","","","COP357 ロングバレル","","",1,4,false
+
+42040,"marushin","Winchester M1892","","","ウィンチェスターM1892","","",4,4,false
+42041,"marushin","Winchester M1892 Randall Custom","","","ウィンチェスターM1892 ランダルカスタム","","",4,4,false
+42042,"marushin","M1887 Guard's Gun","","","M1887 ガーズガン","","",4,4,false
+42043,"marushin","M1887 Short","","","M1887 ショート","","",4,4,false
+42044,"marushin","MP40","","","","","",8,4,false
+42045,"marushin","Mauser Kar98k","","","モーゼル Kar98k","","",2,4,false
+42046,"marushin","M1 Garand T26 TANKER","","","M-1ガーランド T26タンカー","","",2,4,false
+42047,"marushin","M1 Garand","","","M-1ガーランド","","",2,4,false
+
+43000,"realsword","SVD","","","","","",2,2,false
+43001,"realsword","Type 56-2","","","","","",2,2,false
+43002,"realsword","Type 97B","","","","","",2,2,false
+43003,"realsword","Type 97","","","","","",2,2,false
+43004,"realsword","Type 56","","","","","",2,2,false
+43005,"realsword","Type 56-1","","","","","",2,2,false
+
+44000,"s2s","Tactical Elite","","","タクティカル・エリート","","",1,4,false
+44001,"s2s","USP","","","","","",1,4,false
+44002,"s2s","U.S. 9mm M9 MILITARY","","","U.S. 9mm M9 ミリタリー","","",1,4,false
+44003,"s2s","M92F","","","","","",1,4,false
+44004,"s2s","CZ75D Compact","","","CZ75Dコンパクト","","",1,4,false
+44005,"s2s","SOCOM Mk23","","","","","",1,4,false
+44006,"s2s","U.S. 9mm M9 MILITARY","","","U.S. 9mm M9 ミリタリー","","",1,1,false
+44007,"s2s","USP Compact","","","","USPコンパクト","",1,1,false
+44008,"s2s","G17","","","","","",1,1,false
+44009,"s2s","P226","","","","","",1,1,false
+44010,"s2s","P90","","","","","",1,1,false
+44011,"s2s","U.S. 9mm M9 MILITARY","","","U.S. 9mm M9 ミリタリー","","",1,1,true
+44012,"s2s","USP Compact","","","","USPコンパクト","",1,1,true
+44013,"s2s","G17","","","","","",1,1,true
+44014,"s2s","P226","","","","","",1,1,true
+44015,"s2s","P90","","","","","",1,1,true
+44016,"s2s","MODEL 1911-A1 CAL-10mm","","","","","",1,1,false
+44017,"s2s","NATIONAL MATCH","","","","","",1,1,false
+44018,"s2s","TSR-Zero","","","","","",2,1,false
+44019,"s2s","TSR-X","","","","","",2,1,false
+
+45000,"s&t","M4 CQB","","","","","",2,2,false
+45001,"s&t","M4A1","","","","","",2,2,false
+45002,"s&t","M4 URX4 14.5-inch","","","","","",2,2,false
+45003,"s&t","M4 URX4 10-inch","","","","","",2,2,false
+45004,"s&t","M4 URX4 9.5-inch","","","","","",2,2,false
+45005,"s&t","M4 URX4 8-inch","","","","","",2,2,false
+45006,"s&t","M4 URX4 PDW-M","","","","","",2,2,false
+45007,"s&t","M4 URX4 PDW-S","","","","","",2,2,false
+45008,"s&t","M4 URX4 PISTOL","","","","","",1,2,false
+45009,"s&t","MK18 MOD.1","","","","","",2,2,false
+45010,"s&t","M4 CQB 9-inch","","","","","",2,2,false
+45011,"s&t","M4 3.5-inch SD PDW","","","","","",2,2,false
+45012,"s&t","M4 3.5-inch SD","","","","","",2,2,false
+45013,"s&t","M4 8-inch","","","","","",2,2,false
+45014,"s&t","M4 5-inch","","","","","",2,2,false
+45015,"s&t","M4 URX3.1 12-inch","","","","","",2,2,false
+45016,"s&t","M4 URX3.1 8-inch","","","","","",2,2,false
+45017,"s&t","M4 CQB 7-inch","","","","","",2,2,false
+45018,"s&t","M4-NBK M14","","","","","",2,2,false
+45019,"s&t","M4 URX 12-inch","","","","","",2,2,false
+45020,"s&t","M4DD","","","","","",2,2,false
+45021,"s&t","MK16 URG-I 10.3-inch","","","","","",2,2,false
+45022,"s&t","MK16 URG-I 11.5-inch","","","","","",2,2,false
+45023,"s&t","MK16 URG-I 14.5-inch","","","","","",2,2,false
+45024,"s&t","MK18 MOD.1","","","","","",2,2,false
+45025,"s&t","SCW-9 4-inch","","","","","",8,2,false
+45026,"s&t","UDP-9 10.5-inch","","","","","",8,2,false
+45027,"s&t","UDP-9 6-inch","","","","","",8,2,false
+45028,"s&t","UDP-9 7.5-inch","","","","","",8,2,false
+45029,"s&t","ST46D 10RS","","","","","",2,2,false
+45030,"s&t","ST46 PDW","","","","","",2,2,false
+45031,"s&t","AKMN","","","","","",2,2,false
+45032,"s&t","AKS-74","","","","","",2,2,false
+45033,"s&t","AK-74","","","","","",2,2,false
+45034,"s&t","AK-105","","","","","",2,2,false
+45035,"s&t","G316C","","","","","",2,2,false
+45036,"s&t","G316K","","","","","",2,2,false
+45037,"s&t","G316V","","","","","",2,2,false
+45038,"s&t","G316KV","","","","","",2,2,false
+45039,"s&t","G316CV","","","","","",2,2,false
+45040,"s&t","T21 With Long Barrel","","","","","",2,2,false
+45041,"s&t","T21 SAR","","","","","",2,2,false
+45042,"s&t","T21 PRO","","","","","",2,2,false
+45043,"s&t","T21 SAR Carbine","","","","","",2,2,false
+45044,"s&t","T21","","","","","",2,2,false
+45045,"s&t","Custom Sterling","","","","","",8,2,false
+45046,"s&t","Sterling MK5","","","","","",8,2,false
+45047,"s&t","Sterling","","","","","",8,2,false
+45048,"s&t","Sterling MK7","","","","","",8,2,false
+45049,"s&t","PPSH-41","","","","","",8,2,false
+45050,"s&t","MK46","","","","","",2,2,false
+45051,"s&t","M249","","","","","",2,2,false
+45052,"s&t","M1918 BAR","M1918 Browning Automatic Rifle","","","","",2,2,false
+45053,"s&t","MG42","","","","","",2,2,false
+
+45070,"s&t","M4 Keymod 9-inch","","","","","",2,4,false
+45071,"s&t","M4 Keymod 13-inch","","","","","",2,4,false
+45072,"s&t","M4 Keymod 7-inch","","","","","",2,4,false
+45073,"s&t","M1887 Wild Card","","","","","",4,4,false
+45074,"s&t","PGM Mini-Hecate.338","","","","","",2,4,false
+
+45090,"s&t","Lee Enfield No.1","","","","","",2,1,false
+45091,"s&t","Kar 98K","","","","","",2,1,false
+45092,"s&t","M1891/30 Mosin Nagant","","","","","",2,1,false
+45093,"s&t","M11938 Mosin Nagant Carbine","","","","","",2,1,false
+45094,"s&t","M40A3","","","","","",2,1,false
+45095,"s&t","M40","","","","","",2,1,false
+45096,"s&t","M700","","","","","",2,1,false
+45097,"s&t","M870 Short Model","","","","","",4,1,false
+45098,"s&t","M870 Long Tactical Shotgun","","","","","",4,1,false
+45099,"s&t","M870 Long Model","","","","","",4,1,false
+45100,"s&t","M870 Middle Model","","","","","",4,1,false
+45101,"s&t","Type 38","","","","","",2,1,false
+45102,"s&t","Type 38 Carbine","","","","","",2,1,false
+45103,"s&t","Type 38 (Early Model)","","","","","",2,1,false
+45104,"s&t","Type 97 Sniper","","","","","",2,1,false
+45105,"s&t","M1903A3","","","","","",2,1,false
+
+46000,"sig","ProForce P320 XCARRY","","","","","",1,4,false
+46001,"sig","P365","","","","","",1,4,false
+46002,"sig","P320 M18","","","","","",1,4,false
+46003,"sig","P320 M17","","","","","",1,4,false
+46004,"sig","P229","","","","","",1,4,false
+46005,"sig","ProForce MCX","","","","","",2,2,false
+
+47000,"src","SR16","","","","","",2,2,false
+47001,"src","SR4 A1","","","","","",2,2,false
+47002,"src","SR4 A1 Carbine","","","","","",2,2,false
+47003,"src","SR4 A1 Tactical Carbine","","","","","",2,2,false
+47004,"src","SR4 SR-16","","","","","",2,2,false
+47005,"src","SR4 RIS","","","","","",2,2,false
+47006,"src","SR4 Micro Stock","","","","","",2,2,false
+47007,"src","SR4 Micro SD Stock","","","","","",2,2,false
+47008,"src","ROC Taiwan T91","","","","","",2,2,false
+47009,"src","SR933","","","","","",2,2,false
+47010,"src","SR4 A3","","","","","",2,2,false
+47011,"src","SR4 SD","","","","","",2,2,false
+47012,"src","SR4 CQB","","","","","",2,2,false
+47013,"src","SR4 TCC/TCF","","","","","",2,2,false
+47014,"src","SR4 PC Compact","SR4 PC (Patriot Compact)","","","","",2,2,false
+47015,"src","SR4 PC","SR4 PC (Patriot)","","","","",2,2,false
+47016,"src","SR4 Manba-L","","","","","",2,2,false
+47017,"src","SR4 Manba-M","","","","","",2,2,false
+47018,"src","SR4 Manba-E","","","","","",2,2,false
+47019,"src","SR4 Manba-S","","","","","",2,2,false
+47020,"src","SR4 SD EVO","","","","","",2,2,false
+47021,"src","SR933","","","","","",2,2,false
+
+47030,"src","HAWK-CS","","","","","",8,2,false
+47031,"src","HAWK-V/VS","","","","","",8,2,false
+47032,"src","HAWK-K/KS","","","","","",8,2,false
+47033,"src","SR-416 10","","","","","",2,2,false
+47034,"src","SR-416 14.5","","","","","",2,2,false
+47035,"src","SR-416 16","","","","","",2,2,false
+47036,"src","SR-416 K","","","","","",2,2,false
+47037,"src","SR-47(C)","","","","","",2,2,false
+47038,"src","SR-47 B-Spetsnaz","","","","","",2,2,false
+47039,"src","SR-47 Krinkov","","","","","",2,2,false
+47040,"src","SR-47 RPK","","","","","",2,2,false
+47041,"src","AKM-S","","","","","",2,2,false
+47042,"src","SR-ADV","","","","","",2,2,false
+47043,"src","SR-TAC","","","","","",2,2,false
+47044,"src","SR-74U","","","","","",2,2,false
+47045,"src","SR-74(S)","","","","","",2,2,false
+47046,"src","SR-74M/MS","","","","","",2,2,false
+47047,"src","SR8-2","","","","","",2,2,false
+47048,"src","SR8-R","","","","","",2,2,false
+47049,"src","SR8-CC","","","","","",2,2,false
+47050,"src","SR8-C/CX/CU/CF","","","","","",2,2,false
+47051,"src","SR36E/E2","","","","","",2,2,false
+47052,"src","SR36K/KSK","","","","","",2,2,false
+47053,"src","SR36MG","","","","","",2,2,false
+47054,"src","SR36C","","","","","",2,2,false
+47055,"src","SR36KV","","","","","",2,2,false
+47056,"src","SR5-AS","","","","","",8,2,false
+47057,"src","SR5-A4","","","","","",8,2,false
+47058,"src","SR5-AU","","","","","",8,2,false
+47059,"src","SR5-AF","","","","","",8,2,false
+47060,"src","SR5-A3","","","","","",8,2,false
+47061,"src","SR5-SDF/SDU/SD5/SD6","","","","","",8,2,false
+47062,"src","SR5-SD4","","","","","",8,2,false
+47063,"src","SR5-KA4","","","","","",8,2,false
+47064,"src","SR5-KU/PDW","","","","","",8,2,false
+47065,"src","SR40","","","","","",8,2,false
+47066,"src","SR41","","","","","",8,2,false
+
+47080,"src","GE-8M2001","","","","","",2,2,false
+47081,"src","GE-8M2002","","","","","",2,2,false
+47082,"src","GE-8M2003","","","","","",2,2,false
+47083,"src","GE-8M2004","","","","","",2,2,false
+47084,"src","GE-8M2005","","","","","",2,2,false
+47085,"src","GE-8M2006","","","","","",2,2,false
+47086,"src","GE-8M2007","","","","","",2,2,false
+47087,"src","GE-8M2009/2010","","","","","",8,2,false
+47088,"src","GE-8M2011/2012","","","","","",8,2,false
+47089,"src","SR4 ST-Alpha","","","","","",2,2,false
+47090,"src","SR4 ST-Beta","","","","","",2,2,false
+47091,"src","SR4 ST-Delta L","","","","","",2,2,false
+47092,"src","SR4 ST-Delta M","","","","","",2,2,false
+47093,"src","SR4 ST Mamba P1/P2","","","","","",2,2,false
+47094,"src","SR4-PA","","","","","",2,2,false
+47095,"src","SR4-PB","","","","","",2,2,false
+47096,"src","SR4-PC","","","","","",2,2,false
+47097,"src","SR4-PD","","","","","",2,2,false
+47098,"src","SR4-PE","","","","","",2,2,false
+47099,"src","SR4-PF","","","","","",2,2,false
+47100,"src","SR4-PG","","","","","",2,2,false
+47101,"src","SR4-PH","","","","","",2,2,false
+47102,"src","SR4-PI","","","","","",2,2,false
+47103,"src","SR47-PA","","","","","",2,2,false
+47104,"src","SR47-PB","","","","","",2,2,false
+47105,"src","SR47-PC","","","","","",2,2,false
+47106,"src","SR47-PD","","","","","",2,2,false
+47107,"src","SR47-PE","","","","","",2,2,false
+47108,"src","SR47-PF","","","","","",2,2,false
+
+47120,"src","SR-74U","","","","","",2,4,false
+47121,"src","SR-74(S)","","","","","",2,4,false
+47122,"src","SR36E/E2","","","","","",2,4,false
+47123,"src","SR36K/KSK","","","","","",2,4,false
+47124,"src","SR36C","","","","","",2,4,false
+47125,"src","SR36KV","","","","","",2,4,false
+47126,"src","SR4 A1 Carbine","","","","","",2,4,false
+47127,"src","SR4 A1 Tactical Carbine","","","","","",2,4,false
+47128,"src","SR4-SR16","","","","","",2,4,false
+47129,"src","SR4 RIS","","","","","",2,4,false
+47130,"src","SR4 Micro Stock","","","","","",2,4,false
+47131,"src","ROC Taiwan T91","","","","","",2,4,false
+47132,"src","SR933","","","","","",2,4,false
+47133,"src","SR16 A3","","","","","",2,4,false
+47134,"src","SR4 SD","","","","","",2,4,false
+47135,"src","SR4 CQB","","","","","",2,4,false
+47136,"src","SR4 TCC/TCF","","","","","",2,4,false
+
+47150,"src","SR92(A1)","","","","","",1,4,false
+47151,"src","SR9A3","","","","","",1,4,false
+
+48000,"vfc","1911 Tactical Custom","","","","","",1,4,false
+48001,"vfc","1911 Ultra Carry","","","","","",1,4,false
+
+48020,"vfc","Avalon Samurai Edge","","","","","",2,2,false
+48021,"vfc","Avalon Samurai Edge CQB","","","","","",2,2,false
+48022,"vfc","Avalon Gladius","","","","","",2,2,false
+48023,"vfc","Avalon Leopard Carbine","","","","","",2,2,false
+48024,"vfc","Avalon Leopard CQB","","","","","",2,2,false
+48025,"vfc","Avalon Rapier","","","","","",2,2,false
+48026,"vfc","Avalon Saber Carbine","","","","","",2,2,false
+48027,"vfc","Avalon Saber CQB/SD","","","","","",2,2,false
+48028,"vfc","Avalon Calibur Carbine","","","","","",2,2,false
+48029,"vfc","Avalon Calibur CQC","","","","","",2,2,false
+48030,"vfc","Avalon Calibur II PDW","","","","","",2,2,false
+48031,"vfc","VR16 Stinger SB II","","","","","",2,2,false
+48032,"vfc","VR16 Calibur Carbine","","","","","",2,2,false
+48033,"vfc","VR16 Calibur CQC","","","","","",2,2,false
+48034,"vfc","VR16 SPR SOPMOD","","","","","",2,2,false
+48035,"vfc","VR16 RIS SOPMOD","","","","","",2,2,false
+48036,"vfc","VR16 CQBR SOPMOD","","","","","",2,2,false
+48037,"vfc","MCMR 11.5-inch","","","","","",2,2,false
+48038,"vfc","MK48 MOD 1","","","","","",2,2,false
+48039,"vfc","BAR M1918A2","","","","","",2,2,false
+48040,"vfc","MK43","","","","","",2,2,false
+48041,"vfc","AIMS","","","","","",2,2,false
+48042,"vfc","AK-105","","","","","",2,2,false
+48043,"vfc","AK-74","","","","","",2,2,false
+48044,"vfc","AKM/AKMS","","","","","",2,2,false
+48045,"vfc","SOPMOD Krinkov PDW","","","","","",2,2,false
+48046,"vfc","AKS-74N","","","","","",2,2,false
+48047,"vfc","AKS-74UN","","","","","",2,2,false
+
+48070,"vfc","Light Automatic Rifle","","","","","",2,4,false
+48071,"vfc","M249","","","","","",2,4,false
+48072,"vfc","VR635","","","","","",2,4,false
+48073,"vfc","VR M4A1","","","","","",2,4,false
+48074,"vfc","VR16 RIS II","","","","","",2,4,false
+48075,"vfc","VR16 CQB","","","","","",2,4,false
+48076,"vfc","VR M4 RIS","","","","","",2,4,false
+48077,"vfc","VR16 Saver Carbine","","","","","",2,4,false
+48078,"vfc","VR16 Saver Cqb","","","","","",2,4,false
+48079,"vfc","VR16 VSBR","","","","","",2,4,false
+48080,"vfc","VR16 URG-I Carbine","","","","","",2,4,false
+48081,"vfc","VR16 URG-I CQB","","","","","",2,4,false
+48082,"vfc","Ashbury ASW338LM","","","","","",2,1,false
+48083,"vfc","M40","","","","","",2,1,false
+
+49000,"wa","M92FS","","","","","",1,4,false
+49001,"wa","M8045","","","","","",1,4,false
+49002,"wa","M84FS","","","","","",1,4,false
+49003,"wa","M1934","","","","","",1,4,false
+49004,"wa","M9","","","","","",1,4,false
+49005,"wa","M1911","","","","","",1,4,false
+49006,"wa","M1911 Tactical Model","","","M1911 タクティカルモデル","","",1,4,false
+49007,"wa","M1911 Race Gun","","","M1911 レースガン","","",1,4,false
+49008,"wa","M1911 Compact Model","","","M1911 コンパクトモデル","","",1,4,false
+49009,"wa","M4013 TSW","","","","","",1,4,false
+
+49100,"wa","M4A1 PDW","","","","","",2,4,false
+49101,"wa","M4A1","","","","","",2,4,false
+49102,"wa","M16","","","","","",2,4,false
+
+50000,"wetech","Galaxy G","","","","","",1,4,false
+50001,"wetech","Galaxy Hi-Capa","","","","","",1,4,false
+50002,"wetech","Galaxy 1911","","","","","",1,4,false
+50003,"wetech","G17","","","","","",1,4,false
+50004,"wetech","G18","","","","","",1,4,false
+50005,"wetech","G19","","","","","",1,4,false
+50006,"wetech","G23","","","","","",1,4,false
+50007,"wetech","G26","","","","","",1,4,false
+50008,"wetech","G27","","","","","",1,4,false
+50009,"wetech","G33","","","","","",1,4,false
+50010,"wetech","G34","","","","","",1,4,false
+50011,"wetech","G35","","","","","",1,4,false
+50012,"wetech","Hi-Capa 3.8","","","","","",1,4,false
+50013,"wetech","Hi-Capa 4.3","","","","","",1,4,false
+50014,"wetech","Hi-Capa 5.1","","","","","",1,4,false
+50015,"wetech","Hi-Capa 6.0","","","","","",1,4,false
+50016,"wetech","Hi-Capa 7.0","","","","","",1,4,false
+50017,"wetech","1911","","1911 Series","","","",1,4,false
+50018,"wetech","MINI 1911","","","","","",1,4,false
+50019,"wetech","M92","","","","","",1,4,false
+50020,"wetech","T33","","","","","",1,4,false
+50021,"wetech","Browning Hi-Power","","","","","",1,4,false
+50022,"wetech","712","","","","","",1,4,false
+50023,"wetech","PX001","","","","","",1,4,false
+50024,"wetech","PX002","","","","","",1,4,false
+50025,"wetech","F226","","","","","",1,4,false
+50026,"wetech","F228","","","","","",1,4,false
+50027,"wetech","F229","","","","","",1,4,false
+50028,"wetech","Big Bird","","","","","",1,4,false
+50029,"wetech","Little Bird","","","","","",1,4,false
+50030,"wetech","P08 4-inch","","","","","",1,4,false
+50031,"wetech","P08 6-inch","","","","","",1,4,false
+50032,"wetech","P08 8-inch","","","","","",1,4,false
+50033,"wetech","P38","","","","","",1,4,false
+50034,"wetech","P38 S","","","","","",1,4,false
+50035,"wetech","Big Dog","","","","","",1,4,false
+50036,"wetech","Small Dog","","","","","",1,4,false
+50037,"wetech","GP1799","","","","","",1,4,false
+50038,"wetech","MK","","","","","",1,4,false
+50039,"wetech","WE-25","","","","","",1,4,false
+50040,"wetech","WE-19","","","","","",1,4,false
+
+50060,"wetech","AK-PMC","","","","","",2,4,false
+50061,"wetech","AK74UN","","","","","",2,4,false
+50062,"wetech","XM177","","","","","",2,4,false
+50063,"wetech","M4A1","","","","","",2,4,false
+50064,"wetech","M4 CQB","","","","","",2,4,false
+50065,"wetech","M16A3","","","","","",2,4,false
+50066,"wetech","M16A1","","","","","",2,4,false
+50067,"wetech","T91","","","","","",2,4,false
+50068,"wetech","T65","","","","","",2,4,false
+50069,"wetech","L85","","","","","",2,4,false
+50070,"wetech","MSK","","","","","",2,4,false
+50071,"wetech","MSK Telescopic Stock","","","","","",2,4,false
+50072,"wetech","PDW 8-inch","","","","","",2,4,false
+50073,"wetech","PDW 10-inch","","","","","",2,4,false
+50074,"wetech","PLR-16","","","","","",2,4,false
+50075,"wetech","R5C","","","","","",2,4,false
+50076,"wetech","Raptor","","","","","",2,4,false
+50077,"wetech","MK-H","","","","","",2,4,false
+50078,"wetech","MK-L","","","","","",2,4,false
+50079,"wetech","M4A1 PCC","","","","","",8,4,false
+50080,"wetech","M4 PCC","","","","","",8,4,false
+50081,"wetech","888(C) PCC","","","","","",8,4,false
+50082,"wetech","R5C PCC","","","","","",8,4,false
+50083,"wetech","RARS PCC","","","","","",8,4,false
+50084,"wetech","M16A3 PCC","","","","","",8,4,false
+50085,"wetech","P90","","","","","",2,4,false
+50086,"wetech","MK14","","","","","",2,4,false
+50087,"wetech","M14","","","","","",2,4,false
+50088,"wetech","ACE VD","","","","","",2,4,false
+
+50100,"wetech","M4(A1)","","","","","",2,2,false
+50101,"wetech","M4 CQB","","","","","",2,2,false
+50102,"wetech","M16A3","","","","","",2,2,false
+50103,"wetech","Raptor","","","","","",2,2,false
+50104,"wetech","MSK E04","","","","","",2,2,false
+50105,"wetech","MSK E01/E03","","","","","",2,2,false
+
+51000,"sunproject","M40A1","","","","","",2,1,false
+51001,"sunproject","M40XB","","","","","",2,1,false
+51002,"sunproject","XP-100R Repeter","","","XP-100R レピーター","","",1,1,false
+51003,"sunproject","XP-100","","","XP-100","","",1,1,false
+51004,"sunproject","M16A2 Carbine","","","M16A2 カービン","","",1,4,false
+51005,"sunproject","XM-177E2","","","","","",1,4,false
