@@ -1131,6 +1131,31 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1147,"cat","Other SMG","","","その他のSMG","","",8,2,true,true
 1148,"cat","Other SMG","","","その他のSMG","","",8,4,true,true
 
+1150,"baton","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1151,"baton","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1152,"baton","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
+1153,"baton","Other Rifle","","","その他のライフル","","",2,1,false,true
+1154,"baton","Other Rifle","","","その他のライフル","","",2,2,false,true
+1155,"baton","Other Rifle","","","その他のライフル","","",2,4,false,true
+1156,"baton","Other Shotgun","","","その他のショットガン","","",4,1,false,true
+1157,"baton","Other Shotgun","","","その他のショットガン","","",4,2,false,true
+1158,"baton","Other Shotgun","","","その他のショットガン","","",4,4,false,true
+1159,"baton","Other SMG","","","その他のSMG","","",8,1,false,true
+1160,"baton","Other SMG","","","その他のSMG","","",8,2,false,true
+1161,"baton","Other SMG","","","その他のSMG","","",8,4,false,true
+1162,"baton","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1163,"baton","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1164,"baton","Other Handgun","","","その他のハンドガン","","",1,4,true,true
+1165,"baton","Other Rifle","","","その他のライフル","","",2,1,true,true
+1166,"baton","Other Rifle","","","その他のライフル","","",2,2,true,true
+1167,"baton","Other Rifle","","","その他のライフル","","",2,4,true,true
+1168,"baton","Other Shotgun","","","その他のショットガン","","",4,1,true,true
+1169,"baton","Other Shotgun","","","その他のショットガン","","",4,2,true,true
+1170,"baton","Other Shotgun","","","その他のショットガン","","",4,4,true,true
+1171,"baton","Other SMG","","","その他のSMG","","",8,1,true,true
+1172,"baton","Other SMG","","","その他のSMG","","",8,2,true,true
+1173,"baton","Other SMG","","","その他のSMG","","",8,4,true,true
+
 10000,"marui","H&K SOCOM Mk23","","","H&K ソーコム Mk23","","",1,1,false
 10001,"marui","COLT M1911A1 GOVERNMENT","","","コルト M1911A1ガバメント","","",1,1,false
 10002,"marui","S&W PC356","","","S&W PC356","","",1,1,false
@@ -3790,3 +3815,16 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 53008,"cat","AR-15 Legend 8.5-inch","","","","","",2,2,false
 53009,"cat","AR-15 Explorer 10-inch","","","","","",2,2,false
 53010,"cat","AR-15 Explorer 8.5-inch","","","","","",2,2,false
+
+54000,"baton","BM-45 NL","","","","","",1,4,false
+54001,"baton","BT-PIT VIPER","","","","","",1,4,false
+54002,"baton","BM-9","","","","","",1,4,false
+54003,"baton","BG-17","","","","","",1,4,false
+54004,"baton","PREDATOR TARGET","","","","","",1,4,false
+54005,"baton","M1911A1","","","","","",1,4,false
+54006,"baton","BS-STACCATO","","","","","",1,4,false
+54007,"baton","BN_SILENT HAWK","","","","","",1,4,false
+54008,"baton","BS-COMBAT MASTER","","","","","",1,4,false
+54009,"baton","BH-USP Tactical","","","","","",1,4,false
+
+54100,"baton","UDR-15","","","","","",2,2,false
