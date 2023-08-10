@@ -1156,6 +1156,31 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1172,"baton","Other SMG","","","その他のSMG","","",8,2,true,true
 1173,"baton","Other SMG","","","その他のSMG","","",8,4,true,true
 
+1175,"lancer","Other Handgun","","","その他のハンドガン","","",1,1,false,true
+1176,"lancer","Other Handgun ","","","その他のハンドガン","","",1,2,false,true
+1177,"lancer","Other Handgun ","","","その他のハンドガン","","",1,4,false,true
+1178,"lancer","Other Rifle","","","その他のライフル","","",2,1,false,true
+1179,"lancer","Other Rifle","","","その他のライフル","","",2,2,false,true
+1180,"lancer","Other Rifle","","","その他のライフル","","",2,4,false,true
+1181,"lancer","Other Shotgun","","","その他のショットガン","","",4,1,false,true
+1182,"lancer","Other Shotgun","","","その他のショットガン","","",4,2,false,true
+1183,"lancer","Other Shotgun","","","その他のショットガン","","",4,4,false,true
+1184,"lancer","Other SMG","","","その他のSMG","","",8,1,false,true
+1185,"lancer","Other SMG","","","その他のSMG","","",8,2,false,true
+1186,"lancer","Other SMG","","","その他のSMG","","",8,4,false,true
+1187,"lancer","Other Handgun","","","その他のハンドガン","","",1,1,true,true
+1188,"lancer","Other Handgun","","","その他のハンドガン","","",1,2,true,true
+1189,"lancer","Other Handgun","","","その他のハンドガン","","",1,4,true,true
+1190,"lancer","Other Rifle","","","その他のライフル","","",2,1,true,true
+1191,"lancer","Other Rifle","","","その他のライフル","","",2,2,true,true
+1192,"lancer","Other Rifle","","","その他のライフル","","",2,4,true,true
+1193,"lancer","Other Shotgun","","","その他のショットガン","","",4,1,true,true
+1194,"lancer","Other Shotgun","","","その他のショットガン","","",4,2,true,true
+1195,"lancer","Other Shotgun","","","その他のショットガン","","",4,4,true,true
+1196,"lancer","Other SMG","","","その他のSMG","","",8,1,true,true
+1197,"lancer","Other SMG","","","その他のSMG","","",8,2,true,true
+1198,"lancer","Other SMG","","","その他のSMG","","",8,4,true,true
+
 10000,"marui","H&K SOCOM Mk23","","","H&K ソーコム Mk23","","",1,1,false
 10001,"marui","COLT M1911A1 GOVERNMENT","","","コルト M1911A1ガバメント","","",1,1,false
 10002,"marui","S&W PC356","","","S&W PC356","","",1,1,false
@@ -1526,6 +1551,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 13120,"crown","ELEX9","","","エレックス9","","",8,2,true
 13121,"crown","CP7","","","CP7","","",8,2,true
+13122,"crown","CP7","","","CP7","","",8,2,false                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 
 13130,"crown","CM4","","","CM4","","",2,2,false
 13131,"crown","AK74 REAL WOOD","","","AK74リアルウッド","","",2,2,false
@@ -3828,3 +3854,64 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 54009,"baton","BH-USP Tactical","","","","","",1,4,false
 
 54100,"baton","UDR-15","","","","","",2,2,false
+
+55000,"lancer","Hi-Capa 5.1","","","","","",1,4,false
+55001,"lancer","Hi-Capa 4.3","","","","","",1,4,false
+55002,"lancer","Glock17","","","","","",1,4,false
+55003,"lancer","Kraken","","","","","",1,4,false
+55004,"lancer","Hi-Capa","","","","","",1,4,false
+55005,"lancer","Cobra LTX-50 1911","","","","","",1,4,false
+55006,"lancer","DEFENDER","","","","","",1,4,false
+55007,"lancer","Rhino 60DS","","","","","",1,4,false
+
+55050,"lancer","Gen 2 Battle X 9mm CQB","","","","","",8,2,false
+55051,"lancer","Gen 2 Raider","","","","","",2,2,false
+55052,"lancer","Gen 2 Interceptor 13-inch","","","","","",2,2,false
+55053,"lancer","Gen 2 CQB","","","","","",2,2,false
+55054,"lancer","Gen 2 7-inch","","","","","",2,2,false
+55055,"lancer","Gen 2 8-inch","","","","","",2,2,false
+55056,"lancer","Gen 2 9-inch","","","","","",2,2,false
+55057,"lancer","Gen 2 10-inch","","","","","",2,2,false
+55058,"lancer","Gen 2 M4A1","","","","","",2,2,false
+55059,"lancer","Gen 2 M4 Carbine","","","","","",2,2,false
+55060,"lancer","Gen 2 M933 Commando","","","","","",2,2,false
+55061,"lancer","Gen 2 MK18","","","","","",2,2,false
+55062,"lancer","Gen 3 10-inch","","","","","",2,2,false
+55063,"lancer","Gen 3 9-inch","","","","","",2,2,false
+55064,"lancer","Gen 3 14-inch","","","","","",2,2,false
+55065,"lancer","Gen 3 7-inch","","","","","",2,2,false
+55066,"lancer","Gen 3 13-inch","","","","","",2,2,false
+55067,"lancer","Gen 3 CQB","","","","","",2,2,false
+55068,"lancer","Gen 3 PDW","","","","","",2,2,false
+55069,"lancer","Gen 3 SopMod","","","","","",2,2,false
+55070,"lancer","Gen 3 MK18","","","","","",2,2,false
+55071,"lancer","KR-104","","","","","",2,2,false
+55072,"lancer","KR-103","","","","","",2,2,false
+55073,"lancer","KR-105","","","","","",2,2,false
+55074,"lancer","KR-12","","","","","",2,2,false
+55075,"lancer","ZP-19","","","","","",8,2,false
+55076,"lancer","KR-9","","","","","",8,2,false
+55077,"lancer","AK-17","","","","","",2,2,false
+55078,"lancer","AK-74","","","","","",2,2,false
+55079,"lancer","AK-105","","","","","",2,2,false
+55080,"lancer","Proline 4-inch","","","","","",2,2,false
+55081,"lancer","Proline 7-inch","","","","","",2,2,false
+55082,"lancer","Proline 9-inch","","","","","",2,2,false
+55083,"lancer","Proline 10-inch","","","","","",2,2,false
+55084,"lancer","Proline 12-inch","","","","","",2,2,false
+55085,"lancer","Proline 13-inch","","","","","",2,2,false
+55086,"lancer","Proline 14-inch","","","","","",2,2,false
+55087,"lancer","Proline M933","","","","","",2,2,false
+55088,"lancer","Proline MK18","","","","","",2,2,false
+55089,"lancer","Proline M4","","","","","",2,2,false
+55090,"lancer","Proline CQB","","","","","",2,2,false
+55091,"lancer","Hybrid 4-inch","","","","","",2,2,false
+55092,"lancer","Hybrid 8-inch","","","","","",2,2,false
+55093,"lancer","Hybrid 10-inch","","","","","",2,2,false
+55094,"lancer","Hybrid 12-inch","","","","","",2,2,false
+55095,"lancer","Hybrid 14-inch","","","","","",2,2,false
+55096,"lancer","Hybrid M4","","","","","",2,2,false
+55097,"lancer","Hybrid MK18","","","","","",2,2,false
+55098,"lancer","M40A3","","","","","",2,1,false
+55099,"lancer","M24","","","","","",2,1,false
+
