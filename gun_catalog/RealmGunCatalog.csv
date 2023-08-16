@@ -1630,19 +1630,22 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 14103,"tanaka","Type 97 Sniper Rifle","","","九七式狙撃銃","","",2,4,false
 14104,"tanaka","Type 99 Short Rifle","","","九九式短小銃","","",2,4,false
 14105,"tanaka","Type 99 Rifle","","","九九式長小銃","","",2,4,false
-14106,"tanaka","M40 Rifle","","","","","",2,1,false
-14107,"tanaka","M40 Rifle","","","","","",2,4,false
-14108,"tanaka","M40A1 Rifle","","","","","",2,4,false
-14109,"tanaka","M700 Rifle","","","","","",2,1,false
-14110,"tanaka","M700 AIR 26-inch","","","","","",2,1,false
+14106,"tanaka","M40","","","","","",2,1,false
+14107,"tanaka","M40","","","","","",2,4,false
+14108,"tanaka","M40A1","","","","","",2,4,false
+14109,"tanaka","M700","","","","","",2,1,false
+14110,"tanaka","M700 26-inch","","","","","",2,1,false
 14111,"tanaka","M24 SWS","","","","","",2,4,false
-14112,"tanaka","Kar98k AIR","","","","","",2,1,false
-14113,"tanaka","Kar98k AIR","","","","","",2,4,false
+14112,"tanaka","Kar98k","","","","","",2,1,false
+14113,"tanaka","Kar98k","","","","","",2,4,false
 14114,"tanaka","M24 SWS","","","","","",2,1,false
 14115,"tanaka","Gewehr33/40","","","","","",2,1,false
 14116,"tanaka","L96 Sniper Rifle","","","","","",2,4,false
 14117,"tanaka","SIG P229","","","","","",1,4,false
 14118,"tanaka","SIG P228","","","","","",1,4,false
+14119,"tanaka","M700","","","","","",2,4,false
+14120,"tanaka","M700 A.I.C.S","","","","","",2,4,false
+14121,"tanaka","M40A1","","","","","",2,1,false
 
 16000,"maruzen","APS-1 Grand Master Mk.II","","","APS-1 グランドマスター・マークⅡ","","",1,1,false
 16001,"maruzen","APS-3 (OR)","APS-3 Original","","APS-3 オリジナル","","",1,1,false
