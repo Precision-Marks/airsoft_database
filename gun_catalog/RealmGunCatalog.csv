@@ -1222,6 +1222,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 10038,"marui","POLICE PISTOL SS","","","ポリスピストルSS","","ニュー銀ダンエアガンRF",1,1,true
 10039,"marui","GLOCK26","","","グロック26","","ニュー銀ダンエアガンRF",1,1,true
+10040,"marui","SAA.45 Civilian 4-3/4 inch","","","SAA.45 シビリアン 4-3/4インチ","","",1,1,true
+10041,"marui","S&W M29 4inch","","","S&W M29 4インチ","","",1,4,true
+10042,"marui","S&W M29 6-1/2 inch","","","S&W M29 6-1/2インチ","","",1,4,true
 
 10050,"marui","VSR-ONE","","","VSR-ONE","","",2,1,false
 10051,"marui","M40A5","","","M40A5","","",2,1,false
@@ -1275,6 +1278,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10106,"marui","URG-I 11.5inch (Next generation series)","","","URG-I 11.5inch (次世代電動ガン)","","",2,2,false
 10107,"marui","P-90+ (Plus series)","","","P-90+ (電動ガンプラスシリーズ)","","",2,2,false
 10108,"marui","MP5 SD6 (Next generation series)","","","MP5 SD6 (次世代電動ガン)","","",8,2,false
+10109,"marui","MP5 A4 (Next generation series)","","","MP5 A4 (次世代電動ガン)","","",8,2,false
+10110,"marui","G36C+ (Plus series)","","","G36C+ (電動ガンプラスシリーズ)","","",2,2,false
+10111,"marui","M4 PATRIOT+ (Plus series)","","","M4パトリオット+ (電動ガンプラスシリーズ)","","",2,2,false
 
 10120,"marui","SGR-12","","","SGR-12","","",4,2,false
 10121,"marui","AA-12","","","AA-12","","",4,2,false
@@ -1282,7 +1288,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 10130,"marui","M933 COMMANDO","","Standard-Type series","コルト M933コマンド","","電動ガンスタンダードタイプ",2,2,false
 10131,"marui","Type 89 RIFLE (Folding Stock)","","Standard-Type series","89式5.56mm小銃〈折曲銃床式〉","","電動ガンスタンダードタイプ",2,2,false
-10132,"marui","","","Standard-Type series","M14ソーコム","","電動ガンスタンダードタイプ",2,2,false
+10132,"marui","M14 SOCOM","","Standard-Type series","M14ソーコム","","電動ガンスタンダードタイプ",2,2,false
 10133,"marui","P-90","","Standard-Type series","P-90","","電動ガンスタンダードタイプ",2,2,false
 10134,"marui","Type 89 RIFLE","","Standard-Type series","89式5.56mm小銃","","電動ガンスタンダードタイプ",2,2,false
 10135,"marui","COLT M4A1 CARBINE","","Standard-Type series","コルト M4A1カービン","","電動ガンスタンダードタイプ",2,2,false
@@ -1292,8 +1298,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10139,"marui","SIG552 SEALS","","Standard-Type series","SIG552 シールズ","","電動ガンスタンダードタイプ",2,2,false
 10140,"marui","M733 COMMANDO","","Standard-Type series","コルト M733コマンド","","電動ガンスタンダードタイプ",2,2,false
 10141,"marui","H&K G36C","","Standard-Type series","H&K G36C","","電動ガンスタンダードタイプ",2,2,false
-10142,"marui","H&K MP5A5","","Standard-Type series","H&K MP5A5（ハイグレードバージョン）","","電動ガンスタンダードタイプ",8,2,false
-10143,"marui","H&K MP5A4","","Standard-Type series","H&K MP5A4（ハイグレードバージョン）","","電動ガンスタンダードタイプ",8,2,false
+10142,"marui","H&K MP5A5","","Standard-Type series","H&K MP5A5 (ハイグレードバージョン)","","電動ガンスタンダードタイプ",8,2,false
+10143,"marui","H&K MP5A4","","Standard-Type series","H&K MP5A4 (ハイグレードバージョン)","","電動ガンスタンダードタイプ",8,2,false
 10144,"marui","H&K MP5A5 R.A.S.","","Standard-Type series","H&K MP5A5 R.A.S.","","電動ガンスタンダードタイプ",8,2,false
 10145,"marui","P-90 TR","","Standard-Type series","P-90 TR","","電動ガンスタンダードタイプ",2,2,false
 10146,"marui","AK47 Beta-SPETSNAZ","","Standard-Type series","AK47 ヴェータ・スペツナズ","","電動ガンスタンダードタイプ",2,2,false
@@ -1352,7 +1358,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10240,"marui","SIG PRO SP2340","","Automatic electric blowback","シグプロ SP2340","","電動ブローバック",1,2,true
 10241,"marui","COMBAT DELTA","","Automatic electric blowback","コンバットデルタ","","電動ブローバック",1,2,true
 10242,"marui","KP85","","Automatic electric blowback","KP85","","電動ブローバック",1,2,true
-10243,"marui","DEZART EAGLE .50AE","","Automatic electric blowback","デザートイーグル.50AE","","電動ブローバック",1,2,true
+10243,"marui","DESERT EAGLE .50AE","","Automatic electric blowback","デザートイーグル.50AE","","電動ブローバック",1,2,true
 10244,"marui","M92F","","Automatic electric blowback","M92F","","電動ブローバック",1,2,true
 10245,"marui","COMBAT DELTA","","Automatic electric blowback","コンバットデルタ","","電動ブローバック",1,2,true
 10246,"marui","CENTIMETER MASTER","","Automatic electric blowback","センチメーターマスター","","電動ブローバック",1,2,true
@@ -1374,11 +1380,15 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10266,"marui","MP5A5 Mini","","","MP5A5 ミニ","","ミニ電動ガン",8,2,true
 10267,"marui","M16 Mini","","","M16 ミニ","","ミニ電動ガン",1,2,true
 
+10270,"marui","M4A1 R","","","M4A1 R","","電動ガンスタンダードタイプRリーズ",1,2,true
+10271,"marui","AK47 R","","","AK47 R","","電動ガンスタンダードタイプRリーズ",1,2,true
+
 10280,"marui","KSG","","","KSG","","",4,4,false
 10281,"marui","M870 WOOD STOCK TYPE","","","M870ウッドストックタイプ","","",4,4,false
 10282,"marui","M870","","","M870","","",4,4,false
 10283,"marui","M320A1","","","M320A1","","",16,4,false
 10284,"marui","SAIGA-12K","","","サイガ-12K","","",4,4,false
+10285,"marui","SAIGA-12SBS","","","サイガ-12SBS","","",4,4,false
 
 10290,"marui","AKX","","","AKX","","",2,4,false
 10291,"marui","AKM","","","AKM","","",2,4,false
@@ -1389,6 +1399,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10296,"marui","CQBR BLOCK1","","","CQBR ブロック1","","",2,4,false
 10297,"marui","M4A1 MWS","","","M4A1 MWS","","",2,4,false
 10298,"marui","MP7A1","","","MP7A1","","",8,4,false
+10299,"marui","URG-I 11.5inch SOPMOD BLOCK 3","","","URG-I 11.5inch ソップモッド ブロック3","","",2,4,false
 
 10310,"marui","SG-09 R","","","SG-09 R","","",1,4,false
 10311,"marui","GLOCK19 Gen.4","","","グロック19 Gen.4","","",1,4,false
@@ -1397,8 +1408,6 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10314,"marui","FNX-45 TACTICAL","","","FNX-45タクティカル","","",1,4,false
 10315,"marui","GLOCK17 Gen.4","","","グロック17 Gen.4","","",1,4,false
 10316,"marui","M45A1","","","M45A1","","",1,4,false
-10317,"marui","SG-09 R","","","SG-09 R","","",1,4,false
-10318,"marui","HK45 TACTICAL","","","HK45タクティカル","","",1,4,false
 10319,"marui","D.O.R CAL .45","","","ハイキャパD.O.R","","",1,4,false
 10320,"marui","GLOCK19 Gen.3","","","グロック19 Gen.3","","",1,4,false
 10321,"marui","ALBERT.W.MODEL 01P","","","アルバート.W.モデル 01P","","",1,4,false
@@ -1412,9 +1421,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10329,"marui","GLOCK22","","","グロック22","","",1,4,false
 10330,"marui","GLOCK34","","","グロック34","","",1,4,false
 10331,"marui","U.S.M9 PISTOL","","","U.S.M9ピストル","","",1,4,false
-10332,"marui","Hi-CAPA5.1 GOLD MATCH","","","Sハイキャパ5.1 ゴールドマッチ","","",1,4,false
+10332,"marui","Hi-CAPA5.1 GOLD MATCH","","","ハイキャパ5.1 ゴールドマッチ","","",1,4,false
 10333,"marui","USP COMPACT","","","USPコンパクト","","",1,4,false
-10334,"marui","M&P 9 V CUSTOM","","","M&P 9 Vカスタムs","","",1,4,false
+10334,"marui","M&P 9 V CUSTOM","","","M&P 9 Vカスタム","","",1,4,false
 10335,"marui","M&P 9","","","M&P 9","","",1,4,false
 10336,"marui","HK45","","","HK45","","",1,4,false
 10337,"marui","COLT GOVERMENT Series'70","","","コルト ガバメント シリーズ'70","","",1,4,false
@@ -1440,6 +1449,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10357,"marui","GLOCK26","","","グロック26","","",1,4,false
 10358,"marui","TACTICAL MASTER","","","タクティカルマスター","","",1,4,false
 10359,"marui","G17 CUSTOM","","","G17 カスタム","","",1,4,false
+10360,"marui","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,false
 
 10370,"marui","GLOCK18C","","","グロック 18C","","",1,4,false
 10371,"marui","Hi-CAPA EXTREME","","","ハイキャパエクストリーム","","",1,4,false
@@ -1537,16 +1547,17 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13083,"crown","CM870","","","CM870","","",4,1,true
 
 13090,"crown","SUPER SS II SENIOR","","","スーパーSS IIシニア","","",2,1,false
-13091,"crown","TYPE96 JUNIOR","","","タイプ96 ジュニア","","",2,1,false
+13091,"crown","TYPE96 JUNIOR","","","タイプ96 ジュニア","","",2,1,true
 13092,"crown","XM4 R.I.S","","","XM4 R.I.S","","",2,1,true
 13093,"crown","M416D CARBINE","","","M416D CARBINE","","",2,1,true
-13094,"crown","SCAL FNL","","","SCAL FNL","","",2,1,true
+13094,"crown","SCAR FNL","","","SCAR FNL","","",2,1,true
 13095,"crown","MM-7P","","","MM-7P","","",8,1,true
 13096,"crown","XMP-K","","","XMP-K","","",8,1,true
 
-13100,"crown","SUPER RFILE U10 JUNIOR","","","スーパーライフルU10ジュニア","","",2,1,true
-13110,"crown","SUPER RFILE U10 SENIOR","","","スーパーライフルU10シニア","","",2,1,false
-13111,"crown","SUPER RFILE DRAGUNOV SVD","","","スーパーライフルドラグノフSVD","","",2,1,false
+13100,"crown","SUPER RIFLE U10 JUNIOR","","","スーパーライフルU10ジュニア","","",2,1,true
+13101,"crown","AWM SNIPER RIFLE","","","AWM スナイパーライフル","","",2,1,true
+13110,"crown","SUPER RIFLE U10 SENIOR","","","スーパーライフルU10シニア","","",2,1,false
+13111,"crown","SUPER RIFLE DRAGUNOV SVD","","","スーパーライフルドラグノフSVD","","",2,1,false
 13112,"crown","TYPE96 SENIOR","","","タイプ96 シニア","","",2,1,true
 
 13120,"crown","ELEX9","","","エレックス9","","",8,2,true
@@ -1608,7 +1619,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 14053,"tanaka","S&W M627 5-inch","","","","","",1,4,false
 14054,"tanaka","S&W M629 3-inch","","","","","",1,4,false
 14055,"tanaka","S&W M629 5-inch","","","","","",1,4,false
-14056,"tanaka","S&W M1917 .455 4-inch","","","","","",1,4,false
+14056,"tanaka","S&W M1917 .45 4-inch","","","","","",1,4,false
 14057,"tanaka","S&W P66 3-inch","","","","","",1,4,false
 14058,"tanaka","SMOLT Revolver 6-inch","","","","","",1,4,false
 14059,"tanaka","SMOLT Revolver 4-inch","","","","","",1,4,false
@@ -1622,7 +1633,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 14076,"tanaka","SIG P220","","","","","",1,4,false
 14077,"tanaka","SIG P220 IC","","","","","",1,4,false
 14078,"tanaka","BROWNING HIGH-POWER M1935","","","ブローニング・ハイパワーM1935 ","","",1,4,false
-14079,"tanaka","BROWNING HIGH-POWER MK III","","","ブローニング・ハイパワーMK III ","","",1,4,false
+14079,"tanaka","BROWNING HIGH-POWER MK III","","","ブローニング・ハイパワーMK III","","",1,4,false
 
 14100,"tanaka","Type 38 Carbine","","","三八式騎獣","","",2,4,false
 14101,"tanaka","Type 38 Rifle","","","三八式歩兵銃","","",2,4,false
@@ -1704,6 +1715,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 19031,"umarex","H&K HK416 D V2","","","","","",2,2,false
 19032,"umarex","H&K HK416 A5","","","","","",2,2,false
 19033,"umarex","H&K HK416 CQB V2","","","","","",2,2,false
+19033,"umarex","H&K M110A1","","","","","",2,2,false
 
 19040,"umarex","BERETTA M9","","","","","",1,4,false
 19041,"umarex","BERETTA MOD. M9A3","","","","","",1,4,false
@@ -1796,7 +1808,6 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 20011,"a&k","M7799","","","","","",2,2,false
 20012,"a&k","LR300 Long Version","","","","","",2,2,false
 20013,"a&k","LR300 Short Version","","","","","",2,2,false
-20014,"a&k","M933","","","","","",2,2,false
 20015,"a&k","SRP MOD1","","","","","",2,2,false
 20016,"a&k","SRP MOD2","","","","","",2,2,false
 20017,"a&k","CQB","","CQB Series 01-06","","","",2,2,false
@@ -1896,8 +1907,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 22070,"aps","CAM 870 MKIII Bulldog","","","","","",4,4,false
 22071,"aps","CAM 870 MKIII Battleworn/Douchbag","","","","","",4,4,false
 22072,"aps","CAM 870 MKIII","","","","","",4,4,false
-22073,"aps","TACTICAL STYLE CAM KMII","","","","","",4,4,false
-22074,"aps","TACTICAL STYLE CAM KMIII","","","","","",4,4,false
+22073,"aps","TACTICAL STYLE CAM MKII","","","","","",4,4,false
+22074,"aps","TACTICAL STYLE CAM MKIII","","","","","",4,4,false
 22075,"aps","CAM MKII","","","","","",4,4,false
 22076,"aps","CAM 870 MKII Bulldog","","","","","",4,4,false
 22077,"aps","CAM MKII AOW","CAM MKII ANY OTHER WEAPON","","","","",4,4,false
@@ -1992,7 +2003,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 24060,"ares","AW338","","","","","",2,4,false
 24061,"ares","AW338","","","","","",2,1,false
 24062,"ares","DSR-1","","","","","",2,4,false
-24063,"ares",M200/EDM200","","","","","",2,1,false
+24063,"ares","M200/EDM200","","","","","",2,1,false
 24064,"ares","MCM700X","","","","","",2,1,false
 24065,"ares","MSR/MSR TACTICAL","","","","","",2,4,false
 24066,"ares","MSR338/700","","","","","",2,1,false
@@ -2184,7 +2195,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 26046,"bolt","DEVGRU-EXT","","DEVGRU Series","","","",2,2,false
 26047,"bolt","KEYMOD-K12","","DEVGRU Series","","","",2,2,false
 26048,"bolt","MK18 MOD-1","","","","","",2,2,false
-26049,"bolt","SOPMODBLOCK II","","","","","",2,2,false
+26049,"bolt","SOPMOD BLOCK II","","","","","",2,2,false
 26050,"bolt","MK18 LITE","","","","","",2,2,false
 26051,"bolt","MK18 SHORT","","","","","",2,2,false
 26052,"bolt","FN SCAR-SC","","","","","",2,2,false
@@ -2458,7 +2469,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 30107,"g&g","BAMF Stealth","","","","","",2,2,false
 30108,"g&g","GTW91","","","","","",2,2,false
 30109,"g&g","ARP556 2.0","","","","","",2,2,false
-30110,"g&g","CM16 Predeator","","","","","",2,2,false
+30110,"g&g","CM16 Predator","","","","","",2,2,false
 30111,"g&g","CM16 Wild Hog 9-inch","","","","","",2,2,false
 30112,"g&g","CM16 Wild Hog 12-inch","","","","","",2,2,false
 30113,"g&g","CM16 Wild Hog 13.5-inch","","","","","",2,2,false
@@ -2643,7 +2654,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 32019,"ghk","G5","","","","","",2,4,false
 32020,"ghk","GLOCK 17 GEN 3","","","","","",1,4,false
 
-33001,"hartford","SAA.45 Cowboy Action Gear","","","SAA.45 カウボーイ・アクション。ギア","","",1,4,false
+33001,"hartford","SAA.45 Cowboy Action Gear","","","SAA.45 カウボーイ・アクション・ギア","","",1,4,false
 33002,"hartford","SAA.45 FDC","SAA.45 Fast Draw Custom","","SAA.45 FDC","SAA.45 ファスト・ドロウ・カスタム","",1,4,false
 33003,"hartford","SAA.45 Sheriff's Custom","","","SAA.45 シェリフス カスタム","","",1,4,false
 33004,"hartford","NEW MODEL ARMY Percussion Standard","","","ニューモデルアーミー パーカッション・スタンダード","","",1,4,false
@@ -2718,7 +2729,6 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 34060,"ics","CS4A1 Tubular RAS L","","","","","",2,2,false
 34061,"ics","CS16A3 Fixed Stock","","","","","",2,2,false
 34062,"ics","CS4 RIS Short Fixed Stock","","","","","",2,2,false
-34063,"ics","CS4 CQB Short Fixed Stock","","","","","",2,2,false
 34064,"ics","CS4A1 Retractable Stock","","","","","",2,2,false
 34065,"ics","CS4 Commando Crane Stock","","","","","",2,2,false
 34066,"ics","CS4 RIS Crane Stock","","","","","",2,2,false
@@ -2910,8 +2920,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 39000,"ksc","QRF mod.1 TEG","","","","","",8,2,false
 39001,"ksc","T6 TEG Compact","","","T6 TEG コンパクト","","",2,2,false
-39002,"ksc","Struck ERG Rifle","","","ストラックERGライフル","","",2,2,false
-39003,"ksc","Struck ERG Compact","","","ストラックERGコンパクト","","",2,2,false
+39002,"ksc","Struck ERG Rifle","","","ストラックERG ライフル","","",2,2,false
+39003,"ksc","Struck ERG Compact","","","ストラックERG コンパクト","","",2,2,false
 39004,"ksc","AK74M","","","","","",2,2,false
 39005,"ksc","M4A1","","","","","",2,2,false
 39006,"ksc","Centurion CM4","","","センチュリオンCM4","","",2,2,false
@@ -2922,6 +2932,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 39011,"ksc","HK33A3","","","","","",2,2,false
 39012,"ksc","HK33A2","","","","","",2,2,false
 39013,"ksc","HK33K","","","","","",2,2,false
+39014,"ksc","Struck TEG Compact","","","ストラックTEG コンパクト","","",8,2,false
 
 39030,"ksc","MK23 SOCOM","","","MK23ソーコム","","",1,4,false
 39031,"ksc","Mega MKM Marksman","","","Mega MKMマークスマン","","",2,4,false
@@ -3101,8 +3112,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 41096,"lct","LR16","","","","","",2,2,false
 41097,"lct","M60VN","","","","","",2,2,false
 
-42000,"marushin","FN Five-seveN","","","44オートマグ・クリントワン1","","",1,4,false
-42001,"marushin","44Automag Clint1","","","44オートマグ・クリントワン1","","",1,4,false
+42000,"marushin","FN Five-seveN","","","44オートマグ・クリントワン","","",1,4,false
+42001,"marushin","44Automag Clint1","","","44オートマグ・クリントワン","","",1,4,false
 42002,"marushin","Mauser M712","","","モーゼルM712","","",1,4,false
 42003,"marushin","Mauser M712 Short Barrel","","","モーゼルM712・ショートバレル","","",1,4,false
 42004,"marushin","Nambu type14 Early model","","","南部14年式・前期モデル","","",1,4,false
@@ -3509,7 +3520,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 51000,"sunproject","M40A1","","","","","",2,1,false
 51001,"sunproject","M40XB","","","","","",2,1,false
-51002,"sunproject","XP-100R Repeter","","","XP-100R レピーター","","",1,1,false
+51002,"sunproject","XP-100R Repeater","","","XP-100R レピーター","","",1,1,false
 51003,"sunproject","XP-100","","","XP-100","","",1,1,false
 51004,"sunproject","M16A2 Carbine","","","M16A2 カービン","","",1,4,false
 51005,"sunproject","XM-177E2","","","","","",1,4,false
@@ -3852,7 +3863,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 54004,"baton","PREDATOR TARGET","","","","","",1,4,false
 54005,"baton","M1911A1","","","","","",1,4,false
 54006,"baton","BS-STACCATO","","","","","",1,4,false
-54007,"baton","BN_SILENT HAWK","","","","","",1,4,false
+54007,"baton","BN-SILENT HAWK","","","","","",1,4,false
 54008,"baton","BS-COMBAT MASTER","","","","","",1,4,false
 54009,"baton","BH-USP Tactical","","","","","",1,4,false
 
