@@ -1,3 +1,7 @@
 *.realm.lock
 *.realm.note
 *.realm.management
+
+.DS_Store
+
+node_modules

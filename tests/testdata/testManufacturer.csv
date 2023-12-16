@@ -1,0 +1,6 @@
+_id,shortName,longName,description,url,shortNameJa,longNameJa,descriptionJa,urlJa
+agm,"AGM","","","","","","",""
+marui,"MARUI","TOKYO MARUI","","https://www.tokyo-marui.co.jp/","マルイ","東京マルイ","",""
+
+other,"Other Manufacturer","","",,"その他の製造元","","",""
+unknown,"","","",,"","","",""
