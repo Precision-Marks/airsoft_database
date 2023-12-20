@@ -1,8 +1,8 @@
 import Realm, { ObjectSchema } from "realm";
-import { Manufacturer } from "../models/Manufacturer";
-import { GunPowerSource, GunType } from "../models/Gun";
+import { GENERIC_MANUFACTURER_ID } from "../models/ManufacturerCatalog";
+import { IGunCatalog, GunPowerSource, GunType } from "../models/GunCatalog";
 
-export class RealmGunCatalog extends Realm.Object<RealmGunCatalog> {
+export class RealmGunCatalog extends Realm.Object<RealmGunCatalog> implements IGunCatalog {
     _id!: number;
     manufacturerId!: string;
     shortName!: string;
@@ -22,7 +22,7 @@ export class RealmGunCatalog extends Realm.Object<RealmGunCatalog> {
         name: "RealmGunCatalog",
         properties: {
             _id: { type: "int", default: 0 },
-            manufacturerId: { type: "string", default: Manufacturer.GENERIC_MANUFACTURER_ID, indexed: true },
+            manufacturerId: { type: "string", default: GENERIC_MANUFACTURER_ID, indexed: true },
             shortName: { type: "string", default: "", indexed: true },
             fullName: "string?",
             description: "string?",

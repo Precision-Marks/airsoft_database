@@ -1,7 +1,8 @@
 import Realm, { ObjectSchema } from "realm";
 import { RealmDataConst } from "../models/RealmDataConst";
+import { IShootingRuleCatalog } from "../models/ShootingRuleCatalog";
 
-export class RealmShootingRuleCatalog extends Realm.Object<RealmShootingRuleCatalog> {
+export class RealmShootingRuleCatalog extends Realm.Object<RealmShootingRuleCatalog> implements IShootingRuleCatalog {
     _id!: number;
     type?: string;
 

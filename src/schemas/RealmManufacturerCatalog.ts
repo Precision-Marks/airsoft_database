@@ -1,6 +1,7 @@
 import Realm, { ObjectSchema } from "realm";
+import { IManufacturerCatalog } from "../models/ManufacturerCatalog";
 
-export class RealmManufacturerCatalog extends Realm.Object<RealmManufacturerCatalog> {
+export class RealmManufacturerCatalog extends Realm.Object<RealmManufacturerCatalog> implements IManufacturerCatalog {
     _id!: string;
     shortName?: string;
     longName?: string;
@@ -11,7 +12,7 @@ export class RealmManufacturerCatalog extends Realm.Object<RealmManufacturerCata
     descriptionJa?: string;
     urlJa?: string;
 
-    static schema: ObjectSchema = {
+    static readonly schema: ObjectSchema = {
         name: "RealmManufacturerCatalog",
         properties: {
             _id: { type: "string", default: "" },

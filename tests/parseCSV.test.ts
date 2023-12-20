@@ -34,9 +34,7 @@ const manufacturerRecords = [
         descriptionJa: undefined,
         urlJa: undefined,
     },
-    {
-        _id: "", // empty line
-    },
+    null,
     {
         _id: "other",
         shortName: "Other Manufacturer",
@@ -82,9 +80,7 @@ const gunRecords = [
         generic: false,
         // deleted: undefined,
     },
-    {
-        _id: "", // empty line
-    },
+    null,
     {
         _id: 10133,
         manufacturerId: "marui",

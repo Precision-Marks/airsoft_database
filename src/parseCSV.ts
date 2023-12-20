@@ -1,7 +1,9 @@
-import { parse } from 'csv-parse/sync';
 import fs = require('fs');
+import _ from 'lodash';
+import { parse, CsvError } from 'csv-parse/sync';
 import { ObjectSchema } from "realm";
-import { replaceEmptyStringsWithUndefined, validateProperties } from './util';
+import { replaceEmptyStringsWithUndefined, validateProperties } from './utils';
+import { RealmManufacturerCatalog } from './schemas/RealmManufacturerCatalog';
 
 const parseOptions = {
     columns: true,
@@ -11,7 +13,6 @@ const parseOptions = {
 
 export function parseCsvString(csvString: string, schema: ObjectSchema): any[] {
     const records = parse(csvString, parseOptions);
-
     return validateAndProcessRecords(records, schema);
 }
 
@@ -23,21 +24,26 @@ export function parseCsvFile(filename: string, schema: ObjectSchema): any[] {
 }
 
 function validateAndProcessRecords(records: any[], schema: ObjectSchema): any[] {
-    records.forEach((record, index) => {
-        // Skip empty lines
-        if (Object.keys(record).length === 0) return;
-        
+    for (let index = 0; index < records.length; index++) {
+        const record = records[index];
+
+        // Skip empty lines and make them null
+        if (Object.keys(record).length === 1 && _.isEqual(record, { _id: '' })) {
+            records[index] = null;
+            continue;
+        }
+
         try {
             validateProperties(record, schema) // throws error if validation fails
         } catch (e) {
-            if (e instanceof Error) {
-                throw new Error(`Error validating record at line ${index+1}: ${e.message}, record: ${JSON.stringify(record)}`);
+            if (e instanceof TypeError) {
+                throw new TypeError(`Error validating record at line ${index+1}: ${e.message}`);
             } else {
                 throw new Error(`Error validating record at line ${index+1}: ${JSON.stringify(e)}, record: ${JSON.stringify(record)}`);
             }
         }
         replaceEmptyStringsWithUndefined(record, schema);    
-    });
+    };
 
     return records;
 }

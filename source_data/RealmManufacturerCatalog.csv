@@ -18,7 +18,7 @@ emg,"EMG","EMG Arms","","http://www.emgarms.com/","","","",""
 g&g,"G&G","G&G ARMAMENT","","https://www.guay2.com/","","","","https://www.guay2.com/ja"
 g&p,"G&P","","","http://www.gp-web.com/","","","","http://www.gp-web.jp/"
 ghk,"GHK","GHK AIRSOFT","","https://www.ghkairsoft.com/en/","","","",""
-hartford,"HARTFORD","",""",http://www.hartford.co.jp/","ハートフォード","","""",
+hartford,"HARTFORD","","","http://www.hartford.co.jp/","ハートフォード","","""",
 ics,"ICS","ICS AIRSOFT","","https://www.icsbb.com/","","","","https://ics.militaryblog.jp/"
 kingarms,"KING ARMS","","","http://www.kingarms.com/","","","",""
 kjworks,"KJWORKS","KJ WORKS","","http://www.kjworks.com.tw/","","","",""
@@ -44,5 +44,5 @@ vfc,"VFC","Vega Force Company","","https://www.vegaforce.com/","","","","https:/
 wa,"WA","WESTERN ARMS","","https://www.wa-gunnet.co.jp/","WA","ウエスタンアームズ(WA)","",""
 wetech,"WE","WE AIRSOFT(WE-Tech)","","https://www.weairsoft.com/","WE","WE AIRSOFT(WE-Tech)","","http://www.weairsoft.jp/"
 
-other,"Other Manufacturer","","",,"その他の製造元","","",""
-unknown,"","","",,"","","",""
+other,"Other Manufacturer","","","","その他の製造元","","",""
+unknown,"","","","","","","",""
