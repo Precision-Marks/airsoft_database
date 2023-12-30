@@ -59,10 +59,10 @@ const manufacturerRecords = [
     },
 ];
 
-const gunCSV = `_id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,lowFps,generic,deleted
-0,"unknown","Handgun","","","ハンドガン","","",1,0,false,false
+const gunCSV = `_id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,powerLevel,generic,deleted
+0,"unknown","Handgun","","","ハンドガン","","",1,0,0,false
 
-10133,"marui","P-90","","Standard-Type series","P-90","","電動ガンスタンダードタイプ",2,2,false`
+10133,"marui","P-90","","Standard-Type series","P-90","","電動ガンスタンダードタイプ",2,2,1`
 
 const gunRecords = [
     {
@@ -76,7 +76,7 @@ const gunRecords = [
         descriptionJa: undefined,
         type: 1,
         powerSource: 0,
-        lowFps: false,
+        powerLevel: 0, // lowFps: false,
         generic: false,
         // deleted: undefined,
     },
@@ -92,7 +92,7 @@ const gunRecords = [
         descriptionJa: "電動ガンスタンダードタイプ",
         type: 2,
         powerSource: 2,
-        lowFps: false,
+        powerLevel: 1, // lowFps: false,
         // generic: undefined,
         // deleted: undefined,
     }

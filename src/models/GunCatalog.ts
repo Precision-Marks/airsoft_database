@@ -25,6 +25,15 @@ export enum GunPowerSource {
     GAS = 4
 }
 
+export enum GunPowerLevel {
+    // NOTE: DO NOT change the following value. They are stored in database.
+    UNKNOWN = 0,
+    LOW = 1,
+    R10_JPN = 2,
+    R14_JPN = 3
+
+}
+
 export const GunPowerSourceMask =
     GunPowerSource.SPRING |
     GunPowerSource.BATTERY |
@@ -41,7 +50,8 @@ export interface IGunCatalog {
     descriptionJa?: string;
     type: number;
     powerSource: number;
-    lowFps: boolean;
+    // lowFps: boolean;
+    powerLevel: number;
     /** If true the name of this gun is not unique */
     generic?: boolean;
     deleted?: boolean;
@@ -75,8 +85,8 @@ export function isValidGunCatalog(gun: IGunCatalog): boolean {
     if (GunPowerSource[gun.powerSource] === undefined) {
         throw new TypeError(`Invalid gun power source: ${gun.powerSource}`);
     }
-    if (gun.lowFps === undefined || gun.lowFps === null) {
-        return false;
+    if (GunPowerLevel[gun.powerLevel] === undefined) {
+        throw new TypeError(`Invalid gun power level: ${gun.powerLevel}`);
     }
     return true;
 }

@@ -37,9 +37,9 @@ function validateAndProcessRecords(records: any[], schema: ObjectSchema): any[] 
             validateProperties(record, schema) // throws error if validation fails
         } catch (e) {
             if (e instanceof TypeError) {
-                throw new TypeError(`Error validating record at line ${index+1}: ${e.message}`);
+                throw new TypeError(`Error validating record at line ${index+2}: ${e.message}`);
             } else {
-                throw new Error(`Error validating record at line ${index+1}: ${JSON.stringify(e)}, record: ${JSON.stringify(record)}`);
+                throw new Error(`Error validating record at line ${index+2}: ${JSON.stringify(e)}, record: ${JSON.stringify(record)}`);
             }
         }
         replaceEmptyStringsWithUndefined(record, schema);    

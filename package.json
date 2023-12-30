@@ -5,7 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest",
-    "test-debug": "jest --silent=false"
+    "test-debug": "jest --silent=false",
+    "test-database": "npx ts-node src/index.ts -t",
+    "create-database": "npx ts-node src/index.ts"
   },
   "keywords": [
     "Airsoft"

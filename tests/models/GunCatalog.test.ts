@@ -13,7 +13,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -32,7 +32,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -51,7 +51,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -70,7 +70,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -89,7 +89,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -108,7 +108,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -127,7 +127,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -146,7 +146,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -165,7 +165,7 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 100,
             powerSource: 0,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
@@ -184,14 +184,14 @@ describe("GunCatalog test", () => {
             descriptionJa: "test",
             type: 0,
             powerSource: 100,
-            lowFps: true,
+            powerLevel: 1, // lowFps: true,
             generic: true,
             deleted: true,
         };
         expect(() => GunCatalog.isValidGunCatalog(gun)).toThrow(TypeError);
     });
 
-    test("isValidGunCatalog: lowFps is undefined", () => {
+    test("isValidGunCatalog: powerLevel is undefined", () => {
         const gun = {
             _id: 0,
             manufacturerId: "test",
@@ -206,6 +206,6 @@ describe("GunCatalog test", () => {
             generic: true,
             deleted: true,
         };
-        expect(GunCatalog.isValidGunCatalog(gun as GunCatalog.IGunCatalog)).toBeFalsy();
+        expect(() => GunCatalog.isValidGunCatalog(gun as GunCatalog.IGunCatalog)).toThrow(TypeError);
     });
 });

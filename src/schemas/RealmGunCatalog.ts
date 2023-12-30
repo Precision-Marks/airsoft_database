@@ -1,6 +1,6 @@
 import Realm, { ObjectSchema } from "realm";
 import { GENERIC_MANUFACTURER_ID } from "../models/ManufacturerCatalog";
-import { IGunCatalog, GunPowerSource, GunType } from "../models/GunCatalog";
+import { IGunCatalog, GunPowerLevel, GunPowerSource, GunType } from "../models/GunCatalog";
 
 export class RealmGunCatalog extends Realm.Object<RealmGunCatalog> implements IGunCatalog {
     _id!: number;
@@ -13,7 +13,8 @@ export class RealmGunCatalog extends Realm.Object<RealmGunCatalog> implements IG
     descriptionJa?: string;
     type!: number;
     powerSource!: number;
-    lowFps!: boolean;
+    // lowFps!: boolean;
+    powerLevel!: number;
     /** If true the name of this gun is not unique */
     generic?: boolean;
     deleted?: boolean;
@@ -31,7 +32,8 @@ export class RealmGunCatalog extends Realm.Object<RealmGunCatalog> implements IG
             descriptionJa: "string?",
             type: { type: "int", default: GunType.UNKNOWN, indexed: true },
             powerSource: { type: "int", default: GunPowerSource.UNKNOWN, indexed: true },
-            lowFps: { type: "bool", default: false, indexed: true },
+            // lowFps: { type: "bool", default: false, indexed: true },
+            powerLevel: { type: "int", default: GunPowerLevel.UNKNOWN, indexed: true },
             generic: "bool?",
             deleted: "bool?",
         },

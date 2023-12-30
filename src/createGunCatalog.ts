@@ -3,6 +3,7 @@ import { program } from "commander";
 import Realm from "realm";
 import * as ParseCSV from "./parseCSV";
 import { IGunCatalog } from "./models/GunCatalog";
+import { SCHEMA_VERSION } from "./models/RealmDataConst";
 import { RealmGunCatalog } from "./schemas/RealmGunCatalog";
 import { validateGun } from "./validateGun";
 import { CsvError } from "csv-parse/sync";
@@ -12,7 +13,7 @@ export function createGunCatalog(realm: Realm, filePath: string, checkManufactur
     let guns: (IGunCatalog | null)[] = [];
 
     try {
-        let manufacturers: string[] | null = null;
+        let manufacturers: string[] | undefined;
 
         if (checkManufacturer) {
             // Get list of manufacturer ids
@@ -55,6 +56,7 @@ async function main(argv: string[]): Promise<boolean> {
     const realm = await Realm.open({
         inMemory: true,
         schema: [RealmGunCatalog],
+        schemaVersion: SCHEMA_VERSION,
     });
 
     try {

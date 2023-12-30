@@ -3,6 +3,7 @@ import { program } from "commander";
 import Realm from "realm";
 import * as ParseCSV from "./parseCSV";
 import { IManufacturerCatalog } from "./models/ManufacturerCatalog";
+import { SCHEMA_VERSION } from "./models/RealmDataConst";
 import { RealmManufacturerCatalog } from "./schemas/RealmManufacturerCatalog";
 import { validateManufacturer } from "./validateManufacturer";
 import { CsvError } from "csv-parse/sync";
@@ -45,6 +46,7 @@ async function main(argv: string[]): Promise<boolean> {
     const realm = await Realm.open({
         inMemory: true,
         schema: [RealmManufacturerCatalog],
+        schemaVersion: SCHEMA_VERSION,
     });
 
     try {

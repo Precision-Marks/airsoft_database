@@ -12,7 +12,7 @@ const gun0: IGunCatalog = {
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -28,7 +28,7 @@ const gun1: IGunCatalog = { // Has duplicate id with gun0
     descriptionJa: "test1 descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -44,7 +44,7 @@ const gun2: IGunCatalog = { // Completely different with gun0
     descriptionJa: "test2 descriptionJa", // Unique descriptionJa
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -60,7 +60,7 @@ const gun3: IGunCatalog = { // Unique id, but duplicate shortName with gun0
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -76,7 +76,7 @@ const gun4: IGunCatalog = { // Unique id, but duplicate fullName with gun0
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -92,7 +92,7 @@ const gun5: IGunCatalog = { // Unique id and shortName/fullName, but duplicate s
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -108,7 +108,7 @@ const gun6: IGunCatalog = { // Unique id and shortName/fullName/shortNameJa, but
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -124,12 +124,12 @@ const gun7: IGunCatalog = { // Almost the same with gun0 but powerSource is diff
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 2,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
 
-const gun8: IGunCatalog = { // Almost the same with gun0 but lowFps is different
+const gun8: IGunCatalog = { // Almost the same with gun0 but powerLevel is different
     _id: 8,
     manufacturerId: "test manufacturer",
     shortName: "test shortName",
@@ -140,7 +140,7 @@ const gun8: IGunCatalog = { // Almost the same with gun0 but lowFps is different
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: true,
+    powerLevel: 1, // lowFps: true,
     generic: undefined,
     deleted: undefined,
 };
@@ -156,7 +156,7 @@ const gun9: IGunCatalog = { // Almost the same with gun0 but id and manufacturer
     descriptionJa: "test descriptionJa",
     type: 1,
     powerSource: 1,
-    lowFps: false,
+    powerLevel: 0, // lowFps: false,
     generic: undefined,
     deleted: undefined,
 };
@@ -190,7 +190,7 @@ describe("validateGun() tests", () => {
         expect(validateGun([gun0, null, null,  gun7])).toBeTruthy();
     });
 
-    test("validateGun() with different lowFps should success", () => {
+    test("validateGun() with different powerLevel should success", () => {
         expect(validateGun([gun0, null, null,  gun8])).toBeTruthy();
     });
 

@@ -3,6 +3,7 @@ import { program } from "commander";
 import Realm from "realm";
 import * as ParseCSV from "./parseCSV";
 import { IShootingRuleCatalog } from "./models/ShootingRuleCatalog";
+import { SCHEMA_VERSION } from "./models/RealmDataConst";
 import { RealmShootingRuleCatalog } from "./schemas/RealmShootingRuleCatalog";
 import { validateShootingRule } from "./validateShootingRule";
 import { CsvError } from "csv-parse/sync";
@@ -45,6 +46,7 @@ async function main(argv: string[]): Promise<boolean> {
     const realm = await Realm.open({
         inMemory: true,
         schema: [RealmShootingRuleCatalog],
+        schemaVersion: SCHEMA_VERSION,
     });
 
     try {

@@ -4,3 +4,5 @@ export class RealmDataConst {
     static readonly UNIT_METER = 0;
     static readonly UNIT_YARD = 1;
 }
+
+export const SCHEMA_VERSION = 2;

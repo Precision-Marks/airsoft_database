@@ -10,7 +10,7 @@ function checkDuplicate(guns: (IGunCatalog | null)[], i: number, j: number) {
     }
 
     // Check duplicate shortName
-    if (Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "shortName", "type", "powerSource", "lowFps", "deleted"])) {
+    if (Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "shortName", "type", "powerSource", "powerLevel", "deleted"])) {
         if (Utils.fuzzyStringCompare(a.description ?? "", b.description ?? "")) {
             throw new TypeError(`Duplicate gun defined (shortName: "${a.shortName}") at line ${i + 2} and ${j + 2}`);
         } else {
@@ -19,7 +19,7 @@ function checkDuplicate(guns: (IGunCatalog | null)[], i: number, j: number) {
     }
 
     // Check duplicate shortNameJa if exists
-    if ((a.shortNameJa?.length ?? 0) > 0 &&  Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "shortNameJa", "type", "powerSource", "lowFps", "deleted"])) {
+    if ((a.shortNameJa?.length ?? 0) > 0 &&  Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "shortNameJa", "type", "powerSource", "powerLevel", "deleted"])) {
         if (Utils.fuzzyStringCompare(a.description ?? "", b.description ?? "")) {
             throw new TypeError(`Duplicate gun defined (shortNameJa: "${a.shortNameJa}") at line ${i + 2} and ${j + 2}`);
         } else {
@@ -28,7 +28,7 @@ function checkDuplicate(guns: (IGunCatalog | null)[], i: number, j: number) {
     }
 
     // Check duplicate fullName if exists
-    if ((a.fullName?.length ?? 0) > 0 && Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "fullName", "type", "powerSource", "lowFps", "deleted"])) {
+    if ((a.fullName?.length ?? 0) > 0 && Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "fullName", "type", "powerSource", "powerLevel", "deleted"])) {
         if (Utils.fuzzyStringCompare(a.description ?? "", b.description ?? "")) {
             throw new TypeError(`Duplicate gun defined (fullName: "${a.fullName}") at line ${i + 2} and ${j + 2}`);
         } else {
@@ -37,7 +37,7 @@ function checkDuplicate(guns: (IGunCatalog | null)[], i: number, j: number) {
     }
 
     // Check duplicate fullNameJa if exists
-    if ((a.fullNameJa?.length ?? 0) > 0 && Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "fullNameJa", "type", "powerSource", "lowFps", "deleted"])) {
+    if ((a.fullNameJa?.length ?? 0) > 0 && Utils.compareInstances<IGunCatalog>(a, b, ["manufacturerId", "fullNameJa", "type", "powerSource", "powerLevel", "deleted"])) {
         if (Utils.fuzzyStringCompare(a.description ?? "", b.description ?? "")) {
             throw new TypeError(`Duplicate gun defined (fullNameJa: "${a.fullNameJa}") at line ${i + 2} and ${j + 2}`);
         } else {
@@ -72,10 +72,10 @@ function isUnique(guns: (IGunCatalog | null)[]): boolean {
 /**
  * Validate gun catalog
  * @param guns List of gun catalog to validate
- * @param manufacturers List of manufacturer ids available in the database. If null, manufacturer id is not checked. 
+ * @param manufacturers List of manufacturer ids available in the database. If undefined, manufacturer id is not checked. 
  * @returns true if validation is successful
  */
-export function validateGun(guns: (IGunCatalog | null)[], manufacturers: string[] | null): boolean {
+export function validateGun(guns: (IGunCatalog | null)[], manufacturers?: string[]): boolean {
     guns.forEach((gun, index) => {
         if (gun === null) {
             return;
