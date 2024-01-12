@@ -2,8 +2,8 @@ import { IGunCatalog } from "../src/models/GunCatalog";
 import { validateGun } from "../src/validateGun";
 
 const gun0: IGunCatalog = {
-    _id: 0,
-    manufacturerId: "test manufacturer",
+    _id: 11000,
+    manufacturerId: "marui",
     shortName: "test shortName",
     fullName: "test fullName",
     description: "test description",
@@ -18,8 +18,8 @@ const gun0: IGunCatalog = {
 };
 
 const gun1: IGunCatalog = { // Has duplicate id with gun0
-    _id: 0, // duplicate id
-    manufacturerId: "test1 manufacturer",
+    _id: 11000, // duplicate id
+    manufacturerId: "marui",
     shortName: "test1 shortName",
     fullName: "test1 fullName",
     description: "test description",
@@ -34,8 +34,8 @@ const gun1: IGunCatalog = { // Has duplicate id with gun0
 };
 
 const gun2: IGunCatalog = { // Completely different with gun0
-    _id: 2, // Unique id
-    manufacturerId: "test2 manufacturer",   // Unique manufacturerId
+    _id: 13000, // Unique id
+    manufacturerId: "crown",   // Unique manufacturerId
     shortName: "test2 shortName", // Unique shortName
     fullName: "test2 fullName", // Unique fullName
     description: "test2 description", // Unique description
@@ -50,8 +50,8 @@ const gun2: IGunCatalog = { // Completely different with gun0
 };
 
 const gun3: IGunCatalog = { // Unique id, but duplicate shortName with gun0
-    _id: 3, // Unique id
-    manufacturerId: "test manufacturer",
+    _id: 11003, // Unique id
+    manufacturerId: "marui",
     shortName: "test shortName", // The same with gun0
     fullName: "test fullName",
     description: "test description",
@@ -66,8 +66,8 @@ const gun3: IGunCatalog = { // Unique id, but duplicate shortName with gun0
 };
 
 const gun4: IGunCatalog = { // Unique id, but duplicate fullName with gun0
-    _id: 4,
-    manufacturerId: "test manufacturer",
+    _id: 11004,
+    manufacturerId: "marui",
     shortName: "test4 shortName",
     fullName: "test fullName",
     description: "test description",
@@ -82,8 +82,8 @@ const gun4: IGunCatalog = { // Unique id, but duplicate fullName with gun0
 };
 
 const gun5: IGunCatalog = { // Unique id and shortName/fullName, but duplicate shortNameJa with gun0
-    _id: 5, // Unique id
-    manufacturerId: "test manufacturer", // Unique manufacturerId
+    _id: 11005, // Unique id
+    manufacturerId: "marui", // Unique manufacturerId
     shortName: "test5 shortName", // The same with gun0
     fullName: "test5 fullName",
     description: "test description",
@@ -98,8 +98,8 @@ const gun5: IGunCatalog = { // Unique id and shortName/fullName, but duplicate s
 };
 
 const gun6: IGunCatalog = { // Unique id and shortName/fullName/shortNameJa, but duplicate fullNameJa with gun0
-    _id: 6,
-    manufacturerId: "test manufacturer",
+    _id: 11006,
+    manufacturerId: "marui",
     shortName: "test4 shortName",
     fullName: "test4 fullName",
     description: "test description",
@@ -113,9 +113,9 @@ const gun6: IGunCatalog = { // Unique id and shortName/fullName/shortNameJa, but
     deleted: undefined,
 };
 
-const gun7: IGunCatalog = { // Almost the same with gun0 but powerSource is different
-    _id: 7,
-    manufacturerId: "test manufacturer",
+const gun7: IGunCatalog = { // Almost the same with gun0 but id and powerSource is different
+    _id: 11007,
+    manufacturerId: "marui",
     shortName: "test shortName",
     fullName: "test fullName",
     description: "test description",
@@ -129,9 +129,9 @@ const gun7: IGunCatalog = { // Almost the same with gun0 but powerSource is diff
     deleted: undefined,
 };
 
-const gun8: IGunCatalog = { // Almost the same with gun0 but powerLevel is different
-    _id: 8,
-    manufacturerId: "test manufacturer",
+const gun8: IGunCatalog = { // Almost the same with gun0 but id and powerLevel is different
+    _id: 11008,
+    manufacturerId: "marui",
     shortName: "test shortName",
     fullName: "test fullName",
     description: "test description",
@@ -146,8 +146,8 @@ const gun8: IGunCatalog = { // Almost the same with gun0 but powerLevel is diffe
 };
 
 const gun9: IGunCatalog = { // Almost the same with gun0 but id and manufacturerId are different
-    _id: 9,
-    manufacturerId: "test9 manufacturer",
+    _id: 13000,
+    manufacturerId: "crown",
     shortName: "test shortName",
     fullName: "test fullName",
     description: "test description",

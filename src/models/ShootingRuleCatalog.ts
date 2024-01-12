@@ -59,7 +59,7 @@ export function isValidShootingRuleCatalog(rule: IShootingRuleCatalog): boolean 
         throw new TypeError(`Invalid shooting rule id: ${rule._id}`);
     }
     if (rule.name === undefined || rule.name === null || rule.name.length === 0) {
-        throw new TypeError(`Invalid shooting rule name: ${rule.name}`);
+        throw new TypeError(`Invalid or empty shooting rule name: ${rule.name}`);
     }
     if (rule.range100x === undefined || rule.range100x === null || rule.range100x <= 0 || rule.range100x > 5000) {
         throw new TypeError(`Invalid shooting rule range: ${rule.range100x}`);

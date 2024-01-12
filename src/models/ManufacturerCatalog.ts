@@ -22,6 +22,9 @@ export function isValidManufacturerCatalog(manufacturer: IManufacturerCatalog): 
     if (! Utils.isPrintableAscii(manufacturer._id)) {
         throw new TypeError(`Invalid manufacturer id: ${manufacturer._id} (should contain alpha numeric only)`);
     }
+    if (manufacturer.shortName != null && manufacturer.shortName.length === 0 && manufacturer._id !== UNKNOWN_MANUFACTURER_ID) {
+        throw new TypeError(`Empty manufacturer short name for id: ${manufacturer._id}`);
+    }
     if (manufacturer.shortName != null && manufacturer.shortName.length > 0 && ! Utils.isLatinOrGreek(manufacturer.shortName)) {
         throw new TypeError(`Invalid manufacturer short name: ${manufacturer.shortName} (contains non-latin characters)`);
     }

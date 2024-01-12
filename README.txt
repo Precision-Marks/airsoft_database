@@ -19,4 +19,7 @@ Run `npm install` to install required packages.
 
 To add/modify the gun database edit [./source_data/RealmGunCatalog.csv](./source_data/RealmGunCatalog.csv)
 
+## VsCode extensions recommended
 
+- Rainbow CSV
+- vscode-input-sequence: To set sequential id numbers

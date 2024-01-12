@@ -106,4 +106,19 @@ describe('ManufacturerCatalog test', () => {
         expect(() => ManufacturerCatalog.isValidManufacturerCatalog(manufacturer)).toThrow(TypeError);
     });
 
+    test('isValidManufacturerCatalog: empty shortName', () => {
+        const manufacturer = {
+            _id: 'test',
+            shortName: '',
+            longName: 'test',
+            description: 'test',
+            url: 'http://test',
+            shortNameJa: 'test',
+            longNameJa: 'test',
+            descriptionJa: 'test',
+            urlJa: 'test',
+        };
+        expect(() => ManufacturerCatalog.isValidManufacturerCatalog(manufacturer)).toThrow(TypeError);
+    });
+
 });

@@ -1,4 +1,6 @@
 import * as Utils from "../utils";
+import { UNKNOWN_MANUFACTURER_ID } from "./ManufacturerCatalog";
+import { gunIdRangeByManufacturer } from "./GunIdRange";
 
 export enum GunType {
     // NOTE: DO NOT change the following value. They are stored in database.
@@ -61,6 +63,9 @@ export function isValidGunCatalog(gun: IGunCatalog): boolean {
     if (gun._id === undefined || gun._id === null || gun._id < 0) {
         throw new TypeError(`Invalid gun id: ${gun._id}`);
     }
+    if (gun.manufacturerId === UNKNOWN_MANUFACTURER_ID && gun.generic == true) {
+        throw new TypeError(`generic of unknown manufacturer should be false (id: ${gun._id})`);
+    }
     if (gun.manufacturerId === undefined || gun.manufacturerId === null || gun.manufacturerId.length === 0 || !Utils.isPrintableAscii(gun.manufacturerId)) {
         throw new TypeError(`Invalid or empty gun manufacturer id: ${gun.manufacturerId} (should contain printable ASCII only)`)
     }
@@ -88,5 +93,32 @@ export function isValidGunCatalog(gun: IGunCatalog): boolean {
     if (GunPowerLevel[gun.powerLevel] === undefined) {
         throw new TypeError(`Invalid gun power level: ${gun.powerLevel}`);
     }
+
+    checkIdRange(gun);
+
+    return true;
+}
+
+function inRange(n: number, min: number, max: number) {
+    return min <= n && n <= max;
+}
+
+function checkIdRange(gun: IGunCatalog): boolean {
+    const id = gun._id;
+
+    if (gun.generic == true) {
+        if (id >= 10000) {
+            throw new TypeError(`Invalid gun id for generic gun (id: ${id})`);
+        }
+    } else {
+        const range = gunIdRangeByManufacturer[gun.manufacturerId];
+        if (range === undefined) {
+            throw new TypeError(`Manufacturer id: "${gun.manufacturerId}" is not defined in GunIdRange.ts`);
+        }
+        if (! inRange(id, range.min, range.max)) {
+            throw new TypeError(`Invalid gun id for manufacturer "${gun.manufacturerId}" (id: ${id}). Expected range: ${range.min} - ${range.max}`);
+        }
+    }
+
     return true;
 }
