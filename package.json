@@ -7,7 +7,7 @@
     "test": "jest",
     "test-debug": "jest --silent=false",
     "test-database": "npx ts-node src/index.ts -t",
-    "create-database": "npx ts-node src/index.ts"
+    "create-database": "sh ./scripts/create-database.sh"
   },
   "keywords": [
     "Airsoft"

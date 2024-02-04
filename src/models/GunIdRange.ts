@@ -192,5 +192,13 @@ export const gunIdRangeByManufacturer: {
         min: 55000,
         max: 55999,
     },
+    "novritsch": {
+        min: 56000,
+        max: 56999,
+    },
+    "carbon8": {
+        min: 57000,
+        max: 57999,
+    },
 };
 

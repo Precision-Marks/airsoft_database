@@ -8,6 +8,7 @@ import Realm from "realm";
 
 import { SCHEMA_VERSION } from "./models/RealmDataConst";
 
+import { RealmCatalogMetadata } from "./schemas/RealmCatalogMetadata";
 import { RealmManufacturerCatalog } from "./schemas/RealmManufacturerCatalog";
 import { RealmGunCatalog } from "./schemas/RealmGunCatalog";
 import { RealmShootingRuleCatalog } from "./schemas/RealmShootingRuleCatalog";
@@ -23,7 +24,7 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
 
     try {
         realm = await (async () => {;
-            const schema = [RealmManufacturerCatalog, RealmGunCatalog, RealmShootingRuleCatalog]
+            const schema = [RealmCatalogMetadata, RealmManufacturerCatalog, RealmGunCatalog, RealmShootingRuleCatalog]
     
             if (options.test) {
                 return await Realm.open({
@@ -36,6 +37,10 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
                     throw new Error(`ERROR: Output file ${options.output} already exists.`);
                 }
     
+                if (options.commit === "") {
+                    throw new Error("ERROR: commit id is empty");
+                }
+
                 return await Realm.open({
                     path: options.output,
                     schema: schema,
@@ -61,6 +66,14 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
                 console.log("Testing input files only, no output");
             } else {
                 console.log(`Creating realm file ${options.output}`);
+
+                realm.write(() => {
+                    realm.create(RealmCatalogMetadata.schema.name, {
+                        _id: 0,
+                        realmInstant: new Date(),
+                        commitId: options.commit,
+                    });
+                });
             }
 
             file = `${directory}RealmManufacturerCatalog.csv`;
@@ -102,6 +115,7 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
 (async () => {
     program
         .description('Create Airsoft Database from csv files')
+        .option('-c, --commit <commit>', 'commit id', '')
         .option('-t, --test', 'test only, no output')
         .option('-o, --output <output>', 'output file name', path.normalize(`${__dirname}/../temp_realm_data/${REALM_FILE_NAME}`))
         .argument('[directory]', 'directory containing csv files', path.normalize(`${__dirname}/../source_data/`))

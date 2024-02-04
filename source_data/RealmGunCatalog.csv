@@ -1181,6 +1181,56 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1197,"lancer","Other SMG","","","その他のSMG","","",8,2,1,true
 1198,"lancer","Other SMG","","","その他のSMG","","",8,4,1,true
 
+1200,"novritsch","Other Handgun","","","その他のハンドガン","","",1,1,0,true
+1201,"novritsch","Other Handgun ","","","その他のハンドガン","","",1,2,0,true
+1202,"novritsch","Other Handgun ","","","その他のハンドガン","","",1,4,0,true
+1203,"novritsch","Other Rifle","","","その他のライフル","","",2,1,0,true
+1204,"novritsch","Other Rifle","","","その他のライフル","","",2,2,0,true
+1205,"novritsch","Other Rifle","","","その他のライフル","","",2,4,0,true
+1206,"novritsch","Other Shotgun","","","その他のショットガン","","",4,1,0,true
+1207,"novritsch","Other Shotgun","","","その他のショットガン","","",4,2,0,true
+1208,"novritsch","Other Shotgun","","","その他のショットガン","","",4,4,0,true
+1209,"novritsch","Other SMG","","","その他のSMG","","",8,1,0,true
+1210,"novritsch","Other SMG","","","その他のSMG","","",8,2,0,true
+1211,"novritsch","Other SMG","","","その他のSMG","","",8,4,0,true
+1212,"novritsch","Other Handgun","","","その他のハンドガン","","",1,1,1,true
+1213,"novritsch","Other Handgun","","","その他のハンドガン","","",1,2,1,true
+1214,"novritsch","Other Handgun","","","その他のハンドガン","","",1,4,1,true
+1215,"novritsch","Other Rifle","","","その他のライフル","","",2,1,1,true
+1216,"novritsch","Other Rifle","","","その他のライフル","","",2,2,1,true
+1217,"novritsch","Other Rifle","","","その他のライフル","","",2,4,1,true
+1218,"novritsch","Other Shotgun","","","その他のショットガン","","",4,1,1,true
+1219,"novritsch","Other Shotgun","","","その他のショットガン","","",4,2,1,true
+1220,"novritsch","Other Shotgun","","","その他のショットガン","","",4,4,1,true
+1221,"novritsch","Other SMG","","","その他のSMG","","",8,1,1,true
+1222,"novritsch","Other SMG","","","その他のSMG","","",8,2,1,true
+1223,"novritsch","Other SMG","","","その他のSMG","","",8,4,1,true
+
+1225,"carbon8","Other Handgun","","","その他のハンドガン","","",1,1,0,true
+1226,"carbon8","Other Handgun ","","","その他のハンドガン","","",1,2,0,true
+1227,"carbon8","Other Handgun ","","","その他のハンドガン","","",1,4,0,true
+1228,"carbon8","Other Rifle","","","その他のライフル","","",2,1,0,true
+1229,"carbon8","Other Rifle","","","その他のライフル","","",2,2,0,true
+1230,"carbon8","Other Rifle","","","その他のライフル","","",2,4,0,true
+1231,"carbon8","Other Shotgun","","","その他のショットガン","","",4,1,0,true
+1232,"carbon8","Other Shotgun","","","その他のショットガン","","",4,2,0,true
+1233,"carbon8","Other Shotgun","","","その他のショットガン","","",4,4,0,true
+1234,"carbon8","Other SMG","","","その他のSMG","","",8,1,0,true
+1235,"carbon8","Other SMG","","","その他のSMG","","",8,2,0,true
+1236,"carbon8","Other SMG","","","その他のSMG","","",8,4,0,true
+1237,"carbon8","Other Handgun","","","その他のハンドガン","","",1,1,1,true
+1238,"carbon8","Other Handgun","","","その他のハンドガン","","",1,2,1,true
+1239,"carbon8","Other Handgun","","","その他のハンドガン","","",1,4,1,true
+1240,"carbon8","Other Rifle","","","その他のライフル","","",2,1,1,true
+1241,"carbon8","Other Rifle","","","その他のライフル","","",2,2,1,true
+1242,"carbon8","Other Rifle","","","その他のライフル","","",2,4,1,true
+1243,"carbon8","Other Shotgun","","","その他のショットガン","","",4,1,1,true
+1244,"carbon8","Other Shotgun","","","その他のショットガン","","",4,2,1,true
+1245,"carbon8","Other Shotgun","","","その他のショットガン","","",4,4,1,true
+1246,"carbon8","Other SMG","","","その他のSMG","","",8,1,1,true
+1247,"carbon8","Other SMG","","","その他のSMG","","",8,2,1,true
+1248,"carbon8","Other SMG","","","その他のSMG","","",8,4,1,true
+
 10000,"marui","H&K SOCOM Mk23","","","H&K ソーコム Mk23","","",1,1,0
 10001,"marui","COLT M1911A1 GOVERNMENT","","","コルト M1911A1ガバメント","","",1,1,0
 10002,"marui","S&W PC356","","","S&W PC356","","",1,1,0
@@ -1921,6 +1971,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 16019,"maruzen","M1100","","","M1100","","",4,4,0
 
 16020,"maruzen","APS-1 Grand Master Mk.III","","","APS-1 グランドマスター・マークⅢ","","",1,1,0
+16021,"maruzen","Walther PPK","","","ワルサーPPK","","",1,4,0
 
 17000,"taniokoba","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0
 17001,"taniokoba","M1911","","","","","",1,4,0
@@ -3904,3 +3955,34 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 55098,"lancer","M40A3","","","","","",2,1,0
 55099,"lancer","M24","","","","","",2,1,0
 
+56000,"novritsch","SSP2","","","","","",1,4,0
+56001,"novritsch","SSP5","","","","","",1,4,0
+56002,"novritsch","SSP18","","","","","",1,4,0
+56003,"novritsch","SSX23","","","","","",1,4,0
+56004,"novritsch","SSX23 High Power","","","","","",1,4,0
+56005,"novritsch","SSP1","","","","","",1,4,0
+56006,"novritsch","SSE18","","","","","",1,2,1
+
+56007,"novritsch","SSG A1","","","","","",2,1,0
+56008,"novritsch","SSG A2","","","","","",2,1,0
+56009,"novritsch","SSG A3","","","","","",2,1,0
+56010,"novritsch","SSG96 Mk1","","","","","",2,1,0
+56011,"novritsch","SSG96 Mk2","","","","","",2,1,0
+56012,"novritsch","TAC338","","","","","",2,1,0
+56013,"novritsch","SSR9","","","","","",8,2,0
+56014,"novritsch","SSR4","","","","","",2,2,0
+56015,"novritsch","SSR63 A1","","","","","",2,2,0
+56016,"novritsch","SSR63 A2","","","","","",2,2,0
+56017,"novritsch","SSR63 A3","","","","","",2,2,0
+56018,"novritsch","SSQ22","","","","","",8,4,0
+56019,"novritsch","SSX303","","","","","",2,4,0
+56020,"novritsch","SSR90","","","","","",8,2,0
+
+57000,"carbon8","CZ75 2nd version","","","","","",1,4,0
+57001,"carbon8","M45CQP","M45CQP -Close Quarter Pistol-","","","","",1,4,0
+57002,"carbon8","M45DOC","M45DOC -Desert Operators' Custom-","","","","",1,4,0
+57003,"carbon8","M45DOC -NiteShift-","","","","","",1,4,0
+57004,"carbon8","M45MC0","M45MCO -Marine Corps Zero-","","","","",1,4,0
+57005,"carbon8","STRIKERNEUN","","","ストライカーナイン","","",1,4,0
+57006,"carbon8","STRIKER-9S","STRIKER-9S -SEQUENCER-","","","","",1,4,0
+57007,"carbon8","CZ P09","","","","","",1,4,0
