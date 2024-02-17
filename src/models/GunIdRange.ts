@@ -200,5 +200,9 @@ export const gunIdRangeByManufacturer: {
         min: 57000,
         max: 57999,
     },
+    "systema": {
+        min: 58000,
+        max: 58999,
+    },
 };
 

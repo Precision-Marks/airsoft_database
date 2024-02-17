@@ -1231,6 +1231,33 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 1247,"carbon8","Other SMG","","","その他のSMG","","",8,2,1,true
 1248,"carbon8","Other SMG","","","その他のSMG","","",8,4,1,true
 
+1250,"systema","Other Handgun","","","その他のハンドガン","","",1,1,0,true
+1251,"systema","Other Handgun ","","","その他のハンドガン","","",1,2,0,true
+1252,"systema","Other Handgun ","","","その他のハンドガン","","",1,4,0,true
+1253,"systema","Other Rifle","","","その他のライフル","","",2,1,0,true
+1254,"systema","Other Rifle","","","その他のライフル","","",2,2,0,true
+1255,"systema","Other Rifle","","","その他のライフル","","",2,4,0,true
+1256,"systema","Other Shotgun","","","その他のショットガン","","",4,1,0,true
+1257,"systema","Other Shotgun","","","その他のショットガン","","",4,2,0,true
+1258,"systema","Other Shotgun","","","その他のショットガン","","",4,4,0,true
+1259,"systema","Other SMG","","","その他のSMG","","",8,1,0,true
+1260,"systema","Other SMG","","","その他のSMG","","",8,2,0,true
+1261,"systema","Other SMG","","","その他のSMG","","",8,4,0,true
+1262,"systema","Other Handgun","","","その他のハンドガン","","",1,1,1,true
+1263,"systema","Other Handgun","","","その他のハンドガン","","",1,2,1,true
+1264,"systema","Other Handgun","","","その他のハンドガン","","",1,4,1,true
+1265,"systema","Other Rifle","","","その他のライフル","","",2,1,1,true
+1266,"systema","Other Rifle","","","その他のライフル","","",2,2,1,true
+1267,"systema","Other Rifle","","","その他のライフル","","",2,4,1,true
+1268,"systema","Other Shotgun","","","その他のショットガン","","",4,1,1,true
+1269,"systema","Other Shotgun","","","その他のショットガン","","",4,2,1,true
+1270,"systema","Other Shotgun","","","その他のショットガン","","",4,4,1,true
+1271,"systema","Other SMG","","","その他のSMG","","",8,1,1,true
+1272,"systema","Other SMG","","","その他のSMG","","",8,2,1,true
+1273,"systema","Other SMG","","","その他のSMG","","",8,4,1,true
+
+
+
 10000,"marui","H&K SOCOM Mk23","","","H&K ソーコム Mk23","","",1,1,0
 10001,"marui","COLT M1911A1 GOVERNMENT","","","コルト M1911A1ガバメント","","",1,1,0
 10002,"marui","S&W PC356","","","S&W PC356","","",1,1,0
@@ -3987,3 +4014,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 57005,"carbon8","STRIKERNEUN","","","ストライカーナイン","","",1,4,0
 57006,"carbon8","STRIKER-9S","STRIKER-9S -SEQUENCER-","","","","",1,4,0
 57007,"carbon8","CZ P09","","","","","",1,4,0
+
+58000,"systema","TW5","","","","","",8,2,0
+58001,"systema","M4A1 CQBR","","","","","",2,2,0
+58002,"systema","M4A1","","","","","",2,2,0
+58003,"systema","M16A2","","","","","",2,2,0
+58004,"systema","M16A3","","","","","",2,2,0
