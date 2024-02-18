@@ -204,5 +204,9 @@ export const gunIdRangeByManufacturer: {
         min: 58000,
         max: 58999,
     },
+    "gbls": {
+        min: 59000,
+        max: 59999,
+    },
 };
 
