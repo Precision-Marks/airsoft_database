@@ -881,31 +881,6 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 897,"cybergun","Other SMG","","","その他のSMG","","",8,2,1,true
 898,"cybergun","Other SMG","","","その他のSMG","","",8,4,1,true
 
-900,"rwa","Other Handgun","","","その他のハンドガン","","",1,1,0,true
-901,"rwa","Other Handgun ","","","その他のハンドガン","","",1,2,0,true
-902,"rwa","Other Handgun ","","","その他のハンドガン","","",1,4,0,true
-903,"rwa","Other Rifle","","","その他のライフル","","",2,1,0,true
-904,"rwa","Other Rifle","","","その他のライフル","","",2,2,0,true
-905,"rwa","Other Rifle","","","その他のライフル","","",2,4,0,true
-906,"rwa","Other Shotgun","","","その他のショットガン","","",4,1,0,true
-907,"rwa","Other Shotgun","","","その他のショットガン","","",4,2,0,true
-908,"rwa","Other Shotgun","","","その他のショットガン","","",4,4,0,true
-909,"rwa","Other SMG","","","その他のSMG","","",8,1,0,true
-910,"rwa","Other SMG","","","その他のSMG","","",8,2,0,true
-911,"rwa","Other SMG","","","その他のSMG","","",8,4,0,true
-912,"rwa","Other Handgun","","","その他のハンドガン","","",1,1,1,true
-913,"rwa","Other Handgun","","","その他のハンドガン","","",1,2,1,true
-914,"rwa","Other Handgun","","","その他のハンドガン","","",1,4,1,true
-915,"rwa","Other Rifle","","","その他のライフル","","",2,1,1,true
-916,"rwa","Other Rifle","","","その他のライフル","","",2,2,1,true
-917,"rwa","Other Rifle","","","その他のライフル","","",2,4,1,true
-918,"rwa","Other Shotgun","","","その他のショットガン","","",4,1,1,true
-919,"rwa","Other Shotgun","","","その他のショットガン","","",4,2,1,true
-920,"rwa","Other Shotgun","","","その他のショットガン","","",4,4,1,true
-921,"rwa","Other SMG","","","その他のSMG","","",8,1,1,true
-922,"rwa","Other SMG","","","その他のSMG","","",8,2,1,true
-923,"rwa","Other SMG","","","その他のSMG","","",8,4,1,true
-
 925,"umarex","Other Handgun","","","その他のハンドガン","","",1,1,0,true
 926,"umarex","Other Handgun ","","","その他のハンドガン","","",1,2,0,true
 927,"umarex","Other Handgun ","","","その他のハンドガン","","",1,4,0,true
@@ -1867,6 +1842,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13094,"crown","SCAR FNL","","","SCAR FNL","","",2,1,2
 13095,"crown","MM-7P","","","MM-7P","","",8,1,2
 13096,"crown","XMP-K","","","XMP-K","","",8,1,2
+13097,"crown","MK47","","","MK47","","",2,1,2
 
 13100,"crown","SUPER RIFLE U10 JUNIOR","","","スーパーライフルU10ジュニア","","",2,1,2
 13101,"crown","AWM SNIPER RIFLE","","","AWM スナイパーライフル","","",2,1,2
@@ -1896,6 +1872,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 14012,"tanaka","COLT .380 AUTO","","","コルト.380AUTO","","",2,4,0
 14013,"tanaka","Luger P08 4-inch","","","","","",1,4,0
 14014,"tanaka","Luger P08 8-inch","","","","","",1,4,0
+14015,"tanaka","Colt' SAA 2nd 7-1/2 inch (PEGASAS II Series)","","","","","",1,4,0
 
 14020,"tanaka","S&W .38 2-inch","","","","","",1,4,0
 14021,"tanaka","S&W M10 4-inch","","","","","",1,4,0
@@ -2351,24 +2328,6 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 24104,"ares","MK43","","","","","",2,2,0
 24105,"ares","M60","","","","","",2,2,0
 
-24110,"ares","AMOEBA AM-001/002","","","","","",2,2,0
-24111,"ares","AMOEBA AM-003/004","","","","","",2,2,0
-24112,"ares","AMOEBA AM-005/006","","","","","",2,2,0
-24113,"ares","AMOEBA AM-007/010","","","","","",2,2,0
-24114,"ares","AMOEBA AM-008/011","","","","","",2,2,0
-24115,"ares","AMOEBA AM-009/012","","","","","",2,2,0
-24116,"ares","AMOEBA AM-013 Honey Badger","","","","","",2,2,0
-24117,"ares","AMOEBA AM-014 Honey Badger","","","","","",2,2,0
-24118,"ares","AMOEBA AM-015","","","","","",2,2,0
-24119,"ares","AMOEBA AM-016 Shield Crusher","","","","","",2,2,0
-24120,"ares","AMOEBA Striker AS-01","","","","","",2,1,0
-24121,"ares","AMOEBA Striker AS-02","","","","","",2,1,0
-24122,"ares","AMOEBA Striker AS-03","","","","","",2,1,0
-24123,"ares","AMOEBA Striker AST-01","","","","","",2,1,0
-24124,"ares","AMOEBA AM-M-001","","","","","",2,2,0
-24125,"ares","AMOEBA AM-M-002","","","","","",2,2,0
-24126,"ares","AMOEBA AM-M-003","","","","","",2,2,0
-24127,"ares","AMOEBA AM-M-004","","","","","",2,2,0
 
 
 25000,"asg","Schofield 6-inch","","","","","",1,4,0
@@ -3561,6 +3520,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 46003,"sig","P320 M17","","","","","",1,4,0
 46004,"sig","P229","","","","","",1,4,0
 46005,"sig","ProForce MCX","","","","","",2,2,0
+46006,"sig","ProForce MPX","","","","","",2,2,0
 
 47000,"src","SR16","","","","","",2,2,0
 47001,"src","SR4 A1","","","","","",2,2,0
@@ -4029,3 +3989,22 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 59005,"gbls","DAS K2/K2C1","","","","","",2,2,0
 59006,"gbls","DAS Ak74M","","","","","",2,2,0
 59007,"gbls","DAS AKM","","","","","",2,2,0
+
+60000,"amoeba","AM-001/002","","","","","",2,2,0
+60001,"amoeba","AM-003/004","","","","","",2,2,0
+60002,"amoeba","AM-005/006","","","","","",2,2,0
+60003,"amoeba","AM-007/010","","","","","",2,2,0
+60004,"amoeba","AM-008/011","","","","","",2,2,0
+60005,"amoeba","AM-009/012","","","","","",2,2,0
+60006,"amoeba","AM-013 Honey Badger","","","","","",2,2,0
+60007,"amoeba","AM-014 Honey Badger","","","","","",2,2,0
+60008,"amoeba","AM-015","","","","","",2,2,0
+60009,"amoeba","AM-016 Shield Crusher","","","","","",2,2,0
+60010,"amoeba","Striker AS-01","","","","","",2,1,0
+60011,"amoeba","Striker AS-02","","","","","",2,1,0
+60012,"amoeba","Striker AS-03","","","","","",2,1,0
+60013,"amoeba","Striker AST-01","","","","","",2,1,0
+60014,"amoeba","AM-M-001","","","","","",2,2,0
+60015,"amoeba","AM-M-002","","","","","",2,2,0
+60016,"amoeba","AM-M-003","","","","","",2,2,0
+60017,"amoeba","AM-M-004","","","","","",2,2,0

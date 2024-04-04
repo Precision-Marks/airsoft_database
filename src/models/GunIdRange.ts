@@ -208,5 +208,9 @@ export const gunIdRangeByManufacturer: {
         min: 59000,
         max: 59999,
     },
+    "amoeba": {
+        min: 60000,
+        max: 60999,
+    }
 };
 
