@@ -21,7 +21,10 @@ To add/modify the gun database edit [./source_data/RealmGunCatalog.csv](./source
 
 To add/modify manufacturer database, edit [./source_data/RealmManufacturerCatalog.csv](./source_data/RealmManufacturerCatalog.csv)
 
-If you add a manufacturer, you also add "generic" gun data in RealmGunCatalog.csv. The "generic" data has ID &lt; 10000 and starts from 0,25,50,75. 日本の製造元の場合、powerLevelは0 or 2. それ以外の国の場合powerLevelは0 or 1.
+If you add a manufacturer, you also add "generic" gun data in RealmGunCatalog.csv. The "generic" data has ID &lt; 10000 and starts from 0,25,50,75. 
+And also set `src/models/GunIdRange.ts`. Gun ID for a manufacturer starts from n x 1000 to n x 1000 + 999.
+
+日本の製造元の場合、powerLevelは0 or 2. それ以外の国の場合powerLevelは0 or 1.
 
 ## VsCode extensions recommended
 

@@ -55,7 +55,7 @@ export interface IShootingRuleCatalog {
 };
     
 export function isValidShootingRuleCatalog(rule: IShootingRuleCatalog): boolean {
-    if (rule._id === undefined || rule._id === null || rule._id < 0) {
+    if (rule._id === undefined || rule._id === null || rule._id <= 0) {
         throw new TypeError(`Invalid shooting rule id: ${rule._id}`);
     }
     if (rule.name === undefined || rule.name === null || rule.name.length === 0) {
@@ -82,7 +82,7 @@ export function isValidShootingRuleCatalog(rule: IShootingRuleCatalog): boolean 
     if (rule.duration === undefined || rule.duration === null || rule.duration <= 0 || rule.duration > 600) {
         throw new TypeError(`Invalid shooting rule duration: ${rule.duration}`);
     }
-    if (rule.numOfStages === undefined || rule.numOfStages === null || rule.numOfStages <= 0 || rule.numOfStages > 2) {
+    if (rule.numOfStages === undefined || rule.numOfStages === null || rule.numOfStages <= 0 || rule.numOfStages > 5) {
         throw new TypeError(`Invalid shooting rule number of stages: ${rule.numOfStages}`);
     }
     if (rule.nextId === undefined || rule.nextId === null || rule.nextId < 0) {

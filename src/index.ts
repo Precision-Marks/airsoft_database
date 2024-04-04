@@ -19,6 +19,15 @@ import { createGunCatalog } from "./createGunCatalog";
 
 const REALM_FILE_NAME = "catalog_data.realm";
 
+function getVersionFilename(realmFile: string): string {
+    return `${realmFile}.commitid`;
+}
+
+function writeVersionFile(realmFile: string, commitId: string): void {
+    const versionFilename = getVersionFilename(realmFile);
+    fs.writeFileSync(versionFilename, commitId);
+}
+
 async function main(options: OptionValues, directory: string): Promise<boolean> {
     let realm: Realm;
 
@@ -36,7 +45,12 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
                 if (fs.existsSync(options.output)) {
                     throw new Error(`ERROR: Output file ${options.output} already exists.`);
                 }
-    
+
+                const versionFilename = getVersionFilename(options.output);
+                if (fs.existsSync(versionFilename)) {
+                    throw new Error(`ERROR: Version file ${versionFilename} already exists.`);
+                }
+
                 if (options.commit === "") {
                     throw new Error("ERROR: commit id is empty");
                 }
@@ -92,6 +106,8 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
             console.log(`${success ? "Done" : "FAILED"}`);
 
             realm.close();
+
+            writeVersionFile(options.output, options.commit);
         } catch(e) {
             if (e instanceof Error) {
                 console.error(e.message);

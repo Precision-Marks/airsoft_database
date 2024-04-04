@@ -106,15 +106,16 @@ function inRange(n: number, min: number, max: number) {
 function checkIdRange(gun: IGunCatalog): boolean {
     const id = gun._id;
 
+    const range = gunIdRangeByManufacturer[gun.manufacturerId];
+    if (range === undefined) {
+        throw new TypeError(`Manufacturer id: "${gun.manufacturerId}" is not defined in GunIdRange.ts`);
+    }
+
     if (gun.generic == true) {
         if (id >= 10000) {
-            throw new TypeError(`Invalid gun id for generic gun (id: ${id})`);
+            throw new TypeError(`Invalid gun id for generic gun (id: ${id}). It must be less than 10000`);
         }
     } else {
-        const range = gunIdRangeByManufacturer[gun.manufacturerId];
-        if (range === undefined) {
-            throw new TypeError(`Manufacturer id: "${gun.manufacturerId}" is not defined in GunIdRange.ts`);
-        }
         if (! inRange(id, range.min, range.max)) {
             throw new TypeError(`Invalid gun id for manufacturer "${gun.manufacturerId}" (id: ${id}). Expected range: ${range.min} - ${range.max}`);
         }

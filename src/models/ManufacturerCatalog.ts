@@ -1,4 +1,5 @@
 import * as Utils from "../utils";
+import { gunIdRangeByManufacturer } from "./GunIdRange";
 
 export const GENERIC_MANUFACTURER_ID = "other";
 export const UNKNOWN_MANUFACTURER_ID = "unknown";
@@ -18,6 +19,9 @@ export interface IManufacturerCatalog {
 export function isValidManufacturerCatalog(manufacturer: IManufacturerCatalog): boolean {
     if (manufacturer._id === undefined || manufacturer._id === null || manufacturer._id.length === 0) {
         throw new TypeError(`Empty manufacturer id: ${manufacturer._id}`);
+    }
+    if (gunIdRangeByManufacturer[manufacturer._id] === undefined) {
+        throw new TypeError(`Manufacturer id: "${manufacturer._id}" is not defined in GunIdRange.ts`);
     }
     if (! Utils.isPrintableAscii(manufacturer._id)) {
         throw new TypeError(`Invalid manufacturer id: ${manufacturer._id} (should contain alpha numeric only)`);
