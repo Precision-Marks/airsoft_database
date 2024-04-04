@@ -2,7 +2,7 @@ import { IManufacturerCatalog } from "../src/models/ManufacturerCatalog";
 import { validateManufacturer } from "../src/validateManufacturer";
 
 const manufacturer0: IManufacturerCatalog = {
-    _id: 'test',
+    _id: 'unknown',
     shortName: 'test',
     longName: 'test',
     description: 'test',
@@ -14,7 +14,7 @@ const manufacturer0: IManufacturerCatalog = {
 };
 
 const manufacturer1: IManufacturerCatalog = {
-    _id: 'test', // duplicate
+    _id: 'unknown', // duplicate
     shortName: 'test1', // Unique shortName
     longName: 'test1', // Unique longName
     description: 'test',
@@ -26,7 +26,7 @@ const manufacturer1: IManufacturerCatalog = {
 };
 
 const manufacturer2: IManufacturerCatalog = {
-    _id: 'test2', // Unique _id
+    _id: 'other', // Unique _id
     shortName: 'test', // duplicate shortName
     longName: 'test',
     description: 'test',
@@ -38,7 +38,7 @@ const manufacturer2: IManufacturerCatalog = {
 };
 
 const manufacturer3: IManufacturerCatalog = {
-    _id: 'test3',   // Unique _id
+    _id: 'marui',   // Unique _id
     shortName: 'test3', // Unique shortName
     longName: 'test', // duplicate longName
     description: 'test',
@@ -50,7 +50,7 @@ const manufacturer3: IManufacturerCatalog = {
 };
 
 const manufacturer4: IManufacturerCatalog = {
-    _id: 'test4',   // Unique _id
+    _id: 'crown',   // Unique _id
     shortName: 'test4', // Unique shortName
     longName: 'test4', // Unique longName
     description: 'test4',

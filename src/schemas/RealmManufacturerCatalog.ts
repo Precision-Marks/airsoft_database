@@ -5,10 +5,12 @@ export class RealmManufacturerCatalog extends Realm.Object<RealmManufacturerCata
     _id!: string;
     shortName?: string;
     longName?: string;
+    altName?: string;
     description?: string;
     url?: string;
     shortNameJa?: string;
     longNameJa?: string;
+    altNameJa?: string;
     descriptionJa?: string;
     urlJa?: string;
 
@@ -18,10 +20,12 @@ export class RealmManufacturerCatalog extends Realm.Object<RealmManufacturerCata
             _id: { type: "string", default: "" },
             shortName: "string?",
             longName: "string?",
+            altName: "string?",
             description: "string?",
             url: "string?",
             shortNameJa: "string?",
             longNameJa: "string?",
+            altNameJa: "string?",
             descriptionJa: "string?",
             urlJa: "string?",
         },
