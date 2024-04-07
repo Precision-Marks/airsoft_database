@@ -178,7 +178,7 @@ describe('ShootingRuleCatalog test', () => {
         expect(() => ShootingRuleCatalog.isValidShootingRuleCatalog(shootingRuleCatalog)).toThrow(TypeError);
     });
 
-    test('isValidShootingRuleCatalog: unitOfRange is over 1', () => {
+    test('isValidShootingRuleCatalog: unitOfRange is over 2', () => {
         const shootingRuleCatalog = {
             _id: 1,
             type: undefined,
@@ -189,7 +189,7 @@ describe('ShootingRuleCatalog test', () => {
             descriptionJa: "5m, 10発/4分。銃の種類・サイト・射撃姿勢、いずれも制限なし。",
             urlJa: undefined,
             range100x: 500,
-            unitOfRange: 2,
+            unitOfRange: 3,
             virtualTargetName: undefined,
             positionsMask: 0,
             gunTypesMask: 0,

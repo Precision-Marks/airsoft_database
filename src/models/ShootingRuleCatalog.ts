@@ -64,7 +64,7 @@ export function isValidShootingRuleCatalog(rule: IShootingRuleCatalog): boolean 
     if (rule.range100x === undefined || rule.range100x === null || rule.range100x <= 0 || rule.range100x > 5000) {
         throw new TypeError(`Invalid shooting rule range: ${rule.range100x}`);
     }
-    if (rule.unitOfRange === undefined || rule.unitOfRange === null || (rule.unitOfRange != RealmDataConst.UNIT_METER && rule.unitOfRange != RealmDataConst.UNIT_YARD)) {
+    if (rule.unitOfRange === undefined || rule.unitOfRange === null || (rule.unitOfRange != RealmDataConst.UNIT_METER && rule.unitOfRange != RealmDataConst.UNIT_YARD && rule.unitOfRange != RealmDataConst.UNIT_FOOT)) {
         throw new TypeError(`Invalid shooting rule unit of range: ${rule.unitOfRange}`);
     }
     if (rule.positionsMask === undefined || rule.positionsMask === null || rule.positionsMask & ~ShootingRulePositionMask) {
