@@ -1,0 +1,4 @@
+_id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descriptionJa,type,powerSource,powerLevel,generic,deleted
+0,"unknown","Handgun","","","ハンドガン","","",1,0,0,false
+
+10133,"marui","P-90","","Standard-Type series","P-90","","電動ガンスタンダードタイプ",2,2,1
