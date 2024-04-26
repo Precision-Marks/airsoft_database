@@ -3668,11 +3668,11 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 48045,"vfc","HK417 20-inch V2","","Umarex HK Licensed","","","",2,2,0
 48046,"vfc","HK417 16-inch V2","","Umarex HK Licensed","","","",2,2,0
 48047,"vfc","M110A1 SMDR","","Umarex HK Licensed","","","",2,2,0
-48048,"vfc","HK MP5A4","","Umarex HK Licensed","","","",2,2,0
-48049,"vfc","HK MP5A5","","Umarex HK Licensed","","","",2,2,0
-48050,"vfc","HK MP7 A1","","Umarex HK Licensed","","","",2,2,0
-48051,"vfc","KAC PDW 10-inch","","Knight Licensed","","","",2,2,0
-48052,"vfc","KAC PDW 8-inch","","Knight Licensed","","","",2,2,0
+48048,"vfc","HK MP5A4","","Umarex HK Licensed","","","",8,2,0
+48049,"vfc","HK MP5A5","","Umarex HK Licensed","","","",8,2,0
+48050,"vfc","HK MP7 A1","","Umarex HK Licensed","","","",8,2,0
+48051,"vfc","KAC PDW 10-inch","","Knight Licensed","","","",8,2,0
+48052,"vfc","KAC PDW 8-inch","","Knight Licensed","","","",8,2,0
 48053,"vfc","KAC SR15 E2 IWS","","Knight Licensed","","","",2,2,0
 48054,"vfc","KAC SR16 E3 CARBINE 10.5-inch","","Knight Licensed","","","",2,2,0
 48055,"vfc","KAC SR16 CQB CARBINE","","Knight Licensed","","","",2,2,0
@@ -3704,17 +3704,17 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 48089,"vfc","HK G36C V2","","Umarex HK Licensed","","","",2,4,0
 48090,"vfc","HK G36K V2","","Umarex HK Licensed","","","",2,4,0
 48091,"vfc","HK G36KSK V2","","Umarex HK Licensed","","","",2,4,0
-48092,"vfc","HK MP5A2","","Umarex HK Licensed","","","",2,4,0
-48093,"vfc","HK MP5A3","","Umarex HK Licensed","","","",2,4,0
-48094,"vfc","HK MP5A5 V2","","Umarex HK Licensed","","","",2,4,0
-48095,"vfc","HK MP5K","","Umarex HK Licensed","","","",2,4,0
-48096,"vfc","HK MP5 K-PDW","","Umarex HK Licensed","","","",2,4,0
-48097,"vfc","HK MP5SD3","","Umarex HK Licensed","","","",2,4,0
-48098,"vfc","HK MP5SD6","","Umarex HK Licensed","","","",2,4,0
-48099,"vfc","HK MP7A1","","Umarex HK Licensed","","","",2,4,0
-48100,"vfc","HK UMP .45ACP","","Umarex HK Licensed","","","",2,4,0
-48101,"vfc","HK UMP Cal.9mm","","Umarex HK Licensed","","","",2,4,0
-48102,"vfc","HK53","","Umarex HK Licensed","","","",2,4,0
+48092,"vfc","HK MP5A2","","Umarex HK Licensed","","","",8,4,0
+48093,"vfc","HK MP5A3","","Umarex HK Licensed","","","",8,4,0
+48094,"vfc","HK MP5A5 V2","","Umarex HK Licensed","","","",8,4,0
+48095,"vfc","HK MP5K","","Umarex HK Licensed","","","",8,4,0
+48096,"vfc","HK MP5 K-PDW","","Umarex HK Licensed","","","",8,4,0
+48097,"vfc","HK MP5SD3","","Umarex HK Licensed","","","",8,4,0
+48098,"vfc","HK MP5SD6","","Umarex HK Licensed","","","",8,4,0
+48099,"vfc","HK MP7A1","","Umarex HK Licensed","","","",8,4,0
+48100,"vfc","HK UMP .45ACP","","Umarex HK Licensed","","","",8,4,0
+48101,"vfc","HK UMP Cal.9mm","","Umarex HK Licensed","","","",8,4,0
+48102,"vfc","HK53","","Umarex HK Licensed","","","",8,4,0
 48103,"vfc","Light Automatic Rifle","","","","","",2,4,0
 48104,"vfc","T91 SOC","","","","","",2,4,0
 48105,"vfc","Colt Model 733 Commando","","Colt Licensed","","","",2,4,0
