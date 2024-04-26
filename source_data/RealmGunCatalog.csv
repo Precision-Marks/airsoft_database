@@ -1996,14 +1996,14 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 19004,"umarex","Walther P99 DAO","","Energy < 0.5J","","","",1,2,1
 19005,"umarex","H&K MP5","","Energy < 0.5J","","","",8,2,1
 19006,"umarex","H&K MP7 A1 SWAT","","Energy < 0.5J","","","",8,2,1
-19007,"umarex","H&K G36 C","","Energy < 0.5J","","","",8,2,1
-19008,"umarex","H&K G36C IDZ","","Energy < 0.5J","","","",8,2,1
+19007,"umarex","H&K G36 C","","Energy < 0.5J","","","",2,2,1
+19008,"umarex","H&K G36C IDZ","","Energy < 0.5J","","","",2,2,1
 19009,"umarex","H&K HK416 D","","Energy < 0.5J","","","",2,2,1
 19010,"umarex","H&K HK416 CQB","","Energy < 0.5J","","","",2,2,1
 
 19020,"umarex","H&K UMP Sportsline","","","","","",8,2,0
 19021,"umarex","H&K MP7 A1","","","","","",8,2,0
-19022,"umarex","H&K G36C Sportsline","","","","","",8,2,0
+19022,"umarex","H&K G36C Sportsline","","","","","",2,2,0
 
 19030,"umarex","H&K MG4","","","","","",2,2,0
 19031,"umarex","H&K HK416 D V2","","","","","",2,2,0
@@ -3632,8 +3632,13 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 47150,"src","SR92(A1)","","","","","",1,4,0
 47151,"src","SR9A3","","","","","",1,4,0
 
-48000,"vfc","1911 Tactical Custom","","","","","",1,4,0
-48001,"vfc","1911 Ultra Carry","","","","","",1,4,0
+48000,"vfc","HK45 Compact Tactical","","Umarex HK Licensed","","","",1,4,0
+48001,"vfc","HK45 Tactical","","Umarex HK Licensed","","","",1,4,0
+48002,"vfc","HK USP","","Umarex HK Licensed","","","",1,4,0
+48003,"vfc","HK VP9","","Umarex HK Licensed","","","",1,4,0
+48004,"vfc","PPQ M2","","Umarex Walther Licensed","","","",1,4,0
+48005,"vfc","1911 Tactical Custom","","","","","",1,4,0
+48006,"vfc","1911 Ultra Carry","","","","","",1,4,0
 
 48020,"vfc","Avalon Samurai Edge","","","","","",2,2,0
 48021,"vfc","Avalon Samurai Edge CQB","","","","","",2,2,0
@@ -3652,32 +3657,101 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 48034,"vfc","VR16 SPR SOPMOD","","","","","",2,2,0
 48035,"vfc","VR16 RIS SOPMOD","","","","","",2,2,0
 48036,"vfc","VR16 CQBR SOPMOD","","","","","",2,2,0
-48037,"vfc","MCMR 11.5-inch","","","","","",2,2,0
+48037,"vfc","BCM MCMR 11.5-inch","","BCMAIR Licensed","","","",2,2,0
 48038,"vfc","MK48 MOD 1","","","","","",2,2,0
-48039,"vfc","BAR M1918A2","","","","","",2,2,0
-48040,"vfc","MK43","","","","","",2,2,0
-48041,"vfc","AIMS","","","","","",2,2,0
-48042,"vfc","AK-105","","","","","",2,2,0
-48043,"vfc","AK-74","","","","","",2,2,0
-48044,"vfc","AKM/AKMS","","","","","",2,2,0
-48045,"vfc","SOPMOD Krinkov PDW","","","","","",2,2,0
-48046,"vfc","AKS-74N","","","","","",2,2,0
-48047,"vfc","AKS-74UN","","","","","",2,2,0
 
-48070,"vfc","Light Automatic Rifle","","","","","",2,4,0
-48071,"vfc","M249","","","","","",2,4,0
-48072,"vfc","VR635","","","","","",2,4,0
-48073,"vfc","VR M4A1","","","","","",2,4,0
-48074,"vfc","VR16 RIS II","","","","","",2,4,0
-48075,"vfc","VR16 CQB","","","","","",2,4,0
-48076,"vfc","VR M4 RIS","","","","","",2,4,0
-48077,"vfc","VR16 Saver Carbine","","","","","",2,4,0
-48078,"vfc","VR16 Saver Cqb","","","","","",2,4,0
-48079,"vfc","VR16 VSBR","","","","","",2,4,0
-48080,"vfc","VR16 URG-I Carbine","","","","","",2,4,0
-48081,"vfc","VR16 URG-I CQB","","","","","",2,4,0
-48082,"vfc","Ashbury ASW338LM","","","","","",2,1,0
-48083,"vfc","M40","","","","","",2,1,0
+48040,"vfc","HK G28 DX Version","","Umarex HK Licensed","","","",2,2,0
+48041,"vfc","HK416 V2","","Umarex HK Licensed","","","",2,2,0
+48042,"vfc","HK416C V2","","Umarex HK Licensed","","","",2,2,0
+48043,"vfc","M27 IAR V2","","Umarex HK Licensed","","","",2,2,0
+48044,"vfc","HK417 13-inch V2","","Umarex HK Licensed","","","",2,2,0
+48045,"vfc","HK417 20-inch V2","","Umarex HK Licensed","","","",2,2,0
+48046,"vfc","HK417 16-inch V2","","Umarex HK Licensed","","","",2,2,0
+48047,"vfc","M110A1 SMDR","","Umarex HK Licensed","","","",2,2,0
+48048,"vfc","HK MP5A4","","Umarex HK Licensed","","","",2,2,0
+48049,"vfc","HK MP5A5","","Umarex HK Licensed","","","",2,2,0
+48050,"vfc","HK MP7 A1","","Umarex HK Licensed","","","",2,2,0
+48051,"vfc","KAC PDW 10-inch","","Knight Licensed","","","",2,2,0
+48052,"vfc","KAC PDW 8-inch","","Knight Licensed","","","",2,2,0
+48053,"vfc","KAC SR15 E2 IWS","","Knight Licensed","","","",2,2,0
+48054,"vfc","KAC SR16 E3 CARBINE 10.5-inch","","Knight Licensed","","","",2,2,0
+48055,"vfc","KAC SR16 CQB CARBINE","","Knight Licensed","","","",2,2,0
+48056,"vfc","KAC SR16 E3 CARBINE 14.5-inch","","Knight Licensed","","","",2,2,0
+48057,"vfc","KAC SR635","","Knight Licensed","","","",2,2,0
+48058,"vfc","RA XCR MICRO","","XCR Licensed","","","",2,2,0
+48059,"vfc","RA XCR MINI","","XCR Licensed","","","",2,2,0
+48060,"vfc","RA XCR-L SBR MK1","","XCR Licensed","","","",2,2,0
+48061,"vfc","RA XCR STD","","XCR Licensed","","","",2,2,0
+48062,"vfc","BAR M1918A2","","","","","",2,2,0
+48063,"vfc","MK43","","","","","",2,2,0
+48064,"vfc","AIMS","","","","","",2,2,0
+48065,"vfc","AK-105","","","","","",2,2,0
+48066,"vfc","AK-74","","","","","",2,2,0
+48067,"vfc","AKM/AKMS","","","","","",2,2,0
+48068,"vfc","SOPMOD Krinkov PDW","","","","","",2,2,0
+48069,"vfc","AKS-74N","","","","","",2,2,0
+48070,"vfc","AKS-74UN","","","","","",2,2,0
+
+48080,"vfc","HK416 Gen2","","Umarex HK Licensed","","","",2,4,0
+48081,"vfc","HK416A5","","Umarex HK Licensed","","","",2,4,0
+48082,"vfc","HK416C","","Umarex HK Licensed","","","",2,4,0
+48083,"vfc","HK M27 IAR Gen2","","Umarex HK Licensed","","","",2,4,0
+48084,"vfc","HK417 13-inch V2","","Umarex HK Licensed","","","",2,4,0
+48085,"vfc","HK417 16-inch V2","","Umarex HK Licensed","","","",2,4,0
+48086,"vfc","HK G28 DMR","","Umarex HK Licensed","","","",2,4,0
+48087,"vfc","HK PSG1","","Umarex HK Licensed","","","",2,4,0
+48088,"vfc","HK G3A3","","Umarex HK Licensed","","","",2,4,0
+48089,"vfc","HK G36C V2","","Umarex HK Licensed","","","",2,4,0
+48090,"vfc","HK G36K V2","","Umarex HK Licensed","","","",2,4,0
+48091,"vfc","HK G36KSK V2","","Umarex HK Licensed","","","",2,4,0
+48092,"vfc","HK MP5A2","","Umarex HK Licensed","","","",2,4,0
+48093,"vfc","HK MP5A3","","Umarex HK Licensed","","","",2,4,0
+48094,"vfc","HK MP5A5 V2","","Umarex HK Licensed","","","",2,4,0
+48095,"vfc","HK MP5K","","Umarex HK Licensed","","","",2,4,0
+48096,"vfc","HK MP5 K-PDW","","Umarex HK Licensed","","","",2,4,0
+48097,"vfc","HK MP5SD3","","Umarex HK Licensed","","","",2,4,0
+48098,"vfc","HK MP5SD6","","Umarex HK Licensed","","","",2,4,0
+48099,"vfc","HK MP7A1","","Umarex HK Licensed","","","",2,4,0
+48100,"vfc","HK UMP .45ACP","","Umarex HK Licensed","","","",2,4,0
+48101,"vfc","HK UMP Cal.9mm","","Umarex HK Licensed","","","",2,4,0
+48102,"vfc","HK53","","Umarex HK Licensed","","","",2,4,0
+48103,"vfc","Light Automatic Rifle","","","","","",2,4,0
+48104,"vfc","T91 SOC","","","","","",2,4,0
+48105,"vfc","Colt Model 733 Commando","","Colt Licensed","","","",2,4,0
+48106,"vfc","Colt MK18 MOD1","","Colt Licensed","","","",2,4,0
+48107,"vfc","Colt XM148","","Colt Licensed","","","",16,4,0
+48108,"vfc","Colt M16A1","","Colt Licensed","","","",2,4,0
+48109,"vfc","Colt XM16E1","","Colt Licensed","","","",2,4,0
+48110,"vfc","Colt XM177 E2","","Colt Licensed","","","",2,4,0
+48111,"vfc","USSOCOM M3 MAAWS","","","","","",16,4,0
+48112,"vfc","M249","","","","","",2,4,0
+48113,"vfc","BCM MCMR 14.5-inch","","BCMAIR Licensed","","","",2,4,0
+48114,"vfc","BCM MK2 MCMR 14.5-inch ","","BCMAIR Licensed","","","",2,4,0
+48115,"vfc","BCM MCMR 11.5-inch","","BCMAIR Licensed","","","",2,4,0
+48116,"vfc","BCM MK2 MCMR 11.5-inch","","BCMAIR Licensed","","","",2,4,0
+48117,"vfc","BCM MK2 SBR 8.5-inch MCMR","","BCMAIR Licensed","","","",2,4,0
+48118,"vfc","KAC M110 SASS","","Knight Licensed","","","",2,4,0
+48119,"vfc","KAC M110 K1","","Knight Licensed","","","",2,4,0
+48120,"vfc","MK11 MOD0 Forging Series","","Knight Licensed","","","",2,4,0
+48121,"vfc","KAC SR-25","","Knight Licensed","","","",2,4,0
+48122,"vfc","KAC SR16 M4","","Knight Licensed","","","",2,4,0
+48123,"vfc","KAC SR-16E3 CARBINE MOD2","","Knight Licensed","","","",2,4,0
+48124,"vfc","KAC SR-16E3 CQB MOD2","","Knight Licensed","","","",2,4,0
+48125,"vfc","STF/12 Compact 11-inch ","","Fabarm Licensed","","","",4,4,0
+48126,"vfc","VR635","","","","","",2,4,0
+48127,"vfc","VR M4A1","","","","","",2,4,0
+48128,"vfc","VR16 RIS II","","","","","",2,4,0
+48129,"vfc","VR16 CQB","","","","","",2,4,0
+48130,"vfc","VR M4 RIS","","","","","",2,4,0
+48131,"vfc","VR16 Saver Carbine","","","","","",2,4,0
+48132,"vfc","VR16 Saver Cqb","","","","","",2,4,0
+48133,"vfc","VR16 VSBR","","","","","",2,4,0
+48134,"vfc","VR16 URG-I Carbine","","","","","",2,4,0
+48135,"vfc","VR16 URG-I CQB","","","","","",2,4,0
+
+48150,"vfc","Ashbury ASW338LM","","","","","",2,1,0
+48151,"vfc","M40A3","","","","","",2,1,0
+48152,"vfc","M40A5","","","","","",2,1,0
 
 49000,"wa","M92FS","","","","","",1,4,0
 49001,"wa","M8045","","","","","",1,4,0
