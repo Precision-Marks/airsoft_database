@@ -1,0 +1,69 @@
+name: Request to Add New Airsoft Gun
+description: Report or Request an Airsoft gun that is not in the database.
+labels:
+  - feature-request
+body:
+  - type: input
+    attributes:
+      label: Brand Name
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Airsoft Gun Name
+    validations:
+      required: true
+
+  - type: dropdown
+    id: gun-type
+    attributes:
+      label: Type
+      options:
+        - Handgun
+        - Rifle / Machine Gun
+        - Shotgun
+        - SMG
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: power-source
+    attributes:
+      label: Power Source
+      options:
+        - Spring
+        - Battery
+        - Gas
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: power-level
+    attributes:
+      label: Is it low-power model ?
+      description: If you are not sure, please select "No".
+      options:
+        - No
+        - Yes (less than 0.5J)
+        - Yes R10+ (JPN)
+        - Yes R14+ (JPN)
+      default: No
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Do you have a data source ?
+      description: URL of product page is strongly recommended.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Comments
+    validations:
+      required: false
+
