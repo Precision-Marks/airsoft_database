@@ -13,7 +13,7 @@ Run `npm install` to install required packages.
 
 ## Create binary database
 
-`npm run create-database`
+`sh create_database.sh`
 
 ## Contribution
 
