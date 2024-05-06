@@ -40,7 +40,7 @@ body:
         - Yes (less than 0.5J)
         - Yes R10+ (JPN)
         - Yes R14+ (JPN)
-      default: No
+      default: 0
     validations:
       required: true
 
