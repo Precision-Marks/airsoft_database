@@ -46,7 +46,7 @@ body:
       label: Is it low-power model ?
       description: If you are not sure, please select "No".
       options:
-        - No
+        - "No"
         - Yes (less than 0.5J)
         - Yes R10+ (JPN)
         - Yes R14+ (JPN)
