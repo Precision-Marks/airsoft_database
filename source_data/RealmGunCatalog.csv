@@ -3954,8 +3954,14 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 54007,"baton","BN-SILENT HAWK","","","","","",1,4,0
 54008,"baton","BS-COMBAT MASTER","","","","","",1,4,0
 54009,"baton","BH-USP Tactical","","","","","",1,4,0
+54010,"baton","GLOCK G17 Gen5","","","","","",1,4,0
+
+54050,"baton","BG-PCC","","","","","",2,4,0
 
 54100,"baton","UDR-15","","","","","",2,2,0
+54101,"baton","BASIKOS M4 CQB","","","","","",2,2,0
+54102,"baton","BASIKOS M4 SOCOM","","","","","",2,2,0
+54103,"baton","Noveske GEN4 DEVGRU","","","","","",2,2,0
 
 55000,"lancer","Hi-Capa 5.1","","","","","",1,4,0
 55001,"lancer","Hi-Capa 4.3","","","","","",1,4,0
