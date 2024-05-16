@@ -82,7 +82,7 @@ export function isValidShootingRuleCatalog(rule: IShootingRuleCatalog): boolean 
     if (rule.duration === undefined || rule.duration === null || rule.duration <= 0 || rule.duration > 600) {
         throw new TypeError(`Invalid shooting rule duration: ${rule.duration}`);
     }
-    if (rule.numOfStages === undefined || rule.numOfStages === null || rule.numOfStages <= 0 || rule.numOfStages > 5) {
+    if (rule.numOfStages === undefined || rule.numOfStages === null || rule.numOfStages <= 0 || rule.numOfStages > 10) {
         throw new TypeError(`Invalid shooting rule number of stages: ${rule.numOfStages}`);
     }
     if (rule.nextId === undefined || rule.nextId === null || rule.nextId < 0) {
