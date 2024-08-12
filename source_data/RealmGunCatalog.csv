@@ -1926,9 +1926,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 14078,"tanaka","BROWNING HIGH-POWER M1935","","","ブローニング・ハイパワーM1935 ","","",1,4,0
 14079,"tanaka","BROWNING HIGH-POWER MK III","","","ブローニング・ハイパワーMK III","","",1,4,0
 
-14100,"tanaka","Type 38 Carbine","","","三八式騎獣","","",2,4,0
+14100,"tanaka","Type 38 Carbine","","","三八式騎銃","","",2,4,0
 14101,"tanaka","Type 38 Rifle","","","三八式歩兵銃","","",2,4,0
-14102,"tanaka","Type 44 Carbine","","","四四式騎獣","","",2,4,0
+14102,"tanaka","Type 44 Carbine","","","四四式騎銃","","",2,4,0
 14103,"tanaka","Type 97 Sniper Rifle","","","九七式狙撃銃","","",2,4,0
 14104,"tanaka","Type 99 Short Rifle","","","九九式短小銃","","",2,4,0
 14105,"tanaka","Type 99 Rifle","","","九九式長小銃","","",2,4,0
@@ -2010,6 +2010,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 19032,"umarex","H&K HK416 A5","","","","","",2,2,0
 19033,"umarex","H&K HK416 CQB V2","","","","","",2,2,0
 19034,"umarex","H&K M110A1","","","","","",2,2,0
+19035,"umarex","H&K HK416 F-5","","","","","",2,2,0
 
 19040,"umarex","BERETTA M9","","","","","",1,4,0
 19041,"umarex","BERETTA MOD. M9A3","","","","","",1,4,0
@@ -2086,6 +2087,17 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 19150,"umarex","H&K MP7","","Energy < 0.5J","","","",8,1,1
 19151,"umarex","H&K G36 C","","Energy < 0.5J","","","",8,1,1
 19152,"umarex","H&K HK416 D","","Energy < 0.5J","","","",2,1,1
+
+19160,"umarex","GLOCK17 Gen5","","","","","",1,4,0
+19161,"umarex","GLOCK19 Gen4","","","","","",1,4,0
+19162,"umarex","ELITE FORCE BlaMer","","","","","",1,4,0
+19163,"umarex","S&M 629 Trust Me","","","","","",1,4,0
+19164,"umarex","S&M 629 Competitor 6-inch","","","","","",1,4,0
+19165,"umarex","WALTHER PDP Compact 4-inch","","","","","",1,4,0
+
+19167,"umarex","GLOCK19 Gen5","","","","","",1,4,0
+19168,"umarex","BERETTA PAX PDO","","","","","",1,4,0
+19169,"umarex","WALTHER PPK/S","","","","","",1,4,0
 
 20001,"a&k","M4 RIS","","","","","",2,2,0
 20002,"a&k","M4A1","","","","","",2,2,0
