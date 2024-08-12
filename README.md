@@ -1,6 +1,13 @@
-# Airsoft Database for Airsoft Spotter application
+# Airsoft Database for Airsoft Spotter Application
 
-### Environments required
+This is a database of airsoft guns used in the [AIRSOFT SPOTTER](https://precision-marks.com) application.
+
+## Report Incorrect Data / Request to Add a New Airsoft Gun
+
+Open the following link: 
+https://github.com/Precision-Marks/airsoft_database/issues/new/choose
+
+## Environments required
 
 Node.js: v20 (Tested by v20.8.1)
 npm >= 10.1.0

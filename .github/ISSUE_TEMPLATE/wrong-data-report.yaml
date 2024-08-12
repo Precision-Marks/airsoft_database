@@ -1,4 +1,4 @@
-name: Report wrong Data
+name: Report incorrect Data
 description: Report incorrect data about existing Airsoft guns in the database.
 labels:
   - bug
