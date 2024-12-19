@@ -1277,6 +1277,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10040,"marui","SAA.45 Civilian 4-3/4 inch","","","SAA.45 シビリアン 4-3/4インチ","","",1,1,2,,
 10041,"marui","S&W M29 4inch","","","S&W M29 4インチ","","",1,1,2,,
 10042,"marui","S&W M29 6-1/2 inch","","","S&W M29 6-1/2インチ","","",1,1,2,,
+10043,"marui","SAA.45 Cavalry 7-1/2 inch","","","SAA.45 キャバルリー 7-1/2インチ","","",1,1,2,,
+10044,"marui","M1851 NAVY","","","M1851 ネイビー","","",1,1,2,,
 
 10050,"marui","VSR-ONE","","","VSR-ONE","","",2,1,0,,
 10051,"marui","M40A5","","","M40A5","","",2,1,0,,
@@ -1333,6 +1335,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10109,"marui","MP5 A4 (Next generation series)","","","MP5 A4 (次世代電動ガン)","","",8,2,0,,
 10110,"marui","G36C+ (Plus series)","","","G36C+ (電動ガンプラスシリーズ)","","",2,2,0,,
 10111,"marui","M4 PATRIOT+ (Plus series)","","","M4パトリオット+ (電動ガンプラスシリーズ)","","",2,2,0,,
+10112,"marui","SG553+ (Plus series)","","","SG553+ (電動ガンプラスシリーズ)","","",2,2,0,,
 
 10120,"marui","SGR-12","","","SGR-12","","",4,2,0,,
 10121,"marui","AA-12","","","AA-12","","",4,2,0,,
@@ -1500,6 +1503,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10358,"marui","TACTICAL MASTER","","","タクティカルマスター","","",1,4,0,,
 10359,"marui","G17 CUSTOM","","","G17 カスタム","","",1,4,0,,
 10360,"marui","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0,,
+10361,"marui","Hi-CAPA 4.3 D.O.R","","","ハイキャパ4.3 D.O.R","","",1,4,0,,
 
 10370,"marui","GLOCK18C","","","グロック 18C","","",1,4,0,,
 10371,"marui","Hi-CAPA EXTREME","","","ハイキャパエクストリーム","","",1,4,0,,
@@ -2872,6 +2876,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 31047,"g&p","M4 Commando","","","","","",2,2,0,,
 31048,"g&p","AR15 PTW Project Short","","","","","",2,2,0,,
 31049,"g&p","AR15 PTW Project Long","","","","","",2,2,0,,
+
 31050,"g&p","Shotgun-024/026/032/033/034","","","","","",4,1,0,,
 31051,"g&p","Shotgun-031","","","","","",4,1,0,,
 31052,"g&p","Shotgun-020/021/029/030","","","","","",4,1,0,,
@@ -2943,7 +2948,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 34001,"ics","BLE-ICP","","","","","",1,4,0,,
 34002,"ics","BLE-VULTURE (Tactical Version)","","","","","",1,4,0,,
 34003,"ics","BLE-VULTURE","","","","","",1,4,0,,
-34004,"ics","Hi-Capa Challenger","","","","","",1,4,0,,
+34004,"ics","Hi-Capa Series","","","","","",1,4,0,,
 34005,"ics","SARSILMAZ SAR 9.II","","","","","",1,4,0,,
 34006,"ics","BLE-XMK Compact","","","","","",1,4,0,,
 34007,"ics","BLE-XMK","","","","","",1,4,0,,
@@ -3503,6 +3508,11 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 45051,"s&t","M249","","","","","",2,2,0,,
 45052,"s&t","M1918 BAR","M1918 Browning Automatic Rifle","","","","",2,2,0,,
 45053,"s&t","MG42","","","","","",2,2,0,,
+45054,"s&t","MP41","","","","","",8,2,0,,
+45055,"s&t","MP40","","","","","",8,2,0,,
+45058,"s&t","Type100(3B)","","","","","",8,2,0,,
+45059,"s&t","MP44","","","","","",2,2,0,,
+45060,"s&t","Type 96","","","","","",2,2,0,,
 
 45070,"s&t","M4 Keymod 9-inch","","","","","",2,4,0,,
 45071,"s&t","M4 Keymod 13-inch","","","","","",2,4,0,,
