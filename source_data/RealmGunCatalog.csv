@@ -1838,6 +1838,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13081,"crown","TSG-1","","","TSG-1","","",4,1,2,,
 13082,"crown","TSG-2","","","TSG-2","","",4,1,2,,
 13083,"crown","CM870","","","CM870","","",4,1,2,,
+13083,"crown","M870","","","M870","","",4,1,0,,
 
 13090,"crown","SUPER SS II SENIOR","","","スーパーSS IIシニア","","",2,1,0,,
 13091,"crown","TYPE96 JUNIOR","","","タイプ96 ジュニア","","",2,1,2,,
@@ -1980,6 +1981,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 16020,"maruzen","APS-1 Grand Master Mk.III","","","APS-1 グランドマスター・マークⅢ","","",1,1,0,,
 16021,"maruzen","Walther PPK","","","ワルサーPPK","","",1,4,0,,
+16022,"maruzen","CA870 TAC-10","","","","","",4,1,0,,
 
 17000,"taniokoba","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0,,
 17001,"taniokoba","M1911","","","","","",1,4,0,,
