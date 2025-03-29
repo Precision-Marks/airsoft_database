@@ -107,7 +107,9 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
 
             realm.close();
 
-            writeVersionFile(options.output, options.commit);
+            if (!options.test) {
+                writeVersionFile(options.output, options.commit);
+            }
         } catch(e) {
             if (e instanceof Error) {
                 console.error(e.message);
