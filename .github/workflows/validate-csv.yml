@@ -1,0 +1,27 @@
+# .github/workflows/validate-csv.yml
+name: Validate CSV Data
+
+on:
+  pull_request:
+    branches: [ main ] # Run on pull requests targeting the main branch
+
+jobs:
+  validate:
+    name: Validate CSV Files
+    runs-on: ubuntu-latest # Specify the execution environment
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # Check out the repository code
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4 # Set up the Node.js environment
+        with:
+          node-version: '20' # Use Node.js v20 as specified in README.md
+          cache: 'npm' # Enable npm caching
+
+      - name: Install dependencies
+        run: npm install # Install dependencies based on package.json
+
+      - name: Run database validation script
+        run: npm run test-database # Run the CSV validation script 
