@@ -1279,6 +1279,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10042,"marui","S&W M29 6-1/2 inch","","","S&W M29 6-1/2インチ","","",1,1,2,,
 10043,"marui","SAA .45 Cavalry 7-1/2 inch","","","SAA .45 キャバルリー 7-1/2インチ","","",1,1,2,,
 10044,"marui","M1851 NAVY","","","M1851 ネイビー","","",1,1,2,,
+10045,"marui","M29 .44magnum. 4inch","","","M29 .44マグナム 4インチ","","",1,1,2,,
+10046,"marui","M29 .44magnum. 6-1/2inch","","","M29 .44マグナム 6-1/2インチ","","",1,1,2,,
 
 10050,"marui","VSR-ONE","","","VSR-ONE","","",2,1,0,,
 10051,"marui","M40A5","","","M40A5","","",2,1,0,,
@@ -1504,6 +1506,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10359,"marui","G17 CUSTOM","","","G17 カスタム","","",1,4,0,,
 10360,"marui","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0,,
 10361,"marui","Hi-CAPA 4.3 D.O.R","","","ハイキャパ4.3 D.O.R","","",1,4,0,,
+10362,"marui","P320","","","","","",1,4,0,,
+10363,"marui","GLOCK19 Gen.5","","","グロック19 Gen.5","","",1,4,0,,
 
 10370,"marui","GLOCK18C","","","グロック 18C","","",1,4,0,,
 10371,"marui","Hi-CAPA EXTREME","","","ハイキャパエクストリーム","","",1,4,0,,
