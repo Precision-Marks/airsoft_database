@@ -8,7 +8,7 @@ The CSV file contains information about various airsoft manufacturers. Each row 
 
 The following fields are defined in the CSV header:
 
-* **`_id`**: (String) A unique identifier for the manufacturer. This is typically a URL-safe, lowercase abbreviation or common short name (e.g., `a&k`, `marui`). **Mandatory** and must be unique.
+* **`_id`**: (String) A unique identifier for the manufacturer (actually the airsoft brand). This is typically a URL-safe, lowercase abbreviation or common short name (e.g., `a&k`, `marui`). **Mandatory** and must be unique.
 * **`shortName`**: (String) A commonly used short name for the manufacturer (e.g., "A&K", "MARUI"). **Mandatory**.
 * **`longName`**: (String) The full official name of the manufacturer (e.g., "A&K AIRSOFT", "TOKYO MARUI"). **Optional**. Can be empty if not applicable or the same as `shortName`.
 * **`altName`**: (String) An alternative name or abbreviation for the manufacturer. **Optional**. Can be empty. The string is used for search only.
