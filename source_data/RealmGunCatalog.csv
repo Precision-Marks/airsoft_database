@@ -1275,12 +1275,10 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10038,"marui","POLICE PISTOL SS","","","ポリスピストルSS","","ニュー銀ダンエアガンRF",1,1,2,,
 10039,"marui","GLOCK26","","","グロック26","","ニュー銀ダンエアガンRF",1,1,2,,
 10040,"marui","SAA .45 Civilian 4-3/4 inch","","","SAA .45 シビリアン 4-3/4インチ","","",1,1,2,,
-10041,"marui","S&W M29 4inch","","","S&W M29 4インチ","","",1,1,2,,
-10042,"marui","S&W M29 6-1/2 inch","","","S&W M29 6-1/2インチ","","",1,1,2,,
+10041,"marui","S&W M29 .44magnum 4inch","","","S&W M29 .44マグナム 4インチ","","",1,1,2,,
+10042,"marui","S&W M29 .44magnum 6-1/2 inch","","","S&W M29 .44マグナム 6-1/2インチ","","",1,1,2,,
 10043,"marui","SAA .45 Cavalry 7-1/2 inch","","","SAA .45 キャバルリー 7-1/2インチ","","",1,1,2,,
 10044,"marui","M1851 NAVY","","","M1851 ネイビー","","",1,1,2,,
-10045,"marui","M29 .44magnum. 4inch","","","M29 .44マグナム 4インチ","","",1,1,2,,
-10046,"marui","M29 .44magnum. 6-1/2inch","","","M29 .44マグナム 6-1/2インチ","","",1,1,2,,
 
 10050,"marui","VSR-ONE","","","VSR-ONE","","",2,1,0,,
 10051,"marui","M40A5","","","M40A5","","",2,1,0,,
@@ -1464,7 +1462,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10314,"marui","FNX-45 TACTICAL","","","FNX-45タクティカル","","",1,4,0,,
 10315,"marui","GLOCK17 Gen.4","","","グロック17 Gen.4","","",1,4,0,,
 10316,"marui","M45A1","","","M45A1","","",1,4,0,,
-10319,"marui","D.O.R CAL.45","Hi-capa 5.1 D.O.R CAL.45","","ハイキャパ D.O.R","","",1,4,0,,
+10319,"marui","Hi-CAPA D.O.R CAL.45","","","ハイキャパ D.O.R","","",1,4,0,,
 10320,"marui","GLOCK19 Gen.3","","","グロック19 Gen.3","","",1,4,0,,
 10321,"marui","ALBERT.W.MODEL 01P","","","アルバート.W.モデル 01P","","",1,4,0,,
 10322,"marui","M&P 9L PC PORTED","","","M&P 9L PCポーテッド","","",1,4,0,,
@@ -1504,15 +1502,16 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10357,"marui","GLOCK26","","","グロック26","","",1,4,0,,
 10358,"marui","TACTICAL MASTER","","","タクティカルマスター","","",1,4,0,,
 10359,"marui","G17 CUSTOM","","","G17 カスタム","","",1,4,0,,
-10360,"marui","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0,,
+10360,"marui","G17 Gen.5 MOS","","","G17 Gen.5 MOS","","",1,4,0,,
 10361,"marui","Hi-CAPA 4.3 D.O.R","","","ハイキャパ4.3 D.O.R","","",1,4,0,,
 10362,"marui","P320","","","","","",1,4,0,,
-10363,"marui","GLOCK19 Gen.5","","","グロック19 Gen.5","","",1,4,0,,
+10363,"marui","G19 Gen.5 MOS","","","G19 Gen.5 MOS","","",1,4,0,,
 
 10370,"marui","GLOCK18C","","","グロック 18C","","",1,4,0,,
 10371,"marui","Hi-CAPA EXTREME","","","ハイキャパエクストリーム","","",1,4,0,,
 
 10380,"marui","Hi-CAPA5.1R","","","ハイキャパ5.1R","","",1,4,3,,
+10381,"marui","Hi-CAPA D.O.R R","","","ハイキャパ D.O.R R","","",1,4,3,,
 
 10390,"marui","CURVE (Fixed Slide)","","","カーヴ (固定スライド)","","",1,4,0,,
 10391,"marui","LCP II (Fixed Slide)","","","LCP II (固定スライド)","","",1,4,0,,
@@ -1823,6 +1822,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13052,"crown","PYTHON 4-inch","","","パイソン 4インチ","","",1,4,0,,
 13053,"crown","PYTHON 6-inch","","","パイソン 6インチ","","",1,4,0,,
 13054,"crown","PYTHON HUNTER 8-inch","","","パイソンハンター 8インチ","","",1,4,0,,
+13055,"crown","PYTHON 4-inch","","","パイソン 4インチ","","",1,4,2,,
 
 13060,"crown","GLOCK29C","","","GLOCK29C","","",1,1,2,,
 13061,"crown","P2000","","","P2000","","",1,1,2,,
@@ -1837,6 +1837,12 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13071,"crown","UPS MATCH","","Slide Stop","UPS MATCH","","スライドストップ",1,1,2,,
 13072,"crown","1911A1","","Slide Stop","1911A1","","スライドストップ",1,1,2,,
 13073,"crown","P228","","Slide Stop","P228","","スライドストップ",1,1,2,,
+
+13074,"crown","WALTHER PDP","","Slide Stop","","","スライドストップ",1,1,2,,
+13075,"crown","WALTHER PPQ","","Slide Stop","","","スライドストップ",1,1,2,,
+13076,"crown","WALTHER P99","","Slide Stop","","","スライドストップ",1,1,2,,
+13077,"crown","WALTHER P99 COMPACT","","Slide Stop","","","スライドストップ",1,1,2,,
+13078,"crown","DESERT EAGLE .44MAGNUM","","Slide Stop","","","スライドストップ",1,1,2,,
 
 13080,"crown","SUPER SS II","","","スーパーSS II","","",4,1,2,,
 13081,"crown","TSG-1","","","TSG-1","","",4,1,2,,
@@ -1865,6 +1871,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 13130,"crown","CM4","","","CM4","","",2,2,0,,
 13131,"crown","AK74 REAL WOOD","","","AK74リアルウッド","","",2,2,0,,
+
+13140,"crown","WALTHER PPK/S","","High Rank Air","","","ハイランクエアーコッキングガン",1,1,2,,
+13141,"crown","DESERT EAGLE .50AE","","High Rank Air","","","ハイランクエアーコッキングガン",1,1,2,,
 
 14000,"tanaka","Colt' SAA 1st 3-inch","","","","","",1,4,0,,
 14001,"tanaka","Colt' SAA 1st 4-3/4 inch","","","","","",1,4,0,,
