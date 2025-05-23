@@ -553,7 +553,7 @@ describe('ShootingRuleCatalog test', () => {
         expect(() => ShootingRuleCatalog.isValidShootingRuleCatalog(shootingRuleCatalog)).toThrow(TypeError);
     });
 
-    test('isValidShootingRuleCatalog: numOfStages is over 5', () => {
+    test('isValidShootingRuleCatalog: numOfStages is over 10', () => {
         const shootingRuleCatalog = {
             _id: 1,
             type: undefined,
@@ -571,7 +571,7 @@ describe('ShootingRuleCatalog test', () => {
             sightTypesMask: 0,  
             numOfShots: 10,  
             duration: 240,  
-            numOfStages: 6,  
+            numOfStages: 11,  
             nextId: 2
         };
 
