@@ -135,7 +135,7 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
         .description('Create Airsoft Database from csv files')
         .option('-c, --commit <commit>', 'commit id', '')
         .option('-t, --test', 'test only, no output')
-        .option('-o, --output <output>', 'output file name', path.normalize(`${__dirname}/../temp_realm_data/${REALM_FILE_NAME}`))
+        .option('-o, --output <output>', 'output file name', path.normalize(`${__dirname}/../temp_db/realm/${REALM_FILE_NAME}`))
         .argument('[directory]', 'directory containing csv files', path.normalize(`${__dirname}/../source_data/`))
         .action(async (directory) => {
             const options = program.opts();
