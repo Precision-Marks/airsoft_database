@@ -1,0 +1,24 @@
+CREATE TABLE shooting_rules(
+  _id INTEGER NOT NULL PRIMARY KEY,
+  type TEXT,
+  name TEXT NOT NULL,
+  description TEXT,
+  url TEXT,
+  nameJa TEXT,
+  descriptionJa TEXT,
+  urlJa TEXT,
+  range100x INTEGER NOT NULL,
+  unitOfRange INTEGER NOT NULL,
+  virtualTargetName TEXT,
+  positionsMask INTEGER NOT NULL,
+  gunTypesMask INTEGER NOT NULL,
+  sightTypesMask INTEGER NOT NULL,
+  numOfShots INTEGER NOT NULL,
+  duration INTEGER NOT NULL,
+  numOfStages INTEGER NOT NULL,
+  nextId INTEGER NOT NULL
+);
+
+selectAll:
+SELECT * FROM shooting_rules ORDER BY _id ASC;
+
