@@ -80,7 +80,7 @@ if (require.main === module) {
         console.log("Running createGunCatalog.ts");
         program
             .description('Unit test for creating gun catalog from CSV file. Test only, no output.')
-            .argument('[filePath]', 'path to gun catalog csv file', `${__dirname}/../source_data/RealmGunCatalog.csv`)
+            .argument('[filePath]', 'path to gun catalog csv file', `${__dirname}/../source_data/GunCatalog.csv`)
             .action(async (filePath) => {
                 console.log(`Creating gun catalog from ${filePath}`)
                 const success = await main([filePath]);

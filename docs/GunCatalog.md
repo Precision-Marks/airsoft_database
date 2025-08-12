@@ -1,6 +1,6 @@
 # Gun Catalog CSV Schema
 
-This document describes the schema for the `source_data/RealmGunCatalog.csv` file.
+This document describes the schema for the `source_data/GunCatalog.csv` file.
 
 The CSV file contains information about various airsoft gun models. Each row represents a single gun model. The first row of the CSV file contains the header, defining the fields for each subsequent row.
 
@@ -10,7 +10,7 @@ The following fields correspond to the `IGunCatalog` interface in `src/models/Gu
 
 * **`_id`**: (Number) A unique, immutable identifier for the gun model. **Mandatory**. Must be a non-negative integer. See `src/models/GunIdRange.ts` for manufacturer-specific ID ranges. Generic guns (see `generic` field) must have an ID less than 10000. **NOTE**: Once assigned, this ID must never be deleted or reassigned to a different gun model. Note that the `npm run test-database` command does not check for this constraint.
 
-* **`manufacturerId`**: (String) The unique identifier of the manufacturer, corresponding to the `_id` field in `RealmManufacturerCatalog.csv`. **Mandatory**. Must contain only printable ASCII characters. Cannot be `unknown` if `generic` is true.
+* **`manufacturerId`**: (String) The unique identifier of the manufacturer, corresponding to the `_id` field in `ManufacturerCatalog.csv`. **Mandatory**. Must contain only printable ASCII characters. Cannot be `unknown` if `generic` is true.
 * **`shortName`**: (String) A short, commonly used name for the gun model (e.g., "M4A1", "G17"). **Mandatory**. Must contain only Latin or Greek characters.
 * **`fullName`**: (String) The full official name of the gun model. **Optional**. If provided, must contain only Latin or Greek characters.
 * **`description`**: (String) A brief description of the gun model. **Optional**.

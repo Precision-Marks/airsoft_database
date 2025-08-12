@@ -90,17 +90,17 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
                 });
             }
 
-            file = `${directory}RealmManufacturerCatalog.csv`;
+            file = `${directory}ManufacturerCatalog.csv`;
             console.log(`\nWriting manufacturer catalog from ${file}`)
             success = createManufacturerCatalog(realm, `${file}`);
             console.log(`${success ? "Done" : "FAILED"}`);
 
-            file = `${directory}RealmGunCatalog.csv`;
+            file = `${directory}GunCatalog.csv`;
             console.log(`\nWriting gun catalog from ${file}`)
             success = createGunCatalog(realm, `${file}`);
             console.log(`${success ? "Done" : "FAILED"}`);
 
-            file = `${directory}RealmShootingRuleCatalog.csv`;
+            file = `${directory}ShootingRuleCatalog.csv`;
             console.log(`\nWriting shooting rule catalog from ${file}`)
             success = createShootingRuleCatalog(realm, `${file}`);
             console.log(`${success ? "Done" : "FAILED"}`);

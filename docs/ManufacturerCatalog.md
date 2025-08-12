@@ -1,6 +1,6 @@
 # Manufacturer Catalog CSV Schema
 
-This document describes the schema for the `source_data/RealmManufacturerCatalog.csv` file.
+This document describes the schema for the `source_data/ManufacturerCatalog.csv` file.
 
 The CSV file contains information about various airsoft manufacturers. Each row represents a single manufacturer. The first row of the CSV file contains the header, defining the fields for each subsequent row.
 

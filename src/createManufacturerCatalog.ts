@@ -69,7 +69,7 @@ if (require.main === module) {
         console.log("Running createManufacturerCatalog");
         program
             .description('Unit test to creating manufacturer catalog from CSV file. Test only, no output.')
-            .argument('[filePath]', 'path to CSV file', `${__dirname}/../source_data/RealmManufacturerCatalog.csv`)
+            .argument('[filePath]', 'path to CSV file', `${__dirname}/../source_data/ManufacturerCatalog.csv`)
             .action(async (filePath) => {
                 console.log(`Creating manufacturer catalog from ${filePath}`)
                 const success = await main([filePath]);
