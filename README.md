@@ -22,6 +22,25 @@ Run `npm install` to install required packages.
 
 `sh create_database.sh`
 
+### Output formats and options
+
+- By default, both Realm and SQLite databases are generated.
+- You can specify the format with `--format`:
+  - `realm`: generate only Realm database
+  - `sqlite`: generate only SQLite database
+  - `all`: generate both (default)
+
+Outputs:
+- Realm: `db/realm/catalog_data.realm` and `db/realm/catalog_data.realm.commitid`
+- SQLite: `db/sqlite/catalog_data.db` and `db/sqlite/catalog_data.db.commitid`
+- Extracted SQLite DDL: `db/sqlite/catalog_schema.sql`
+
+Examples:
+- Generate both:
+  - `sh create_database.sh`
+- Generate only SQLite (direct call):
+  - `npx ts-node src/index.ts --format sqlite -c <commit>`
+
 ## Contribution
 
 To add/modify the gun database edit [./source_data/GunCatalog.csv](./source_data/GunCatalog.csv)
