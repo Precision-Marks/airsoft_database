@@ -26,3 +26,10 @@ db/templates/catalog_data.db
 
 - 現状のrealm用実装は原則として変更しない
 
+- 作成したファイルは、db/sqlite以下に格納する。catalog_data.dbとcatalog_data.db.commitidの2つ。
+
+## 実装案
+
+- src/index.ts, src/create*.ts を、src/realmに移動。それ以外のtsファイルはsqldelightでも使用されるのでそのまま
+- src/sqldelight/ を作成、その下にindex.ts, create*.tsを作成する。いずれもrealm版を参考に、sqlite3用実装を行う
+- src/index.tsを新設し、src/realm/index.ts, src/sqldelight/index.tsを呼び出す

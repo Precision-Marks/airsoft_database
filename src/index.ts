@@ -16,6 +16,7 @@ import { RealmShootingRuleCatalog } from "./schemas/RealmShootingRuleCatalog";
 import { createShootingRuleCatalog } from "./createShootingRuleCatalog";
 import { createManufacturerCatalog } from "./createManufacturerCatalog";
 import { createGunCatalog } from "./createGunCatalog";
+import { buildSqlite } from "./sqldelight";
 
 const REALM_FILE_NAME = "catalog_data.realm";
 
@@ -29,6 +30,22 @@ function writeVersionFile(realmFile: string, commitId: string): void {
 }
 
 async function main(options: OptionValues, directory: string): Promise<boolean> {
+    const format = (options.format ?? 'all') as string;
+    // If sqlite only, skip Realm entirely
+    if (!options.test && format === 'sqlite') {
+        try {
+            const sqliteOk = await buildSqlite(options, directory);
+            return sqliteOk;
+        } catch (e) {
+            if (e instanceof Error) {
+                console.error(e.message);
+            } else {
+                console.error(`Unknown error: ${JSON.stringify(e)}`)
+            }
+            return false;
+        }
+    }
+
     let realm: Realm;
 
     try {
@@ -124,6 +141,14 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
             return false
         }
 
+        // If format is all or sqlite, also build sqlite DB
+        if (!options.test) {
+            if (format === 'sqlite' || format === 'all') {
+                const sqliteOk = await buildSqlite(options, directory);
+                if (!sqliteOk) return false;
+            }
+        }
+
         return true
     }
 
@@ -135,6 +160,7 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
         .description('Create Airsoft Database from csv files')
         .option('-c, --commit <commit>', 'commit id', '')
         .option('-t, --test', 'test only, no output')
+        .option('-f, --format <format>', 'output format: realm | sqlite | all (default: all)', 'all')
         .option('-o, --output <output>', 'output file name', path.normalize(`${__dirname}/../temp_db/realm/${REALM_FILE_NAME}`))
         .argument('[directory]', 'directory containing csv files', path.normalize(`${__dirname}/../source_data/`))
         .action(async (directory) => {
