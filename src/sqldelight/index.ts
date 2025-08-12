@@ -7,6 +7,9 @@ import * as ParseCSV from "../parseCSV";
 import { IManufacturerCatalog } from "../models/ManufacturerCatalog";
 import { IGunCatalog } from "../models/GunCatalog";
 import { IShootingRuleCatalog } from "../models/ShootingRuleCatalog";
+import { RealmManufacturerCatalog } from "../schemas/RealmManufacturerCatalog";
+import { RealmGunCatalog } from "../schemas/RealmGunCatalog";
+import { RealmShootingRuleCatalog } from "../schemas/RealmShootingRuleCatalog";
 
 function getVersionFilename(dbFile: string): string {
   return `${dbFile}.commitid`;
@@ -107,68 +110,20 @@ export async function buildSqlite(options: OptionValues, directory: string): Pro
   try {
     applyDdl(db, ddlStatements);
 
-    const manufacturers = ParseCSV.parseCsvFile(path.normalize(`${directory}ManufacturerCatalog.csv`), {
-      name: "manufacturers",
-      embedded: false,
-      properties: {
-        _id: "string",
-        shortName: "string?",
-        longName: "string?",
-        altName: "string?",
-        description: "string?",
-        url: "string?",
-        shortNameJa: "string?",
-        longNameJa: "string?",
-        altNameJa: "string?",
-        descriptionJa: "string?",
-        urlJa: "string?",
-      },
-    } as any);
+    const manufacturers = ParseCSV.parseCsvFile(
+      path.normalize(`${directory}ManufacturerCatalog.csv`),
+      RealmManufacturerCatalog.schema as any
+    );
 
-    const guns = ParseCSV.parseCsvFile(path.normalize(`${directory}GunCatalog.csv`), {
-      name: "guns",
-      embedded: false,
-      properties: {
-        _id: "int",
-        manufacturerId: "string",
-        shortName: "string",
-        fullName: "string?",
-        description: "string?",
-        shortNameJa: "string?",
-        fullNameJa: "string?",
-        descriptionJa: "string?",
-        type: "int",
-        powerSource: "int",
-        powerLevel: "int",
-        generic: "bool?",
-        deleted: "bool?",
-      },
-    } as any);
+    const guns = ParseCSV.parseCsvFile(
+      path.normalize(`${directory}GunCatalog.csv`),
+      RealmGunCatalog.schema as any
+    );
 
-    const shootingRules = ParseCSV.parseCsvFile(path.normalize(`${directory}ShootingRuleCatalog.csv`), {
-      name: "shooting_rules",
-      embedded: false,
-      properties: {
-        _id: "int",
-        type: "string?",
-        name: "string",
-        description: "string?",
-        url: "string?",
-        nameJa: "string?",
-        descriptionJa: "string?",
-        urlJa: "string?",
-        range100x: "int",
-        unitOfRange: "int",
-        virtualTargetName: "string?",
-        positionsMask: "int",
-        gunTypesMask: "int",
-        sightTypesMask: "int",
-        numOfShots: "int",
-        duration: "int",
-        numOfStages: "int",
-        nextId: "int",
-      },
-    } as any);
+    const shootingRules = ParseCSV.parseCsvFile(
+      path.normalize(`${directory}ShootingRuleCatalog.csv`),
+      RealmShootingRuleCatalog.schema as any
+    );
 
     insertManufacturers(db, manufacturers as any);
     insertGuns(db, guns as any);
