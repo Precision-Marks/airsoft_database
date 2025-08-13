@@ -7,6 +7,7 @@ import * as ParseCSV from "../parseCSV";
 import { IManufacturerCatalog } from "../models/ManufacturerCatalog";
 import { IGunCatalog } from "../models/GunCatalog";
 import { IShootingRuleCatalog } from "../models/ShootingRuleCatalog";
+import { SCHEMA_VERSION } from "../models/RealmDataConst";
 import { RealmManufacturerCatalog } from "../schemas/RealmManufacturerCatalog";
 import { RealmGunCatalog } from "../schemas/RealmGunCatalog";
 import { RealmShootingRuleCatalog } from "../schemas/RealmShootingRuleCatalog";
@@ -109,6 +110,8 @@ export async function buildSqlite(options: OptionValues, directory: string): Pro
   const db = openDatabase(tempDbFile);
   try {
     applyDdl(db, ddlStatements);
+    // Set user_version to the same schema version as Realm implementation
+    db.pragma(`user_version = ${SCHEMA_VERSION}`);
 
     const manufacturers = ParseCSV.parseCsvFile(
       path.normalize(`${directory}ManufacturerCatalog.csv`),
