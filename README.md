@@ -20,7 +20,7 @@ Run `npm install` to install required packages.
 
 ## Create binary database
 
-`sh create_database.sh`
+`sh build-databases.sh`
 
 ### Output formats and options
 
@@ -37,7 +37,7 @@ Outputs:
 
 Examples:
 - Generate both:
-  - `sh create_database.sh`
+  - `sh build-databases.sh`
 - Generate only SQLite (direct call):
   - `npx ts-node src/index.ts --format sqlite -c <commit>`
 
