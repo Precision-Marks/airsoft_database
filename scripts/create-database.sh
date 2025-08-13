@@ -18,7 +18,8 @@ fi
 if [ "$SKIP_GIT_CHECK" -eq 0 ]; then
   # Check uncommit git files
   #untracked_files=$(git status --porcelain | grep '^??' | awk '{print $2}')
-  untracked_files=$(git status --porcelain | awk '{print $2}')
+  # Exclude files under ./db/ from the check
+  untracked_files=$(git status --porcelain | awk '{print $2}' | grep -v '^db/' || true)
 
   if [ -n "$untracked_files" ]; then
     echo "ERROR: Uncommit git file(s) exist:"
