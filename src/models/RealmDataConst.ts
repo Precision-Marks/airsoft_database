@@ -6,4 +6,9 @@ export class RealmDataConst {
     static readonly UNIT_FOOT = 2;
 }
 
-export const SCHEMA_VERSION = 2;
+/**
+ * Schema version for catalog database.
+ * The version has no relation to the Realm/Sqlite3 schema version.
+ * NOTE: This version should be the same with CATALOG_DATA_SCHEMA_VERSION in Airsoft Spotter app.
+ */
+export const SCHEMA_VERSION = 4;
