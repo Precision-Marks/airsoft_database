@@ -21,6 +21,7 @@ The following fields correspond to the `IShootingRuleCatalog` interface in `src/
 * **`urlJa`**: (String) Link to a Japanese reference page. **Optional**.
 
 * **`range100x`**: (Number) Shooting distance scaled by 100. **Mandatory**. The actual distance equals `range100x / 100`, with the unit specified by `unitOfRange`. Valid range is `1`–`5000`.
+NOTE: If you change the range of an existing rule, the app must handle the migration because UsersShootingRule may contain an outdated actualRange value from the previous range.
 * **`unitOfRange`**: (Number) Unit of the distance. **Mandatory**. See [Unit of Range](#unit-of-range) for possible values.
 
 * **`virtualTargetName`**: (String) Identifier of the target asset or preset (e.g., `nra_b6`, `nra_b8`). **Optional**.
