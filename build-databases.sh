@@ -2,7 +2,7 @@
 mkdir -p ./temp_db/realm || exit 1
 mkdir -p ./db/realm || exit 1
 mkdir -p ./db/sqlite || exit 1
-rm -rf ./temp_db/realm/* || exit 1
+rm -rf ./temp_db/realm && mkdir -p ./temp_db/realm || exit 1
 npm run create-database -- "$@" || exit 1
 find ./temp_db/realm -maxdepth 1 -not -type p -not -type d -exec cp -v {} ./db/realm/ \; || exit 1
 
