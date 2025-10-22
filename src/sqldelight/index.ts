@@ -116,21 +116,21 @@ export async function buildSqlite(options: OptionValues, directory: string): Pro
     const manufacturers = ParseCSV.parseCsvFile(
       path.normalize(`${directory}ManufacturerCatalog.csv`),
       RealmManufacturerCatalog.schema as any
-    );
+    ) as (IManufacturerCatalog | null)[];
 
     const guns = ParseCSV.parseCsvFile(
       path.normalize(`${directory}GunCatalog.csv`),
       RealmGunCatalog.schema as any
-    );
+    ) as (IGunCatalog | null)[];
 
     const shootingRules = ParseCSV.parseCsvFile(
       path.normalize(`${directory}ShootingRuleCatalog.csv`),
       RealmShootingRuleCatalog.schema as any
-    );
+    ) as (IShootingRuleCatalog | null)[];
 
-    insertManufacturers(db, manufacturers as any);
-    insertGuns(db, guns as any);
-    insertShootingRules(db, shootingRules as any);
+    insertManufacturers(db, manufacturers);
+    insertGuns(db, guns);
+    insertShootingRules(db, shootingRules);
     insertMetadata(db, options.commit);
   } finally {
     db.close();
@@ -146,5 +146,4 @@ export async function buildSqlite(options: OptionValues, directory: string): Pro
 
   return true;
 }
-
 
