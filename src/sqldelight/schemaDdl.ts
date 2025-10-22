@@ -13,22 +13,20 @@ function extractStatementsFromContent(content: string): string[] {
     /^\s*CREATE\s+INDEX\b/i,
   ];
 
+  const endsWithTerminator = (line: string): boolean => {
+    const withoutLineComment = line.replace(/--.*$/, "");
+    return withoutLineComment.trim().endsWith(";");
+  };
+
   for (const line of lines) {
-    if (!capturing) {
-      if (startRegexes.some((re) => re.test(line))) {
-        capturing = true;
-        current.push(line);
-        if (/;\s*$/.test(line)) {
-          statements.push(current.join("\n"));
-          current = [];
-          capturing = false;
-        }
-      }
+    if (!capturing && !startRegexes.some((re) => re.test(line))) {
       continue;
     }
 
+    capturing = true;
     current.push(line);
-    if (/;\s*$/.test(line)) {
+
+    if (endsWithTerminator(line)) {
       statements.push(current.join("\n"));
       current = [];
       capturing = false;
@@ -61,5 +59,4 @@ export function writeDdlFile(outputDirectory: string, statements: string[], file
   fs.writeFileSync(filePath, header + statements.join("\n\n") + "\n");
   return filePath;
 }
-
 
