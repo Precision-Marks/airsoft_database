@@ -20,25 +20,44 @@ Run `npm install` to install required packages.
 
 ## Create binary database
 
-`sh create_database.sh`
+`sh build-databases.sh`
+
+### Output formats and options
+
+- By default, both Realm and SQLite databases are generated.
+- You can specify the format with `--format`:
+  - `realm`: generate only Realm database
+  - `sqlite`: generate only SQLite database
+  - `all`: generate both (default)
+
+Outputs:
+- Realm: `db/realm/catalog_data.realm` and `db/realm/catalog_data.realm.commitid`
+- SQLite: `db/sqlite/catalog_data.db` and `db/sqlite/catalog_data.db.commitid`
+- Extracted SQLite DDL: `db/sqlite/catalog_schema.sql`
+
+Examples:
+- Generate both:
+  - `sh build-databases.sh`
+- Generate only SQLite (direct call):
+  - `npx ts-node src/index.ts --format sqlite -c <commit>`
 
 ## Contribution
 
-To add/modify the gun database edit [./source_data/RealmGunCatalog.csv](./source_data/RealmGunCatalog.csv)
+To add/modify the gun database edit [./source_data/GunCatalog.csv](./source_data/GunCatalog.csv)
 
-To add/modify manufacturer database, edit [./source_data/RealmManufacturerCatalog.csv](./source_data/RealmManufacturerCatalog.csv)
+To add/modify manufacturer database, edit [./source_data/ManufacturerCatalog.csv](./source_data/ManufacturerCatalog.csv)
 
 Please refer to the [Data Schema](#data-schema) section below for details on the required fields and format for these CSV files.
 
-If you add a manufacturer, you should also add "generic" gun data in RealmGunCatalog.csv. The "generic" data has ID &lt; 10000 and starts from 0,25,50,75.
+If you add a manufacturer, you should also add "generic" gun data in GunCatalog.csv. The "generic" data has ID &lt; 10000 and starts from 0,25,50,75.
 And also set `src/models/GunIdRange.ts`. Gun ID for a manufacturer starts from n x 1000 to n x 1000 + 999.
 
 ## Data Schema
 
 Details about the structure and fields of the CSV source files can be found in the following documents:
 
-* **Manufacturer Catalog Schema:** Describes the format of `source_data/RealmManufacturerCatalog.csv`. See [docs/ManufacturerCatalog.md](./docs/ManufacturerCatalog.md).
-* **Gun Catalog Schema:** Describes the format of `source_data/RealmGunCatalog.csv`. See [docs/GunCatalog.md](./docs/GunCatalog.md).
+* **Manufacturer Catalog Schema:** Describes the format of `source_data/ManufacturerCatalog.csv`. See [docs/ManufacturerCatalog.md](./docs/ManufacturerCatalog.md).
+* **Gun Catalog Schema:** Describes the format of `source_data/GunCatalog.csv`. See [docs/GunCatalog.md](./docs/GunCatalog.md).
 
 ## VsCode extensions recommended
 

@@ -1,0 +1,31 @@
+CREATE TABLE manufacturers(
+  id TEXT NOT NULL PRIMARY KEY,
+  shortName TEXT,
+  longName TEXT,
+  altName TEXT,
+  description TEXT,
+  url TEXT,
+  shortNameJa TEXT,
+  longNameJa TEXT,
+  altNameJa TEXT,
+  descriptionJa TEXT,
+  urlJa TEXT
+);
+
+selectAll:
+SELECT * FROM manufacturers;
+
+selectById:
+SELECT * FROM manufacturers WHERE id = ?1;
+
+-- Search manufacturers by keyword (supports both English and Japanese fields)
+-- Parameters:
+--   :pattern -> LIKE pattern with wildcards, use ESCAPE '\\'
+--   :isJa -> 1 if current locale is Japanese, 0 otherwise
+
+searchByKeyword:
+SELECT * FROM manufacturers
+WHERE
+  (shortName LIKE :pattern ESCAPE '\\' OR longName LIKE :pattern ESCAPE '\\' OR altName LIKE :pattern ESCAPE '\\')
+  OR (:isJa = 1 AND (shortNameJa LIKE :pattern ESCAPE '\\' OR longNameJa LIKE :pattern ESCAPE '\\' OR altNameJa LIKE :pattern ESCAPE '\\'));
+

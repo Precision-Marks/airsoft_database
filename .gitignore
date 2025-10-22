@@ -1,6 +1,7 @@
 *.realm.lock
 *.realm.note
 *.realm.management
+temp_db/*
 
 .DS_Store
 

@@ -1,0 +1,9 @@
+CREATE TABLE catalog_metadata(
+  _id INTEGER NOT NULL PRIMARY KEY,
+  timestamp INTEGER NOT NULL,
+  commitId TEXT NOT NULL
+);
+
+selectFixed:
+SELECT * FROM catalog_metadata WHERE _id = 0;
+

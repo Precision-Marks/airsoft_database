@@ -1,0 +1,64 @@
+CREATE TABLE guns(
+  _id INTEGER NOT NULL PRIMARY KEY,
+  manufacturerId TEXT NOT NULL,
+  shortName TEXT NOT NULL,
+  fullName TEXT,
+  description TEXT,
+  shortNameJa TEXT,
+  fullNameJa TEXT,
+  descriptionJa TEXT,
+  type INTEGER NOT NULL,
+  powerSource INTEGER NOT NULL,
+  powerLevel INTEGER NOT NULL,
+  generic INTEGER,
+  deleted INTEGER
+);
+
+-- Improve join/filter performance by manufacturerId
+CREATE INDEX IF NOT EXISTS guns_manufacturerId_idx ON guns(manufacturerId);
+
+selectById:
+SELECT * FROM guns WHERE _id = ?1;
+
+selectAll:
+SELECT * FROM guns;
+
+-- Dynamic search with optional filters. Use flags to avoid generating many variants.
+-- Parameters:
+--  :manufacturerFilterIsEmpty -> 1 when manufacturer filter is empty
+--  manufacturerIds -> list when filter is provided
+--  :typesIsEmpty -> 1 when types is empty
+--  types -> list when provided
+--  :powerSourcesIsEmpty -> 1 when powerSources is empty
+--  powerSources -> list when provided
+--  :powerLevel -> nullable exact match
+--  :hasKeyword -> 1 if keyword provided
+--  :isJa -> 1 when current locale is Japanese
+--  :pattern -> LIKE pattern with wildcards, use ESCAPE '\\'
+--  :limit -> max rows
+search:
+SELECT * FROM guns
+WHERE manufacturerId != 'unknown'
+  AND (
+    (:manufacturerFilterIsEmpty = 1 AND manufacturerId != 'other')
+    OR (:manufacturerFilterIsEmpty = 0 AND manufacturerId IN ?)
+  )
+  AND (
+    (:typesIsEmpty = 1) OR (type IN ?)
+  )
+  AND (
+    (:powerSourcesIsEmpty = 1) OR (powerSource IN ?)
+  )
+  AND (
+    (:powerLevel IS NULL) OR (powerLevel = :powerLevel)
+  )
+  AND (
+    (:hasKeyword = 0)
+    OR (
+      (:isJa = 1 AND (shortNameJa LIKE :pattern ESCAPE '\\'))
+      OR (:isJa = 0 AND (shortName LIKE :pattern ESCAPE '\\'))
+    )
+  )
+  AND (deleted IS NULL OR deleted = 0)
+LIMIT :limit;
+
