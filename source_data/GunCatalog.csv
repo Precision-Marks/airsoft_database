@@ -1858,6 +1858,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13095,"crown","MM-7P","","","MM-7P","","",8,1,2,,
 13096,"crown","XMP-K","","","XMP-K","","",8,1,2,,
 13097,"crown","MK47","","","MK47","","",2,1,2,,
+13098,"crown","FN SCAR-L","","","","","",2,1,2,,
+13099,"crown","AKS74U","","","","","",2,1,2,,
 
 13100,"crown","SUPER RIFLE U10 JUNIOR","","","スーパーライフルU10ジュニア","","",2,1,2,,
 13101,"crown","AWM SNIPER RIFLE","","","AWM スナイパーライフル","","",2,1,2,,
@@ -1874,6 +1876,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 13140,"crown","WALTHER PPK/S","","High Rank Air","","","ハイランクエアーコッキングガン",1,1,2,,
 13141,"crown","DESERT EAGLE .50AE","","High Rank Air","","","ハイランクエアーコッキングガン",1,1,2,,
+13150,"crown","COLT DEFENDER","","","","","",1,1,2,,
 
 14000,"tanaka","Colt' SAA 1st 3-inch","","","","","",1,4,0,,
 14001,"tanaka","Colt' SAA 1st 4-3/4 inch","","","","","",1,4,0,,
@@ -1994,7 +1997,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 16020,"maruzen","APS-1 Grand Master Mk.III","","","APS-1 グランドマスター・マークⅢ","","",1,1,0,,
 16021,"maruzen","Walther PPK","","","ワルサーPPK","","",1,4,0,,
-16022,"maruzen","CA870 TAC-10","","","","","",4,1,0,,
+16022,"maruzen","CA870 TAC-10","","","CA870 タック10","","",4,1,0,,
+16023,"maruzen","CA870 TAC-10 CHARGER","","","CA870 タック10 チャージャー","","",4,1,0,,
+16024,"maruzen","CA870 TACICAL Ⅱ","","","CA870 タクティカルⅡ","","",4,1,0,,
 
 17000,"taniokoba","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0,,
 17001,"taniokoba","M1911","","","","","",1,4,0,,
