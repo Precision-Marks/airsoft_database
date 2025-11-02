@@ -1834,7 +1834,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13067,"crown","CFS45","","","CFS45","","",1,1,2,,
 
 13070,"crown","GLK33","","Slide Stop","GLK33","","スライドストップ",1,1,2,,
-13071,"crown","UPS MATCH","","Slide Stop","UPS MATCH","","スライドストップ",1,1,2,,
+13071,"crown","USP MATCH","","Slide Stop","USP MATCH","","スライドストップ",1,1,2,,
 13072,"crown","1911A1","","Slide Stop","1911A1","","スライドストップ",1,1,2,,
 13073,"crown","P228","","Slide Stop","P228","","スライドストップ",1,1,2,,
 
@@ -1865,7 +1865,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13101,"crown","AWM SNIPER RIFLE","","","AWM スナイパーライフル","","",2,1,2,,
 13110,"crown","SUPER RIFLE U10 SENIOR","","","スーパーライフルU10シニア","","",2,1,0,,
 13111,"crown","SUPER RIFLE DRAGUNOV SVD","","","スーパーライフルドラグノフSVD","","",2,1,0,,
-13112,"crown","TYPE96 SENIOR","","","タイプ96 シニア","","",2,1,2,,
+13112,"crown","TYPE96 SENIOR","","","タイプ96 シニア","","",2,1,0,,
+13113,"crown","Kar98k","","","","","",2,1,0,,
 
 13120,"crown","ELEX9","","","エレックス9","","",8,2,2,,
 13121,"crown","CP7","","","CP7","","",8,2,2,,
