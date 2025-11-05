@@ -2,6 +2,8 @@
 
 This is a database of airsoft guns used in the [AIRSOFT SPOTTER](https://precision-marks.com) application.
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Precision-Marks/airsoft_database)
+
 ## Report Incorrect Data / Request to Add a New Airsoft Gun
 
 Open the following link: 
