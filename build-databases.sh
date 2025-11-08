@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Ensure running from repository root
-if [ ! -d "$PWD/.git" ]; then
-  echo "Error: Please run this script from the repository root"
+if [ "$(git rev-parse --show-toplevel)" != "$PWD" ]; then
+  echo "Error: Please run this script from the repository root" >&2
   echo "Current directory: $PWD" >&2
+  echo "Repository root: $(git rev-parse --show-toplevel)" >&2
   exit 1
 fi
 
