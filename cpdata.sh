@@ -39,15 +39,15 @@ FILES=(
 )
 
 # Verify all source files exist before copying
-MISSING=0
+errors=()
 for SRC in "${FILES[@]}"; do
   if [ ! -f "$SRC" ]; then
-    echo "Error: Source file not found: $SRC" >&2
-    MISSING=1
+    errors+=("Error: Source file not found: $SRC")
   fi
 done
 
-if [ "$MISSING" -eq 1 ]; then
+if [ ${#errors[@]} -gt 0 ]; then
+  printf "%s\n" "${errors[@]}" >&2
   exit 2
 fi
 
