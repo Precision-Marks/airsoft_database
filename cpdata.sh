@@ -17,14 +17,25 @@ if [ ! -d "$DEST" ]; then
   exit 1
 fi
 
-# Directory of this script (repo root assumed)
+# Directory of this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# Find repository root by searching upwards for the .git directory
+REPO_ROOT="$SCRIPT_DIR"
+while [[ "$REPO_ROOT" != "/" && ! -d "$REPO_ROOT/.git" ]]; do
+  REPO_ROOT="$(dirname "$REPO_ROOT")"
+done
+
+if [[ ! -d "$REPO_ROOT/.git" ]]; then
+  echo "Error: Could not find repository root from script location: $SCRIPT_DIR" >&2
+  exit 1
+fi
+
 FILES=(
-  "$SCRIPT_DIR/db/realm/catalog_data.realm"
-  "$SCRIPT_DIR/db/realm/catalog_data.realm.commitid"
-  "$SCRIPT_DIR/db/sqlite/catalog_data.db"
-  "$SCRIPT_DIR/db/sqlite/catalog_data.db.commitid"
+  "$REPO_ROOT/db/realm/catalog_data.realm"
+  "$REPO_ROOT/db/realm/catalog_data.realm.commitid"
+  "$REPO_ROOT/db/sqlite/catalog_data.db"
+  "$REPO_ROOT/db/sqlite/catalog_data.db.commitid"
 )
 
 # Verify all source files exist before copying
