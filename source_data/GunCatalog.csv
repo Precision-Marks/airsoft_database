@@ -1337,8 +1337,8 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10111,"marui","M4 PATRIOT+ (Plus series)","","","M4パトリオット+ (電動ガンプラスシリーズ)","","",2,2,0,,
 10112,"marui","SG553+ (Plus series)","","","SG553+ (電動ガンプラスシリーズ)","","",2,2,0,,
 10113,"marui","MP5K+ (Plus series)","","","MP5K+ (電動ガンプラスシリーズ)","","",8,2,0,,
-10114,"marui","M4A1 CARBINE (EVOLT series)","","","M4A1 カービン (電動ガンエボルトシリーズ)","","",2,2,0,,
-10115,"marui","FPR MK4 (EVOLT RS series)","","","FPR MK4 (電動ガンエボルトRSシリーズ)","","",2,2,0,,
+10114,"marui","M4A1 CARBINE (EVOLT series)","","","M4A1カービン (電動ガンエボルトシリーズ)","","",2,2,0,,
+10115,"marui","FPR Mk IV (EVOLT RS series)","","","FPR Mk Ⅳ (電動ガンエボルトRSシリーズ)","","",2,2,0,,
 
 10120,"marui","SGR-12","","","SGR-12","","",4,2,0,,
 10121,"marui","AA-12","","","AA-12","","",4,2,0,,
@@ -2004,6 +2004,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 16022,"maruzen","CA870 TAC-10","","","CA870 タック10","","",4,1,0,,
 16023,"maruzen","CA870 TAC-10 CHARGER","","","CA870 タック10 チャージャー","","",4,1,0,,
 16024,"maruzen","CA870 TACTICAL Ⅱ","","","CA870 タクティカルⅡ","","",4,1,0,,
+16025,"maruzen","CA870 TACTICAL Ⅲ","","","CA870 タクティカルⅢ","","",4,1,0,,
 
 17000,"taniokoba","GLOCK17 Gen.5","","","グロック17 Gen.5","","",1,4,0,,
 17001,"taniokoba","M1911","","","","","",1,4,0,,
