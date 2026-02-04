@@ -24,6 +24,10 @@ Run `npm install` to install required packages.
 
 `sh build-databases.sh`
 
+If you would like to copy the DB files to AIRSOFT SPOTTER app:
+
+`sh cpdata.sh ../<app_repository>/app/src/main/assets`
+
 ### Output formats and options
 
 - By default, both Realm and SQLite databases are generated.
