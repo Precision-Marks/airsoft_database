@@ -1846,6 +1846,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13076,"crown","WALTHER P99","","Slide Stop","","","スライドストップ",1,1,2,,
 13077,"crown","WALTHER P99 COMPACT","","Slide Stop","","","スライドストップ",1,1,2,,
 13078,"crown","DESERT EAGLE .44MAGNUM","","Slide Stop","","","スライドストップ",1,1,2,,
+13079,"crown","U.S.M9","","Slide Stop","","","スライドストップ",1,1,2,,
 
 13080,"crown","SUPER SS II","","","スーパーSS II","","",4,1,2,,
 13081,"crown","TSG-1","","","TSG-1","","",4,1,2,,
@@ -1878,8 +1879,9 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13130,"crown","CM4","","","CM4","","",2,2,0,,
 13131,"crown","AK74 REAL WOOD","","","AK74リアルウッド","","",2,2,0,,
 
-13140,"crown","WALTHER PPK/S","","High Rank Air","","","ハイランクエアーコッキングガン",1,1,2,,
-13141,"crown","DESERT EAGLE .50AE","","High Rank Air","","","ハイランクエアーコッキングガン",1,1,2,,
+13140,"crown","WALTHER PPK/S","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
+13141,"crown","DESERT EAGLE .50AE","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
+13142,"crown","COLT MUSTANG POCKETLITE","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
 13150,"crown","COLT DEFENDER","","","","","",1,1,2,,
 
 14000,"tanaka","Colt' SAA 1st 3-inch","","","","","",1,4,0,,
