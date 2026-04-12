@@ -14,7 +14,29 @@ https://github.com/Precision-Marks/airsoft_database/issues/new/choose
 Node.js: v20 (Tested by v20.8.1)
 npm >= 10.1.0
 
-Run `npm install` to install required packages.
+Run `npm ci` to install required packages from `package-lock.json`.
+
+When adding or updating dependencies, use `npm install <package>` and commit both `package.json` and `package-lock.json`.
+
+## Dependency update procedure
+
+Use `npm ci` for normal setup and CI runs.  
+Use `npm install` only when you intentionally update dependencies.
+
+1. Create a branch for dependency updates.
+2. Update dependencies (prefer scoped updates):
+   - `npm install <package>@latest`
+   - or `npm update` (use with care)
+3. Verify both files changed as expected:
+   - `package.json`
+   - `package-lock.json`
+4. Run verification commands:
+   - `npm ci`
+   - `npm audit signatures`
+   - `npm audit --audit-level=high`
+   - `npm run test-database`
+5. Commit `package.json` and `package-lock.json` together and open a PR.
+6. Merge only after CI checks pass (`validate-csv` and `dependency-review`).
 
 ## Test/Verify CSV database source files
 
