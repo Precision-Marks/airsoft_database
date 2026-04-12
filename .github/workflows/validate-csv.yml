@@ -5,6 +5,9 @@ on:
   pull_request:
     branches: [ main ] # Triggered on pull requests targeting the main branch
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     name: Validate CSV Files
@@ -21,7 +24,10 @@ jobs:
           cache: 'npm' # Enables npm dependency caching
 
       - name: Install dependencies
-        run: npm install # Installs dependencies based on package.json
+        run: npm ci # Installs dependencies based on package-lock.json
+
+      - name: Verify npm registry signatures
+        run: npm audit signatures
 
       - name: Run database validation script
-        run: npm run test-database # Executes the CSV validation script 
+        run: npm run test-database # Executes the CSV validation script
