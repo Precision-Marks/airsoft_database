@@ -1,15 +1,8 @@
 #!/bin/bash
 
-SUPPORTED_NODE_MAJORS="24 25"
-CURRENT_NODE_MAJOR=$(node -p "process.versions.node.split('.')[0]" 2>/dev/null)
-
-# Native dependencies are built for a specific Node ABI, so fail before writing outputs.
-if ! echo " ${SUPPORTED_NODE_MAJORS} " | grep -q " ${CURRENT_NODE_MAJOR} "; then
-  echo "ERROR: Node.js 24.x or 25.x is required to build databases." >&2
-  echo "Current Node.js: $(node -v 2>/dev/null || echo 'not found')" >&2
-  echo "Run 'nvm use' or install/use a supported Node.js version, then run 'npm install'." >&2
-  exit 1
-fi
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+. "${SCRIPT_DIR}/scripts/node-version-check.sh"
+require_supported_node "build databases"
 
 # Ensure running from repository root
 if [ "$(git rev-parse --show-toplevel)" != "$PWD" ]; then
