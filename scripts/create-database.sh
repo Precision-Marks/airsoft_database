@@ -1,5 +1,16 @@
 #!/bin/bash
 
+SUPPORTED_NODE_MAJORS="24 25"
+CURRENT_NODE_MAJOR=$(node -p "process.versions.node.split('.')[0]" 2>/dev/null)
+
+# SQLite native bindings must match the Node ABI used to run ts-node.
+if ! echo " ${SUPPORTED_NODE_MAJORS} " | grep -q " ${CURRENT_NODE_MAJOR} "; then
+  echo "ERROR: Node.js 24.x or 25.x is required to create databases." >&2
+  echo "Current Node.js: $(node -v 2>/dev/null || echo 'not found')" >&2
+  echo "Run 'nvm use' or install/use a supported Node.js version, then run 'npm install'." >&2
+  exit 1
+fi
+
 SKIP_GIT_CHECK=0
 for arg in "$@"; do
   case "$arg" in
