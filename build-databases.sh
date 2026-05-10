@@ -1,5 +1,9 @@
 #!/bin/bash
 
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+. "${SCRIPT_DIR}/scripts/node-version-check.sh"
+require_supported_node "build databases"
+
 # Ensure running from repository root
 if [ "$(git rev-parse --show-toplevel)" != "$PWD" ]; then
   echo "Error: Please run this script from the repository root" >&2

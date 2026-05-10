@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v6 # Sets up the Node.js environment
         with:
-          node-version: '20' # Uses Node.js v20 as specified in README.md
+          node-version-file: '.nvmrc' # Uses the project Node.js version
           cache: 'npm' # Enables npm dependency caching
 
       - name: Install dependencies

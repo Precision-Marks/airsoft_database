@@ -1,5 +1,9 @@
 #!/bin/bash
 
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+. "${SCRIPT_DIR}/node-version-check.sh"
+require_supported_node "create databases"
+
 SKIP_GIT_CHECK=0
 for arg in "$@"; do
   case "$arg" in
