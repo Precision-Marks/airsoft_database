@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v6 # Checks out the repository code
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6 # Sets up the Node.js environment
+        uses: actions/setup-node@v7 # Sets up the Node.js environment
         with:
           node-version-file: '.nvmrc' # Uses the project Node.js version
           cache: 'npm' # Enables npm dependency caching
