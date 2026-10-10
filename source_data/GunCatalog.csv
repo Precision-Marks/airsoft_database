@@ -1330,13 +1330,13 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10104,"marui","G36K (Next generation series)","","","G36K (次世代電動ガン)","","",2,2,0,,
 10105,"marui","G36C CUSTOM (Next generation series)","","","G36Cカスタム (次世代電動ガン)","","",2,2,0,,
 10106,"marui","URG-I 11.5inch (Next generation series)","","","URG-I 11.5inch (次世代電動ガン)","","",2,2,0,,
-10107,"marui","P-90+ (Plus series)","","","P-90+ (電動ガンプラスシリーズ)","","",2,2,0,,
+10107,"marui","P-90+","P-90+ (Plus series)","","P-90+","P-90+ (電動ガンプラスシリーズ)","",2,2,0,,
 10108,"marui","MP5 SD6 (Next generation series)","","","MP5 SD6 (次世代電動ガン)","","",8,2,0,,
 10109,"marui","MP5 A4 (Next generation series)","","","MP5 A4 (次世代電動ガン)","","",8,2,0,,
-10110,"marui","G36C+ (Plus series)","","","G36C+ (電動ガンプラスシリーズ)","","",2,2,0,,
-10111,"marui","M4 PATRIOT+ (Plus series)","","","M4パトリオット+ (電動ガンプラスシリーズ)","","",2,2,0,,
-10112,"marui","SG553+ (Plus series)","","","SG553+ (電動ガンプラスシリーズ)","","",2,2,0,,
-10113,"marui","MP5K+ (Plus series)","","","MP5K+ (電動ガンプラスシリーズ)","","",8,2,0,,
+10110,"marui","G36C+","G36C+ (Plus series)","","G36C+","G36C+ (電動ガンプラスシリーズ)","",2,2,0,,
+10111,"marui","M4 PATRIOT+","M4 PATRIOT+ (Plus series)","","M4パトリオット+","M4パトリオット+ (電動ガンプラスシリーズ)","",2,2,0,,
+10112,"marui","SG553+","SG553+ (Plus series)","","SG553+","SG553+ (電動ガンプラスシリーズ)","",2,2,0,,
+10113,"marui","MP5K+","MP5K+ (Plus series)","","MP5K+","MP5K+ (電動ガンプラスシリーズ)","",8,2,0,,
 10114,"marui","M4A1 CARBINE (EVOLT series)","","","M4A1カービン (電動ガンエボルトシリーズ)","","",2,2,0,,
 10115,"marui","FPR MK 4 (EVOLT RS series)","","","FPR MK 4 (電動ガンエボルトRSシリーズ)","","",2,2,0,,
 
@@ -1439,6 +1439,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 
 10270,"marui","M4A1R","","","M4A1R","","電動ガンRシリーズ",2,2,3,,
 10271,"marui","AK47R","","","AK47R","","電動ガンRシリーズ",2,2,3,,
+10272,"marui","P-90R","","","P-90R","","電動ガンRシリーズ",2,2,3,,
 
 10280,"marui","KSG","","","KSG","","",4,4,0,,
 10281,"marui","M870 WOOD STOCK TYPE","","","M870ウッドストックタイプ","","",4,4,0,,
@@ -1451,12 +1452,13 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10291,"marui","AKM","","","AKM","","",2,4,0,,
 10292,"marui","MARK18 MOD1","","","マーク18 モッド1","","",2,4,0,,
 10293,"marui","MTR16","","","MTR16","","",2,4,0,,
-10294,"marui","Type 89","","","89式5.56mm小銃","","",2,4,0,,
+10294,"marui","Type 89 RIFLE","Type 89 5.56mm RIFLE","","89式5.56mm小銃","","",2,4,0,,
 10295,"marui","M4A1 CARBINE","","","M4A1 カービン","","",2,4,0,,
 10296,"marui","CQBR BLOCK1","","","CQBR ブロック1","","",2,4,0,,
 10297,"marui","M4A1 MWS","","","M4A1 MWS","","",2,4,0,,
 10298,"marui","MP7A1","","","MP7A1","","",8,4,0,,
 10299,"marui","URG-I 11.5inch SOPMOD BLOCK 3","","","URG-I 11.5inch ソップモッド ブロック3","","",2,4,0,,
+10300,"marui","TYPE 20 RIFLE","TYPE 20 5.56mm RIFLE","","20式5.56mm小銃","","",2,4,0,,
 
 10310,"marui","SG-09 R","","","SG-09 R","","",1,4,0,,
 10311,"marui","GLOCK19 Gen.4","","","グロック19 Gen.4","","",1,4,0,,
@@ -1871,6 +1873,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13111,"crown","SUPER RIFLE DRAGUNOV SVD","","","スーパーライフルドラグノフSVD","","",2,1,0,,
 13112,"crown","TYPE96 SENIOR","","","タイプ96 シニア","","",2,1,0,,
 13113,"crown","Kar98k","","","","","",2,1,0,,
+13114,"crown","Winchester M1894","","","","","",2,1,0,,
 
 13120,"crown","ELEX9","","","エレックス9","","",8,2,2,,
 13121,"crown","CP7","","","CP7","","",8,2,2,,
@@ -1883,6 +1886,10 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 13141,"crown","DESERT EAGLE .50AE","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
 13142,"crown","COLT MUSTANG POCKETLITE","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
 13143,"crown","P238","P238 Micro-Compact","High Rank Air Cocking Gun","P238","P238 マイクロコンパクト","ハイランクエアーコッキングガン",1,1,2,,
+13144,"crown","WALTHER PPK","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
+13145,"crown","FNS-9","","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
+13146,"crown","FN509","FN509 Compact Tactical","High Rank Air Cocking Gun","","","ハイランクエアーコッキングガン",1,1,2,,
+
 13150,"crown","COLT DEFENDER","","","","","",1,1,2,,
 
 14000,"tanaka","Colt' SAA 1st 3-inch","","","","","",1,4,0,,
