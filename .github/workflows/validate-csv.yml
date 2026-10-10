@@ -31,3 +31,6 @@ jobs:
 
       - name: Run database validation script
         run: npm run test-database # Executes the CSV validation script
+
+      - name: Run unit tests
+        run: npm test # Executes the Jest test suites
