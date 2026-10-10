@@ -7,6 +7,10 @@ updates:
       day: "monday"
       timezone: "Asia/Tokyo"
     open-pull-requests-limit: 10
+    ignore:
+      # TypeScript 7 (native port) lacks the JS compiler API required by ts-node/ts-jest
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       dev-dependencies:
         dependency-type: "development"
