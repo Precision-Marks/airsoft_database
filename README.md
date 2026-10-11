@@ -11,7 +11,7 @@ https://github.com/Precision-Marks/airsoft_database/issues/new/choose
 
 ## Environments required
 
-Node.js: v20 (Tested by v20.8.1)
+Node.js: v24 (Tested by v24.19.0)
 npm >= 10.1.0
 
 Run `npm ci` to install required packages from `package-lock.json`.
@@ -35,12 +35,26 @@ Use `npm install` only when you intentionally update dependencies.
    - `npm audit signatures`
    - `npm audit --audit-level=high`
    - `npm run test-database`
+   - `npm test`
 5. Commit `package.json` and `package-lock.json` together and open a PR.
 6. Merge only after CI checks pass (`validate-csv` and `dependency-review`).
 
 ## Test/Verify CSV database source files
 
 `npm run test-database`
+
+## Unit tests
+
+Unit tests are written with [Jest](https://jestjs.io/) (via `ts-jest`) and live under [./tests](./tests) (`**/tests/**/*.test.ts`, see [jest.config.js](./jest.config.js)). Test fixture CSV files are in [./tests/testdata](./tests/testdata).
+
+- Run all tests:
+  - `npm test`
+- Run all tests with console output shown:
+  - `npm run test-debug`
+- Run a single test file:
+  - `npx jest tests/validateGun.test.ts`
+
+The unit tests are also run by the `validate-csv` CI workflow.
 
 ## Create binary database
 
