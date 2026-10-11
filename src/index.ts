@@ -17,8 +17,12 @@ import { createShootingRuleCatalog } from "./createShootingRuleCatalog";
 import { createManufacturerCatalog } from "./createManufacturerCatalog";
 import { createGunCatalog } from "./createGunCatalog";
 import { buildSqlite } from "./sqldelight";
+import * as ParseCSV from "./parseCSV";
+import { IGunCatalog } from "./models/GunCatalog";
+import { checkGunIdImmutability, loadBaselineGuns } from "./validateGunIdImmutability";
 
 const REALM_FILE_NAME = "catalog_data.realm";
+const BASELINE_DB_FILE = path.normalize(`${__dirname}/../db/sqlite/catalog_data.db`);
 
 function getVersionFilename(realmFile: string): string {
     return `${realmFile}.commitid`;
@@ -29,11 +33,43 @@ function writeVersionFile(realmFile: string, commitId: string): void {
     fs.writeFileSync(versionFilename, commitId);
 }
 
+/**
+ * Check that gun ids in the baseline database are neither removed nor reassigned.
+ * @returns true if no error is found (warnings are allowed)
+ */
+function checkGunIds(options: OptionValues, directory: string): boolean {
+    if (options.baseline === false) {
+        console.log("\nSkipping gun id immutability check");
+        return true;
+    }
+
+    const baselineFile = options.baseline as string;
+    console.log(`\nChecking gun id immutability against ${baselineFile}`);
+    if (!fs.existsSync(baselineFile)) {
+        console.error(`ERROR: Baseline database ${baselineFile} not found. Use --no-baseline to skip this check.`);
+        return false;
+    }
+
+    const baseline = loadBaselineGuns(baselineFile);
+    const guns = ParseCSV.parseCsvFile(`${directory}GunCatalog.csv`, RealmGunCatalog.schema) as (IGunCatalog | null)[];
+    const result = checkGunIdImmutability(baseline, guns);
+
+    result.warnings.forEach(warning => console.log(`Warning: ${warning}`));
+    result.errors.forEach(error => console.error(`ERROR: ${error}`));
+
+    const success = result.errors.length === 0;
+    console.log(`${success ? "Done" : "FAILED"} (${baseline.length} gun ids checked, ${result.errors.length} errors, ${result.warnings.length} warnings)`);
+    return success;
+}
+
 async function main(options: OptionValues, directory: string): Promise<boolean> {
     const format = (options.format ?? 'all') as string;
     // If sqlite only, skip Realm entirely
     if (!options.test && format === 'sqlite') {
         try {
+            if (!checkGunIds(options, directory)) {
+                return false;
+            }
             const sqliteOk = await buildSqlite(options, directory);
             return sqliteOk;
         } catch (e) {
@@ -122,6 +158,10 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
             success = createShootingRuleCatalog(realm, `${file}`);
             console.log(`${success ? "Done" : "FAILED"}`);
 
+            if (!checkGunIds(options, directory)) {
+                throw new Error("ERROR: Gun id immutability check failed");
+            }
+
             realm.close();
 
             if (!options.test) {
@@ -162,6 +202,8 @@ async function main(options: OptionValues, directory: string): Promise<boolean> 
         .option('-t, --test', 'test only, no output')
         .option('-f, --format <format>', 'output format: realm | sqlite | all (default: all)', 'all')
         .option('-o, --output <output>', 'output file name', path.normalize(`${__dirname}/../temp_db/realm/${REALM_FILE_NAME}`))
+        .option('-b, --baseline <baseline>', 'released SQLite database to check gun id immutability against', BASELINE_DB_FILE)
+        .option('--no-baseline', 'skip gun id immutability check')
         .argument('[directory]', 'directory containing csv files', path.normalize(`${__dirname}/../source_data/`))
         .action(async (directory) => {
             const options = program.opts();
