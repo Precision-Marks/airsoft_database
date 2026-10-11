@@ -43,6 +43,15 @@ Use `npm install` only when you intentionally update dependencies.
 
 `npm run test-database`
 
+This also checks that gun ids already released are neither removed nor reassigned (see `_id` in [docs/GunCatalog.md](./docs/GunCatalog.md)). The released database `db/sqlite/catalog_data.db` is used as the baseline by default.
+
+- Use another baseline database:
+  - `npm run test-database -- --baseline <path/to/catalog_data.db>`
+- Skip the check:
+  - `npm run test-database -- --no-baseline`
+
+The `validate-csv` CI workflow uses `db/sqlite/catalog_data.db` on the base branch of the PR as the baseline.
+
 ## Unit tests
 
 Unit tests are written with [Jest](https://jestjs.io/) (via `ts-jest`) and live under [./tests](./tests) (`**/tests/**/*.test.ts`, see [jest.config.js](./jest.config.js)). Test fixture CSV files are in [./tests/testdata](./tests/testdata).

@@ -29,8 +29,16 @@ jobs:
       - name: Verify npm registry signatures
         run: npm audit signatures
 
+      - name: Extract baseline database from base branch
+        # Use the released database on the base branch, since the PR may also update db/sqlite/catalog_data.db
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BASE_SHA"
+          git show "$BASE_SHA:db/sqlite/catalog_data.db" > "$RUNNER_TEMP/baseline_catalog_data.db"
+
       - name: Run database validation script
-        run: npm run test-database # Executes the CSV validation script
+        run: npm run test-database -- --baseline "$RUNNER_TEMP/baseline_catalog_data.db" # Executes the CSV validation script
 
       - name: Run unit tests
         run: npm test # Executes the Jest test suites
