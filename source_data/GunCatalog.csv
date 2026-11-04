@@ -1337,8 +1337,12 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10111,"marui","M4 PATRIOT+","M4 PATRIOT+ (Plus series)","","M4パトリオット+","M4パトリオット+ (電動ガンプラスシリーズ)","",2,2,0,,
 10112,"marui","SG553+","SG553+ (Plus series)","","SG553+","SG553+ (電動ガンプラスシリーズ)","",2,2,0,,
 10113,"marui","MP5K+","MP5K+ (Plus series)","","MP5K+","MP5K+ (電動ガンプラスシリーズ)","",8,2,0,,
-10114,"marui","M4A1 CARBINE (EVOLT series)","","","M4A1カービン (電動ガンエボルトシリーズ)","","",2,2,0,,
-10115,"marui","FPR MK 4 (EVOLT RS series)","","","FPR MK 4 (電動ガンエボルトRSシリーズ)","","",2,2,0,,
+10114,"marui","M4A1 CARBINE (EVOLT series)","","","M4A1カービン (エボルト)","M4A1カービン (電動ガンエボルトシリーズ)","",2,2,0,,
+10115,"marui","FPR MK 4 (EVOLT RS series)","","","FPR MK 4 (エボルトRS)","FPR MK 4 (電動ガンエボルトRSシリーズ)","",2,2,0,,
+10116,"marui","Mk18 Mod.1 (EVOLT series)","","","Mk18 Mod.1 (エボルト)","Mk18 Mod.1 (電動ガンエボルトシリーズ)","",2,2,0,,
+10117,"marui","Mk18 Mod.1 (EVOLT RS series)","","","Mk18 Mod.1 (エボルトRS)","Mk18 Mod.1 (電動ガンエボルトRSシリーズ)","",2,2,0,,
+10118,"marui","M16A1+","M16A1+ (Plus series)","","M16A1+","M16A1+ (電動ガンプラスシリーズ)","",2,2,0,,
+10119,"marui","Type 89 RIFLE+","Type 89 5.56mm RIFLE+ (Plus series)","","89式小銃+","89式5.56mm小銃+ (電動ガンプラスシリーズ)","",2,2,0,,
 
 10120,"marui","SGR-12","","","SGR-12","","",4,2,0,,
 10121,"marui","AA-12","","","AA-12","","",4,2,0,,
@@ -1459,6 +1463,7 @@ _id,manufacturerId,shortName,fullName,description,shortNameJa,fullNameJa,descrip
 10298,"marui","MP7A1","","","MP7A1","","",8,4,0,,
 10299,"marui","URG-I 11.5inch SOPMOD BLOCK 3","","","URG-I 11.5inch ソップモッド ブロック3","","",2,4,0,,
 10300,"marui","TYPE 20 RIFLE","TYPE 20 5.56mm RIFLE","","20式5.56mm小銃","","",2,4,0,,
+10301,"marui","HK416D","","","HK416D","","",2,4,0,,
 
 10310,"marui","SG-09 R","","","SG-09 R","","",1,4,0,,
 10311,"marui","GLOCK19 Gen.4","","","グロック19 Gen.4","","",1,4,0,,
