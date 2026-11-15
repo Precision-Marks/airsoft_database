@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@types/better-sqlite3": "^9.6.0",
-    "better-sqlite3": "^13.0.3",
-    "commander": "^15.0.0",
+    "better-sqlite3": "^13.1.1",
+    "commander": "^15.1.0",
     "csv-parse": "^7.0.3",
     "lodash": "^4.18.1",
     "realm": "^20.2.0"
