@@ -71,7 +71,11 @@ The unit tests are also run by the `validate-csv` CI workflow.
 
 If you would like to copy the DB files to AIRSOFT SPOTTER app:
 
-`sh cpdata.sh ../<app_repository>/app/src/main/assets`
+`sh cpdata.sh ../<app_repository>`
+
+This copies the following files:
+- `android/app/src/main/assets/`: `catalog_data.realm`, `catalog_data.realm.commitid`, `catalog_data.db`, `catalog_data.db.commitid`
+- `ios/AirsoftSpotter/Resources/`: `catalog_data.db`, `catalog_data.db.commitid`
 
 ### Output formats and options
 
